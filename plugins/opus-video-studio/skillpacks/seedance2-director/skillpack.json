@@ -1,0 +1,31 @@
+{
+  "id": "seedance2-director",
+  "title": "Seedance 2.0 Director",
+  "source": {
+    "type": "bundled",
+    "path": "upstream/SKILL.md"
+  },
+  "entrypoint": "upstream/SKILL.md",
+  "adapter": "AO_ADAPTER.md",
+  "triggers": [
+    "default video request",
+    "seedance",
+    "video prompt",
+    "cinematic scene",
+    "story-to-video",
+    "reference-to-video",
+    "action",
+    "anime",
+    "claymation",
+    "brand video",
+    "product video",
+    "viral comedy",
+    "seedance style preset",
+    "premium minimal",
+    "modern saas"
+  ],
+  "execution": {
+    "mode": "ao-mcp",
+    "paidCalls": "ao-tools-after-plan-gate"
+  }
+}

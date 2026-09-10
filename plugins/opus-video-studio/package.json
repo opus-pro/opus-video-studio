@@ -1,0 +1,17 @@
+{
+  "name": "opus-video-tools-remotion",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.tsx",
+    "render": "remotion render src/index.tsx Video out/video.mp4"
+  },
+  "engines": { "node": ">=22" },
+  "dependencies": {
+    "@remotion/cli": "4.0.523",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "remotion": "4.0.523"
+  }
+}

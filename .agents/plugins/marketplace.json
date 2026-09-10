@@ -1,0 +1,25 @@
+{
+  "name": "opus-pro",
+  "interface": {
+    "displayName": "Opus Pro"
+  },
+  "plugins": [
+    {
+      "name": "opus-video-studio",
+      "source": {
+        "source": "local",
+        "path": "./plugins/opus-video-studio"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Productivity",
+      "description": "Seedance video, voiceover, and BGM creation with managed Opus tools.",
+      "version": "0.10.1",
+      "author": {
+        "name": "Opus Labs",
+        "email": "ella.wang@opus.pro"
+      }
+    }
+  ]
+}

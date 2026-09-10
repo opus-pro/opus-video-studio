@@ -1,0 +1,22 @@
+{
+  "name": "opus-video-studio",
+  "version": "0.10.1",
+  "description": "Managed video and audio generation with local Remotion setup and preview.",
+  "author": {
+    "name": "Opus Labs",
+    "email": "ella.wang@opus.pro",
+    "url": "https://opus.pro"
+  },
+  "repository": "https://github.com/opus-pro/opus-video-tools",
+  "license": "Proprietary",
+  "keywords": [
+    "opus",
+    "video",
+    "mcp",
+    "seedance",
+    "story-to-video"
+  ],
+  "skills": [
+    "./skills"
+  ]
+}

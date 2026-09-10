@@ -1,0 +1,41 @@
+{
+  "name": "opus-video-studio",
+  "version": "0.10.1",
+  "description": "Managed video and audio generation with local Remotion setup and preview.",
+  "author": {
+    "name": "Opus Labs",
+    "email": "ella.wang@opus.pro",
+    "url": "https://opus.pro"
+  },
+  "repository": "https://github.com/opus-pro/opus-video-tools",
+  "license": "Proprietary",
+  "keywords": [
+    "opus",
+    "video",
+    "mcp",
+    "seedance",
+    "story-to-video"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Opus Video Tools",
+    "shortDescription": "Create Seedance video and audio with Opus.",
+    "longDescription": "Opus Video Tools combines approved Seedance video and audio generation with local Remotion setup and preview. Create an editable project without a gallery template or reuse your existing project. It contains no provider API keys.",
+    "developerName": "Opus Labs",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://opus.pro",
+    "defaultPrompt": [
+      "Use Seedance Director to create a cinematic video from this brief.",
+      "Create a Seedance video from my reference image.",
+      "Set up a local Remotion project and open Studio."
+    ],
+    "brandColor": "#0B0C12",
+    "composerIcon": "./assets/opus-video-studio-logo.png",
+    "logo": "./assets/opus-video-studio-logo.png"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "opus-pro",
+  "metadata": {
+    "description": "Opus Video Tools for Codex and Claude Code."
+  },
+  "owner": {
+    "name": "Opus Labs",
+    "url": "https://opus.pro"
+  },
+  "plugins": [
+    {
+      "name": "opus-video-studio",
+      "source": "./plugins/opus-video-studio",
+      "description": "Seedance video, voiceover, and BGM creation with managed Opus tools.",
+      "version": "0.10.1",
+      "author": {
+        "name": "Opus Labs",
+        "email": "ella.wang@opus.pro",
+        "url": "https://opus.pro"
+      },
+      "homepage": "https://opus.pro",
+      "repository": "https://github.com/opus-pro/opus-video-tools",
+      "category": "productivity"
+    }
+  ]
+}
