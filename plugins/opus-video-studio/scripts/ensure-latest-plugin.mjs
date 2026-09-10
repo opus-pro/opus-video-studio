@@ -68,6 +68,8 @@ export function ensureLatest({
   const pluginRoot = suppliedPluginRoot ?? path.resolve(scriptDirectory, "..");
   const currentVersion = readJson(path.join(pluginRoot, ".codex-plugin", "plugin.json")).version;
 
+  let removalAttempted = false;
+  let removed = false;
   try {
     commandRunner(codexBin, ["plugin", "marketplace", "upgrade", marketplace]);
     const root = marketplaceRoot(
@@ -84,6 +86,11 @@ export function ensureLatest({
       return result("update_available", { currentVersion, latestVersion });
     }
 
+    // Verify support before changing the installed package. Use Codex's scoped cache cleanup.
+    commandRunner(codexBin, ["plugin", "remove", "--help"]);
+    removalAttempted = true;
+    commandRunner(codexBin, ["plugin", "remove", `${plugin}@${marketplace}`, "--json"]);
+    removed = true;
     commandRunner(codexBin, ["plugin", "add", `${plugin}@${marketplace}`]);
     const installedManifest = path.join(
       homeDirectory,
@@ -106,7 +113,11 @@ export function ensureLatest({
       restartRequired: true,
     });
   } catch (error) {
-    return result("check_failed", {
+    return result(removalAttempted ? "update_failed" : "check_failed", {
+      ...(removalAttempted ? {
+        restartRequired: true,
+        installationState: removed ? "reinstall_incomplete" : "removal_unconfirmed",
+      } : {}),
       currentVersion,
       message: error instanceof Error ? error.message : String(error),
     });

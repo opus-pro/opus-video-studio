@@ -32,7 +32,35 @@ generation, transcription, and job status.
 - Do not run this Codex marketplace updater from Claude Code or another host.
 - If it installs a newer version, stop before project changes or paid work and ask the user to start a new
   task; the current task cannot safely reload changed skills or MCP schemas in place.
-- If the update check fails, continue with the loaded version and do not block video work.
+- If the updater returns `update_failed`, stop managed work: cleanup/reinstallation did not
+  complete. Report its installation state; do not claim the removed package is usable. Repair
+  the installation through the guide and verify in a fresh task before resuming managed work.
+- If the update check fails before removing the package, local animation can continue. Managed work may continue with the loaded
+  version only if its live tools and authenticated identity check pass; a failed updater is not
+  evidence that MCP is usable.
+
+## Connection Recovery
+
+- Installation/enabled state, stored OAuth configuration, UI connection badges, and marketplace
+  refresh success are not live readiness checks. Discover the host-exposed `opus-video-tools`
+  schemas and actually call `opus_video_tools_whoami` before claiming managed tools are connected.
+- If MCP startup or token refresh reports `invalid_grant`, treat it as rejected authentication,
+  not proof of corrupt plugin files or a stale task. In an authorized Codex repair, use the bundled
+  CLI's `mcp logout opus-video-tools` followed by `mcp login opus-video-tools` once, sequentially.
+  Wait for browser callback and CLI success, then recheck tools and whoami in a fresh task.
+  Preserve unrelated credentials; never read or print token stores. Do not run parallel logins.
+- If a completed login recovery still returns `invalid_grant`, stop automatic retries and report
+  the sanitized error and failed step. Do not infer the underlying token lifecycle cause without
+  evidence. Timeouts, gate denials, and insufficient credits need their own diagnosis.
+- For an authorized package update/repair, follow the current Codex installation guide at
+  `https://labs.opus.pro/opus-video-tools/codex`: verify the refreshed public source, uninstall only
+  `opus-video-studio@opus-pro` through `plugin remove`, then install it again with `plugin add`.
+  The supported uninstaller cleans its local cache. Do not manually wipe shared plugin/config
+  directories. Equal version strings do not prove identical or complete package contents.
+- Use a fresh task after reinstall to pick up skills/tools, preserving the complete user request.
+  Follow host task-creation rules; do not create a task without user authorization. Missing tools
+  after a fresh-task check remain an unresolved discovery failure. Do not loop through reinstalls
+  or new tasks, or call paid generation as a setup probe.
 
 ## Public Surface
 

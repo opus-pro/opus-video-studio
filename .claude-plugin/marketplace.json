@@ -12,7 +12,7 @@
       "name": "opus-video-studio",
       "source": "./plugins/opus-video-studio",
       "description": "Seedance video, voiceover, and BGM creation with managed Opus tools.",
-      "version": "0.10.1",
+      "version": "0.10.2",
       "author": {
         "name": "Opus Labs",
         "email": "ella.wang@opus.pro",
