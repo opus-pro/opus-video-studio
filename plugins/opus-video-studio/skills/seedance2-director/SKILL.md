@@ -1,19 +1,20 @@
 ---
 name: seedance2-director
-description: Use Opus Video Tools for managed media or local video work; apply Seedance Director only to generated video clips and Seedance prompt planning.
+description: Use Opus Video Tools for managed media generation and job recovery; apply Seedance Director only to generated video clips and Seedance prompt planning. Use motion-ui for local UI animation and code-driven product videos.
 ---
 
 # Seedance 2.0 Director
 
-This is the only public route in Opus Video Tools.
+This is the managed-media entrypoint in Opus Video Tools.
 
-For purely local UI animation or code-generated video, use the user's chosen framework without loading
-the Director skillpack or invoking managed media tools. For plugin initialization or local Remotion
-creation, setup, preview, rendering, or further editing, follow
+For local UI animation or code-generated product video, follow `skills/motion-ui/SKILL.md`
+relative to the harness root, without loading the Director skillpack. In mixed tasks, use it
+for the local motion portion. For plugin initialization or local Remotion creation, setup,
+preview, rendering, or further editing, follow
 `docs/local-remotion.md` relative to the harness root. Run its setup helper on first local use;
 reuse existing projects or create a minimal project in an empty directory. Local creation, setup,
-preview, and rendering alone do not require authentication, a backend project, or paid generation. For those requests, skip the
-generation steps below. Honor assets-only requests; do not install another plugin or skill pack.
+preview, and rendering alone do not require authentication, a backend project, or paid generation.
+For those requests, skip the generation steps below. Honor assets-only requests; do not install another plugin or skill pack.
 
 For standalone audio, images/keyframes, transcription, import, or job recovery, skip steps 2-3
 and use only the requested tools in steps 4-6. Do not add video generation, a storyboard, or a

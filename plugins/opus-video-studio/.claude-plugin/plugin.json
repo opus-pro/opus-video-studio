@@ -1,7 +1,7 @@
 {
   "name": "opus-video-studio",
   "version": "0.10.1",
-  "description": "Managed video and audio generation with local Remotion setup and preview.",
+  "description": "Code-driven UI motion and product videos, with managed Opus video and audio generation.",
   "author": {
     "name": "Opus Labs",
     "email": "ella.wang@opus.pro",

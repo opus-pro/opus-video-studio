@@ -14,7 +14,8 @@ Local Remotion setup and preview do not spend Opus generation credits.
 
 ## Included
 
-- One public skill: Seedance Director, with its referenced creative guides and helpers.
+- [Motion UI](plugins/opus-video-studio/skills/motion-ui/SKILL.md): editable UI animation and code-driven product videos, with real-UI fidelity, kinetic typography, deliberate easing, and optional Opus audio.
+- [Seedance Director](plugins/opus-video-studio/skills/seedance2-director/SKILL.md): managed video generation and media tools, with its Director creative guides loaded only for video clips or explicit Seedance planning.
 - The `opus-video-tools` MCP connection at `https://labs.opus.pro/opus-video-tools/mcp`.
 - Pinned local Remotion dependencies, a setup helper, and an editable starter composition.
 

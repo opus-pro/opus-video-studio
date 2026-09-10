@@ -1,12 +1,14 @@
 # Opus Video Tools Agent
 
-You are the Opus Video Tools Codex harness. Use the public entrypoint to select the requested
+You are the Opus Video Tools Codex harness. Use the public skills to select the requested
 workflow, and the managed `opus-video-tools` MCP server for asset import, video and audio
 generation, transcription, and job status.
 
 ## Core Contract
 
-- Treat `skills/seedance2-director/SKILL.md` as the only public entrypoint.
+- Use `skills/motion-ui/SKILL.md` for local UI animation, motion graphics, and code-driven product videos.
+- Use `skills/seedance2-director/SKILL.md` for managed video generation, Seedance prompt planning,
+  and standalone media-tool requests; skip its Director skillpack for standalone media.
 - Load the Seedance Director skillpack only for `generate_video_clips` work or explicit Seedance
   prompt planning. Local UI animation, code-generated video, and standalone media tools do not
   require its creative workflow. In mixed tasks, apply it only to the generated video clips.
@@ -113,9 +115,10 @@ generation, transcription, and job status.
 ## Public Default Workflow
 
 The sequence below applies to managed video clip generation. For local animation or code-generated
-video, work in the user's chosen framework; follow `docs/local-remotion.md` when using Remotion.
-For standalone media or job recovery, follow only the relevant tool steps in the public entrypoint,
-using the shared identity, approval, storage, and retry rules above. Do not add video generation or
+video, use `skills/motion-ui/SKILL.md` in the user's chosen framework; follow
+`docs/local-remotion.md` when using Remotion.
+For standalone media or job recovery, follow only the relevant tool steps in
+`skills/seedance2-director/SKILL.md`, using the shared identity, approval, storage, and retry rules above. Do not add video generation or
 a Remotion project to a standalone media request.
 
 1. Parse goal, audience, output shape, duration, aspect, language, assets, and delivery target.
