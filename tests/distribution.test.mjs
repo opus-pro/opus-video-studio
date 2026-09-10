@@ -17,13 +17,13 @@ test("both clients publish one consistent plugin version and source", () => {
   for (const marketplace of [codex, claude]) {
     assert.equal(marketplace.plugins.length, 1);
     assert.equal(marketplace.plugins[0].name, "opus-video-studio");
-    assert.equal(marketplace.plugins[0].version, "0.10.1");
+    assert.equal(marketplace.plugins[0].version, "0.10.2");
   }
   assert.equal(codex.plugins[0].source.path, `./${plugin}`);
   assert.equal(claude.plugins[0].source, `./${plugin}`);
   for (const client of ["codex", "claude"]) {
     const manifest = json(`${plugin}/.${client}-plugin/plugin.json`);
-    assert.equal(manifest.version, "0.10.1");
+    assert.equal(manifest.version, "0.10.2");
     assert.equal(manifest.name, "opus-video-studio");
     assert.equal(manifest.repository, "https://github.com/opus-pro/opus-video-studio");
   }

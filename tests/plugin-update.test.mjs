@@ -67,6 +67,8 @@ test("plugin update installs a newer marketplace release and requires a fresh ta
   assert.deepEqual(calls, [
     "plugin marketplace upgrade opus-pro",
     "plugin marketplace list",
+    "plugin remove --help",
+    "plugin remove opus-video-studio@opus-pro --json",
     "plugin add opus-video-studio@opus-pro",
   ]);
 });
@@ -89,3 +91,28 @@ test("plugin update failures do not block the loaded workflow", () => {
   assert.equal(update.restartRequired, false);
   assert.match(update.message, /offline/);
 });
+
+for (const failedStep of ["remove", "add"]) {
+  test(`failed ${failedStep} does not report the old installation as usable`, () => {
+    const temporary = mkdtempSync(path.join(os.tmpdir(), "opus-reinstall-fail-"));
+    const pluginRoot = path.join(temporary, "loaded");
+    const marketplace = path.join(temporary, "marketplace");
+    for (const [dir, version] of [[pluginRoot, "0.10.1"],
+      [path.join(marketplace, "plugins", "opus-video-studio"), "0.10.2"]]) {
+      mkdirSync(path.join(dir, ".codex-plugin"), { recursive: true });
+      writeFileSync(path.join(dir, ".codex-plugin/plugin.json"), JSON.stringify({version}));
+    }
+    const calls = [];
+    const update = ensureLatest({pluginRoot, commandRunner(_bin, args) {
+      calls.push(args.join(" "));
+      if (args[1] === failedStep && !args.includes("--help")) throw new Error("simulated failure");
+      return args.at(-1) === "list" ? `opus-pro  ${marketplace}\n` : "";
+    }});
+    assert.equal(update.status, "update_failed");
+    assert.equal(update.updated, false);
+    assert.equal(update.restartRequired, true);
+    assert.equal(update.installationState, failedStep === "remove" ? "removal_unconfirmed" : "reinstall_incomplete");
+    if (failedStep === "remove") assert.ok(!calls.some(call => call.startsWith("plugin add ")));
+    assert.ok(!calls.some(call => call.startsWith("mcp ")), "package repair must preserve OAuth");
+  });
+}
