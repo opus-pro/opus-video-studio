@@ -18,7 +18,10 @@ Local Remotion setup and preview do not spend Opus generation credits.
 - The `opus-video-tools` MCP connection at `https://labs.opus.pro/opus-video-tools/mcp`.
 - Pinned local Remotion dependencies, a setup helper, and an editable starter composition.
 
-Paid generation requires approval of the complete timed script and exact request. The plugin
+Seedance Director planning and the complete timed script apply to managed video clips. Local
+animation and code-generated video use the chosen framework; standalone media calls review the
+requested text, audio brief, or image prompt without a video storyboard. Paid generation still
+requires approval of the exact request. The plugin
 tracks asynchronous jobs and reuses request keys for identical retries. It contains no provider
 credentials or backend service implementation.
 

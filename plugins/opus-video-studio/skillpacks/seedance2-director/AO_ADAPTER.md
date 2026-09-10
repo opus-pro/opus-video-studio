@@ -1,6 +1,8 @@
 # Seedance 2.0 Director AO Adapter
 
-Use this skillpack for the public Opus Video Tools video-generation route.
+Use this skillpack for `generate_video_clips` work or explicit Seedance prompt planning.
+Do not load it for local UI animation, code-generated video, or standalone media tool calls.
+For prompt-only planning, skip backend setup and generation calls below.
 
 ## Load Order
 
