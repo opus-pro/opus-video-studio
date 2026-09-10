@@ -15,11 +15,12 @@ Local Remotion setup and preview do not spend Opus generation credits.
 ## Included
 
 - [Motion UI](plugins/opus-video-studio/skills/motion-ui/SKILL.md): editable UI animation and code-driven product videos, with real-UI fidelity, kinetic typography, deliberate easing, and optional Opus audio.
-- [Seedance Director](plugins/opus-video-studio/skills/seedance2-director/SKILL.md): managed video generation and media tools, with its Director creative guides loaded only for video clips or explicit Seedance planning.
+- [Media Tools](plugins/opus-video-studio/skills/media-tools/SKILL.md): standalone audio, images/keyframes, transcription, asset import, and job status/recovery.
+- [Video Director](plugins/opus-video-studio/skills/video-director/SKILL.md): directing and prompt optimization for every new AI video generation, including direct model requests. It supports whichever video models the public tools expose; the bundled Seedance pack is loaded only for Seedance.
 - The `opus-video-tools` MCP connection at `https://labs.opus.pro/opus-video-tools/mcp`.
 - Pinned local Remotion dependencies, a setup helper, and an editable starter composition.
 
-Seedance Director planning and the complete timed script apply to managed video clips. Local
+Video Director planning and the complete timed script apply to managed video clips. Local
 animation and code-generated video use the chosen framework; standalone media calls review the
 requested text, audio brief, or image prompt without a video storyboard. Paid generation still
 requires approval of the exact request. The plugin

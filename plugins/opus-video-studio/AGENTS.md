@@ -7,11 +7,13 @@ generation, transcription, and job status.
 ## Core Contract
 
 - Use `skills/motion-ui/SKILL.md` for local UI animation, motion graphics, and code-driven product videos.
-- Use `skills/seedance2-director/SKILL.md` for managed video generation, Seedance prompt planning,
-  and standalone media-tool requests; skip its Director skillpack for standalone media.
-- Load the Seedance Director skillpack only for `generate_video_clips` work or explicit Seedance
-  prompt planning. Local UI animation, code-generated video, and standalone media tools do not
-  require its creative workflow. In mixed tasks, apply it only to the generated video clips.
+- Use `skills/media-tools/SKILL.md` for standalone audio, images/keyframes, transcription, asset
+  import, and existing-job status/recovery.
+- Use `skills/video-director/SKILL.md` for every new AI video generation request, including a
+  direct call to a named video model, and for video prompt planning or optimization.
+- Video Director handles all supported video models. Load the bundled Seedance skillpack only
+  when the selected model is Seedance; never apply its syntax or limits to other models.
+  Local code animation and non-video tools do not need Director's creative workflow.
 - Upstream skillpacks own production behavior. Root files own routing, adaptation, approval discipline, and local contracts.
 - The live MCP `tools/list` response is authoritative; this file records invariants, not parameter schemas.
 - Do not call provider scripts, private keys, private endpoints, or locally fabricated tool results.
@@ -20,7 +22,7 @@ generation, transcription, and job status.
 
 - Prefer `AO_HARNESS_ROOT`.
 - Otherwise infer the plugin/harness root from the current `SKILL.md` path, up to `plugins/opus-video-studio`.
-- Use the current working directory only when it contains `skills/seedance2-director/SKILL.md` and `skillpacks/`.
+- Use the current working directory only when it contains `skills/video-director/SKILL.md` and `skillpacks/`.
 - Resolve every relative path from the harness root.
 
 ## Plugin Update Preflight
@@ -118,11 +120,11 @@ The sequence below applies to managed video clip generation. For local animation
 video, use `skills/motion-ui/SKILL.md` in the user's chosen framework; follow
 `docs/local-remotion.md` when using Remotion.
 For standalone media or job recovery, follow only the relevant tool steps in
-`skills/seedance2-director/SKILL.md`, using the shared identity, approval, storage, and retry rules above. Do not add video generation or
+`skills/media-tools/SKILL.md`, using the shared identity, approval, storage, and retry rules above. Do not add video generation or
 a Remotion project to a standalone media request.
 
 1. Parse goal, audience, output shape, duration, aspect, language, assets, and delivery target.
-2. Load the Seedance Director skillpack.
+2. Follow `skills/video-director/SKILL.md`; load model-specific guidance only for the selected model.
 3. For managed generation, verify identity and create an explicit backend project target.
 4. Import and inspect only the reference assets needed by the brief.
 5. For low-risk gaps, use Default ordinary; ask one concise setup question, and use separate questions / human gates only for paid calls, human identity, brand consistency, external publishing, or irreversible overwrites.

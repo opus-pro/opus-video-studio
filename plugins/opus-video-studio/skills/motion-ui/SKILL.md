@@ -11,7 +11,7 @@ Express the product through one clear visual subject, connected actions, and con
 
 - Use the user's existing framework and project structure; keep the source editable.
 - Resolve the plugin root from a valid `AO_HARNESS_ROOT`, otherwise from this file's `<harness-root>/skills/motion-ui/SKILL.md` path. Read the root `AGENTS.md` for shared update, tool, approval, and retry rules. Follow `docs/local-remotion.md` when setting up or using Remotion; other frameworks remain valid.
-- Purely local motion needs no authentication, backend generation project, or paid media call. Use Seedance Director only for a subtask that actually needs generated video clips or explicit Seedance prompt planning. Standalone music, voice, images, and other media calls follow their tool contracts without Director's creative workflow.
+- Purely local motion needs no authentication, backend generation project, or paid media call. Use `skills/video-director/SKILL.md` for a subtask that needs generated video clips or video prompt planning, regardless of model. Use `skills/media-tools/SKILL.md` for standalone music, voice, images, and other media calls without Director's creative workflow.
 - Do not add plugins, restructure the project, or generate paid assets merely because motion is requested.
 - For actual interactive UI, preserve necessary labels, information, usability, and reduced-motion behavior. Presentation composition rules do not justify removing essential product information.
 
@@ -141,7 +141,7 @@ When the plan includes sound effects, or an existing version has them, proactive
 
 - Ask before finalizing sound and text timing. Continue composition, real-UI reconstruction, and adjustable visual work while waiting. Silence is not authorization for paid generation.
 - Reuse explicit choices such as mute, sound effects only, existing tracks, or a stated music/narration preference; do not ask again.
-- If generation is selected, use Opus Video Tools `generate_audio` with the appropriate music or speech type. Establish the music direction/duration and full narration text/language/voice, then follow the shared approval, submission, and polling rules. Do not introduce Seedance Director for audio.
+- If generation is selected, use Opus Video Tools `generate_audio` with the appropriate music or speech type. Establish the music direction/duration and full narration text/language/voice, then follow the shared approval, submission, and polling rules. Use `skills/media-tools/SKILL.md` for these calls; do not introduce Video Director for audio.
 - If tools are unavailable, explain and continue visual work. Do not silently switch providers or label locally synthesized audio as Opus-generated.
 - Sound can reinforce landing, clicks, expansion, and transitions but is not required for a visual idea to work. Honor requests for silence.
 - Align key actions with syllables, pauses, beats, or transients rather than adding a whoosh to every element.

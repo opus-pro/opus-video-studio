@@ -1,6 +1,8 @@
-# Seedance 2.0 Director AO Adapter
+# Seedance Adapter for Video Director
 
-Use this skillpack for `generate_video_clips` work or explicit Seedance prompt planning.
+Use this internal skillpack only when Video Director targets a confirmed Seedance model or
+explicit Seedance prompt planning. For other video models, follow `skills/video-director/SKILL.md`
+from the harness root without loading this pack.
 Do not load it for local UI animation, code-generated video, or standalone media tool calls.
 For prompt-only planning, skip backend setup and generation calls below.
 
