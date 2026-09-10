@@ -58,7 +58,8 @@ shots, titles, or music. Verify video playback and audio. A generated MP4 remain
 its embedded text or objects are not editable layers. Preserve local source for new editable layers.
 
 Local setup, preview, and rendering need no MCP generation or credits. Paid generation still
-requires the complete visible script and approval. Do not regenerate media to fix a local preview
+requires the medium-specific review artifact and approval described in `AGENTS.md`; the complete
+timed video script applies to managed video clip generation. Do not regenerate media to fix a local preview
 error. Only claim an export after the requested local render succeeds.
 The first export may download Remotion's rendering browser; respect the host's download permissions
 and report network or platform-specific dependency failures separately from successful Studio setup.

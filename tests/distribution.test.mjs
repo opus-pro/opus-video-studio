@@ -30,7 +30,7 @@ test("both clients publish one consistent plugin version and source", () => {
 });
 
 test("the public distribution excludes inactive packs and internal contracts", () => {
-  assert.deepEqual(readdirSync(path.join(root, plugin, "skills")), ["seedance2-director"]);
+  assert.deepEqual(readdirSync(path.join(root, plugin, "skills")).sort(), ["media-tools", "motion-ui", "video-director"]);
   assert.deepEqual(readdirSync(path.join(root, plugin, "skillpacks")), ["seedance2-director"]);
   for (const file of ["evals", "contracts", `${plugin}/docs/editor-timeline-mcp.md`, `${plugin}/scripts/check-tools.ts`]) {
     assert.equal(existsSync(path.join(root, file)), false, file);

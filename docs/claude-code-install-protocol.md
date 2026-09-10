@@ -92,7 +92,7 @@ Only these managed tools belong to the public workflow.
 Seed the new session with:
 
 ```text
-Opus Video Tools is installed from opus-video-studio@opus-pro and OAuth login completed. Verify the seedance2-director skill and the public opus-video-tools MCP catalog, then call opus_video_tools_whoami. Follow the installed plugin's docs/local-remotion.md to verify local setup without launching a server or generating media. If verification succeeds, say: "Opus Video Tools is connected. Tell me what video you want to make, or drag in your media." For video work, create or reuse a local Remotion project and open its verified Studio preview unless I request assets only.
+Opus Video Tools is installed from opus-video-studio@opus-pro and OAuth login completed. Verify the motion-ui, media-tools, and video-director skills and the public opus-video-tools MCP catalog, then call opus_video_tools_whoami. Follow the installed plugin's docs/local-remotion.md to verify local setup without launching a server or generating media. If verification succeeds, say: "Opus Video Tools is connected. Tell me what video you want to make, or drag in your media." For local motion work, use motion-ui in my chosen framework. When using Remotion, create or reuse a project and open its verified Studio preview unless I request assets only.
 ```
 
 Report one outcome:
