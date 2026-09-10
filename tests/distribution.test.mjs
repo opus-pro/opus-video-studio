@@ -25,7 +25,7 @@ test("both clients publish one consistent plugin version and source", () => {
     const manifest = json(`${plugin}/.${client}-plugin/plugin.json`);
     assert.equal(manifest.version, "0.10.1");
     assert.equal(manifest.name, "opus-video-studio");
-    assert.equal(manifest.repository, "https://github.com/opus-pro/opus-video-tools");
+    assert.equal(manifest.repository, "https://github.com/opus-pro/opus-video-studio");
   }
 });
 
@@ -52,9 +52,9 @@ test("MCP is the public Labs resource without bundled credentials", () => {
 test("installation guides use the public source and keep the same MCP resource", () => {
   for (const file of ["docs/codex-install-protocol.md", "docs/claude-code-install-protocol.md"]) {
     const text = read(file);
-    assert.match(text, /github\.com\/opus-pro\/opus-video-tools\.git/);
+    assert.match(text, /github\.com\/opus-pro\/opus-video-studio\.git/);
     assert.match(text, /https:\/\/labs\.opus\.pro\/opus-video-tools\/mcp/);
     assert.match(text, /setup-remotion\.mjs/);
-    assert.doesNotMatch(text, /github\.com\/opus-pro\/opus-video-studio|npm run schema:check|mcp remove aao/);
+    assert.doesNotMatch(text, /github\.com\/opus-pro\/opus-video-tools|npm run schema:check|mcp remove aao/);
   }
 });

@@ -13,7 +13,7 @@ Verify the CLI and public repository reachability (GitHub membership is not requ
 
 ```text
 "<BUNDLED_CODEX>" --version
-git ls-remote --heads https://github.com/opus-pro/opus-video-tools.git main
+git ls-remote --heads https://github.com/opus-pro/opus-video-studio.git main
 ```
 
 If either check fails, report the exact failure. Do not use a local checkout or cache directory as
@@ -31,7 +31,7 @@ Keep working installations and credentials in place while installing the replace
 marketplace, install from the public repository:
 
 ```text
-"<BUNDLED_CODEX>" plugin marketplace add https://github.com/opus-pro/opus-video-tools.git --ref main
+"<BUNDLED_CODEX>" plugin marketplace add https://github.com/opus-pro/opus-video-studio.git --ref main
 "<BUNDLED_CODEX>" plugin add opus-video-studio@opus-pro
 ```
 
@@ -47,7 +47,7 @@ Do not delete plugin cache directories manually.
 "<BUNDLED_CODEX>" plugin marketplace remove opus-pro
 ```
 
-The repository is now `opus-pro/opus-video-tools`; the installation ID remains
+The repository is `opus-pro/opus-video-studio`; the installation ID remains
 `opus-video-studio@opus-pro`. A marketplace refresh does not change its configured Git URL.
 
 Verify that the installed entry is enabled, comes from that Git URL at `main`, and uses the latest

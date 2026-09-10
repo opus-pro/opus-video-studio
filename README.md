@@ -26,7 +26,7 @@ credentials or backend service implementation.
 
 | Setting | Value | Defined in |
 |---|---|---|
-| Public repository | `opus-pro/opus-video-tools` | GitHub and installation guides |
+| Public repository | `opus-pro/opus-video-studio` | GitHub and installation guides |
 | Display name | `Opus Video Tools` | Codex plugin manifest |
 | Plugin installation ID | `opus-video-studio@opus-pro` | Both marketplace manifests |
 | MCP server ID | `opus-video-tools` | Plugin `.mcp.json` |

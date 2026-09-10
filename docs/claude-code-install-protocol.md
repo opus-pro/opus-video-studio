@@ -9,7 +9,7 @@ Verify the Claude Code version and public repository reachability (GitHub member
 
 ```text
 claude --version
-git ls-remote --heads https://github.com/opus-pro/opus-video-tools.git main
+git ls-remote --heads https://github.com/opus-pro/opus-video-studio.git main
 ```
 
 Do not install from a local checkout, cache directory, or another marketplace.
@@ -20,7 +20,7 @@ Inspect existing plugins with `claude plugin list`. Keep any working installatio
 replacement is verified, then install the standalone marketplace version:
 
 ```text
-claude plugin marketplace add opus-pro/opus-video-tools
+claude plugin marketplace add opus-pro/opus-video-studio
 claude plugin install opus-video-studio@opus-pro
 ```
 
@@ -35,7 +35,7 @@ claude plugin marketplace remove opus-pro
 ```
 
 Preserve unrelated marketplaces, projects, and credentials. Do not delete cache directories
-manually. The repository is `opus-pro/opus-video-tools`, while the installation ID remains
+manually. The repository is `opus-pro/opus-video-studio`, while the installation ID remains
 `opus-video-studio@opus-pro`. Refreshing a marketplace does not change its configured Git URL.
 
 ## Prepare local Remotion
