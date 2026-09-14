@@ -16,7 +16,7 @@ guide at the supplied Labs URL so setup follows the latest supported steps.
 For a standalone setup conversation, paste:
 
 ```text
-/goal First confirm you are running in the local Codex desktop app. Otherwise stop and direct me to paste this into that app. In the supported local host, install Opus Video Tools using https://labs.opus.pro/opus-video-tools/codex. Complete Opus sign-in, verify the public tools, and start a new Codex task directly in the current local workspace with the plugin ready. Use the existing directory; do not create a Git worktree or branch. Do not generate paid media during setup.
+/goal Read this guide and follow the setup instructions for the application I’m currently using: https://labs.opus.pro/opus-video-tools/codex. Do not generate paid media during setup.
 ```
 
 If the request also includes a Product Videos template, preserve its complete

@@ -24,7 +24,7 @@ on a remote machine does not install local tools on the user's computer.
 For a standalone setup conversation, paste:
 
 ```text
-First identify your current host. Only a local Claude Code terminal session should install the plugin and use /mcp. In Claude desktop chat, Cowork, or claude.ai, stop the plugin workflow; do not run install commands or suggest /mcp. Instead, guide me to add Opus Video Tools in Customize or Settings > Connectors with https://labs.opus.pro/opus-video-tools/mcp, complete Opus sign-in, and enable it in this session. If a team account cannot add it, an organization owner must add it first. Verify the live tools and opus_video_tools_whoami; mark unavailable checks blocked. A connector does not install local skills or Remotion. See https://labs.opus.pro/opus-video-tools/claude?format=markdown for details. Shell access alone does not establish that you are Claude Code. If the host is unclear, ask before installing. In the supported local host, install Opus Video Tools using https://labs.opus.pro/opus-video-tools/claude. Complete Opus sign-in, verify the public tools, and start a new Claude Code session directly in the current local workspace with the plugin ready. Use the existing directory; do not create a Git worktree or branch. Do not generate paid media during setup.
+Read this guide and follow the setup instructions for the application I’m currently using: https://labs.opus.pro/opus-video-tools/claude. Do not generate paid media during setup.
 ```
 
 ## Custom connector for Claude chat and Cowork
