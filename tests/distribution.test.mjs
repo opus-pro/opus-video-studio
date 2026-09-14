@@ -17,13 +17,13 @@ test("both clients publish one consistent plugin version and source", () => {
   for (const marketplace of [codex, claude]) {
     assert.equal(marketplace.plugins.length, 1);
     assert.equal(marketplace.plugins[0].name, "opus-video-studio");
-    assert.equal(marketplace.plugins[0].version, "0.10.2");
+    assert.equal(marketplace.plugins[0].version, json("package.json").version);
   }
   assert.equal(codex.plugins[0].source.path, `./${plugin}`);
   assert.equal(claude.plugins[0].source, `./${plugin}`);
   for (const client of ["codex", "claude"]) {
     const manifest = json(`${plugin}/.${client}-plugin/plugin.json`);
-    assert.equal(manifest.version, "0.10.2");
+    assert.equal(manifest.version, json("package.json").version);
     assert.equal(manifest.name, "opus-video-studio");
     assert.equal(manifest.repository, "https://github.com/opus-pro/opus-video-studio");
   }
@@ -57,4 +57,29 @@ test("installation guides use the public source and keep the same MCP resource",
     assert.match(text, /setup-remotion\.mjs/);
     assert.doesNotMatch(text, /github\.com\/opus-pro\/opus-video-tools|npm run schema:check|mcp remove aao/);
   }
+});
+
+test("both clients declare the same MCP config and every skill loads shared rules", () => {
+  for (const client of ["codex", "claude"]) assert.equal(json(`${plugin}/.${client}-plugin/plugin.json`).mcpServers, "./.mcp.json");
+  for (const skill of ["motion-ui", "media-tools", "video-director"]) {
+    assert.match(read(`${plugin}/skills/${skill}/SKILL.md`), /\(\.\.\/\.\.\/docs\/shared-rules\.md\)/);
+  }
+  const rules = read(`${plugin}/docs/shared-rules.md`);
+  assert.match(rules, /45 seconds/);
+  assert.match(rules, /requestKey/);
+  assert.match(rules, /reserved credits are an estimate/i);
+  assert.doesNotMatch(rules, /You are.*Codex harness|up to `plugins\/opus-video-studio`/);
+  for (const file of [".agents/plugins/marketplace.json", ".claude-plugin/marketplace.json"]) {
+    assert.doesNotMatch(json(file).plugins[0].description, /Seedance/);
+  }
+});
+
+test("Claude setup uses interactive authentication and defined installed-root lookup", () => {
+  const guide = read("docs/claude-code-install-protocol.md");
+  assert.match(guide, /claude plugin details opus-video-studio@opus-pro/);
+  assert.match(guide, /slash command/);
+  assert.match(guide, /installed_plugins\.json/);
+  assert.match(guide, /OPUS_PLUGIN_ROOT=/);
+  assert.doesNotMatch(guide, /claude mcp login plugin:|claude mcp get opus-video-tools|Verify the seedance2-director skill|Seed the|drag in your media/);
+  assert.match(guide, /No MCP servers configured/);
 });

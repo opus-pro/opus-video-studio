@@ -5,12 +5,20 @@ description: Create or refine code-driven UI animation, product demos, motion gr
 
 # Motion UI
 
+Before taking any action for this skill, read [Shared workflow rules](../../docs/shared-rules.md).
+This explicit read is required in both Codex and Claude Code, including after context recovery.
+Do not rely on automatic loading of plugin-root AGENTS.md or CLAUDE.md.
+Resolve this installed skill's plugin root by going up two directories from its containing
+skill directory, then validate `.mcp.json` and the plugin manifest. Environment variables
+are optional; use the installed skill path, never a guessed marketplace checkout.
+
+
 Express the product through one clear visual subject, connected actions, and controlled pacing. Establish composition and motion before adding effects.
 
 ## Scope and integration
 
 - Use the user's existing framework and project structure; keep the source editable.
-- Resolve the plugin root from a valid `AO_HARNESS_ROOT`, otherwise from this file's `<harness-root>/skills/motion-ui/SKILL.md` path. Read the root `AGENTS.md` for shared update, tool, approval, and retry rules. Follow `docs/local-remotion.md` when setting up or using Remotion; other frameworks remain valid.
+- Resolve the plugin root from a valid `AO_HARNESS_ROOT`, otherwise from this file's `<harness-root>/skills/motion-ui/SKILL.md` path. Read `docs/shared-rules.md` for shared update, tool, approval, and retry rules. Follow `docs/local-remotion.md` when setting up or using Remotion; other frameworks remain valid.
 - Purely local motion needs no authentication, backend generation project, or paid media call. Use `skills/video-director/SKILL.md` for a subtask that needs generated video clips or video prompt planning, regardless of model. Use `skills/media-tools/SKILL.md` for standalone music, voice, images, and other media calls without Director's creative workflow.
 - Do not add plugins, restructure the project, or generate paid assets merely because motion is requested.
 - For actual interactive UI, preserve necessary labels, information, usability, and reduced-motion behavior. Presentation composition rules do not justify removing essential product information.

@@ -7,7 +7,11 @@ Do not install another plugin, expose a local server publicly, or extend the pub
 
 ## Initialize once
 
-Resolve the installed plugin root from the current skill path, not a guessed cache version. Run:
+In this document, `<harness-root>` means the verified **installed plugin root**, not the
+marketplace checkout. From `skills/<name>/SKILL.md`, it is two directories above the
+skill directory. If the skill path is unavailable, use the installed-record lookup in
+the host installation guide. Shell environment variables may be empty; do not guess a
+version or run from the marketplace checkout. After resolving it, run:
 
 ```sh
 node "<harness-root>/scripts/setup-remotion.mjs"
@@ -32,7 +36,8 @@ specific prerequisite rather than repeatedly retrying or silently installing a s
 node "<harness-root>/scripts/setup-remotion.mjs" init "<project-directory>"
 ```
 
-The new project includes an editable composition, pinned dependencies, `public/`, and Studio and
+The new project includes an editable composition, pinned dependencies, `public/`, a `.gitignore`
+that excludes dependencies, generated output and local secrets, and Studio and
 render scripts. If installation fails after files are created, fix the reported prerequisite and
 run `setup-remotion.mjs install "<project-directory>"`; do not delete or overwrite the project.
 Projects are independent of the plugin cache and remain usable after plugin removal.
@@ -58,7 +63,7 @@ shots, titles, or music. Verify video playback and audio. A generated MP4 remain
 its embedded text or objects are not editable layers. Preserve local source for new editable layers.
 
 Local setup, preview, and rendering need no MCP generation or credits. Paid generation still
-requires the medium-specific review artifact and approval described in `AGENTS.md`; the complete
+requires the medium-specific review artifact and approval described in `docs/shared-rules.md`; the complete
 timed video script applies to managed video clip generation. Do not regenerate media to fix a local preview
 error. Only claim an export after the requested local render succeeds.
 The first export may download Remotion's rendering browser; respect the host's download permissions

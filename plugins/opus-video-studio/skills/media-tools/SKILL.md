@@ -5,11 +5,19 @@ description: Call individual Opus media tools or models for speech, music, sound
 
 # Media Tools
 
+Before taking any action for this skill, read [Shared workflow rules](../../docs/shared-rules.md).
+This explicit read is required in both Codex and Claude Code, including after context recovery.
+Do not rely on automatic loading of plugin-root AGENTS.md or CLAUDE.md.
+Resolve this installed skill's plugin root by going up two directories from its containing
+skill directory, then validate `.mcp.json` and the plugin manifest. Environment variables
+are optional; use the installed skill path, never a guessed marketplace checkout.
+
+
 Fulfill the requested media operation without adding a video production workflow or a local animation project.
 
 ## Scope and shared rules
 
-- Resolve the plugin root from a valid `AO_HARNESS_ROOT`, otherwise from this file's `<harness-root>/skills/media-tools/SKILL.md` path. Read root `AGENTS.md` for the public allowlist, updates, identity, approvals, idempotency, storage, and recovery rules.
+- Resolve the plugin root from a valid `AO_HARNESS_ROOT`, otherwise from this file's `<harness-root>/skills/media-tools/SKILL.md` path. Read `docs/shared-rules.md` for the public allowlist, updates, identity, approvals, idempotency, storage, and recovery rules.
 - Audio, images/keyframes, transcription, import, and existing-job queries belong here. A request to generate any new video clip belongs to `skills/video-director/SKILL.md`, regardless of model, clip count, or whether the user supplied a prompt. A video status query does not require Director planning again.
 - Use only the live `opus-video-tools` schema and available model metadata. Honor the requested model if exposed and compatible. Do not invent model names or fields, use private provider scripts, or silently substitute an unavailable model.
 - Do not load the Seedance skillpack for independent audio or images, require a video storyboard, add camera directions to speech, or create a Remotion project for an assets-only request.

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { execFileSync } from "node:child_process";
 import { createHash } from "node:crypto";
-import { constants, copyFileSync, existsSync, mkdirSync, readFileSync, readdirSync, realpathSync, rmdirSync } from "node:fs";
+import { constants, copyFileSync, existsSync, mkdirSync, readFileSync, readdirSync, realpathSync, rmdirSync, writeFileSync } from "node:fs";
 import { homedir } from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -29,6 +29,7 @@ export function createProject(directory) {
     throw new Error("Project directory is not empty. Reuse its existing Remotion setup or choose a new empty directory; no files were changed.");
   }
   copyManifests(target, true);
+  writeFileSync(path.join(target, ".gitignore"), "node_modules/\n.remotion/\nout/\ndist/\n.env\n.env.*\n!.env.example\n.DS_Store\n", { flag: "wx" });
   mkdirSync(path.join(target, "src"));
   mkdirSync(path.join(target, "public"));
   copyFileSync(path.join(root, "assets/remotion/index.tsx"), path.join(target, "src/index.tsx"), constants.COPYFILE_EXCL);

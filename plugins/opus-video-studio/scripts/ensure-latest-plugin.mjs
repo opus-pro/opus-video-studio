@@ -55,9 +55,19 @@ function result(status, fields = {}) {
   return { status, updated: false, restartRequired: false, ...fields };
 }
 
+export function resolveCodexBinary({ env = process.env, platform = process.platform, exists = existsSync } = {}) {
+  if (env.OPUS_VIDEO_STUDIO_CODEX_BIN) return env.OPUS_VIDEO_STUDIO_CODEX_BIN;
+  if (platform === "darwin") {
+    for (const candidate of ["/Applications/Codex.app/Contents/Resources/codex", "/Applications/ChatGPT.app/Contents/Resources/codex"]) {
+      if (exists(candidate)) return candidate;
+    }
+  }
+  return "codex";
+}
+
 export function ensureLatest({
   checkOnly = false,
-  codexBin = "codex",
+  codexBin = resolveCodexBinary(),
   marketplace = DEFAULT_MARKETPLACE,
   plugin = DEFAULT_PLUGIN,
   pluginRoot: suppliedPluginRoot,
@@ -92,17 +102,10 @@ export function ensureLatest({
     commandRunner(codexBin, ["plugin", "remove", `${plugin}@${marketplace}`, "--json"]);
     removed = true;
     commandRunner(codexBin, ["plugin", "add", `${plugin}@${marketplace}`]);
-    const installedManifest = path.join(
-      homeDirectory,
-      ".codex",
-      "plugins",
-      "cache",
-      marketplace,
-      plugin,
-      latestVersion,
-      ".codex-plugin",
-      "plugin.json",
-    );
+    const cacheBase = path.basename(pluginRoot) === currentVersion && path.basename(path.dirname(pluginRoot)) === plugin
+      ? path.dirname(pluginRoot)
+      : path.join(homeDirectory, ".codex", "plugins", "cache", marketplace, plugin);
+    const installedManifest = path.join(cacheBase, latestVersion, ".codex-plugin", "plugin.json");
     if (!existsSync(installedManifest) || readJson(installedManifest).version !== latestVersion) {
       throw new Error(`plugin install did not create the expected ${latestVersion} cache`);
     }
@@ -129,7 +132,7 @@ function main() {
   process.stdout.write(
     `${JSON.stringify(ensureLatest({
       checkOnly,
-      codexBin: process.env.OPUS_VIDEO_STUDIO_CODEX_BIN || "codex",
+      codexBin: resolveCodexBinary(),
     }))}\n`,
   );
 }

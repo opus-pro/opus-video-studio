@@ -5,11 +5,19 @@ description: Plan, optimize prompts, and generate AI video clips with any video 
 
 # Video Director
 
+Before taking any action for this skill, read [Shared workflow rules](../../docs/shared-rules.md).
+This explicit read is required in both Codex and Claude Code, including after context recovery.
+Do not rely on automatic loading of plugin-root AGENTS.md or CLAUDE.md.
+Resolve this installed skill's plugin root by going up two directories from its containing
+skill directory, then validate `.mcp.json` and the plugin manifest. Environment variables
+are optional; use the installed skill path, never a guessed marketplace checkout.
+
+
 All new AI video generation goes through this skill, including a single clip requested by tool or model name. Directing and prompt optimization are independent of the selected model; provider syntax and capabilities are not.
 
 ## Resolve scope and context
 
-- Resolve the plugin root from a valid `AO_HARNESS_ROOT`, otherwise from this file's `<harness-root>/skills/video-director/SKILL.md` path. Read root `AGENTS.md` for shared tool, approval, project, retry, and storage rules.
+- Resolve the plugin root from a valid `AO_HARNESS_ROOT`, otherwise from this file's `<harness-root>/skills/video-director/SKILL.md` path. Read `docs/shared-rules.md` for shared tool, approval, project, retry, and storage rules.
 - For local UI animation or code-generated product video, use `skills/motion-ui/SKILL.md`. For standalone audio, images/keyframes, transcription, import, or existing-job status/recovery, use `skills/media-tools/SKILL.md`. In mixed tasks, direct only the generated video portion here.
 - Prompt-only planning does not require authentication, a backend project, or paid calls. Never turn a prompt request into an unrequested generation.
 
@@ -29,7 +37,7 @@ All new AI video generation goes through this skill, including a single clip req
 
 ## Review, submit, and deliver
 
-1. Show the complete timed production script required by `AGENTS.md` before paid video approval: full duration, picture/action, camera/motion, exact dialogue/voiceover, on-screen text, music/SFX, reference roles, and clip boundaries. Mark intentionally absent layers. Show the selected model/version when known, per-clip duration, total clips, and paid request count. The optimized request must faithfully implement the reviewed script.
+1. Show the complete timed production script required by `docs/shared-rules.md` before paid video approval: full duration, picture/action, camera/motion, exact dialogue/voiceover, on-screen text, music/SFX, reference roles, and clip boundaries. Mark intentionally absent layers. Show the selected model/version when known, per-clip duration, total clips, and paid request count. The optimized request must faithfully implement the reviewed script.
 2. Before creating the backend target, verify `opus_video_tools_whoami`; complete host sign-in if needed and confirm an unexpected organization. Create an explicit `projectId` for generation/storage. Preserve organization, project, request keys, job IDs, and durable assets. Import only needed references and finish any upload/finalization before use. Show selected/generated anchors before paid video when applicable.
 3. Bind approval to the exact request as required by the shared contract. Save each exposed `requestKey` as a UUID with the exact arguments before submitting. Reuse it only for an identical retry; a changed paid request requires a new key and approval. Use unique clip IDs within a batch.
 4. Submit via public `generate_video_clips` using the live schema. Use supporting image, audio, or transcription tools only when the requested plan needs them, following `media-tools` and the shared approval rules. Do not assume that a model supports native audio or that separate audio assets have been mixed.
