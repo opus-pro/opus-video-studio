@@ -16,7 +16,7 @@ guide at the supplied Labs URL so setup follows the latest supported steps.
 For a standalone setup conversation, paste:
 
 ```text
-/goal Install Opus Video Tools using https://labs.opus.pro/opus-video-tools/codex. Complete Opus sign-in, verify the public tools, and start a new Codex task directly in the current local workspace with the plugin ready. Use the existing directory; do not create a Git worktree or branch. Do not generate paid media during setup.
+/goal First confirm you are running in the local Codex desktop app. Otherwise stop and direct me to paste this into that app. In the supported local host, install Opus Video Tools using https://labs.opus.pro/opus-video-tools/codex. Complete Opus sign-in, verify the public tools, and start a new Codex task directly in the current local workspace with the plugin ready. Use the existing directory; do not create a Git worktree or branch. Do not generate paid media during setup.
 ```
 
 If the request also includes a Product Videos template, preserve its complete
@@ -27,6 +27,10 @@ the requested adaptation. Never discard the user's template in a generic setup t
 ## Host gate
 
 Run this workflow only in the Codex desktop app on the machine where the plugin should be installed.
+Identify the current host before running commands; shell access alone is insufficient.
+In Claude chat or Cowork, use the custom connector section of
+[the Claude guide](https://labs.opus.pro/opus-video-tools/claude). Do not run a local
+plugin installer or suggest `/mcp` in those conversations.
 Use the Codex CLI bundled with that app and refer to its quoted absolute path as
 `"<BUNDLED_CODEX>"`.
 Resolve it from the running desktop application's installation directory. For example,
@@ -255,7 +259,7 @@ worktree attempts or duplicate verification tasks.
 Paste this prompt into the new task:
 
 ```text
-Continue the original user request in this existing local workspace after read-only Opus setup verification. Do not assume an earlier installation or OAuth success is proof of readiness. Verify that opus-video-studio@opus-pro exposes motion-ui, media-tools, and video-director. Discover the live opus-video-tools schemas for create_project, import_assets, generate_audio, transcribe_audio, generate_keyframes, generate_video_clips, get_status, list_jobs, resolve_job, and opus_video_tools_whoami. Actually call opus_video_tools_whoami and verify the intended account and organization. If startup reports invalid_grant, follow the guide's targeted logout/login recovery once; report failure if it recurs. Missing tools remain a failed check, not success. Follow the installed plugin's docs/local-remotion.md to verify local setup without launching a server or generating media. Return separate pass/fail results for package, tools, identity, and local setup. Report success only when package/version, all ten tool schemas, whoami and local runtime checks pass. The user can then describe a video or provide local media paths or accessible URLs. Preserve the user's original task, template URLs/checksums, files and media. For local motion use motion-ui; for direct audio/images/transcription use media-tools; for every new generated video clip use video-director.
+First confirm this is a local Codex desktop task. Otherwise stop and direct the user to that app; do not install into a remote sandbox. Continue the original user request in this existing local workspace after read-only Opus setup verification. Do not assume an earlier installation or OAuth success is proof of readiness. Verify that opus-video-studio@opus-pro exposes motion-ui, media-tools, and video-director. Discover the live opus-video-tools schemas for create_project, import_assets, generate_audio, transcribe_audio, generate_keyframes, generate_video_clips, get_status, list_jobs, resolve_job, and opus_video_tools_whoami. Actually call opus_video_tools_whoami and verify the intended account and organization. If startup reports invalid_grant, follow the guide's targeted logout/login recovery once; report failure if it recurs. Missing tools remain a failed check, not success. Follow the installed plugin's docs/local-remotion.md to verify local setup without launching a server or generating media. Return separate pass/fail results for package, tools, identity, and local setup. Report success only when package/version, all ten tool schemas, whoami and local runtime checks pass. The user can then describe a video or provide local media paths or accessible URLs. Preserve the user's original task, template URLs/checksums, files and media. For local motion use motion-ui; for direct audio/images/transcription use media-tools; for every new generated video clip use video-director.
 ```
 
 Use the host's task creation and navigation tools when available. If a required tool fails, give the
