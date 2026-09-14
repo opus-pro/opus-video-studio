@@ -17,11 +17,14 @@ version or run from the marketplace checkout. After resolving it, run:
 node "<harness-root>/scripts/setup-remotion.mjs"
 ```
 
-The helper reuses complete plugin-local dependencies, or installs the pinned runtime in the
+The helper installs or reuses the pinned runtime in the
 plugin's persistent data directory (`PLUGIN_DATA` / `CLAUDE_PLUGIN_DATA`, otherwise
-`~/.opus-video-tools`). It never installs globally. Claude Code versions that support marketplace
-Node.js dependencies can preinstall these packages; older hosts, Codex, partial installs, and
-timeouts use the same helper. Installation is not a promise that a lifecycle hook already ran.
+`~/.opus-video-tools`; `OPUS_VIDEO_TOOLS_DATA_DIR` overrides these locations). It keys the
+runtime by dependency contents, so plugin updates with unchanged dependencies reuse it.
+Runtime manifests live in `runtime/remotion/` to avoid a dependency installation in each
+versioned plugin cache. It never installs globally or deletes old client-managed caches.
+Older releases may retain their own dependencies; use the client's supported cache management.
+Local projects keep their own dependencies so they remain usable after plugin removal.
 Respect host installation permissions. If Node.js/npm or network access is missing, report that
 specific prerequisite rather than repeatedly retrying or silently installing a system runtime.
 
@@ -36,7 +39,7 @@ specific prerequisite rather than repeatedly retrying or silently installing a s
 node "<harness-root>/scripts/setup-remotion.mjs" init "<project-directory>"
 ```
 
-The new project includes an editable composition, pinned dependencies, `public/`, a `.gitignore`
+The new project includes an editable composition, pinned dependencies, `tsconfig.json`, `public/`, a `.gitignore`
 that excludes dependencies, generated output and local secrets, and Studio and
 render scripts. If installation fails after files are created, fix the reported prerequisite and
 run `setup-remotion.mjs install "<project-directory>"`; do not delete or overwrite the project.

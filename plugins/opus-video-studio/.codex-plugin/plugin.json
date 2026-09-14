@@ -1,7 +1,7 @@
 {
   "name": "opus-video-studio",
-  "version": "0.10.3",
-  "description": "Code-driven UI motion and product videos, with managed Opus video and audio generation.",
+  "version": "0.10.4",
+  "description": "Video, images, speech, music, and editable local motion with managed Opus tools.",
   "author": {
     "name": "Opus Labs",
     "email": "ella.wang@opus.pro",
