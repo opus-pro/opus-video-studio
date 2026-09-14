@@ -116,3 +116,10 @@ for (const failedStep of ["remove", "add"]) {
     assert.ok(!calls.some(call => call.startsWith("mcp ")), "package repair must preserve OAuth");
   });
 }
+
+test("desktop-only and two-CLI installations prefer the verified bundled executable", async () => {
+  const {resolveCodexBinary} = await import("../plugins/opus-video-studio/scripts/ensure-latest-plugin.mjs");
+  assert.equal(resolveCodexBinary({env:{},platform:"darwin",exists:p=>p.includes("ChatGPT.app")}), "/Applications/ChatGPT.app/Contents/Resources/codex");
+  assert.equal(resolveCodexBinary({env:{OPUS_VIDEO_STUDIO_CODEX_BIN:"/custom/codex"},platform:"darwin",exists:()=>true}), "/custom/codex");
+  assert.equal(resolveCodexBinary({env:{},platform:"linux",exists:()=>false}), "codex");
+});

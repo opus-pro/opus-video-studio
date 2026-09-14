@@ -42,3 +42,21 @@ test("runtime uses host persistent data and a content-keyed subdirectory", () =>
   assert.equal(directory, runtimeDirectory({ CLAUDE_PLUGIN_DATA: "/tmp/codex-plugin-data" }));
   assert.notEqual(directory, runtimeDirectory({ PLUGIN_DATA: "/tmp/other-plugin-data" }));
 });
+
+test("new project gitignore excludes dependencies, output and local credentials", (t) => {
+  const directory = createProject(mkdtempSync(path.join(tmpdir(), "opus-remotion-git-")));
+  t.after(() => rmSync(directory, { recursive: true, force: true }));
+  execFileSync("git", ["init", "-q", directory]);
+  for (const file of ["node_modules/large-file", "out/video.mp4", ".env", ".env.local"]) {
+    assert.equal(execFileSync("git", ["-C", directory, "check-ignore", file], {encoding: "utf8"}).trim(), file);
+  }
+});
+
+test("Claude session hook delivers the actual shared safety contract", () => {
+  const script = fileURLToPath(new URL("../plugins/opus-video-studio/scripts/session-context.mjs", import.meta.url));
+  const output = JSON.parse(execFileSync(process.execPath, [script], {encoding: "utf8"}));
+  assert.equal(output.hookSpecificOutput.hookEventName, "SessionStart");
+  assert.match(output.hookSpecificOutput.additionalContext, /45 seconds/);
+  assert.match(output.hookSpecificOutput.additionalContext, /opus_video_tools_whoami/);
+  assert.match(output.hookSpecificOutput.additionalContext, /user authorization/);
+});

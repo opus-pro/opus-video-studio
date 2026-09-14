@@ -1,15 +1,17 @@
 # Opus Video Tools for Codex
 
-This is an agent-facing installation protocol. Complete it for the user instead of only showing
-commands.
+Install video, image, audio and local motion tools for Codex. Setup is free;
+media generation uses Opus credits. Your agent should complete the checks below
+and report their observed results.
+
+The installation guide is public. Opening the main Opus media workspace may
+require website sign-in first. Connecting the MCP is a separate authorization
+step below; being signed in on the website does not verify the agent connection.
 
 ## Shared guide
 
-This is the shared installation guide for Opus Video Tools and Product Videos.
-Both `/opus-video-tools/codex` and `/product-videos/codex` serve this document
-from `opus-video-tools/guides/codex.md` in the realm's public GCS bucket.
-Use the current guide at the supplied Labs URL, not an older GitHub guide or
-installation steps embedded in a template.
+This guide supports both Opus Video Tools and Product Videos. Use the current
+guide at the supplied Labs URL so setup follows the latest supported steps.
 
 For a standalone setup conversation, paste:
 
@@ -101,8 +103,18 @@ The repository is `opus-pro/opus-video-studio`; the installation ID remains
 For plugin version 0.10.1 or newer, resolve the actual installed plugin root from the enabled
 plugin's skill path. Follow its `docs/local-remotion.md` and run:
 
+Here, `<harness-root>` or `$OPUS_PLUGIN_ROOT` means the verified installed plugin root,
+not the marketplace source checkout. From the actual loaded `skills/<name>/SKILL.md`,
+go up two directories from the containing skill directory and assign that absolute path
+to `OPUS_PLUGIN_ROOT`. Verify its manifest name is `opus-video-studio` and `.mcp.json`
+exists. If no skill path is loaded yet, inspect `codex plugin list` for the installed
+cache and verify it; never guess a cache version or install dependencies in the checkout.
+Read `docs/shared-rules.md` from that root before invoking tools. The update helper
+prefers the bundled desktop CLI; set `OPUS_VIDEO_STUDIO_CODEX_BIN` to the verified
+executable from the preflight when it lives in a different application directory.
+
 ```text
-node "<harness-root>/scripts/setup-remotion.mjs"
+node "$OPUS_PLUGIN_ROOT/scripts/setup-remotion.mjs"
 ```
 
 This prepares the pinned runtime without creating a video project, launching a server, or spending
@@ -218,10 +230,10 @@ success. A queued client task ID alone does not establish successful creation. I
 report that exact failure and use the authorized local-directory flow; avoid repeated failed
 worktree attempts or duplicate verification tasks.
 
-Seed the new task with:
+Paste this prompt into the new task:
 
 ```text
-Continue the original user request in this existing local workspace after read-only Opus setup verification. Do not assume an earlier installation or OAuth success is proof of readiness. Verify that opus-video-studio@opus-pro exposes motion-ui, media-tools, and video-director. Discover the live opus-video-tools schemas for create_project, import_assets, generate_audio, transcribe_audio, generate_keyframes, generate_video_clips, get_status, list_jobs, resolve_job, and opus_video_tools_whoami. Actually call opus_video_tools_whoami and verify the intended account and organization. If startup reports invalid_grant, follow the guide's targeted logout/login recovery once; report failure if it recurs. Missing tools remain a failed check, not success. Follow the installed plugin's docs/local-remotion.md to verify local setup without launching a server or generating media. Return separate pass/fail results for package, tools, identity, and local setup. Only if all pass, say: "Opus Video Tools is connected. Tell me what video you want to make, or drag in your media." Preserve the user's original task, template URLs/checksums, files and media. For local motion use motion-ui; for direct audio/images/transcription use media-tools; for every new generated video clip use video-director.
+Continue the original user request in this existing local workspace after read-only Opus setup verification. Do not assume an earlier installation or OAuth success is proof of readiness. Verify that opus-video-studio@opus-pro exposes motion-ui, media-tools, and video-director. Discover the live opus-video-tools schemas for create_project, import_assets, generate_audio, transcribe_audio, generate_keyframes, generate_video_clips, get_status, list_jobs, resolve_job, and opus_video_tools_whoami. Actually call opus_video_tools_whoami and verify the intended account and organization. If startup reports invalid_grant, follow the guide's targeted logout/login recovery once; report failure if it recurs. Missing tools remain a failed check, not success. Follow the installed plugin's docs/local-remotion.md to verify local setup without launching a server or generating media. Return separate pass/fail results for package, tools, identity, and local setup. Report success only when package/version, all ten tool schemas, whoami and local runtime checks pass. The user can then describe a video or provide local media paths or accessible URLs. Preserve the user's original task, template URLs/checksums, files and media. For local motion use motion-ui; for direct audio/images/transcription use media-tools; for every new generated video clip use video-director.
 ```
 
 Use the host's task creation and navigation tools when available. If a required tool fails, give the
@@ -229,6 +241,7 @@ user the prompt and report the exact failed step.
 
 Report one outcome:
 
-- Success, only after the fresh task returns all live checks as passed: `Started a new Opus Video Tools task after verifying the plugin package, live tool schemas, authenticated whoami call, and local Remotion setup.`
-- Recovery: `Setup is not complete; started a recovery task.` Include the failed step.
-- Blocked: `Setup is blocked.` Include the host, Git, or OAuth gate that failed.
+- Success: show the installed version, three loaded skills, ten discovered schemas,
+  authenticated identity check, and local runtime result from the fresh task.
+- Recovery: identify the failed check and the recovery task that is handling it.
+- Blocked: identify the host, Git, or OAuth check that failed and its actual error.

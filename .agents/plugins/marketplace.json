@@ -14,8 +14,8 @@
         "installation": "AVAILABLE"
       },
       "category": "Productivity",
-      "description": "Seedance video, voiceover, and BGM creation with managed Opus tools.",
-      "version": "0.10.2",
+      "description": "Video, images, speech, music, and editable local motion with managed Opus tools.",
+      "version": "0.10.3",
       "author": {
         "name": "Opus Labs",
         "email": "ella.wang@opus.pro"
