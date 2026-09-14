@@ -4,6 +4,10 @@ Install video, image, audio and local motion tools for Codex. Setup is free;
 media generation uses Opus credits. Your agent should complete the checks below
 and report their observed results.
 
+The installation guide is public. Opening the main Opus media workspace may
+require website sign-in first. Connecting the MCP is a separate authorization
+step below; being signed in on the website does not verify the agent connection.
+
 ## Shared guide
 
 This guide supports both Opus Video Tools and Product Videos. Use the current

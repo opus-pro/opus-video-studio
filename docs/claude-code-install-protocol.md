@@ -4,6 +4,10 @@ Install video, image, audio and local motion tools for the user's coding agent.
 Setup is free. Media generation uses Opus credits. Complete the checks below and
 report their observed results; installation alone is not a connected MCP session.
 
+The installation guide is public. Opening the main Opus media workspace may
+require website sign-in first. Connecting the MCP is a separate authorization
+step below; being signed in on the website does not verify the agent connection.
+
 ## 1. Check prerequisites and install
 
 Use a local Claude Code terminal with Node.js 22+ and npm. Check:
