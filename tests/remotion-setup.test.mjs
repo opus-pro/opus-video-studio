@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { execFileSync } from "node:child_process";
-import { mkdtempSync, readFileSync, rmSync, symlinkSync, writeFileSync } from "node:fs";
+import { cpSync, existsSync, mkdtempSync, readFileSync, rmSync, symlinkSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import path from "node:path";
 import test from "node:test";
@@ -14,7 +14,12 @@ test("new projects include pinned dependencies, an entrypoint, and Studio script
   const lock = JSON.parse(readFileSync(path.join(directory, "package-lock.json")));
   assert.equal(manifest.dependencies.remotion, manifest.dependencies["@remotion/cli"]);
   assert.deepEqual(lock.packages[""].dependencies, manifest.dependencies);
+  assert.deepEqual(lock.packages[""].devDependencies, manifest.devDependencies);
   assert.equal(manifest.scripts.studio, "remotion studio src/index.tsx");
+  assert.equal(manifest.scripts.typecheck, "tsc --noEmit");
+  const tsconfig = JSON.parse(readFileSync(path.join(directory, "tsconfig.json")));
+  assert.equal(tsconfig.compilerOptions.jsx, "react-jsx");
+  assert.equal(tsconfig.compilerOptions.noEmit, true);
   assert.match(readFileSync(path.join(directory, "src/index.tsx"), "utf8"), /registerRoot/);
 });
 
@@ -52,11 +57,31 @@ test("new project gitignore excludes dependencies, output and local credentials"
   }
 });
 
-test("Claude session hook delivers the actual shared safety contract", () => {
+test("Claude session hook points to existing safety rules without injecting the whole document", () => {
   const script = fileURLToPath(new URL("../plugins/opus-video-studio/scripts/session-context.mjs", import.meta.url));
   const output = JSON.parse(execFileSync(process.execPath, [script], {encoding: "utf8"}));
   assert.equal(output.hookSpecificOutput.hookEventName, "SessionStart");
-  assert.match(output.hookSpecificOutput.additionalContext, /45 seconds/);
-  assert.match(output.hookSpecificOutput.additionalContext, /opus_video_tools_whoami/);
-  assert.match(output.hookSpecificOutput.additionalContext, /user authorization/);
+  const context = output.hookSpecificOutput.additionalContext;
+  assert.ok(context.length < 1000);
+  assert.match(context, /Before any Opus operation, read/);
+  const rulesPath = JSON.parse(context.match(/at (".*?");/)[1]);
+  const rules = readFileSync(rulesPath, "utf8");
+  assert.match(rules, /45 seconds/);
+  assert.match(rules, /opus_video_tools_whoami/);
+  assert.match(rules, /user authorization/);
+});
+
+test("plugin version directories share runtime identity without a root npm install", async (t) => {
+  const directory = mkdtempSync(path.join(tmpdir(), "opus-remotion-versions-"));
+  t.after(() => rmSync(directory, { recursive: true, force: true }));
+  const source = fileURLToPath(new URL("../plugins/opus-video-studio/", import.meta.url));
+  const paths = [];
+  for (const version of ["one", "two"]) {
+    const target = path.join(directory, version);
+    cpSync(source, target, { recursive: true, filter: (file) => !file.includes("node_modules") });
+    assert.equal(existsSync(path.join(target, "package.json")), false);
+    const { runtimeDirectory: resolve } = await import(path.join(target, "scripts/setup-remotion.mjs"));
+    paths.push(resolve({ OPUS_VIDEO_TOOLS_DATA_DIR: path.join(directory, "shared") }));
+  }
+  assert.equal(paths[0], paths[1]);
 });

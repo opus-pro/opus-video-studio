@@ -6,11 +6,14 @@ Use a local Remotion Studio project to preview and assemble your results.
 ## Install
 
 - [Codex installation guide](docs/codex-install-protocol.md)
-- [Claude Code installation guide](docs/claude-code-install-protocol.md)
+- [Claude Code and Claude chat connector guide](docs/claude-code-install-protocol.md)
 
 The repository is public; managed generation still requires an authorized Opus account,
 product access, and sufficient credits. Installing the plugin does not grant service access.
 Local Remotion setup and preview do not spend Opus generation credits.
+Claude chat and Cowork use a remote custom connector, not this CLI plugin. That
+connection does not install the skills or local Studio; see the Claude guide for
+its separate verification steps and current acceptance status.
 
 ## Included
 

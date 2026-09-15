@@ -16,7 +16,7 @@ guide at the supplied Labs URL so setup follows the latest supported steps.
 For a standalone setup conversation, paste:
 
 ```text
-/goal Install Opus Video Tools using https://labs.opus.pro/opus-video-tools/codex. Complete Opus sign-in, verify the public tools, and start a new Codex task directly in the current local workspace with the plugin ready. Use the existing directory; do not create a Git worktree or branch. Do not generate paid media during setup.
+/goal Read this guide and follow the setup instructions for the application I’m currently using: https://labs.opus.pro/opus-video-tools/codex. Do not generate paid media during setup.
 ```
 
 If the request also includes a Product Videos template, preserve its complete
@@ -27,8 +27,17 @@ the requested adaptation. Never discard the user's template in a generic setup t
 ## Host gate
 
 Run this workflow only in the Codex desktop app on the machine where the plugin should be installed.
+Identify the current host before running commands; shell access alone is insufficient.
+In Claude chat or Cowork, use the custom connector section of
+[the Claude guide](https://labs.opus.pro/opus-video-tools/claude). Do not run a local
+plugin installer or suggest `/mcp` in those conversations.
 Use the Codex CLI bundled with that app and refer to its quoted absolute path as
 `"<BUNDLED_CODEX>"`.
+Resolve it from the running desktop application's installation directory. For example,
+a macOS installation may use `/Applications/ChatGPT.app/Contents/Resources/codex`.
+Verify that the executable exists and the version command below succeeds; application
+names and custom installation locations can differ. `which codex` may point to a
+separately installed CLI and does not identify the desktop application's bundled CLI.
 
 Verify the CLI and public repository reachability (GitHub membership is not required):
 
@@ -49,8 +58,10 @@ Inspect the bundled CLI's supported commands and the exact installed entry first
 "<BUNDLED_CODEX>" plugin remove --help
 ```
 
-Record the source, enabled state, installed version, and actual installed path. Inspect the
-path before claiming it is missing; an old skill path or a retained `@Opus Video Tools` mention
+Record the source, enabled state, and installed version from this listing. Its `SOURCE`
+column (or `source.path` in `plugin list --json`) identifies the marketplace source
+checkout, not the installed plugin cache. Resolve the actual installed path as described
+below. Inspect that path before claiming it is missing; an old skill path or a retained `@Opus Video Tools` mention
 is not evidence about the current package. Neither `enabled`, a connected badge, nor an
 OAuth configuration entry proves that authentication or tool calls work.
 
@@ -58,8 +69,14 @@ For a new marketplace, install from the public repository:
 
 ```text
 "<BUNDLED_CODEX>" plugin marketplace add https://github.com/opus-pro/opus-video-studio.git --ref main
-"<BUNDLED_CODEX>" plugin add opus-video-studio@opus-pro
+"<BUNDLED_CODEX>" plugin add opus-video-studio@opus-pro --json
 ```
+
+On successful installation, save the JSON response's `installedPath` as
+`OPUS_PLUGIN_ROOT`. Without `--json`, the same path appears after `Installed plugin root:`.
+Use that exact returned path, including its version directory. Do not use the
+marketplace root returned by `plugin marketplace add`, or the `SOURCE`/`source.path`
+from `plugin list`, as the installed root.
 
 If `opus-pro` already points to that public repository, refresh it first:
 
@@ -89,8 +106,9 @@ another installation over it. If reinstall fails after removal, report that Opus
 and setup is incomplete. Preserve healthy OAuth credentials; invalid credentials have a
 separate targeted recovery below. Do not log out as a routine package update step.
 
-Resolve the newly installed path from the current installation record, not the old task's skill
-path. Verify the enabled entry, public Git source at `main`, manifest, `.mcp.json`, and public
+After reinstalling, replace `OPUS_PLUGIN_ROOT` with `installedPath` from the new
+`plugin add --json` response, not the old task's skill path. Verify the enabled entry,
+public Git source at `main`, manifest, `.mcp.json`, and public
 skill files against the refreshed marketplace package. Version equality alone is insufficient.
 Skip reinstallation only when the package is current and complete and the live checks below
 pass. Do not repeat clean reinstalls for an OAuth error or an already-open task's stale tools.
@@ -100,16 +118,24 @@ The repository is `opus-pro/opus-video-studio`; the installation ID remains
 
 ## Prepare local Remotion
 
-For plugin version 0.10.1 or newer, resolve the actual installed plugin root from the enabled
-plugin's skill path. Follow its `docs/local-remotion.md` and run:
-
 Here, `<harness-root>` or `$OPUS_PLUGIN_ROOT` means the verified installed plugin root,
-not the marketplace source checkout. From the actual loaded `skills/<name>/SKILL.md`,
-go up two directories from the containing skill directory and assign that absolute path
-to `OPUS_PLUGIN_ROOT`. Verify its manifest name is `opus-video-studio` and `.mcp.json`
-exists. If no skill path is loaded yet, inspect `codex plugin list` for the installed
-cache and verify it; never guess a cache version or install dependencies in the checkout.
-Read `docs/shared-rules.md` from that root before invoking tools. The update helper
+not the marketplace source checkout. For a new installation or reinstall, use the
+`installedPath` saved above. For an existing installation, use the actual loaded
+`skills/<name>/SKILL.md` path: go up two directories from the containing skill directory
+and assign that absolute path to `OPUS_PLUGIN_ROOT`. A host that exposes `skills/list`
+can also return these installed skill paths; select the enabled skill belonging to
+`opus-video-studio@opus-pro`.
+
+If neither the successful installation output nor a current loaded skill path is
+available, defer this check until the fresh task below loads the installed skills.
+Do not reinstall a healthy plugin just to obtain its path. `plugin list` is not an
+installed-cache lookup; never infer a cache version or run setup from its source path.
+Full setup remains pending until the root and runtime checks succeed in that fresh task.
+
+Before running a helper, verify that both plugin manifests name `opus-video-studio`,
+and that `.mcp.json`, `scripts/setup-remotion.mjs`, and the three public skill files
+exist inside the resolved root. Read its `docs/shared-rules.md` and
+`docs/local-remotion.md`. The update helper
 prefers the bundled desktop CLI; set `OPUS_VIDEO_STUDIO_CODEX_BIN` to the verified
 executable from the preflight when it lives in a different application directory.
 
@@ -233,7 +259,7 @@ worktree attempts or duplicate verification tasks.
 Paste this prompt into the new task:
 
 ```text
-Continue the original user request in this existing local workspace after read-only Opus setup verification. Do not assume an earlier installation or OAuth success is proof of readiness. Verify that opus-video-studio@opus-pro exposes motion-ui, media-tools, and video-director. Discover the live opus-video-tools schemas for create_project, import_assets, generate_audio, transcribe_audio, generate_keyframes, generate_video_clips, get_status, list_jobs, resolve_job, and opus_video_tools_whoami. Actually call opus_video_tools_whoami and verify the intended account and organization. If startup reports invalid_grant, follow the guide's targeted logout/login recovery once; report failure if it recurs. Missing tools remain a failed check, not success. Follow the installed plugin's docs/local-remotion.md to verify local setup without launching a server or generating media. Return separate pass/fail results for package, tools, identity, and local setup. Report success only when package/version, all ten tool schemas, whoami and local runtime checks pass. The user can then describe a video or provide local media paths or accessible URLs. Preserve the user's original task, template URLs/checksums, files and media. For local motion use motion-ui; for direct audio/images/transcription use media-tools; for every new generated video clip use video-director.
+First confirm this is a local Codex desktop task. Otherwise stop and direct the user to that app; do not install into a remote sandbox. Continue the original user request in this existing local workspace after read-only Opus setup verification. Do not assume an earlier installation or OAuth success is proof of readiness. Verify that opus-video-studio@opus-pro exposes motion-ui, media-tools, and video-director. Discover the live opus-video-tools schemas for create_project, import_assets, generate_audio, transcribe_audio, generate_keyframes, generate_video_clips, get_status, list_jobs, resolve_job, and opus_video_tools_whoami. Actually call opus_video_tools_whoami and verify the intended account and organization. If startup reports invalid_grant, follow the guide's targeted logout/login recovery once; report failure if it recurs. Missing tools remain a failed check, not success. Follow the installed plugin's docs/local-remotion.md to verify local setup without launching a server or generating media. Return separate pass/fail results for package, tools, identity, and local setup. Report success only when package/version, all ten tool schemas, whoami and local runtime checks pass. The user can then describe a video or provide local media paths or accessible URLs. Preserve the user's original task, template URLs/checksums, files and media. For local motion use motion-ui; for direct audio/images/transcription use media-tools; for every new generated video clip use video-director.
 ```
 
 Use the host's task creation and navigation tools when available. If a required tool fails, give the

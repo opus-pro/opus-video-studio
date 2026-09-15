@@ -7,12 +7,13 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const template = path.join(root, "runtime/remotion");
 const manifests = ["package.json", "package-lock.json"];
-const manifest = JSON.parse(readFileSync(path.join(root, "package.json"), "utf8"));
+const manifest = JSON.parse(readFileSync(path.join(template, "package.json"), "utf8"));
 
 export function runtimeDirectory(env = process.env) {
   const fingerprint = createHash("sha256");
-  for (const file of manifests) fingerprint.update(readFileSync(path.join(root, file)));
+  for (const file of manifests) fingerprint.update(readFileSync(path.join(template, file)));
   const data = env.OPUS_VIDEO_TOOLS_DATA_DIR || env.PLUGIN_DATA || env.CLAUDE_PLUGIN_DATA
     || path.join(homedir(), ".opus-video-tools");
   return path.resolve(data, "remotion", fingerprint.digest("hex").slice(0, 16));
@@ -20,7 +21,7 @@ export function runtimeDirectory(env = process.env) {
 
 function copyManifests(directory, exclusive = false) {
   mkdirSync(directory, { recursive: true });
-  for (const file of manifests) copyFileSync(path.join(root, file), path.join(directory, file), exclusive ? constants.COPYFILE_EXCL : 0);
+  for (const file of manifests) copyFileSync(path.join(template, file), path.join(directory, file), exclusive ? constants.COPYFILE_EXCL : 0);
 }
 
 export function createProject(directory) {
@@ -29,6 +30,7 @@ export function createProject(directory) {
     throw new Error("Project directory is not empty. Reuse its existing Remotion setup or choose a new empty directory; no files were changed.");
   }
   copyManifests(target, true);
+  copyFileSync(path.join(root, "assets/remotion/tsconfig.json"), path.join(target, "tsconfig.json"), constants.COPYFILE_EXCL);
   writeFileSync(path.join(target, ".gitignore"), "node_modules/\n.remotion/\nout/\ndist/\n.env\n.env.*\n!.env.example\n.DS_Store\n", { flag: "wx" });
   mkdirSync(path.join(target, "src"));
   mkdirSync(path.join(target, "public"));
@@ -42,7 +44,7 @@ function cli(directory) {
 
 function runtimeReady(directory) {
   try {
-    for (const [name, version] of Object.entries(manifest.dependencies)) {
+    for (const [name, version] of Object.entries({ ...manifest.dependencies, ...manifest.devDependencies })) {
       const installed = JSON.parse(readFileSync(path.join(directory, "node_modules", name, "package.json"), "utf8"));
       if (installed.version !== version) return false;
     }
@@ -65,7 +67,7 @@ export function ensureRuntime(directory) {
     }
     const npm = process.platform === "win32" ? "npm.cmd" : "npm";
     try {
-      execFileSync(npm, ["ci", "--ignore-scripts", "--no-audit", "--no-fund"], {
+      execFileSync(npm, ["ci", "--include=dev", "--ignore-scripts", "--no-audit", "--no-fund"], {
         cwd: directory, stdio: "inherit", timeout: 480_000,
         shell: process.platform === "win32",
       });
@@ -85,17 +87,14 @@ function main(args) {
   }
   let directory;
   if (args.length === 0) {
-    if (runtimeReady(root)) directory = root;
-    else {
-      directory = runtimeDirectory();
-      copyManifests(directory);
-    }
+    directory = runtimeDirectory();
+    copyManifests(directory);
   } else if (args.length === 2 && args[0] === "init") {
     directory = createProject(args[1]);
   } else if (args.length === 2 && args[0] === "install") {
     directory = path.resolve(args[1]);
     for (const file of manifests) {
-      if (!readFileSync(path.join(directory, file)).equals(readFileSync(path.join(root, file)))) {
+      if (!readFileSync(path.join(directory, file)).equals(readFileSync(path.join(template, file)))) {
         throw new Error("This project has its own dependencies. Use its existing package manager and lockfile; no files were changed.");
       }
     }
