@@ -1,11 +1,18 @@
 # Local Remotion Studio
 
-Use this workflow during plugin setup and when the user wants a local video project, preview,
+Use this workflow when the user wants a local video project, preview,
 or further editing. It needs a local agent with filesystem, command, and browser access, Node.js
 22+, and npm. A remote MCP connection alone cannot launch an editor on the user's computer.
 Do not install another plugin, expose a local server publicly, or extend the public MCP allowlist.
 
-## Initialize once
+## Reuse existing template projects first
+
+For a downloaded template or existing Remotion project, skip the bundled runtime
+setup below. Preserve its package manager, lockfile and dependencies, and follow
+its own README. Only install dependencies when previewing, rendering or editing
+requires them, not during a greeting or replacement-brief question.
+
+## Initialize a new project
 
 In this document, `<harness-root>` means the verified **installed plugin root**, not the
 marketplace checkout. From `skills/<name>/SKILL.md`, it is two directories above the
@@ -18,7 +25,7 @@ node "<harness-root>/scripts/setup-remotion.mjs"
 ```
 
 The helper installs or reuses the pinned runtime in the
-plugin's persistent data directory (`PLUGIN_DATA` / `CLAUDE_PLUGIN_DATA`, otherwise
+plugin's persistent data directory (`PLUGIN_DATA`, otherwise
 `~/.opus-video-tools`; `OPUS_VIDEO_TOOLS_DATA_DIR` overrides these locations). It keys the
 runtime by dependency contents, so plugin updates with unchanged dependencies reuse it.
 Runtime manifests live in `runtime/remotion/` to avoid a dependency installation in each

@@ -1,6 +1,6 @@
 # Opus Video Tools Agent
 
-Use Opus Video Tools in the current coding-agent host (Codex or Claude Code). Use the public skills to select the requested
+Use Opus Video Tools in Codex. Use the public skills to select the requested
 workflow, and the managed `opus-video-tools` MCP server for asset import, video and audio
 generation, transcription, and job status.
 
@@ -20,29 +20,22 @@ generation, transcription, and job status.
 
 ## Plugin Root
 
-The plugin root is the directory containing `.mcp.json`, `skills/`, `scripts/`, and
-both plugin manifests. From an installed `skills/<name>/SKILL.md`, go up two directories
-from its containing skill directory. A Claude versioned cache can end in a version
-number; never search for a literal `plugins/opus-video-studio` suffix.
-Validate the manifests' name is `opus-video-studio` before running a helper.
-Use `AO_HARNESS_ROOT` or a host-expanded plugin root only if it passes the same validation.
-`CLAUDE_PLUGIN_ROOT` can be expanded in plugin content without being exported to the shell.
-If no installed skill path is available, follow the installation guide's installed-record
-lookup. Do not run setup from the marketplace source checkout.
+The plugin root contains .codex-plugin/plugin.json, .mcp.json, skills/ and scripts/.
+From an installed skills/<name>/SKILL.md, go up two directories from its containing
+skill directory. Validate the manifest name is opus-video-studio. Do not guess a
+cache version or use the marketplace checkout as the installed root.
 
-## Plugin Update Preflight
+## Setup only when needed
 
-- Only when the host is Codex, on the first Opus Video Studio invocation in each task, run
-  `node <harness-root>/scripts/ensure-latest-plugin.mjs` exactly once.
-- Do not run this Codex marketplace updater from Claude Code or another host.
-- If it installs a newer version, stop before project changes or paid work and ask the user to start a new
-  task; the current task cannot safely reload changed skills or MCP schemas in place.
-- If the updater returns `update_failed`, stop managed work: cleanup/reinstallation did not
-  complete. Report its installation state; do not claim the removed package is usable. Repair
-  the installation through the guide and verify in a fresh task before resuming managed work.
-- If the update check fails before removing the package, local animation can continue. Managed work may continue with the loaded
-  version only if its live tools and authenticated identity check pass; a failed updater is not
-  evidence that MCP is usable.
+A greeting, workflow choice, library lookup or template download does not need
+an updater, account check or local runtime installation. Route welcomes through
+skills/get-started/SKILL.md and selected templates through docs/template-source.md.
+
+Use the loaded plugin. Check for updates only for an explicit install/update request
+or a diagnosed incompatibility; scripts/ensure-latest-plugin.mjs is a repair helper,
+not a per-task preflight. If an update changes the loaded skills, use Codex's supported
+reload/Continue flow. Request a new task only if the host cannot reload, preserving
+the original brief and source paths. Never create a task without user authorization.
 
 ## Connection Recovery
 
@@ -52,7 +45,7 @@ lookup. Do not run setup from the marketplace source checkout.
 - If MCP startup or token refresh reports `invalid_grant`, treat it as rejected authentication,
   not proof of corrupt plugin files or a stale task. In an authorized Codex repair, use the bundled
   CLI's `mcp logout opus-video-tools` followed by `mcp login opus-video-tools` once, sequentially.
-  Wait for browser callback and CLI success, then recheck tools and whoami in a fresh task.
+  Wait for browser callback and CLI success, then recheck tools and whoami in the same conversation.
   Preserve unrelated credentials; never read or print token stores. Do not run parallel logins.
 - If a completed login recovery still returns `invalid_grant`, stop automatic retries and report
   the sanitized error and failed step. Do not infer the underlying token lifecycle cause without
@@ -62,10 +55,9 @@ lookup. Do not run setup from the marketplace source checkout.
   `opus-video-studio@opus-pro` through `plugin remove`, then install it again with `plugin add`.
   The supported uninstaller cleans its local cache. Do not manually wipe shared plugin/config
   directories. Equal version strings do not prove identical or complete package contents.
-- Use a fresh task after reinstall to pick up skills/tools, preserving the complete user request.
-  Follow host task-creation rules; do not create a task without user authorization. Missing tools
-  after a fresh-task check remain an unresolved discovery failure. Do not loop through reinstalls
-  or new tasks, or call paid generation as a setup probe.
+- After installation, use the host reload/Continue action and recheck the required tools.
+  If this host cannot reload, explain the specific limitation before suggesting a new task.
+  Do not loop through reinstalls or use paid generation as a setup probe.
 
 ## Public Surface
 

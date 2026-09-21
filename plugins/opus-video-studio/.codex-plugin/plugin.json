@@ -1,6 +1,6 @@
 {
   "name": "opus-video-studio",
-  "version": "0.10.4",
+  "version": "0.11.0",
   "description": "Video, images, speech, music, and editable local motion with managed Opus tools.",
   "author": {
     "name": "Opus Labs",
@@ -21,18 +21,16 @@
   "interface": {
     "displayName": "Opus Video Tools",
     "shortDescription": "Create UI motion, video, and audio with Opus.",
-    "longDescription": "Opus Video Tools provides Motion UI for editable local product motion, Media Tools for standalone audio/images and job recovery, and Video Director for directing and optimizing all supported AI video models. Use the bundled Seedance guidance only for Seedance. Reuse your framework or a local Remotion project without requiring a gallery template.",
+    "longDescription": "Edit an original motion template or generate video, voiceover, music and images with Opus. Paste a Product Videos link to download its verified source and customize it in Codex.",
     "developerName": "Opus Labs",
     "category": "Productivity",
     "capabilities": [
       "Interactive",
       "Write"
     ],
-    "websiteURL": "https://opus.pro",
+    "websiteURL": "https://labs.opus.pro/product-videos/opus-video-tools",
     "defaultPrompt": [
-      "Use Motion UI to create a launch video based on my product\u2019s real interface.",
-      "Use Video Director to optimize this brief and generate a video with my selected model.",
-      "Use Media Tools to generate a voiceover for this text."
+      "I'd like to create with Opus Video Tools. Briefly ask whether I want to edit a motion template or generate video, voiceover, music or images. Include the template library link."
     ],
     "brandColor": "#0B0C12",
     "composerIcon": "./assets/opus-video-studio-logo.png",

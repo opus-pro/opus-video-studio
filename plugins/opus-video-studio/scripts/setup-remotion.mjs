@@ -14,7 +14,7 @@ const manifest = JSON.parse(readFileSync(path.join(template, "package.json"), "u
 export function runtimeDirectory(env = process.env) {
   const fingerprint = createHash("sha256");
   for (const file of manifests) fingerprint.update(readFileSync(path.join(template, file)));
-  const data = env.OPUS_VIDEO_TOOLS_DATA_DIR || env.PLUGIN_DATA || env.CLAUDE_PLUGIN_DATA
+  const data = env.OPUS_VIDEO_TOOLS_DATA_DIR || env.PLUGIN_DATA
     || path.join(homedir(), ".opus-video-tools");
   return path.resolve(data, "remotion", fingerprint.digest("hex").slice(0, 16));
 }

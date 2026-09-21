@@ -6,8 +6,8 @@ description: Plan, optimize prompts, and generate AI video clips with any video 
 # Video Director
 
 Before taking any action for this skill, read [Shared workflow rules](../../docs/shared-rules.md).
-This explicit read is required in both Codex and Claude Code, including after context recovery.
-Do not rely on automatic loading of plugin-root AGENTS.md or CLAUDE.md.
+Read it again after context recovery when doing media work.
+Do not rely on automatic loading of plugin-root AGENTS.md.
 Resolve this installed skill's plugin root by going up two directories from its containing
 skill directory, then validate `.mcp.json` and the plugin manifest. Environment variables
 are optional; use the installed skill path, never a guessed marketplace checkout.

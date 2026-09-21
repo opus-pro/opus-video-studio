@@ -1,6 +1,5 @@
-# Opus Video Tools
+# Opus Video Tools for Codex
 
-These instructions apply to Codex and Claude Code.
-Before using Opus tools, read [the shared workflow rules](docs/shared-rules.md).
-The three public skills explicitly load the same file; do not assume the host
-loads this plugin-root file automatically. The live MCP schema is authoritative.
+For a general welcome, use skills/get-started/SKILL.md. Before media work,
+read docs/shared-rules.md. A template link uses motion-ui and the original
+source workflow in docs/template-source.md. The live MCP schema is authoritative.
