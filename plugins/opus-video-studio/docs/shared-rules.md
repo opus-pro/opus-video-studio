@@ -1,6 +1,6 @@
 # Opus Video Tools Agent
 
-Use Opus Video Tools in Codex. Use the public skills to select the requested
+Use Opus Video Tools in Codex or Claude Code. Use the public skills to select the requested
 workflow, and the managed `opus-video-tools` MCP server for asset import, video and audio
 generation, transcription, and job status.
 
@@ -20,10 +20,13 @@ generation, transcription, and job status.
 
 ## Plugin Root
 
-The plugin root contains .codex-plugin/plugin.json, .mcp.json, skills/ and scripts/.
+The plugin root contains .codex-plugin/plugin.json or .claude-plugin/plugin.json,
+plus .mcp.json, skills/ and scripts/.
 From an installed skills/<name>/SKILL.md, go up two directories from its containing
 skill directory. Validate the manifest name is opus-video-studio. Do not guess a
-cache version or use the marketplace checkout as the installed root.
+cache version or use the marketplace checkout as the installed root. Host-provided
+roots such as CLAUDE_PLUGIN_ROOT must pass the same validation and may not be
+exported as shell environment variables.
 
 ## Setup only when needed
 
@@ -33,8 +36,9 @@ skills/get-started/SKILL.md and selected templates through docs/template-source.
 
 Use the loaded plugin. Check for updates only for an explicit install/update request
 or a diagnosed incompatibility; scripts/ensure-latest-plugin.mjs is a repair helper,
-not a per-task preflight. If an update changes the loaded skills, use Codex's supported
-reload/Continue flow. Request a new task only if the host cannot reload, preserving
+not a per-task preflight. This updater is Codex-specific; never run it from Claude
+Code. If an update changes loaded skills, use the host's supported reload action
+(Continue in Codex when available). Request a new task only if the host cannot reload, preserving
 the original brief and source paths. Never create a task without user authorization.
 
 ## Connection Recovery
@@ -50,11 +54,14 @@ the original brief and source paths. Never create a task without user authorizat
 - If a completed login recovery still returns `invalid_grant`, stop automatic retries and report
   the sanitized error and failed step. Do not infer the underlying token lifecycle cause without
   evidence. Timeouts, gate denials, and insufficient credits need their own diagnosis.
-- For an authorized package update/repair, follow the current Codex installation guide at
+- For an authorized Codex package update/repair, follow the current installation guide at
   `https://labs.opus.pro/opus-video-tools/codex`: verify the refreshed public source, uninstall only
   `opus-video-studio@opus-pro` through `plugin remove`, then install it again with `plugin add`.
   The supported uninstaller cleans its local cache. Do not manually wipe shared plugin/config
   directories. Equal version strings do not prove identical or complete package contents.
+- Claude Code uses its own plugin update and interactive /mcp flow, documented in
+  the repository's docs/claude-code-install-protocol.md. Do not run Codex CLI commands
+  in Claude Code or assume remote Claude chat has local plugin capabilities.
 - After installation, use the host reload/Continue action and recheck the required tools.
   If this host cannot reload, explain the specific limitation before suggesting a new task.
   Do not loop through reinstalls or use paid generation as a setup probe.

@@ -44,6 +44,7 @@ test("setup runs through symlinked plugin and temporary-directory paths", (t) =>
 test("runtime uses host persistent data and a content-keyed subdirectory", () => {
   const directory = runtimeDirectory({ PLUGIN_DATA: "/tmp/codex-plugin-data" });
   assert.match(directory, /codex-plugin-data\/remotion\/[0-9a-f]{16}$/);
+  assert.equal(directory, runtimeDirectory({ CLAUDE_PLUGIN_DATA: "/tmp/codex-plugin-data" }));
   assert.notEqual(directory, runtimeDirectory({ PLUGIN_DATA: "/tmp/other-plugin-data" }));
 });
 
@@ -54,6 +55,20 @@ test("new project gitignore excludes dependencies, output and local credentials"
   for (const file of ["node_modules/large-file", "out/video.mp4", ".env", ".env.local"]) {
     assert.equal(execFileSync("git", ["-C", directory, "check-ignore", file], {encoding: "utf8"}).trim(), file);
   }
+});
+
+test("Claude session hook points to existing safety rules without injecting the whole document", () => {
+  const script = fileURLToPath(new URL("../plugins/opus-video-studio/scripts/session-context.mjs", import.meta.url));
+  const output = JSON.parse(execFileSync(process.execPath, [script], {encoding: "utf8"}));
+  assert.equal(output.hookSpecificOutput.hookEventName, "SessionStart");
+  const context = output.hookSpecificOutput.additionalContext;
+  assert.ok(context.length < 1000);
+  assert.match(context, /Before any Opus operation, read/);
+  const rulesPath = JSON.parse(context.match(/at (".*?");/)[1]);
+  const rules = readFileSync(rulesPath, "utf8");
+  assert.match(rules, /45 seconds/);
+  assert.match(rules, /opus_video_tools_whoami/);
+  assert.match(rules, /user authorization/);
 });
 
 test("plugin version directories share runtime identity without a root npm install", async (t) => {

@@ -1,0 +1,23 @@
+{
+  "name": "opus-video-studio",
+  "version": "0.11.0",
+  "description": "Video, images, speech, music, and editable local motion with managed Opus tools.",
+  "author": {
+    "name": "Opus Labs",
+    "email": "ella.wang@opus.pro",
+    "url": "https://opus.pro"
+  },
+  "repository": "https://github.com/opus-pro/opus-video-studio",
+  "license": "Proprietary",
+  "keywords": [
+    "opus",
+    "video",
+    "mcp",
+    "seedance",
+    "story-to-video"
+  ],
+  "skills": [
+    "./skills"
+  ],
+  "mcpServers": "./.mcp.json"
+}

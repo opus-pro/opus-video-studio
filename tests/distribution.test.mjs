@@ -9,17 +9,25 @@ const plugin = "plugins/opus-video-studio";
 const json = (file) => JSON.parse(readFileSync(path.join(root, file), "utf8"));
 const read = (file) => readFileSync(path.join(root, file), "utf8");
 
-test("Codex publishes a consistent plugin version and source", () => {
-  const marketplace = json(".agents/plugins/marketplace.json");
-  const manifest = json(`${plugin}/.codex-plugin/plugin.json`);
-  assert.equal(marketplace.name, "opus-pro");
-  assert.equal(marketplace.plugins.length, 1);
-  assert.equal(marketplace.plugins[0].source.path, `./${plugin}`);
-  assert.equal(marketplace.plugins[0].version, json("package.json").version);
-  assert.equal(marketplace.plugins[0].policy.authentication, "ON_USE");
-  assert.equal(manifest.version, json("package.json").version);
-  assert.equal(manifest.name, "opus-video-studio");
-  assert.equal(manifest.repository, "https://github.com/opus-pro/opus-video-studio");
+test("both clients publish one consistent plugin version and source", () => {
+  const codex = json(".agents/plugins/marketplace.json");
+  const claude = json(".claude-plugin/marketplace.json");
+  assert.equal(codex.name, "opus-pro");
+  assert.equal(codex.plugins[0].policy.authentication, "ON_USE");
+  assert.equal(claude.name, codex.name);
+  for (const marketplace of [codex, claude]) {
+    assert.equal(marketplace.plugins.length, 1);
+    assert.equal(marketplace.plugins[0].name, "opus-video-studio");
+    assert.equal(marketplace.plugins[0].version, json("package.json").version);
+  }
+  assert.equal(codex.plugins[0].source.path, `./${plugin}`);
+  assert.equal(claude.plugins[0].source, `./${plugin}`);
+  for (const client of ["codex", "claude"]) {
+    const manifest = json(`${plugin}/.${client}-plugin/plugin.json`);
+    assert.equal(manifest.version, json("package.json").version);
+    assert.equal(manifest.name, "opus-video-studio");
+    assert.equal(manifest.repository, "https://github.com/opus-pro/opus-video-studio");
+  }
 });
 
 test("the public distribution excludes inactive packs and internal contracts", () => {
@@ -43,7 +51,7 @@ test("MCP is the public Labs resource without bundled credentials", () => {
 });
 
 test("installation guides use the public source and keep the same MCP resource", () => {
-  for (const file of ["docs/codex-install-protocol.md"]) {
+  for (const file of ["docs/codex-install-protocol.md", "docs/claude-code-install-protocol.md"]) {
     const text = read(file);
     assert.match(text, /github\.com\/opus-pro\/opus-video-studio\.git/);
     assert.match(text, /https:\/\/labs\.opus\.pro\/opus-video-tools\/mcp/);
@@ -52,8 +60,8 @@ test("installation guides use the public source and keep the same MCP resource",
   }
 });
 
-test("the Codex manifest declares managed MCP and media skills load shared rules", () => {
-  assert.equal(json(`${plugin}/.codex-plugin/plugin.json`).mcpServers, "./.mcp.json");
+test("both clients declare the same MCP config and every skill loads shared rules", () => {
+  for (const client of ["codex", "claude"]) assert.equal(json(`${plugin}/.${client}-plugin/plugin.json`).mcpServers, "./.mcp.json");
   for (const skill of ["motion-ui", "media-tools", "video-director"]) {
     assert.match(read(`${plugin}/skills/${skill}/SKILL.md`), /\(\.\.\/\.\.\/docs\/shared-rules\.md\)/);
   }
@@ -62,7 +70,17 @@ test("the Codex manifest declares managed MCP and media skills load shared rules
   assert.match(rules, /requestKey/);
   assert.match(rules, /reserved credits are an estimate/i);
   assert.doesNotMatch(rules, /You are.*Codex harness|up to `plugins\/opus-video-studio`/);
-  for (const file of [".agents/plugins/marketplace.json"]) {
+  for (const file of [".agents/plugins/marketplace.json", ".claude-plugin/marketplace.json"]) {
     assert.doesNotMatch(json(file).plugins[0].description, /Seedance/);
   }
+});
+
+test("Claude setup uses interactive authentication and defined installed-root lookup", () => {
+  const guide = read("docs/claude-code-install-protocol.md");
+  assert.match(guide, /claude plugin details opus-video-studio@opus-pro/);
+  assert.match(guide, /slash command/);
+  assert.match(guide, /installed_plugins\.json/);
+  assert.match(guide, /OPUS_PLUGIN_ROOT=/);
+  assert.doesNotMatch(guide, /claude mcp login plugin:|claude mcp get opus-video-tools|Verify the seedance2-director skill|Seed the|drag in your media/);
+  assert.match(guide, /No MCP servers configured/);
 });

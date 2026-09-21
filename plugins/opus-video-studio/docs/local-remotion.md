@@ -25,7 +25,7 @@ node "<harness-root>/scripts/setup-remotion.mjs"
 ```
 
 The helper installs or reuses the pinned runtime in the
-plugin's persistent data directory (`PLUGIN_DATA`, otherwise
+plugin's persistent data directory (`PLUGIN_DATA` or `CLAUDE_PLUGIN_DATA`, otherwise
 `~/.opus-video-tools`; `OPUS_VIDEO_TOOLS_DATA_DIR` overrides these locations). It keys the
 runtime by dependency contents, so plugin updates with unchanged dependencies reuse it.
 Runtime manifests live in `runtime/remotion/` to avoid a dependency installation in each

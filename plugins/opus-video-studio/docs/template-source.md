@@ -10,8 +10,8 @@ Resolve the installed plugin root from this skill, then run:
 node "<plugin-root>/scripts/download-template.mjs" "https://labs.opus.pro/product-videos/<id>" "<new workspace folder>"
 ```
 
-Use an available Node.js 22+ runtime. If `node` is not on PATH, resolve Codex's
-bundled workspace runtime through the host's dependency tool when available and
+Use an available Node.js 22+ runtime. If `node` is not on PATH, resolve a
+bundled runtime through the host's dependency tool when available (for example in Codex) and
 use its absolute executable path. The helper needs no npm packages. If no runtime
 is available, report that prerequisite without starting a Remotion installation.
 

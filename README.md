@@ -1,11 +1,15 @@
 # Opus Video Tools
 
-Create videos, images, voiceovers, and music with Opus tools in Codex.
+Create videos, images, voiceovers, and music with Opus tools in Codex and Claude Code.
 Use a local Remotion Studio project to preview and assemble your results.
 
 ## Install
 
 - [Codex installation guide](docs/codex-install-protocol.md)
+- [Claude Code installation guide](docs/claude-code-install-protocol.md)
+
+The Product Videos website currently offers Codex onboarding. The plugin keeps
+both client distributions and shares its source-template and media workflows.
 
 The repository is public; managed generation still requires an authorized Opus account,
 product access, and sufficient credits. Installing the plugin does not grant service access.
@@ -34,7 +38,7 @@ credentials or backend service implementation.
 |---|---|---|
 | Public repository | `opus-pro/opus-video-studio` | GitHub and installation guides |
 | Display name | `Opus Video Tools` | Codex plugin manifest |
-| Plugin installation ID | `opus-video-studio@opus-pro` | Codex marketplace manifest |
+| Plugin installation ID | `opus-video-studio@opus-pro` | Codex and Claude marketplace manifests |
 | MCP server ID | `opus-video-tools` | Plugin `.mcp.json` |
 
 The installation ID is stable so existing clients can upgrade. Repository names, plugin IDs,
