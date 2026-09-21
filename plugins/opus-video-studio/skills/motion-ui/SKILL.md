@@ -6,8 +6,8 @@ description: Create or refine code-driven UI animation, product demos, motion gr
 # Motion UI
 
 Before taking any action for this skill, read [Shared workflow rules](../../docs/shared-rules.md).
-This explicit read is required in both Codex and Claude Code, including after context recovery.
-Do not rely on automatic loading of plugin-root AGENTS.md or CLAUDE.md.
+Read it again after context recovery when doing media work.
+Do not rely on automatic loading of plugin-root AGENTS.md.
 Resolve this installed skill's plugin root by going up two directories from its containing
 skill directory, then validate `.mcp.json` and the plugin manifest. Environment variables
 are optional; use the installed skill path, never a guessed marketplace checkout.
@@ -23,18 +23,19 @@ Express the product through one clear visual subject, connected actions, and con
 - Do not add plugins, restructure the project, or generate paid assets merely because motion is requested.
 - For actual interactive UI, preserve necessary labels, information, usability, and reduced-motion behavior. Presentation composition rules do not justify removing essential product information.
 
-## Start with direction and optional templates
+## Start with the selected source or direction
 
-Extract the product, intended action, duration, aspect ratio, existing assets, and delivery format from context. Ask only for missing information that changes the work.
+When the user provides a Product Videos template link, follow
+[the source workflow](../../docs/template-source.md): download and verify its exact
+original project, read its source, then ask what to replace. Preserve the motion
+and source structure. A preview is for comparison, never a substitute for source.
+This applies to full templates and motion components alike.
 
-When no visual direction is provided, optionally show or open https://labs.opus.pro/product-videos and ask once:
-
-> Is there a template you like here? You can also share another reference, or let me choose a direction.
-
-- If the user has supplied a reference or asked you to proceed directly, continue. Selecting a template is not a prerequisite.
-- Inspect a selected template's actual preview. Adapt its visual focus, pacing, curves, transitions, and color relationships to the user's content; do not infer motion from a thumbnail alone.
-- If the page is unavailable, say so and use a supplied reference or propose a concrete direction. Do not invent template names, contents, or download capabilities.
-- A template is not a reason to add text or fill every part of the frame.
+When no template is selected, extract the product, intended action, duration,
+aspect ratio and available assets. Offer https://labs.opus.pro/product-videos
+when a template would help. Selecting a template is optional for an explicitly
+original design or another reference; ask only for missing information that changes
+that work. Never silently substitute an original design for a selected template.
 
 ## One visual center; avoid slide layouts
 

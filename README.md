@@ -1,21 +1,23 @@
 # Opus Video Tools
 
-Create videos, images, voiceovers, and music with Opus tools in Codex or Claude Code.
+Create videos, images, voiceovers, and music with Opus tools in Codex and Claude Code.
 Use a local Remotion Studio project to preview and assemble your results.
 
 ## Install
 
 - [Codex installation guide](docs/codex-install-protocol.md)
-- [Claude Code and Claude chat connector guide](docs/claude-code-install-protocol.md)
+- [Claude Code installation guide](docs/claude-code-install-protocol.md)
+
+The Product Videos website currently offers Codex onboarding. The plugin keeps
+both client distributions and shares its source-template and media workflows.
 
 The repository is public; managed generation still requires an authorized Opus account,
 product access, and sufficient credits. Installing the plugin does not grant service access.
 Local Remotion setup and preview do not spend Opus generation credits.
-Claude chat and Cowork use a remote custom connector, not this CLI plugin. That
-connection does not install the skills or local Studio; see the Claude guide for
-its separate verification steps and current acceptance status.
 
 ## Included
+
+- [Get started](plugins/opus-video-studio/skills/get-started/SKILL.md): choose a template or generated media. Paste a [template library](https://labs.opus.pro/product-videos) link to download its verified original source.
 
 - [Motion UI](plugins/opus-video-studio/skills/motion-ui/SKILL.md): editable UI animation and code-driven product videos, with real-UI fidelity, kinetic typography, deliberate easing, and optional Opus audio.
 - [Media Tools](plugins/opus-video-studio/skills/media-tools/SKILL.md): standalone audio, images/keyframes, transcription, asset import, and job status/recovery.
@@ -36,7 +38,7 @@ credentials or backend service implementation.
 |---|---|---|
 | Public repository | `opus-pro/opus-video-studio` | GitHub and installation guides |
 | Display name | `Opus Video Tools` | Codex plugin manifest |
-| Plugin installation ID | `opus-video-studio@opus-pro` | Both marketplace manifests |
+| Plugin installation ID | `opus-video-studio@opus-pro` | Codex and Claude marketplace manifests |
 | MCP server ID | `opus-video-tools` | Plugin `.mcp.json` |
 
 The installation ID is stable so existing clients can upgrade. Repository names, plugin IDs,

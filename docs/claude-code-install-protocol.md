@@ -24,7 +24,7 @@ on a remote machine does not install local tools on the user's computer.
 For a standalone setup conversation, paste:
 
 ```text
-Read this guide and follow the setup instructions for the application I’m currently using: https://labs.opus.pro/opus-video-tools/claude. Do not generate paid media during setup.
+Read this guide and follow the setup instructions for the application I’m currently using: https://raw.githubusercontent.com/opus-pro/opus-video-studio/main/docs/claude-code-install-protocol.md. Do not generate paid media during setup.
 ```
 
 ## Custom connector for Claude chat and Cowork
@@ -93,7 +93,7 @@ claude plugin details opus-video-studio@opus-pro
 ```
 
 Verify the plugin is enabled, its version matches the marketplace, and details
-lists the three skills `motion-ui`, `media-tools`, `video-director` and one MCP
+lists the four skills `get-started`, `motion-ui`, `media-tools`, `video-director` and one MCP
 server, `opus-video-tools`. If an older client lacks `plugin details`, inspect
 the installed plugin through the interactive `/plugin` slash command instead.
 
@@ -142,32 +142,24 @@ If this lookup fails, stop that step and inspect the enabled installation in
 Claude Code. Do not run helpers from a marketplace checkout as a fallback:
 that can install a second large runtime while the versioned cache is already ready.
 
-## 3. Verify local Remotion
+## 3. Defer local Remotion until editing needs it
 
 Read `docs/shared-rules.md` and `docs/local-remotion.md` inside the verified root.
 The shared rules are host-neutral and each skill loads them explicitly. Claude
 also receives a pointer through the plugin's SessionStart hook; plugin-root AGENTS.md
 or CLAUDE.md alone is not an automatic Claude context mechanism.
 
-```sh
-node "$OPUS_PLUGIN_ROOT/scripts/setup-remotion.mjs"
-```
+For a welcome or template download, do not install Remotion or dependencies.
+Use `get-started` to choose a workflow; a selected template uses
+`docs/template-source.md` to download its original source before asking what to
+replace. When editing or previewing needs dependencies, preserve the downloaded
+project's own framework and lockfile. Follow `docs/local-remotion.md` to initialize
+the bundled runtime only for a new project.
 
-Expect JSON with `status: "ready"`, the actual runtime directory and Remotion
-version. The helper prepares or reuses the pinned runtime. New releases share
-dependencies across plugin versions by their content fingerprint; older releases
-may already have dependencies in the installed cache. Do not remove client-managed
-caches manually. Report missing Node/npm or network access without silently
-installing system software or another plugin.
+## 4. Sign in when managed media tools are needed
 
-Setup does not create a project, start Studio, upload assets, or generate media.
-For subsequent video work, follow `docs/local-remotion.md` to reuse an existing
-project or initialize an empty directory. New projects include `.gitignore` so
-dependencies, renders and local secrets are not committed.
-
-## 4. Sign in inside a Claude Code session
-
-Open or restart an **interactive Claude Code conversation** in the existing local
+Local template download and editing need no MCP authentication. For managed media,
+open or restart an **interactive Claude Code conversation** in the existing local
 workspace. At Claude's prompt, type the **slash command** below and press Enter:
 
 ```text
@@ -201,16 +193,17 @@ After installing/updating, use a fresh Claude Code session in the same directory
 Paste this prompt into that conversation:
 
 ```text
-First confirm this is a local Claude Code terminal session. In Claude desktop chat, Cowork, or claude.ai, stop this plugin check; do not suggest /mcp. Guide me to add https://labs.opus.pro/opus-video-tools/mcp through Customize or Settings > Connectors (an organization owner may need to add it first), enable it here, discover its live tools and call opus_video_tools_whoami. A connector does not install local skills or Remotion. Missing tools or authentication are blocked checks, not success. Shell access alone does not identify the host. In local Claude Code, verify the installed opus-video-studio@opus-pro plugin. Load its motion-ui, media-tools and video-director skills and read docs/shared-rules.md from the actual installed root. Discover the public opus-video-tools catalog and call opus_video_tools_whoami. Verify local Remotion setup from the installed root without starting Studio. Report separate pass/fail/blocked results for package/version, skills, the ten tool schemas, authenticated identity and local runtime. Do not create projects, upload assets, generate media or transcribe audio during setup. Preserve the original user request and existing workspace. If authentication is pending, mark it blocked and explain how to type /mcp at the interactive Claude Code prompt and finish sign-in.
+First confirm this is a local Claude Code terminal session. In Claude desktop chat, Cowork, or claude.ai, stop this plugin check; do not suggest /mcp. Guide me to add https://labs.opus.pro/opus-video-tools/mcp through Customize or Settings > Connectors (an organization owner may need to add it first), enable it here, discover its live tools and call opus_video_tools_whoami. A connector does not install local skills or Remotion. Missing tools or authentication are blocked checks, not success. Shell access alone does not identify the host. In local Claude Code, verify the installed opus-video-studio@opus-pro plugin. Load its get-started, motion-ui, media-tools and video-director skills and read docs/shared-rules.md from the actual installed root. Discover the public opus-video-tools catalog and call opus_video_tools_whoami. Report separate pass/fail/blocked results for package/version, skills, the ten tool schemas, authenticated identity. Local Remotion is deferred until editing or previewing needs it. Do not create projects, upload assets, generate media or transcribe audio during setup. Preserve the original user request and existing workspace. If authentication is pending, mark it blocked and explain how to type /mcp at the interactive Claude Code prompt and finish sign-in.
 ```
 
 The public catalog contains exactly: `opus_video_tools_whoami`, `create_project`,
 `import_assets`, `generate_audio`, `transcribe_audio`, `generate_keyframes`,
 `generate_video_clips`, `get_status`, `list_jobs`, and `resolve_job`.
 
-Success requires observable evidence: enabled package/version, three available
-skills, ten discoverable schemas, a successful whoami with the intended identity,
-and local runtime `ready`. Report missing checks separately. A successful install,
+Success requires observable evidence: enabled package/version, four available
+skills, ten discoverable schemas, and a successful whoami with the intended identity
+when verifying managed media access. A welcome or template download does not need
+authentication or local runtime setup. Report missing checks separately. A successful install,
 configuration record, or connection badge does not substitute for whoami.
 
 After setup, the user can describe the media they want or supply a local file path

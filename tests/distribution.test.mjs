@@ -13,6 +13,7 @@ test("both clients publish one consistent plugin version and source", () => {
   const codex = json(".agents/plugins/marketplace.json");
   const claude = json(".claude-plugin/marketplace.json");
   assert.equal(codex.name, "opus-pro");
+  assert.equal(codex.plugins[0].policy.authentication, "ON_USE");
   assert.equal(claude.name, codex.name);
   for (const marketplace of [codex, claude]) {
     assert.equal(marketplace.plugins.length, 1);
@@ -30,7 +31,7 @@ test("both clients publish one consistent plugin version and source", () => {
 });
 
 test("the public distribution excludes inactive packs and internal contracts", () => {
-  assert.deepEqual(readdirSync(path.join(root, plugin, "skills")).sort(), ["media-tools", "motion-ui", "video-director"]);
+  assert.deepEqual(readdirSync(path.join(root, plugin, "skills")).sort(), ["get-started", "media-tools", "motion-ui", "video-director"]);
   assert.deepEqual(readdirSync(path.join(root, plugin, "skillpacks")), ["seedance2-director"]);
   for (const file of ["evals", "contracts", `${plugin}/docs/editor-timeline-mcp.md`, `${plugin}/scripts/check-tools.ts`]) {
     assert.equal(existsSync(path.join(root, file)), false, file);
