@@ -79,8 +79,9 @@ the original brief and source paths. Never create a task without user authorizat
 
 ## Local Remotion Studio
 
-- During plugin setup or first local Remotion invocation, follow `docs/local-remotion.md` to verify and
-  initialize the pinned runtime. Do not assume the host installed dependencies already.
+- When a requested preview, render or edit needs Remotion, follow `docs/local-remotion.md`.
+  Reuse a downloaded project's own dependencies; initialize the pinned runtime only for a new project.
+  Do not install a runtime during plugin setup, a greeting or the replacement-brief question.
 - For local Remotion projects or assembly of generated video clips, offer a working Remotion
   Studio preview without requiring a gallery template. Reuse an existing project; otherwise initialize an empty project directory.
   Honor requests for assets-only output or no preview, and do not launch a server during setup alone.
