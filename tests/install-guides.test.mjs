@@ -9,7 +9,7 @@ test('release check validates both clients on CDN and both product hosts in each
     const requests = [];
     const results = await checkInstallGuides(realm, { read, fetchImpl: async (url, options) => {
       requests.push(url);
-      assert.equal(options.redirect, 'error');
+      assert.equal(options.redirect, 'manual');
       assert.equal(options.headers.Accept, 'text/markdown');
       return new Response(await read());
     } });
@@ -21,7 +21,7 @@ test('release check validates both clients on CDN and both product hosts in each
   }
 });
 
-test('stale bytes, HTML/login responses, HTTP failures and network errors fail independently', async () => {
+test('stale bytes, HTML/login responses, HTTP failures, network errors and redirects fail independently', async () => {
   let request = 0;
   const results = await checkInstallGuides('prod', { read, fetchImpl: async () => {
     switch (request++) {
@@ -29,11 +29,13 @@ test('stale bytes, HTML/login responses, HTTP failures and network errors fail i
       case 1: return new Response('<html>Sign in</html>');
       case 2: return new Response('', { status: 503 });
       case 3: throw new Error('network unavailable');
+      case 4: return new Response('', { status: 302, headers: { Location: 'https://access.example/login' } });
       default: return new Response(await read());
     }
   } });
-  assert.deepEqual(results.map((result) => result.ok), [false, false, false, false, true, true]);
+  assert.deepEqual(results.map((result) => result.ok), [false, false, false, false, false, true]);
   assert.equal(results[2].error, 'HTTP 503');
   assert.equal(results[3].error, 'network unavailable');
+  assert.equal(results[4].error, 'HTTP 302');
   await assert.rejects(checkInstallGuides('unknown'), /Use --realm/);
 });

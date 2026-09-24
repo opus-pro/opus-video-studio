@@ -25,7 +25,7 @@ export async function checkInstallGuides(realm, { fetchImpl = fetch, read = read
     for (const url of urls) {
       try {
         const response = await fetchImpl(url, {
-          headers: { Accept: 'text/markdown' }, redirect: 'error',
+          headers: { Accept: 'text/markdown' }, redirect: 'manual',
           signal: AbortSignal.timeout(15000),
         });
         if (!response.ok) throw new Error(`HTTP ${response.status}`);

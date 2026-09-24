@@ -22,6 +22,14 @@ the CDN and both products' public Markdown reader routes for both clients. It
 fails on stale content, login HTML, redirects, network errors and non-200 responses.
 It performs no authenticated or billable action.
 
+Staging product hosts may be behind the staff Cloudflare Access gate. An
+anonymous `HTTP 302` is a blocked reader check, not a content mismatch or a pass.
+In that case verify both reader pages in an authorized staff browser as a
+separate recorded check; the CDN hashes can still be checked anonymously. Do not
+disable the gate or extract browser credentials to make this script pass.
+Production guide URLs must remain anonymously readable because an agent
+receiving a copied setup prompt cannot inherit the website visitor's cookies.
+
 Record source commit, previous/new object generations, content hashes and the
 check result in the release/PR evidence. Roll back by restoring the saved bytes
 using the failed publication's generation as the precondition, then verify the
