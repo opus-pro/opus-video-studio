@@ -7,6 +7,7 @@ Use a local Remotion Studio project to preview and assemble your results.
 
 - [Codex installation guide](docs/codex-install-protocol.md)
 - [Claude Code installation guide](docs/claude-code-install-protocol.md)
+- [Publishing and verifying the shared website guides](docs/guide-publication.md)
 
 The Product Videos website currently offers Codex onboarding. The plugin keeps
 both client distributions and shares its source-template and media workflows.
