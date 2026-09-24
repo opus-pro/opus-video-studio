@@ -28,6 +28,7 @@ that executable.
 Inspect the supported commands and current entry:
 
 ```sh
+"<CODEX>" plugin --help
 "<CODEX>" plugin list --json
 "<CODEX>" plugin marketplace list
 ```
@@ -36,12 +37,18 @@ If the public marketplace is absent:
 
 ```sh
 "<CODEX>" plugin marketplace add https://github.com/opus-pro/opus-video-studio.git --ref main
-"<CODEX>" plugin add opus-video-studio@opus-pro --json
 ```
 
 If already registered to this public Git repository, refresh its snapshot with
-`"<CODEX>" plugin marketplace upgrade opus-pro`. Reuse a current, complete
-installation. If an older or incomplete package needs replacement, verify the
+`"<CODEX>" plugin marketplace upgrade opus-pro`. If the plugin is absent,
+install it after adding or refreshing the marketplace:
+
+```sh
+"<CODEX>" plugin add opus-video-studio@opus-pro --json
+```
+
+Reuse a current, complete, enabled installation. If an older or incomplete
+package needs replacement, verify the
 refresh succeeded before running these sequentially:
 
 ```sh
@@ -55,13 +62,19 @@ marketplace checkout, not the installed package. If the configured marketplace
 points elsewhere, explain the mismatch before replacing it. Never delete shared
 configuration, unrelated plugins or OAuth credentials to repair this package.
 If any command fails, report the actual error; do not claim installation succeeded.
+If this desktop version does not support the listed commands, use its native
+plugin installer or report the client update needed; do not substitute a random
+CLI executable. A disabled installation must be enabled through the host's
+supported plugin controls before claiming its skills are available.
 
 A CLI installation does not prove that this conversation loaded the new skills
 or MCP tools. If Codex exposes a native reload/Continue action, use it. Otherwise
-finish with a short instruction to click Start creating on the plugin page (or
-Use this template on the selected template page). That button opens a prepared
-request with the plugin mention. Preserve the user's brief and template link in
-any handoff. Do not create another task automatically, repeat setup to force
+report activation as pending and ask the user to enable the installed plugin in
+the app's plugin controls, then continue here. Do not invent a website button or
+promise that a follow-up message reloads tools. If this client explicitly requires
+a restart or another session, explain that limitation and preserve the user's
+brief and template link; let the user initiate it. Do not create another task
+automatically, repeat setup to force
 missing tools to appear, or report MCP verification as complete.
 Never require a new session when the skills are already available here.
 
@@ -69,7 +82,7 @@ Never require a new session when the skills are already available here.
 
 Briefly ask, in the user's language, whether they want to:
 
-1. Edit a motion video from the [template library](https://labs.opus.pro/product-videos).
+1. Edit a motion video from the [template library](https://product-videos.labs.opus.pro/).
    They can paste a template link and describe what to change.
 2. Generate video, voiceover, music, images or sound effects.
 
@@ -88,6 +101,27 @@ to replace. Preserve the downloaded project's code and lockfile.
   schemas and call `opus_video_tools_whoami` before claiming a connection works.
   Authenticate through the native connect flow if needed. The managed endpoint is
   https://labs.opus.pro/opus-video-tools/mcp and needs no personal API key.
+
+For an explicit connection check, discover the public `opus-video-tools` tools,
+including deferred tools, and actually call `opus_video_tools_whoami`. If the
+host supports CLI OAuth, use `"<CODEX>" mcp login opus-video-tools` and wait for
+the browser callback. A successful OAuth callback still requires a real whoami
+in the conversation to prove tool access. Do not read credential stores or
+print tokens. Website sign-in alone does not authenticate the MCP session.
+
+Report installation/version, the four skills, live tool discovery and whoami
+separately as passed, failed, pending or not requested. The ten public tools are
+`opus_video_tools_whoami`, `create_project`, `import_assets`, `generate_audio`,
+`transcribe_audio`, `generate_keyframes`, `generate_video_clips`, `get_status`,
+`list_jobs` and `resolve_job`. Namespaces may be added by the host. Tools from
+another plugin do not prove that this server loaded. A missing tool is not a
+reason to generate media or silently install a duplicate MCP server.
+
+An installation that still names the old `aao` server is stale: refresh the
+public marketplace and replace only this plugin using the steps above. Inspect
+the installed `.mcp.json` again before troubleshooting OAuth. Both production
+and staging guide pages install the same public production plugin; do not change
+its URL to a staging endpoint, the product root `/mcp`, or `/mcp-v2`.
 
 For a failed MCP login, inspect the actual error. A rejected refresh token
 (`invalid_grant`) permits one targeted sequential `mcp logout opus-video-tools`

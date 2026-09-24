@@ -75,12 +75,26 @@ test("both clients declare the same MCP config and every skill loads shared rule
   }
 });
 
-test("Claude setup uses interactive authentication and defined installed-root lookup", () => {
+test("Claude setup supports Desktop Code and upgrades stale installations before authentication", () => {
   const guide = read("docs/claude-code-install-protocol.md");
-  assert.match(guide, /claude plugin details opus-video-studio@opus-pro/);
+  assert.match(guide, /Claude Desktop, Code mode, local session/);
+  assert.match(guide, /claude plugin marketplace update opus-pro/);
+  assert.match(guide, /claude plugin update opus-video-studio@opus-pro/);
+  assert.match(guide, /claude plugin list --json/);
+  assert.match(guide, /installPath/);
   assert.match(guide, /slash command/);
-  assert.match(guide, /installed_plugins\.json/);
-  assert.match(guide, /OPUS_PLUGIN_ROOT=/);
-  assert.doesNotMatch(guide, /claude mcp login plugin:|claude mcp get opus-video-tools|Verify the seedance2-director skill|Seed the|drag in your media/);
-  assert.match(guide, /No MCP servers configured/);
+  assert.doesNotMatch(guide, /\nclaude plugin details|claude mcp login plugin:|claude mcp get opus-video-tools/);
+  assert.match(guide, /No MCP servers\s+configured/);
+});
+
+test("setup does not require an unshipped button or automatic session handoff", () => {
+  for (const file of ["docs/codex-install-protocol.md", "docs/claude-code-install-protocol.md"]) {
+    const text = read(file);
+    for (const skill of ["get-started", "motion-ui", "media-tools", "video-director"]) {
+      assert.ok(text.includes(skill), `${file}: ${skill}`);
+    }
+    assert.match(text, /opus_video_tools_whoami/);
+    assert.match(text, /pending/);
+    assert.doesNotMatch(text, /click Start creating|After installing\/updating, use a fresh|start a new Codex task/);
+  }
 });
