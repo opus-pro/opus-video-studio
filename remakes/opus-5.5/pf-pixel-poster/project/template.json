@@ -1,0 +1,9 @@
+{
+  "id": "pf-pixel-poster",
+  "title": "Dithered Event Poster",
+  "compositionId": "pf-pixel-poster",
+  "width": 1350,
+  "height": 1350,
+  "fps": 60,
+  "frames": 288
+}

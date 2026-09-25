@@ -1,0 +1,9 @@
+{
+  "id": "pf-carousel-horizontal",
+  "title": "Horizontal Portfolio Relay",
+  "compositionId": "pf-carousel-horizontal",
+  "width": 1200,
+  "height": 1200,
+  "fps": 60,
+  "frames": 288
+}

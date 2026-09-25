@@ -1,0 +1,2 @@
+# Every file under a remake's public/ is restored media ("storage": "download"); keep it out of Git.
+*/project/public/

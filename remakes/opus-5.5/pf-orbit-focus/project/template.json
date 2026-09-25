@@ -1,0 +1,9 @@
+{
+  "id": "pf-orbit-focus",
+  "title": "3D Orbit to Hero",
+  "compositionId": "pf-orbit-focus",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "frames": 360
+}

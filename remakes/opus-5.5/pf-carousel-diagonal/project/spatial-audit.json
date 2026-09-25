@@ -1,0 +1,1078 @@
+{
+  "composition": {
+    "id": "pf-carousel-diagonal",
+    "width": 1200,
+    "height": 1200,
+    "fps": 60,
+    "durationInFrames": 288
+  },
+  "camera": {
+    "type": "PerspectiveCamera",
+    "position": [
+      0,
+      0,
+      10
+    ],
+    "fov": 40,
+    "aspect": 1,
+    "near": 0.1,
+    "far": 100,
+    "quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "cards": {
+    "count": 4,
+    "geometry": {
+      "type": "PlaneGeometry",
+      "width": 2.7,
+      "height": 3.5,
+      "sharedByAllMeshes": true
+    },
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "orientation": "camera-facing billboard (mesh.quaternion copies camera.quaternion every sample)",
+    "material": "MeshBasicMaterial, opaque, depthTest: true, depthWrite: true (occlusion by depth buffer only; no renderOrder)"
+  },
+  "loop": {
+    "x": "2.9 * sin(theta) / sqrt(2)",
+    "y": "2.9 * sin(theta) / sqrt(2)",
+    "z": "-1 + 2.6 * cos(theta)",
+    "theta": "i * PI / 2 - phase"
+  },
+  "phaseTiming": {
+    "easing": "cubic-bezier(.22,.85,.2,1)",
+    "stepRadians": 1.570796,
+    "segmentsSeconds": [
+      [
+        0.9,
+        1.54
+      ],
+      [
+        2.05,
+        2.69
+      ],
+      [
+        3.2,
+        3.84
+      ]
+    ],
+    "finalPhase": 4.712389,
+    "finalFrontCard": 3
+  },
+  "motionBlur": {
+    "shutterWindowSeconds": 0.013333,
+    "weighting": "Hann (cos^2), centred on frame time; spread equivalent to a 180deg box shutter",
+    "method": "multi-sample accumulation of full scene renders (up to 72 samples per frame)"
+  },
+  "snapshots": [
+    {
+      "seconds": 0,
+      "frame": 0,
+      "phase": 0,
+      "relayProgress": 0,
+      "frontCard": 0,
+      "depthOrderNearToFar": [
+        0,
+        1,
+        3,
+        2
+      ],
+      "cards": [
+        {
+          "index": 0,
+          "poster": "coast.jpg",
+          "title": "Still Water",
+          "theta": 0,
+          "worldPosition": [
+            0,
+            0,
+            1.6
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "geometry": {
+            "type": "PlaneGeometry",
+            "width": 2.7,
+            "height": 3.5
+          },
+          "cameraDepth": {
+            "viewSpaceZ": -8.4,
+            "distanceAlongViewAxis": 8.4,
+            "euclideanDistance": 8.4,
+            "ndcZ": 0.978169
+          },
+          "projectedBoundsPx": {
+            "left": 335.06,
+            "top": 256.57,
+            "right": 864.94,
+            "bottom": 943.43,
+            "width": 529.87,
+            "height": 686.87,
+            "centerPx": [
+              600,
+              600
+            ],
+            "insideFrame": true
+          }
+        },
+        {
+          "index": 1,
+          "poster": "desert.jpg",
+          "title": "Red Earth",
+          "theta": 1.5708,
+          "worldPosition": [
+            2.0506,
+            2.0506,
+            -1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "geometry": {
+            "type": "PlaneGeometry",
+            "width": 2.7,
+            "height": 3.5
+          },
+          "cameraDepth": {
+            "viewSpaceZ": -11,
+            "distanceAlongViewAxis": 11,
+            "euclideanDistance": 11.3759,
+            "ndcZ": 0.983802
+          },
+          "projectedBoundsPx": {
+            "left": 705,
+            "top": 30.43,
+            "right": 1109.62,
+            "bottom": 554.95,
+            "width": 404.63,
+            "height": 524.52,
+            "centerPx": [
+              907.31,
+              292.69
+            ],
+            "insideFrame": true
+          }
+        },
+        {
+          "index": 2,
+          "poster": "forest.jpg",
+          "title": "Understory",
+          "theta": 3.14159,
+          "worldPosition": [
+            0,
+            0,
+            -3.6
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "geometry": {
+            "type": "PlaneGeometry",
+            "width": 2.7,
+            "height": 3.5
+          },
+          "cameraDepth": {
+            "viewSpaceZ": -13.6,
+            "distanceAlongViewAxis": 13.6,
+            "euclideanDistance": 13.6,
+            "ndcZ": 0.987281
+          },
+          "projectedBoundsPx": {
+            "left": 436.36,
+            "top": 387.88,
+            "right": 763.64,
+            "bottom": 812.12,
+            "width": 327.27,
+            "height": 424.24,
+            "centerPx": [
+              600,
+              600
+            ],
+            "insideFrame": true
+          }
+        },
+        {
+          "index": 3,
+          "poster": "mountains.jpg",
+          "title": "High Country",
+          "theta": 4.71239,
+          "worldPosition": [
+            -2.0506,
+            -2.0506,
+            -1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "geometry": {
+            "type": "PlaneGeometry",
+            "width": 2.7,
+            "height": 3.5
+          },
+          "cameraDepth": {
+            "viewSpaceZ": -11,
+            "distanceAlongViewAxis": 11,
+            "euclideanDistance": 11.3759,
+            "ndcZ": 0.983802
+          },
+          "projectedBoundsPx": {
+            "left": 90.38,
+            "top": 645.05,
+            "right": 495,
+            "bottom": 1169.57,
+            "width": 404.63,
+            "height": 524.52,
+            "centerPx": [
+              292.69,
+              907.31
+            ],
+            "insideFrame": true
+          }
+        }
+      ]
+    },
+    {
+      "seconds": 1,
+      "frame": 60,
+      "phase": 0.903213,
+      "relayProgress": 0.575003,
+      "frontCard": 1,
+      "depthOrderNearToFar": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "cards": [
+        {
+          "index": 0,
+          "poster": "coast.jpg",
+          "title": "Still Water",
+          "theta": -0.90321,
+          "worldPosition": [
+            -1.6104,
+            -1.6104,
+            0.6096
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "geometry": {
+            "type": "PlaneGeometry",
+            "width": 2.7,
+            "height": 3.5
+          },
+          "cameraDepth": {
+            "viewSpaceZ": -9.3904,
+            "distanceAlongViewAxis": 9.3904,
+            "euclideanDistance": 9.6626,
+            "ndcZ": 0.980682
+          },
+          "projectedBoundsPx": {
+            "left": 80.3,
+            "top": 575.49,
+            "right": 554.29,
+            "bottom": 1189.92,
+            "width": 473.99,
+            "height": 614.43,
+            "centerPx": [
+              317.3,
+              882.7
+            ],
+            "insideFrame": true
+          }
+        },
+        {
+          "index": 1,
+          "poster": "desert.jpg",
+          "title": "Red Earth",
+          "theta": 0.66758,
+          "worldPosition": [
+            1.2695,
+            1.2695,
+            1.0418
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "geometry": {
+            "type": "PlaneGeometry",
+            "width": 2.7,
+            "height": 3.5
+          },
+          "cameraDepth": {
+            "viewSpaceZ": -8.9582,
+            "distanceAlongViewAxis": 8.9582,
+            "euclideanDistance": 9.1363,
+            "ndcZ": 0.979654
+          },
+          "projectedBoundsPx": {
+            "left": 585.19,
+            "top": 44.35,
+            "right": 1082.04,
+            "bottom": 688.42,
+            "width": 496.86,
+            "height": 644.07,
+            "centerPx": [
+              833.62,
+              366.38
+            ],
+            "insideFrame": true
+          }
+        },
+        {
+          "index": 2,
+          "poster": "forest.jpg",
+          "title": "Understory",
+          "theta": 2.23838,
+          "worldPosition": [
+            1.6104,
+            1.6104,
+            -2.6096
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "geometry": {
+            "type": "PlaneGeometry",
+            "width": 2.7,
+            "height": 3.5
+          },
+          "cameraDepth": {
+            "viewSpaceZ": -12.6096,
+            "distanceAlongViewAxis": 12.6096,
+            "euclideanDistance": 12.8136,
+            "ndcZ": 0.986125
+          },
+          "projectedBoundsPx": {
+            "left": 634.04,
+            "top": 160.69,
+            "right": 987.02,
+            "bottom": 618.25,
+            "width": 352.98,
+            "height": 457.56,
+            "centerPx": [
+              810.53,
+              389.47
+            ],
+            "insideFrame": true
+          }
+        },
+        {
+          "index": 3,
+          "poster": "mountains.jpg",
+          "title": "High Country",
+          "theta": 3.80918,
+          "worldPosition": [
+            -1.2695,
+            -1.2695,
+            -3.0418
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "geometry": {
+            "type": "PlaneGeometry",
+            "width": 2.7,
+            "height": 3.5
+          },
+          "cameraDepth": {
+            "viewSpaceZ": -13.0418,
+            "distanceAlongViewAxis": 13.0418,
+            "euclideanDistance": 13.1648,
+            "ndcZ": 0.986651
+          },
+          "projectedBoundsPx": {
+            "left": 268.89,
+            "top": 539.27,
+            "right": 610.17,
+            "bottom": 981.67,
+            "width": 341.28,
+            "height": 442.4,
+            "centerPx": [
+              439.53,
+              760.47
+            ],
+            "insideFrame": true
+          }
+        }
+      ]
+    },
+    {
+      "seconds": 2,
+      "frame": 120,
+      "phase": 1.570796,
+      "relayProgress": 1,
+      "frontCard": 1,
+      "depthOrderNearToFar": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "cards": [
+        {
+          "index": 0,
+          "poster": "coast.jpg",
+          "title": "Still Water",
+          "theta": -1.5708,
+          "worldPosition": [
+            -2.0506,
+            -2.0506,
+            -1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "geometry": {
+            "type": "PlaneGeometry",
+            "width": 2.7,
+            "height": 3.5
+          },
+          "cameraDepth": {
+            "viewSpaceZ": -11,
+            "distanceAlongViewAxis": 11,
+            "euclideanDistance": 11.3759,
+            "ndcZ": 0.983802
+          },
+          "projectedBoundsPx": {
+            "left": 90.38,
+            "top": 645.05,
+            "right": 495,
+            "bottom": 1169.57,
+            "width": 404.63,
+            "height": 524.52,
+            "centerPx": [
+              292.69,
+              907.31
+            ],
+            "insideFrame": true
+          }
+        },
+        {
+          "index": 1,
+          "poster": "desert.jpg",
+          "title": "Red Earth",
+          "theta": 0,
+          "worldPosition": [
+            0,
+            0,
+            1.6
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "geometry": {
+            "type": "PlaneGeometry",
+            "width": 2.7,
+            "height": 3.5
+          },
+          "cameraDepth": {
+            "viewSpaceZ": -8.4,
+            "distanceAlongViewAxis": 8.4,
+            "euclideanDistance": 8.4,
+            "ndcZ": 0.978169
+          },
+          "projectedBoundsPx": {
+            "left": 335.06,
+            "top": 256.57,
+            "right": 864.94,
+            "bottom": 943.43,
+            "width": 529.87,
+            "height": 686.87,
+            "centerPx": [
+              600,
+              600
+            ],
+            "insideFrame": true
+          }
+        },
+        {
+          "index": 2,
+          "poster": "forest.jpg",
+          "title": "Understory",
+          "theta": 1.5708,
+          "worldPosition": [
+            2.0506,
+            2.0506,
+            -1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "geometry": {
+            "type": "PlaneGeometry",
+            "width": 2.7,
+            "height": 3.5
+          },
+          "cameraDepth": {
+            "viewSpaceZ": -11,
+            "distanceAlongViewAxis": 11,
+            "euclideanDistance": 11.3759,
+            "ndcZ": 0.983802
+          },
+          "projectedBoundsPx": {
+            "left": 705,
+            "top": 30.43,
+            "right": 1109.62,
+            "bottom": 554.95,
+            "width": 404.63,
+            "height": 524.52,
+            "centerPx": [
+              907.31,
+              292.69
+            ],
+            "insideFrame": true
+          }
+        },
+        {
+          "index": 3,
+          "poster": "mountains.jpg",
+          "title": "High Country",
+          "theta": 3.14159,
+          "worldPosition": [
+            0,
+            0,
+            -3.6
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "geometry": {
+            "type": "PlaneGeometry",
+            "width": 2.7,
+            "height": 3.5
+          },
+          "cameraDepth": {
+            "viewSpaceZ": -13.6,
+            "distanceAlongViewAxis": 13.6,
+            "euclideanDistance": 13.6,
+            "ndcZ": 0.987281
+          },
+          "projectedBoundsPx": {
+            "left": 436.36,
+            "top": 387.88,
+            "right": 763.64,
+            "bottom": 812.12,
+            "width": 327.27,
+            "height": 424.24,
+            "centerPx": [
+              600,
+              600
+            ],
+            "insideFrame": true
+          }
+        }
+      ]
+    },
+    {
+      "seconds": 3,
+      "frame": 180,
+      "phase": 3.141593,
+      "relayProgress": 2,
+      "frontCard": 2,
+      "depthOrderNearToFar": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "cards": [
+        {
+          "index": 0,
+          "poster": "coast.jpg",
+          "title": "Still Water",
+          "theta": -3.14159,
+          "worldPosition": [
+            0,
+            0,
+            -3.6
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "geometry": {
+            "type": "PlaneGeometry",
+            "width": 2.7,
+            "height": 3.5
+          },
+          "cameraDepth": {
+            "viewSpaceZ": -13.6,
+            "distanceAlongViewAxis": 13.6,
+            "euclideanDistance": 13.6,
+            "ndcZ": 0.987281
+          },
+          "projectedBoundsPx": {
+            "left": 436.36,
+            "top": 387.88,
+            "right": 763.64,
+            "bottom": 812.12,
+            "width": 327.27,
+            "height": 424.24,
+            "centerPx": [
+              600,
+              600
+            ],
+            "insideFrame": true
+          }
+        },
+        {
+          "index": 1,
+          "poster": "desert.jpg",
+          "title": "Red Earth",
+          "theta": -1.5708,
+          "worldPosition": [
+            -2.0506,
+            -2.0506,
+            -1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "geometry": {
+            "type": "PlaneGeometry",
+            "width": 2.7,
+            "height": 3.5
+          },
+          "cameraDepth": {
+            "viewSpaceZ": -11,
+            "distanceAlongViewAxis": 11,
+            "euclideanDistance": 11.3759,
+            "ndcZ": 0.983802
+          },
+          "projectedBoundsPx": {
+            "left": 90.38,
+            "top": 645.05,
+            "right": 495,
+            "bottom": 1169.57,
+            "width": 404.63,
+            "height": 524.52,
+            "centerPx": [
+              292.69,
+              907.31
+            ],
+            "insideFrame": true
+          }
+        },
+        {
+          "index": 2,
+          "poster": "forest.jpg",
+          "title": "Understory",
+          "theta": 0,
+          "worldPosition": [
+            0,
+            0,
+            1.6
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "geometry": {
+            "type": "PlaneGeometry",
+            "width": 2.7,
+            "height": 3.5
+          },
+          "cameraDepth": {
+            "viewSpaceZ": -8.4,
+            "distanceAlongViewAxis": 8.4,
+            "euclideanDistance": 8.4,
+            "ndcZ": 0.978169
+          },
+          "projectedBoundsPx": {
+            "left": 335.06,
+            "top": 256.57,
+            "right": 864.94,
+            "bottom": 943.43,
+            "width": 529.87,
+            "height": 686.87,
+            "centerPx": [
+              600,
+              600
+            ],
+            "insideFrame": true
+          }
+        },
+        {
+          "index": 3,
+          "poster": "mountains.jpg",
+          "title": "High Country",
+          "theta": 1.5708,
+          "worldPosition": [
+            2.0506,
+            2.0506,
+            -1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "geometry": {
+            "type": "PlaneGeometry",
+            "width": 2.7,
+            "height": 3.5
+          },
+          "cameraDepth": {
+            "viewSpaceZ": -11,
+            "distanceAlongViewAxis": 11,
+            "euclideanDistance": 11.3759,
+            "ndcZ": 0.983802
+          },
+          "projectedBoundsPx": {
+            "left": 705,
+            "top": 30.43,
+            "right": 1109.62,
+            "bottom": 554.95,
+            "width": 404.63,
+            "height": 524.52,
+            "centerPx": [
+              907.31,
+              292.69
+            ],
+            "insideFrame": true
+          }
+        }
+      ]
+    },
+    {
+      "seconds": 4,
+      "frame": 240,
+      "phase": 4.712389,
+      "relayProgress": 3,
+      "frontCard": 3,
+      "depthOrderNearToFar": [
+        3,
+        0,
+        2,
+        1
+      ],
+      "cards": [
+        {
+          "index": 0,
+          "poster": "coast.jpg",
+          "title": "Still Water",
+          "theta": -4.71239,
+          "worldPosition": [
+            2.0506,
+            2.0506,
+            -1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "geometry": {
+            "type": "PlaneGeometry",
+            "width": 2.7,
+            "height": 3.5
+          },
+          "cameraDepth": {
+            "viewSpaceZ": -11,
+            "distanceAlongViewAxis": 11,
+            "euclideanDistance": 11.3759,
+            "ndcZ": 0.983802
+          },
+          "projectedBoundsPx": {
+            "left": 705,
+            "top": 30.43,
+            "right": 1109.62,
+            "bottom": 554.95,
+            "width": 404.63,
+            "height": 524.52,
+            "centerPx": [
+              907.31,
+              292.69
+            ],
+            "insideFrame": true
+          }
+        },
+        {
+          "index": 1,
+          "poster": "desert.jpg",
+          "title": "Red Earth",
+          "theta": -3.14159,
+          "worldPosition": [
+            0,
+            0,
+            -3.6
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "geometry": {
+            "type": "PlaneGeometry",
+            "width": 2.7,
+            "height": 3.5
+          },
+          "cameraDepth": {
+            "viewSpaceZ": -13.6,
+            "distanceAlongViewAxis": 13.6,
+            "euclideanDistance": 13.6,
+            "ndcZ": 0.987281
+          },
+          "projectedBoundsPx": {
+            "left": 436.36,
+            "top": 387.88,
+            "right": 763.64,
+            "bottom": 812.12,
+            "width": 327.27,
+            "height": 424.24,
+            "centerPx": [
+              600,
+              600
+            ],
+            "insideFrame": true
+          }
+        },
+        {
+          "index": 2,
+          "poster": "forest.jpg",
+          "title": "Understory",
+          "theta": -1.5708,
+          "worldPosition": [
+            -2.0506,
+            -2.0506,
+            -1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "geometry": {
+            "type": "PlaneGeometry",
+            "width": 2.7,
+            "height": 3.5
+          },
+          "cameraDepth": {
+            "viewSpaceZ": -11,
+            "distanceAlongViewAxis": 11,
+            "euclideanDistance": 11.3759,
+            "ndcZ": 0.983802
+          },
+          "projectedBoundsPx": {
+            "left": 90.38,
+            "top": 645.05,
+            "right": 495,
+            "bottom": 1169.57,
+            "width": 404.63,
+            "height": 524.52,
+            "centerPx": [
+              292.69,
+              907.31
+            ],
+            "insideFrame": true
+          }
+        },
+        {
+          "index": 3,
+          "poster": "mountains.jpg",
+          "title": "High Country",
+          "theta": 0,
+          "worldPosition": [
+            0,
+            0,
+            1.6
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "geometry": {
+            "type": "PlaneGeometry",
+            "width": 2.7,
+            "height": 3.5
+          },
+          "cameraDepth": {
+            "viewSpaceZ": -8.4,
+            "distanceAlongViewAxis": 8.4,
+            "euclideanDistance": 8.4,
+            "ndcZ": 0.978169
+          },
+          "projectedBoundsPx": {
+            "left": 335.06,
+            "top": 256.57,
+            "right": 864.94,
+            "bottom": 943.43,
+            "width": 529.87,
+            "height": 686.87,
+            "centerPx": [
+              600,
+              600
+            ],
+            "insideFrame": true
+          }
+        }
+      ]
+    }
+  ],
+  "timelineExtremesPx": {
+    "minLeft": 65.41,
+    "minTop": -0.74,
+    "maxRight": 1134.58,
+    "maxBottom": 1200.79,
+    "note": "Fixed by the spec (camera, fov, loop, plane size): mid hand-off, near theta = +/-65deg, a card edge reaches up to ~0.8px past the top/bottom frame edge while moving at speed. All rest poses sit >= 31px inside the frame."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "pf-cart-checkout",
+  "title": "Add-to-Cart Transformation",
+  "compositionId": "pf-cart-checkout",
+  "width": 1600,
+  "height": 1200,
+  "fps": 60,
+  "frames": 324
+}

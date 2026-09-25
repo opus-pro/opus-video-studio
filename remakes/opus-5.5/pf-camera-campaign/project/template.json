@@ -1,0 +1,9 @@
+{
+  "id": "pf-camera-campaign",
+  "title": "Camera to Fashion Campaign",
+  "compositionId": "pf-camera-campaign",
+  "width": 1080,
+  "height": 1920,
+  "fps": 60,
+  "frames": 252
+}

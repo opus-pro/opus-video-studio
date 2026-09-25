@@ -1,0 +1,9 @@
+{
+  "id": "template-analytics-glow",
+  "title": "Growing Analytics Capsules",
+  "compositionId": "template-analytics-glow",
+  "width": 960,
+  "height": 540,
+  "fps": 60,
+  "frames": 180
+}

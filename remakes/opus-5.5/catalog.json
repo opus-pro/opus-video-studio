@@ -1,0 +1,4813 @@
+{
+  "schemaVersion": 1,
+  "model": "claude-opus-5-5",
+  "baseline": "templates/catalog.json",
+  "items": [
+    {
+      "id": "pf-mark-lockup",
+      "title": "Icon-to-Wordmark Reveal",
+      "template": "templates/pf-mark-lockup",
+      "spec": "precise",
+      "model": "claude-opus-5-5",
+      "harness": "Claude Code",
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "frames": 216,
+      "minutes": 13,
+      "reviewRounds": 5,
+      "sourcePath": "pf-mark-lockup/project",
+      "readingOrder": [
+        "TASK.md",
+        "BUILD-LOG.md",
+        "src/index.tsx",
+        "scripts/render.mjs"
+      ],
+      "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-mark-lockup/remake.mp4",
+      "compareUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-mark-lockup/compare.mp4",
+      "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-mark-lockup/compare.jpg",
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-mark-lockup-v1.0.0/motion-component-pf-mark-lockup-v1.1.0.zip",
+      "archiveSha256": "f73099f209e8a7904c8a8f6c6e938ccf93c077f872d83145c123ddd7b8747829",
+      "archiveBytes": 1115782,
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "9ae8e02462ff393bb40e787f0a65e79d241ed4f74b32cc57c64acb4ac18fa3fc",
+          "bytes": 19,
+          "storage": "git"
+        },
+        {
+          "path": "BUILD-LOG.md",
+          "sha256": "423292a915190b5bdd49e8938d0cf8ccb89b9f1ed720e8b5daa8a82c673e5261",
+          "bytes": 4634,
+          "storage": "git"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "d8b38a7ecf84554e528409bc3f77844384b402c3aa5ebe14175089ed39cbe47e",
+          "bytes": 1982,
+          "storage": "git"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "11570019e10b876d1f12a266de083c087f614bb68af5f044316acf354020f8bd",
+          "bytes": 106595,
+          "storage": "git"
+        },
+        {
+          "path": "package.json",
+          "sha256": "d427c0be8eea2ed5b693ba985fa93b902b667db5ffdee8124ed6e3bf3e346aba",
+          "bytes": 658,
+          "storage": "git"
+        },
+        {
+          "path": "public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-mark-lockup-v1.1.0/public/assets/GeistVF.woff2",
+          "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
+          "bytes": 56800,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-mark-lockup-v1.1.0/public/assets/coast.jpg",
+          "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
+          "bytes": 251741,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-mark-lockup-v1.1.0/public/assets/desert.jpg",
+          "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
+          "bytes": 205527,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-mark-lockup-v1.1.0/public/assets/forest.jpg",
+          "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
+          "bytes": 229748,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-mark-lockup-v1.1.0/public/assets/mountains.jpg",
+          "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
+          "bytes": 269763,
+          "storage": "download"
+        },
+        {
+          "path": "scripts/render.mjs",
+          "sha256": "5dcdb485c2ed2268870e25090fdf22239f46ef5fad691d7bcc9b04941b50eecc",
+          "bytes": 2807,
+          "storage": "git"
+        },
+        {
+          "path": "src/MarkLockup.tsx",
+          "sha256": "03e31bde888bfc1ee59b465ce447f0b57755be64856f48ce639620a6c0d683ca",
+          "bytes": 1853,
+          "storage": "git"
+        },
+        {
+          "path": "src/Tile.tsx",
+          "sha256": "3198413835465fd1a82539fd4d0b7fe81fc1517e57954dc5213d5ebcbd19a68b",
+          "bytes": 6750,
+          "storage": "git"
+        },
+        {
+          "path": "src/Wordmark.tsx",
+          "sha256": "4c317347a97f552b97993ac7b93f90f8e0b5bb0826d90adfcb9a8fe890095701",
+          "bytes": 4306,
+          "storage": "git"
+        },
+        {
+          "path": "src/font.ts",
+          "sha256": "8c40b8247a140d9d91631319f2ede6336cb58ee1e34b0b9258212fa689191d11",
+          "bytes": 2432,
+          "storage": "git"
+        },
+        {
+          "path": "src/index.tsx",
+          "sha256": "0bf90cc19747078502058493a52b60268f301ebe0f57b8896424ec61a356bc71",
+          "bytes": 295,
+          "storage": "git"
+        },
+        {
+          "path": "src/timing.ts",
+          "sha256": "c64e7eb6fecd0a243eb5ca0552bd0e1e4c2d47d08ea5b22bc119c8bcb7f28f8d",
+          "bytes": 3177,
+          "storage": "git"
+        },
+        {
+          "path": "template.json",
+          "sha256": "567f19ada1b8f8b73449953d5e1d2e18b637a7efc5ad6cd7500a231c262b74d4",
+          "bytes": 168,
+          "storage": "git"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "1958c70741302b652adf2dade29fe078d2d7cf6b907f500b1b123c091674b724",
+          "bytes": 300,
+          "storage": "git"
+        }
+      ]
+    },
+    {
+      "id": "pf-carousel-horizontal",
+      "title": "Horizontal Portfolio Relay",
+      "template": "templates/pf-carousel-horizontal",
+      "spec": "precise",
+      "model": "claude-opus-5-5",
+      "harness": "Claude Code",
+      "width": 1200,
+      "height": 1200,
+      "fps": 60,
+      "frames": 288,
+      "minutes": 9,
+      "reviewRounds": 5,
+      "sourcePath": "pf-carousel-horizontal/project",
+      "readingOrder": [
+        "TASK.md",
+        "BUILD-LOG.md",
+        "src/index.tsx",
+        "scripts/render.mjs"
+      ],
+      "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-carousel-horizontal/remake.mp4",
+      "compareUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-carousel-horizontal/compare.mp4",
+      "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-carousel-horizontal/compare.jpg",
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-carousel-horizontal-v1.0.0/motion-component-pf-carousel-horizontal-v1.1.0.zip",
+      "archiveSha256": "3dac0eeff8b14bf4be0dd2aaf8a6a3f9714f9cdc86d848478471e9fd681169e6",
+      "archiveBytes": 1796607,
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "9ae8e02462ff393bb40e787f0a65e79d241ed4f74b32cc57c64acb4ac18fa3fc",
+          "bytes": 19,
+          "storage": "git"
+        },
+        {
+          "path": "BUILD-LOG.md",
+          "sha256": "f4fa38c5739fa654cd36bf022b4166589b3d6ee5281747ce543e2639349b576d",
+          "bytes": 3276,
+          "storage": "git"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "a8feab33d1bbc820b27544548ffefd9c77afbc317459f909a8044dfec33a2c78",
+          "bytes": 2088,
+          "storage": "git"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "0250f6e419af65fa29fb2363ee7a5144605cfbdf018dd2d05561a4b71098d9dd",
+          "bytes": 106611,
+          "storage": "git"
+        },
+        {
+          "path": "package.json",
+          "sha256": "a36d8c2b334a5ab4ab4707266d8a9ea5f5f4e579d4216e70ba96cb6f7c5d3b79",
+          "bytes": 666,
+          "storage": "git"
+        },
+        {
+          "path": "public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-carousel-horizontal-v1.1.0/public/assets/GeistVF.woff2",
+          "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
+          "bytes": 56800,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-carousel-horizontal-v1.1.0/public/assets/coast.jpg",
+          "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
+          "bytes": 251741,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-carousel-horizontal-v1.1.0/public/assets/desert.jpg",
+          "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
+          "bytes": 205527,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-carousel-horizontal-v1.1.0/public/assets/forest.jpg",
+          "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
+          "bytes": 229748,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-carousel-horizontal-v1.1.0/public/assets/mountains.jpg",
+          "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
+          "bytes": 269763,
+          "storage": "download"
+        },
+        {
+          "path": "scripts/render.mjs",
+          "sha256": "5dcdb485c2ed2268870e25090fdf22239f46ef5fad691d7bcc9b04941b50eecc",
+          "bytes": 2807,
+          "storage": "git"
+        },
+        {
+          "path": "src/Relay.tsx",
+          "sha256": "60d813cf592b783282698ef27ac7bf14ecfed64d2ae68b303fb34181d1093ffe",
+          "bytes": 5591,
+          "storage": "git"
+        },
+        {
+          "path": "src/font.ts",
+          "sha256": "b2c8398c0d917d64042824afd6a2678163dca22fcce8a0ef82202f6c412d1a2f",
+          "bytes": 643,
+          "storage": "git"
+        },
+        {
+          "path": "src/index.tsx",
+          "sha256": "3d1753b39bf336836503a01ed88df6f424a213ea570f20aa2fdbac2dd6f22262",
+          "bytes": 288,
+          "storage": "git"
+        },
+        {
+          "path": "src/posters.ts",
+          "sha256": "3d71bbed18c7f50a7cd107ad05a4ccb5f1b78e0ad251ddede7927da7b493daf4",
+          "bytes": 911,
+          "storage": "git"
+        },
+        {
+          "path": "src/timing.ts",
+          "sha256": "dd920802d8e01cf916a1bceb342d7dedd1ce51a43d320c9399194ebc1d745b24",
+          "bytes": 2623,
+          "storage": "git"
+        },
+        {
+          "path": "template.json",
+          "sha256": "3f6f8ea3837ca4da21e23de1581bd24da72e10769ed1202e8264534b75398968",
+          "bytes": 187,
+          "storage": "git"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "1958c70741302b652adf2dade29fe078d2d7cf6b907f500b1b123c091674b724",
+          "bytes": 300,
+          "storage": "git"
+        }
+      ]
+    },
+    {
+      "id": "pf-carousel-diagonal",
+      "title": "3D Diagonal Portfolio Relay",
+      "template": "templates/pf-carousel-diagonal",
+      "spec": "precise",
+      "model": "claude-opus-5-5",
+      "harness": "Claude Code",
+      "width": 1200,
+      "height": 1200,
+      "fps": 60,
+      "frames": 288,
+      "minutes": 16,
+      "reviewRounds": 4,
+      "sourcePath": "pf-carousel-diagonal/project",
+      "readingOrder": [
+        "TASK.md",
+        "BUILD-LOG.md",
+        "src/index.tsx",
+        "scripts/render.mjs"
+      ],
+      "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-carousel-diagonal/remake.mp4",
+      "compareUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-carousel-diagonal/compare.mp4",
+      "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-carousel-diagonal/compare.jpg",
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-carousel-diagonal-v1.0.0/motion-component-pf-carousel-diagonal-v1.1.0.zip",
+      "archiveSha256": "6d5d83e8acb3441efc582f46620c9fb1d39c963a76fcae938de89f5ae551aad8",
+      "archiveBytes": 3303637,
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "9ae8e02462ff393bb40e787f0a65e79d241ed4f74b32cc57c64acb4ac18fa3fc",
+          "bytes": 19,
+          "storage": "git"
+        },
+        {
+          "path": "BUILD-LOG.md",
+          "sha256": "629f403e68fcb08b85a18ae1e41d23758243fa68c11d75d787911d2fb338d3b8",
+          "bytes": 3405,
+          "storage": "git"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "3ae701854666ad84ea5d362508f56fc88ffdac9c9047f51dd75167748fafc5eb",
+          "bytes": 2222,
+          "storage": "git"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "22f945978927b754af34469addbac3887ab89acbe2c6c0deb6681eea64305d0c",
+          "bytes": 118201,
+          "storage": "git"
+        },
+        {
+          "path": "package.json",
+          "sha256": "d01688c915c58d990b46cee562fee581735692f9474d792e3f763ec6528db30d",
+          "bytes": 788,
+          "storage": "git"
+        },
+        {
+          "path": "public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-carousel-diagonal-v1.1.0/public/assets/GeistVF.woff2",
+          "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
+          "bytes": 56800,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-carousel-diagonal-v1.1.0/public/assets/coast.jpg",
+          "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
+          "bytes": 251741,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-carousel-diagonal-v1.1.0/public/assets/desert.jpg",
+          "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
+          "bytes": 205527,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-carousel-diagonal-v1.1.0/public/assets/forest.jpg",
+          "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
+          "bytes": 229748,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-carousel-diagonal-v1.1.0/public/assets/mountains.jpg",
+          "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
+          "bytes": 269763,
+          "storage": "download"
+        },
+        {
+          "path": "scripts/render.mjs",
+          "sha256": "5dcdb485c2ed2268870e25090fdf22239f46ef5fad691d7bcc9b04941b50eecc",
+          "bytes": 2807,
+          "storage": "git"
+        },
+        {
+          "path": "scripts/spatial-audit.mjs",
+          "sha256": "5c48f950dae23c26f74c0e77f3b4ae4fa42047fcba64931fa5ef651a88082d9b",
+          "bytes": 6644,
+          "storage": "git"
+        },
+        {
+          "path": "spatial-audit.json",
+          "sha256": "62a308557e4f74b71b3975b5c6ae7488be6c4671ae6c2d3f3e33e06f6343fbf8",
+          "bytes": 24075,
+          "storage": "git"
+        },
+        {
+          "path": "src/Overlay.tsx",
+          "sha256": "3637744db70782769e5f2cfe59eed049600389f3a0c8d75b5fed3fdd3f13b43b",
+          "bytes": 4950,
+          "storage": "git"
+        },
+        {
+          "path": "src/Relay.tsx",
+          "sha256": "4e926a00a5008aa741c5e4b032cee6ee3ca2e50aba2ce864d0afface86c9cdb4",
+          "bytes": 2526,
+          "storage": "git"
+        },
+        {
+          "path": "src/Scene.tsx",
+          "sha256": "e7e979c3d5d1372d7f79d346c06ce63fd56e8e5c54d41a879671a895c80e83b5",
+          "bytes": 10044,
+          "storage": "git"
+        },
+        {
+          "path": "src/cards.ts",
+          "sha256": "3ef95a95e7c3d734f03b6ab215b2bb6f274a557b9754674f7d97c0aec8426ba7",
+          "bytes": 795,
+          "storage": "git"
+        },
+        {
+          "path": "src/index.tsx",
+          "sha256": "88dde5db22077aad1c2f5b57d35a2fe7283128914e3ef0b417f4c7486530a23c",
+          "bytes": 286,
+          "storage": "git"
+        },
+        {
+          "path": "src/motion.ts",
+          "sha256": "64862711732ceac2dee44f16e0820b86ca723abcc0e0255ecfcf000f6fe06773",
+          "bytes": 3702,
+          "storage": "git"
+        },
+        {
+          "path": "src/posters.ts",
+          "sha256": "c2c68375ae836a42642a93bbb1564f07db94bd54d9aa3fd5f0f232d7c7074374",
+          "bytes": 3204,
+          "storage": "git"
+        },
+        {
+          "path": "template.json",
+          "sha256": "0dc9e18ebf06830148b40de7b503f20908a5ce8f7c2cc312dac3f3440881ce7c",
+          "bytes": 184,
+          "storage": "git"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "752980ca8327d289102ab07c8cda14eca8e28c07d5584b20e987bb1273a3c0da",
+          "bytes": 260,
+          "storage": "git"
+        }
+      ]
+    },
+    {
+      "id": "pf-carousel-vertical",
+      "title": "Vertical Portfolio Relay",
+      "template": "templates/pf-carousel-vertical",
+      "spec": "precise",
+      "model": "claude-opus-5-5",
+      "harness": "Claude Code",
+      "width": 1200,
+      "height": 1200,
+      "fps": 60,
+      "frames": 288,
+      "minutes": 12,
+      "reviewRounds": 6,
+      "sourcePath": "pf-carousel-vertical/project",
+      "readingOrder": [
+        "TASK.md",
+        "BUILD-LOG.md",
+        "src/index.tsx",
+        "scripts/render.mjs"
+      ],
+      "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-carousel-vertical/remake.mp4",
+      "compareUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-carousel-vertical/compare.mp4",
+      "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-carousel-vertical/compare.jpg",
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-carousel-vertical-v1.0.0/motion-component-pf-carousel-vertical-v1.1.0.zip",
+      "archiveSha256": "8a2255f5a3d7e80c2c56795504e6a4b1ba7f869f32575fc742f0169ecc6c6a4c",
+      "archiveBytes": 1788953,
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "9ae8e02462ff393bb40e787f0a65e79d241ed4f74b32cc57c64acb4ac18fa3fc",
+          "bytes": 19,
+          "storage": "git"
+        },
+        {
+          "path": "BUILD-LOG.md",
+          "sha256": "e3de62860f9d614681789c89b0357723ed8456064d2ebe3bc27bf71591d57fa2",
+          "bytes": 4525,
+          "storage": "git"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "166b1e48f80498727ec63a899871f8bc9b7af171128ed063df5fb90274d2b1ac",
+          "bytes": 1955,
+          "storage": "git"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "fede7d64a5bd2a365af92d61ddf32a368a7034f4cc1993bad78faeabb7d8cb07",
+          "bytes": 106607,
+          "storage": "git"
+        },
+        {
+          "path": "package.json",
+          "sha256": "e50524a7ff7e678447f13080b2f75c4aa8e667d514a7c2371480822064fd4a7d",
+          "bytes": 664,
+          "storage": "git"
+        },
+        {
+          "path": "public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-carousel-vertical-v1.1.0/public/assets/GeistVF.woff2",
+          "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
+          "bytes": 56800,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-carousel-vertical-v1.1.0/public/assets/coast.jpg",
+          "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
+          "bytes": 251741,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-carousel-vertical-v1.1.0/public/assets/desert.jpg",
+          "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
+          "bytes": 205527,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-carousel-vertical-v1.1.0/public/assets/forest.jpg",
+          "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
+          "bytes": 229748,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-carousel-vertical-v1.1.0/public/assets/mountains.jpg",
+          "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
+          "bytes": 269763,
+          "storage": "download"
+        },
+        {
+          "path": "scripts/render.mjs",
+          "sha256": "5dcdb485c2ed2268870e25090fdf22239f46ef5fad691d7bcc9b04941b50eecc",
+          "bytes": 2807,
+          "storage": "git"
+        },
+        {
+          "path": "src/Poster.tsx",
+          "sha256": "f24e3a91e2293db6cc76c566c9b97eb0d9a6be92bb0d95601e367391ec1e8081",
+          "bytes": 3155,
+          "storage": "git"
+        },
+        {
+          "path": "src/VerticalRelay.tsx",
+          "sha256": "d7a3340496b5f5e29354714aa617590803a227a823cfd5499ae74f93b3cfb789",
+          "bytes": 7113,
+          "storage": "git"
+        },
+        {
+          "path": "src/data.ts",
+          "sha256": "1d8223106c6cc2a8d48019f9237db40b2af5b0c0305245e7705122a30b2641a8",
+          "bytes": 1134,
+          "storage": "git"
+        },
+        {
+          "path": "src/font.ts",
+          "sha256": "199fe33c98c8e434d373c6bf6f347575621dfe215fb7f1355687fce5da64fda4",
+          "bytes": 901,
+          "storage": "git"
+        },
+        {
+          "path": "src/index.tsx",
+          "sha256": "64fa2be7bfc93e88fec869df4651b4d687cfd6d0664864d65e772fd201c0fe96",
+          "bytes": 310,
+          "storage": "git"
+        },
+        {
+          "path": "src/motion.ts",
+          "sha256": "9f7ce558e7b0757ec81f2ea54346e0960f7bb5e11216e9e6db4554e56e39fd05",
+          "bytes": 2197,
+          "storage": "git"
+        },
+        {
+          "path": "template.json",
+          "sha256": "54f258ec01b33336d347321f5216b7d4d7e6632d8c82dfceb326db10e5d2ff50",
+          "bytes": 181,
+          "storage": "git"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "1958c70741302b652adf2dade29fe078d2d7cf6b907f500b1b123c091674b724",
+          "bytes": 300,
+          "storage": "git"
+        }
+      ]
+    },
+    {
+      "id": "pf-brand-dots",
+      "title": "Five-Point Brand System",
+      "template": "templates/pf-brand-dots",
+      "spec": "precise",
+      "model": "claude-opus-5-5",
+      "harness": "Claude Code",
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "frames": 336,
+      "minutes": 17,
+      "reviewRounds": 6,
+      "sourcePath": "pf-brand-dots/project",
+      "readingOrder": [
+        "TASK.md",
+        "BUILD-LOG.md",
+        "src/index.tsx",
+        "scripts/render.mjs"
+      ],
+      "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-brand-dots/remake.mp4",
+      "compareUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-brand-dots/compare.mp4",
+      "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-brand-dots/compare.jpg",
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-brand-dots-v1.0.0/motion-component-pf-brand-dots-v1.1.0.zip",
+      "archiveSha256": "6cebf3a8ecd706c504c61d6b6e62fab3679ac03c601b07056407f74399b1d601",
+      "archiveBytes": 1402903,
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "9ae8e02462ff393bb40e787f0a65e79d241ed4f74b32cc57c64acb4ac18fa3fc",
+          "bytes": 19,
+          "storage": "git"
+        },
+        {
+          "path": "BUILD-LOG.md",
+          "sha256": "d68508ff06a8d70069d7edf2618e03bd89ecaff9bb94e40d506578cc02c8b665",
+          "bytes": 3891,
+          "storage": "git"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "0b11de7047c47ef8d71313b4203d3ec6d764b395e06d420fbb6060c72b0b67ed",
+          "bytes": 2032,
+          "storage": "git"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "50c71daea0143bfe2a6ee2d332076f82ec59d0cefab7cd8c9b865b1b00a1c01c",
+          "bytes": 106593,
+          "storage": "git"
+        },
+        {
+          "path": "package.json",
+          "sha256": "6b0cc66989a1e25d0cb7412b05c65a59103269f071aaa34331ff77f2f5db6dc2",
+          "bytes": 657,
+          "storage": "git"
+        },
+        {
+          "path": "public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-brand-dots-v1.1.0/public/assets/GeistVF.woff2",
+          "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
+          "bytes": 56800,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-brand-dots-v1.1.0/public/assets/coast.jpg",
+          "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
+          "bytes": 251741,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-brand-dots-v1.1.0/public/assets/desert.jpg",
+          "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
+          "bytes": 205527,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-brand-dots-v1.1.0/public/assets/forest.jpg",
+          "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
+          "bytes": 229748,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-brand-dots-v1.1.0/public/assets/mountains.jpg",
+          "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
+          "bytes": 269763,
+          "storage": "download"
+        },
+        {
+          "path": "scripts/render.mjs",
+          "sha256": "5dcdb485c2ed2268870e25090fdf22239f46ef5fad691d7bcc9b04941b50eecc",
+          "bytes": 2807,
+          "storage": "git"
+        },
+        {
+          "path": "spatial-audit.json",
+          "sha256": "a9ce042d39f82f3acef933ecb76cc3caacc7aa74001e7786c68736dc7a04b63f",
+          "bytes": 3780,
+          "storage": "git"
+        },
+        {
+          "path": "src/BrandDots.tsx",
+          "sha256": "f7f0ddc10756aa2e73673009cf79d6dbe6e2771022561dc8abdd67b33c46360f",
+          "bytes": 17084,
+          "storage": "git"
+        },
+        {
+          "path": "src/Mark.tsx",
+          "sha256": "978328f5160256980f683c8bf61cd47045467758465681cbad470921606a8573",
+          "bytes": 1025,
+          "storage": "git"
+        },
+        {
+          "path": "src/index.tsx",
+          "sha256": "775fb5ee068c0d9f8f37cb5e0623f286f9ce3edb0621266528f83fe5f98ac47f",
+          "bytes": 291,
+          "storage": "git"
+        },
+        {
+          "path": "src/motion.ts",
+          "sha256": "434d2eebef7d3964fe57f94174d488ae1e65661d12561e88922a791de2ee8473",
+          "bytes": 5582,
+          "storage": "git"
+        },
+        {
+          "path": "template.json",
+          "sha256": "13a37787247f2df8df270d64d1e631d96bfa9c7bde1dda00db2ecbc4374fd9c9",
+          "bytes": 166,
+          "storage": "git"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "cb118c22249b9af87126d199ae522e11ae6a105ccfd5003359f8c10e35f1eb41",
+          "bytes": 300,
+          "storage": "git"
+        }
+      ]
+    },
+    {
+      "id": "pf-brand-app",
+      "title": "App Icon to Brand System",
+      "template": "templates/pf-brand-app",
+      "spec": "precise",
+      "model": "claude-opus-5-5",
+      "harness": "Claude Code",
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "frames": 348,
+      "minutes": 14,
+      "reviewRounds": 5,
+      "sourcePath": "pf-brand-app/project",
+      "readingOrder": [
+        "TASK.md",
+        "BUILD-LOG.md",
+        "src/index.tsx",
+        "scripts/render.mjs"
+      ],
+      "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-brand-app/remake.mp4",
+      "compareUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-brand-app/compare.mp4",
+      "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-brand-app/compare.jpg",
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-brand-app-v1.0.0/motion-component-pf-brand-app-v1.1.0.zip",
+      "archiveSha256": "ce9772a0161ae464dcc728e320cfe841ff031043344a021ea7876be33e507cca",
+      "archiveBytes": 1415144,
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "9ae8e02462ff393bb40e787f0a65e79d241ed4f74b32cc57c64acb4ac18fa3fc",
+          "bytes": 19,
+          "storage": "git"
+        },
+        {
+          "path": "BUILD-LOG.md",
+          "sha256": "68c208617b7369e3e45eb9fb0bfea1f30d509d76045ee03c0160a84df69c884c",
+          "bytes": 3209,
+          "storage": "git"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "c8ca45c6c219bf85c4272867201baecdf86b187c347750c2f1ddff3cf3e56ba4",
+          "bytes": 1991,
+          "storage": "git"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "f3e03710c5754070fcad16c29d342f3e49cb811859dd9f6b1b914b7f496fa09a",
+          "bytes": 106591,
+          "storage": "git"
+        },
+        {
+          "path": "package.json",
+          "sha256": "20852d196f8fcba66232a7cf5d4673c44b7542a49859b7e99d129c74e09d737d",
+          "bytes": 656,
+          "storage": "git"
+        },
+        {
+          "path": "public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-brand-app-v1.1.0/public/assets/GeistVF.woff2",
+          "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
+          "bytes": 56800,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-brand-app-v1.1.0/public/assets/coast.jpg",
+          "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
+          "bytes": 251741,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-brand-app-v1.1.0/public/assets/desert.jpg",
+          "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
+          "bytes": 205527,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-brand-app-v1.1.0/public/assets/forest.jpg",
+          "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
+          "bytes": 229748,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-brand-app-v1.1.0/public/assets/mountains.jpg",
+          "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
+          "bytes": 269763,
+          "storage": "download"
+        },
+        {
+          "path": "scripts/render.mjs",
+          "sha256": "5dcdb485c2ed2268870e25090fdf22239f46ef5fad691d7bcc9b04941b50eecc",
+          "bytes": 2807,
+          "storage": "git"
+        },
+        {
+          "path": "src/Dock.tsx",
+          "sha256": "d7d4532f03b28c37a129142e26bb1e2eca427142480ecdb0420d8e7470b00bbd",
+          "bytes": 4988,
+          "storage": "git"
+        },
+        {
+          "path": "src/Main.tsx",
+          "sha256": "a325ff5806a407de262ae29c0e1ec780bcde66db2a8539bc21c7859cb381d0f5",
+          "bytes": 1510,
+          "storage": "git"
+        },
+        {
+          "path": "src/Mark.tsx",
+          "sha256": "f9b07c41c7b98053fd13379f2d2fef2cba53d17dd4c4ac0b4df79d5802ff5c25",
+          "bytes": 1795,
+          "storage": "git"
+        },
+        {
+          "path": "src/Panels.tsx",
+          "sha256": "6448ff855cf89a34f2ead2af8f7429b2172f2e8e95b8adea92378c4bf858e391",
+          "bytes": 10738,
+          "storage": "git"
+        },
+        {
+          "path": "src/Scene.tsx",
+          "sha256": "0e60a23942feb2c002ef0832d2614396ab0cc3b45bcb64c99435f7aa1851ab96",
+          "bytes": 5928,
+          "storage": "git"
+        },
+        {
+          "path": "src/index.tsx",
+          "sha256": "bebc387c28110bccdad2c161b15c77cfec68d32e91e8f7cafb5b930a746943da",
+          "bytes": 275,
+          "storage": "git"
+        },
+        {
+          "path": "src/lib.ts",
+          "sha256": "bea2cce5ea53c7e89cdae08316997ca0be011cdb596a513c258fa798aec5150e",
+          "bytes": 2254,
+          "storage": "git"
+        },
+        {
+          "path": "template.json",
+          "sha256": "93d442e5d8bf0dab609b618626c01761e33c194a1bef492b59166d6b02c35ea1",
+          "bytes": 165,
+          "storage": "git"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "cb118c22249b9af87126d199ae522e11ae6a105ccfd5003359f8c10e35f1eb41",
+          "bytes": 300,
+          "storage": "git"
+        }
+      ]
+    },
+    {
+      "id": "pf-brand-clover",
+      "title": "Logo Unfold Brand System",
+      "template": "templates/pf-brand-clover",
+      "spec": "precise",
+      "model": "claude-opus-5-5",
+      "harness": "Claude Code",
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "frames": 324,
+      "minutes": 20,
+      "reviewRounds": 8,
+      "sourcePath": "pf-brand-clover/project",
+      "readingOrder": [
+        "TASK.md",
+        "BUILD-LOG.md",
+        "src/index.tsx",
+        "scripts/render.mjs"
+      ],
+      "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-brand-clover/remake.mp4",
+      "compareUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-brand-clover/compare.mp4",
+      "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-brand-clover/compare.jpg",
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-brand-clover-v1.0.0/motion-component-pf-brand-clover-v1.1.0.zip",
+      "archiveSha256": "6b94931ce73d9f8523741ba126887a13de942db101033311da926c0e44ce35f3",
+      "archiveBytes": 1411533,
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "9ae8e02462ff393bb40e787f0a65e79d241ed4f74b32cc57c64acb4ac18fa3fc",
+          "bytes": 19,
+          "storage": "git"
+        },
+        {
+          "path": "BUILD-LOG.md",
+          "sha256": "adea7aad426cb0a8210af2c65949d7948e0936615f753d50ad8482712ddad238",
+          "bytes": 5005,
+          "storage": "git"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "478a7ca9eed346b9cda03fb69f79055c3fb44621c98300267724f4f8671757fc",
+          "bytes": 1953,
+          "storage": "git"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "8a5152604117f2301d9e9a1aa78f6ce0e08759d18e259e370dcf14c24e993097",
+          "bytes": 106597,
+          "storage": "git"
+        },
+        {
+          "path": "package.json",
+          "sha256": "f699d603fb49d8ab496f93659c17aeb4b3b12ccc7b31a8405bcee7abfb080716",
+          "bytes": 659,
+          "storage": "git"
+        },
+        {
+          "path": "public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-brand-clover-v1.1.0/public/assets/GeistVF.woff2",
+          "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
+          "bytes": 56800,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-brand-clover-v1.1.0/public/assets/coast.jpg",
+          "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
+          "bytes": 251741,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-brand-clover-v1.1.0/public/assets/desert.jpg",
+          "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
+          "bytes": 205527,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-brand-clover-v1.1.0/public/assets/forest.jpg",
+          "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
+          "bytes": 229748,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-brand-clover-v1.1.0/public/assets/mountains.jpg",
+          "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
+          "bytes": 269763,
+          "storage": "download"
+        },
+        {
+          "path": "scripts/render.mjs",
+          "sha256": "5dcdb485c2ed2268870e25090fdf22239f46ef5fad691d7bcc9b04941b50eecc",
+          "bytes": 2807,
+          "storage": "git"
+        },
+        {
+          "path": "src/BrandClover.tsx",
+          "sha256": "5cd55d99cf530e6115f032c0904969228bb1fa0256ffabed72602177e2df0fa4",
+          "bytes": 10867,
+          "storage": "git"
+        },
+        {
+          "path": "src/Clover.tsx",
+          "sha256": "00a119e5934cb039325701007ec64118e2b2738f213edba590d6d5a606864194",
+          "bytes": 1534,
+          "storage": "git"
+        },
+        {
+          "path": "src/Contents.tsx",
+          "sha256": "dc1c2dd55951984b14c85f02aa45ff40c67731e71b732e67483ee54d31ca3231",
+          "bytes": 15294,
+          "storage": "git"
+        },
+        {
+          "path": "src/font.ts",
+          "sha256": "e569386a9d0e783fb494bd0871d7bc20df6dd93b8fd13bf2df47f80b3dd767a9",
+          "bytes": 837,
+          "storage": "git"
+        },
+        {
+          "path": "src/index.tsx",
+          "sha256": "9290e2641cd5a0c8f081d1efe25dea13735e16def537053d1a45b59b94333bf8",
+          "bytes": 316,
+          "storage": "git"
+        },
+        {
+          "path": "src/system.ts",
+          "sha256": "e223dca0d69abf7222e2e2a98582d8dcd5594fe676fa51e5005d0ccef67febb4",
+          "bytes": 5821,
+          "storage": "git"
+        },
+        {
+          "path": "template.json",
+          "sha256": "e50566c5cfe162cc538d6e78a49ee631fec2aa25c26e122e4147fffe973e2fce",
+          "bytes": 171,
+          "storage": "git"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "cb118c22249b9af87126d199ae522e11ae6a105ccfd5003359f8c10e35f1eb41",
+          "bytes": 300,
+          "storage": "git"
+        }
+      ]
+    },
+    {
+      "id": "pf-six-colors",
+      "title": "Six-Color Brand Launch",
+      "template": "templates/pf-six-colors",
+      "spec": "precise",
+      "model": "claude-opus-5-5",
+      "harness": "Claude Code",
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "frames": 216,
+      "minutes": 15,
+      "reviewRounds": 4,
+      "sourcePath": "pf-six-colors/project",
+      "readingOrder": [
+        "TASK.md",
+        "BUILD-LOG.md",
+        "src/index.tsx",
+        "scripts/render.mjs"
+      ],
+      "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-six-colors/remake.mp4",
+      "compareUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-six-colors/compare.mp4",
+      "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-six-colors/compare.jpg",
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-six-colors-v1.0.0/motion-component-pf-six-colors-v1.1.0.zip",
+      "archiveSha256": "6d43234c47f8920dcbd48564d64978a32569fa35a555bcc56a92dca99cc764da",
+      "archiveBytes": 1139368,
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "9ae8e02462ff393bb40e787f0a65e79d241ed4f74b32cc57c64acb4ac18fa3fc",
+          "bytes": 19,
+          "storage": "git"
+        },
+        {
+          "path": "BUILD-LOG.md",
+          "sha256": "2699b92a9bed0d55e6a56737156a39c2d8f5dce10700ea7a1c205f129c0b21fb",
+          "bytes": 3538,
+          "storage": "git"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "0d7df49b453d52026af5133ecc89a213a0ebd61cecb984753337a62238d9b610",
+          "bytes": 1972,
+          "storage": "git"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "0b0705286240f949e51031bca5d2b8a5429b14d07390d4595dc5c1800680624b",
+          "bytes": 106593,
+          "storage": "git"
+        },
+        {
+          "path": "package.json",
+          "sha256": "d73e4e174d4578c47a95e565c87aa9971251e70a5f5e11f7952d76786a64e58f",
+          "bytes": 657,
+          "storage": "git"
+        },
+        {
+          "path": "public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-six-colors-v1.1.0/public/assets/GeistVF.woff2",
+          "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
+          "bytes": 56800,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-six-colors-v1.1.0/public/assets/coast.jpg",
+          "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
+          "bytes": 251741,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-six-colors-v1.1.0/public/assets/desert.jpg",
+          "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
+          "bytes": 205527,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-six-colors-v1.1.0/public/assets/forest.jpg",
+          "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
+          "bytes": 229748,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-six-colors-v1.1.0/public/assets/mountains.jpg",
+          "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
+          "bytes": 269763,
+          "storage": "download"
+        },
+        {
+          "path": "scripts/render.mjs",
+          "sha256": "5dcdb485c2ed2268870e25090fdf22239f46ef5fad691d7bcc9b04941b50eecc",
+          "bytes": 2807,
+          "storage": "git"
+        },
+        {
+          "path": "src/SixColors.tsx",
+          "sha256": "c383723bd56a909ac00bef480c1b9d5a3870a9a3b7a63ca73f819589e6dd612e",
+          "bytes": 12451,
+          "storage": "git"
+        },
+        {
+          "path": "src/easing.ts",
+          "sha256": "f90fc0912bfe19fafeaca5af40578b4f57889d8495864188529b0793f1b6427b",
+          "bytes": 1444,
+          "storage": "git"
+        },
+        {
+          "path": "src/font.ts",
+          "sha256": "b7adb4bd157e14ac38f15e7f90cd9b94688d94e9720902bf7e5668b388ef6e0b",
+          "bytes": 2611,
+          "storage": "git"
+        },
+        {
+          "path": "src/index.tsx",
+          "sha256": "a0852074ccb36511b1558b50b54df4654d73a67c9c9e000525660e94603c5efc",
+          "bytes": 291,
+          "storage": "git"
+        },
+        {
+          "path": "template.json",
+          "sha256": "9837e93d974d54f3a3bd170a03a29067866909e6aa7b51616219ae73df24352f",
+          "bytes": 165,
+          "storage": "git"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "cb118c22249b9af87126d199ae522e11ae6a105ccfd5003359f8c10e35f1eb41",
+          "bytes": 300,
+          "storage": "git"
+        }
+      ]
+    },
+    {
+      "id": "pf-orbit-fan",
+      "title": "Fan Deck Showcase",
+      "template": "templates/pf-orbit-fan",
+      "spec": "precise",
+      "model": "claude-opus-5-5",
+      "harness": "Claude Code",
+      "width": 1440,
+      "height": 1080,
+      "fps": 60,
+      "frames": 288,
+      "minutes": 18,
+      "reviewRounds": 5,
+      "sourcePath": "pf-orbit-fan/project",
+      "readingOrder": [
+        "TASK.md",
+        "BUILD-LOG.md",
+        "src/index.tsx",
+        "scripts/render.mjs"
+      ],
+      "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-orbit-fan/remake.mp4",
+      "compareUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-orbit-fan/compare.mp4",
+      "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-orbit-fan/compare.jpg",
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-orbit-fan-v1.0.0/motion-component-pf-orbit-fan-v1.1.0.zip",
+      "archiveSha256": "9cae8c824124288e7155e9991ace87df0fdf146333f17bcf8751b78a72c6abd4",
+      "archiveBytes": 1866283,
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "9ae8e02462ff393bb40e787f0a65e79d241ed4f74b32cc57c64acb4ac18fa3fc",
+          "bytes": 19,
+          "storage": "git"
+        },
+        {
+          "path": "BUILD-LOG.md",
+          "sha256": "d50ac5f7ee45bc320b5370a8b510a12d8aedfb736c8d3bbd8c88dc6d80443479",
+          "bytes": 4956,
+          "storage": "git"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "c185416ec0e05d447c875c23a429857f234f131f28011d094389503f73832092",
+          "bytes": 1966,
+          "storage": "git"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "f156ef8d1b7da17bff70ae2ca652a3221fd7b896799e67c6ef711766dc477995",
+          "bytes": 106591,
+          "storage": "git"
+        },
+        {
+          "path": "package.json",
+          "sha256": "88a421814b877ba6f58da8e2117b1d82fa4be2caf2ff0760a5c848467e5d4555",
+          "bytes": 656,
+          "storage": "git"
+        },
+        {
+          "path": "public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-orbit-fan-v1.1.0/public/assets/GeistVF.woff2",
+          "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
+          "bytes": 56800,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-orbit-fan-v1.1.0/public/assets/coast.jpg",
+          "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
+          "bytes": 251741,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-orbit-fan-v1.1.0/public/assets/desert.jpg",
+          "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
+          "bytes": 205527,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-orbit-fan-v1.1.0/public/assets/forest.jpg",
+          "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
+          "bytes": 229748,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-orbit-fan-v1.1.0/public/assets/mountains.jpg",
+          "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
+          "bytes": 269763,
+          "storage": "download"
+        },
+        {
+          "path": "scripts/render.mjs",
+          "sha256": "5dcdb485c2ed2268870e25090fdf22239f46ef5fad691d7bcc9b04941b50eecc",
+          "bytes": 2807,
+          "storage": "git"
+        },
+        {
+          "path": "src/OrbitFan.tsx",
+          "sha256": "90824b67d5c4edbb7bbdffae283bca5ed370b5bfc1fa3f6ff99e8a8d617cd96b",
+          "bytes": 12136,
+          "storage": "git"
+        },
+        {
+          "path": "src/deck.ts",
+          "sha256": "8082c43353a83e1fa0783e9ee5b64a280c301e2ff5389c63f9fcf58de98df88b",
+          "bytes": 2905,
+          "storage": "git"
+        },
+        {
+          "path": "src/index.tsx",
+          "sha256": "c0df1785ec355039071a246c7ffdb303d731d7b45ee870a881a2b8cd380f113c",
+          "bytes": 287,
+          "storage": "git"
+        },
+        {
+          "path": "src/motion.ts",
+          "sha256": "f2e1026fd133219e78441dbd0d1f963488c44f18c24295a076582e76db68e3e8",
+          "bytes": 3028,
+          "storage": "git"
+        },
+        {
+          "path": "template.json",
+          "sha256": "e17fded3173474e336f6467fe7739b967377766f63a8cd86551b51e332b9b3f6",
+          "bytes": 158,
+          "storage": "git"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "cb118c22249b9af87126d199ae522e11ae6a105ccfd5003359f8c10e35f1eb41",
+          "bytes": 300,
+          "storage": "git"
+        }
+      ]
+    },
+    {
+      "id": "pf-orbit-focus",
+      "title": "3D Orbit to Hero",
+      "template": "templates/pf-orbit-focus",
+      "spec": "precise",
+      "model": "claude-opus-5-5",
+      "harness": "Claude Code",
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "frames": 360,
+      "minutes": 24,
+      "reviewRounds": 5,
+      "sourcePath": "pf-orbit-focus/project",
+      "readingOrder": [
+        "TASK.md",
+        "BUILD-LOG.md",
+        "src/index.tsx",
+        "scripts/render.mjs"
+      ],
+      "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-orbit-focus/remake.mp4",
+      "compareUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-orbit-focus/compare.mp4",
+      "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-orbit-focus/compare.jpg",
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-orbit-focus-v1.0.0/motion-component-pf-orbit-focus-v1.1.0.zip",
+      "archiveSha256": "b362d76fd8aaf1c07e15690c7b4a63fd34c77e01e0353cc87b0a6e2b48908602",
+      "archiveBytes": 4626226,
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "9ae8e02462ff393bb40e787f0a65e79d241ed4f74b32cc57c64acb4ac18fa3fc",
+          "bytes": 19,
+          "storage": "git"
+        },
+        {
+          "path": "BUILD-LOG.md",
+          "sha256": "1cb1dab0f79e3ecfd040f2fb5ce68f8fbb82e68c8c20f8cbaf22299d855bd018",
+          "bytes": 5171,
+          "storage": "git"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "988ec521e7940c773f608cfdd21b6ad90f798fbc7ee9030e51028b9ef5f99bc0",
+          "bytes": 2224,
+          "storage": "git"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "6327302971cdecf369e071d736c47ed7f5e7210b69a7ebec159ecb88db518d5c",
+          "bytes": 118189,
+          "storage": "git"
+        },
+        {
+          "path": "package.json",
+          "sha256": "090eaeaf138689167266a7a128c1f55873d7fd57fdc462c72e6b7c2ec3fc4f2c",
+          "bytes": 782,
+          "storage": "git"
+        },
+        {
+          "path": "public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-orbit-focus-v1.1.0/public/assets/GeistVF.woff2",
+          "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
+          "bytes": 56800,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-orbit-focus-v1.1.0/public/assets/coast.jpg",
+          "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
+          "bytes": 251741,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-orbit-focus-v1.1.0/public/assets/desert.jpg",
+          "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
+          "bytes": 205527,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-orbit-focus-v1.1.0/public/assets/forest.jpg",
+          "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
+          "bytes": 229748,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-orbit-focus-v1.1.0/public/assets/mountains.jpg",
+          "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
+          "bytes": 269763,
+          "storage": "download"
+        },
+        {
+          "path": "scripts/audit.mjs",
+          "sha256": "cd49a19b4bbf3fcb7e93bc86130bdd2d82b463cd5c996fcdcb2f5e3e3090ab09",
+          "bytes": 16500,
+          "storage": "git"
+        },
+        {
+          "path": "scripts/render.mjs",
+          "sha256": "bc16a1c250110746592fcbecc1fb78c7d4cca5cc035e1232432d515714105446",
+          "bytes": 2814,
+          "storage": "git"
+        },
+        {
+          "path": "spatial-audit.json",
+          "sha256": "8d0b65771cb6e71c863715455942dd24e02824dcb33a101ac4e3e132242c190c",
+          "bytes": 61278,
+          "storage": "git"
+        },
+        {
+          "path": "src/OrbitFocus.tsx",
+          "sha256": "35147b3ea4c658db9758e71ed2b0497170416d380cbbfd04b835b06e02b7869d",
+          "bytes": 2883,
+          "storage": "git"
+        },
+        {
+          "path": "src/Overlay.tsx",
+          "sha256": "4b3f2cc3ab89976a42c13d0a67dae8b57c3bc1007f4a8609678aef50e327cf7a",
+          "bytes": 6876,
+          "storage": "git"
+        },
+        {
+          "path": "src/Scene.tsx",
+          "sha256": "f981a1033a1738cc01add1d619a4a7195f49fa9e6efaa3d8c29e015ce0eafb54",
+          "bytes": 10151,
+          "storage": "git"
+        },
+        {
+          "path": "src/cards.ts",
+          "sha256": "e236edb05b0ee19d8df51a25c33e4d0f5c364f7179b95c2e3e0e8a4a19d91dd4",
+          "bytes": 1313,
+          "storage": "git"
+        },
+        {
+          "path": "src/index.tsx",
+          "sha256": "002e7f24c2c00ffd116a45089b0925a8dafe3b9f36acb5d5868ca91220832832",
+          "bytes": 406,
+          "storage": "git"
+        },
+        {
+          "path": "src/spatial.ts",
+          "sha256": "ea2b1c88ba324d75f9c4513c0810ee1ac427e12537ce2c180656c3d7c9543e0a",
+          "bytes": 10569,
+          "storage": "git"
+        },
+        {
+          "path": "template.json",
+          "sha256": "a07205e408ebf6608b2239a37fe06e8abb5ae074b608cc33d460a71b32e69ac4",
+          "bytes": 161,
+          "storage": "git"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "752980ca8327d289102ab07c8cda14eca8e28c07d5584b20e987bb1273a3c0da",
+          "bytes": 260,
+          "storage": "git"
+        }
+      ]
+    },
+    {
+      "id": "pf-event-pass",
+      "title": "Headline to Event Pass",
+      "template": "templates/pf-event-pass",
+      "spec": "precise",
+      "model": "claude-opus-5-5",
+      "harness": "Claude Code",
+      "width": 1080,
+      "height": 1350,
+      "fps": 60,
+      "frames": 288,
+      "minutes": 13,
+      "reviewRounds": 6,
+      "sourcePath": "pf-event-pass/project",
+      "readingOrder": [
+        "TASK.md",
+        "BUILD-LOG.md",
+        "src/index.tsx",
+        "scripts/render.mjs"
+      ],
+      "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-event-pass/remake.mp4",
+      "compareUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-event-pass/compare.mp4",
+      "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-event-pass/compare.jpg",
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-event-pass-v1.0.0/motion-component-pf-event-pass-v1.1.0.zip",
+      "archiveSha256": "1cb7f3f4678e785a2e1748f5defb12f5888bdb137fb1117a5186dcd2b673f7d7",
+      "archiveBytes": 1354458,
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "9ae8e02462ff393bb40e787f0a65e79d241ed4f74b32cc57c64acb4ac18fa3fc",
+          "bytes": 19,
+          "storage": "git"
+        },
+        {
+          "path": "BUILD-LOG.md",
+          "sha256": "9e6f58c745812983dd1f045065f34d4a36f8ba8cce9b3cbd96f9c415c4a31fa3",
+          "bytes": 3269,
+          "storage": "git"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "3bca93bca814e651d99fe4c8f25f6f16ada85371b4a7e1ed991981d8998be403",
+          "bytes": 1966,
+          "storage": "git"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "557fe1ec8af6c83237336a004826c16c4f292c3bc3cede1e45ed6f1e11ed3bf7",
+          "bytes": 106593,
+          "storage": "git"
+        },
+        {
+          "path": "package.json",
+          "sha256": "f8ddac87cde706d84588b17387c8c9966510efb6591a284ff5784282bb0aca72",
+          "bytes": 657,
+          "storage": "git"
+        },
+        {
+          "path": "public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-event-pass-v1.1.0/public/assets/GeistVF.woff2",
+          "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
+          "bytes": 56800,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-event-pass-v1.1.0/public/assets/coast.jpg",
+          "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
+          "bytes": 251741,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-event-pass-v1.1.0/public/assets/desert.jpg",
+          "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
+          "bytes": 205527,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-event-pass-v1.1.0/public/assets/forest.jpg",
+          "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
+          "bytes": 229748,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-event-pass-v1.1.0/public/assets/mountains.jpg",
+          "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
+          "bytes": 269763,
+          "storage": "download"
+        },
+        {
+          "path": "scripts/render.mjs",
+          "sha256": "5dcdb485c2ed2268870e25090fdf22239f46ef5fad691d7bcc9b04941b50eecc",
+          "bytes": 2807,
+          "storage": "git"
+        },
+        {
+          "path": "src/EventPass.tsx",
+          "sha256": "466cb2411435cbd3fc22993ebc0dc3fe6ccc9223bf31618e0a8ccedcf85a406a",
+          "bytes": 14764,
+          "storage": "git"
+        },
+        {
+          "path": "src/font.ts",
+          "sha256": "70f0d07e1b1e20938d2465b4a21624b97456eeb9b1dd0a8dcf97e2b4b6099c2f",
+          "bytes": 739,
+          "storage": "git"
+        },
+        {
+          "path": "src/index.tsx",
+          "sha256": "a5275b0cf53261a2925ef5fd80d7c4a7e96dcd6a0c4a5bcef7a0a3036ab2a83b",
+          "bytes": 308,
+          "storage": "git"
+        },
+        {
+          "path": "src/motion.ts",
+          "sha256": "bffe141f0836209daac0c78fcfa4745a69e41eafd330b1ea06dac768137b5e7a",
+          "bytes": 1551,
+          "storage": "git"
+        },
+        {
+          "path": "template.json",
+          "sha256": "88db71176095eac4dc382986541387e7a94fbc854655f10fe33a1ae88a30b2e5",
+          "bytes": 165,
+          "storage": "git"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "cb118c22249b9af87126d199ae522e11ae6a105ccfd5003359f8c10e35f1eb41",
+          "bytes": 300,
+          "storage": "git"
+        }
+      ]
+    },
+    {
+      "id": "pf-phone-hand",
+      "title": "In-Hand App Scroll",
+      "template": "templates/pf-phone-hand",
+      "spec": "precise",
+      "model": "claude-opus-5-5",
+      "harness": "Claude Code",
+      "width": 1200,
+      "height": 1200,
+      "fps": 60,
+      "frames": 276,
+      "minutes": 20,
+      "reviewRounds": 7,
+      "sourcePath": "pf-phone-hand/project",
+      "readingOrder": [
+        "TASK.md",
+        "BUILD-LOG.md",
+        "src/index.tsx",
+        "scripts/render.mjs"
+      ],
+      "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-phone-hand/remake.mp4",
+      "compareUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-phone-hand/compare.mp4",
+      "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-phone-hand/compare.jpg",
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-phone-hand-v1.0.0/motion-component-pf-phone-hand-v1.1.0.zip",
+      "archiveSha256": "387096fa9767899995f49e1f766e18a89e1d6409715266567b183209bd00fdaa",
+      "archiveBytes": 9320807,
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "9ae8e02462ff393bb40e787f0a65e79d241ed4f74b32cc57c64acb4ac18fa3fc",
+          "bytes": 19,
+          "storage": "git"
+        },
+        {
+          "path": "BUILD-LOG.md",
+          "sha256": "24b8e18e9def861d26bf68477701ade51fa1791b1251cf2bac03c00e0e7d9e4f",
+          "bytes": 4094,
+          "storage": "git"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "ac07e2a5d6e63bb330fefc596111629b8836965d0916cf40ccd2e7b098206be6",
+          "bytes": 2113,
+          "storage": "git"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "9e0b8584a18ad640b53e8deef1bbb30275f7b1e6fbab0f8a79c88e5553d8e2e7",
+          "bytes": 106593,
+          "storage": "git"
+        },
+        {
+          "path": "package.json",
+          "sha256": "a1f359244b776627d8d8137758dbb9e1e780fc294acd22733b6c8c831c8db03c",
+          "bytes": 657,
+          "storage": "git"
+        },
+        {
+          "path": "public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-phone-hand-v1.1.0/public/assets/GeistVF.woff2",
+          "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
+          "bytes": 56800,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-phone-hand-v1.1.0/public/assets/coast.jpg",
+          "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
+          "bytes": 251741,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-phone-hand-v1.1.0/public/assets/desert.jpg",
+          "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
+          "bytes": 205527,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-phone-hand-v1.1.0/public/assets/forest.jpg",
+          "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
+          "bytes": 229748,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/hand-phone.png",
+          "archivePath": "motion-component-pf-phone-hand-v1.1.0/public/assets/hand-phone.png",
+          "sha256": "3ac26069bbaab1225cc4f8016f2af74141397bc5ccbe0c81a35d374dea873230",
+          "bytes": 1835525,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-phone-hand-v1.1.0/public/assets/mountains.jpg",
+          "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
+          "bytes": 269763,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/portrait-front.png",
+          "archivePath": "motion-component-pf-phone-hand-v1.1.0/public/assets/portrait-front.png",
+          "sha256": "ff587900014fc340a07f8e351e5d2a4a597e34d09de2372fadb7e54722cc8d77",
+          "bytes": 2172904,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/portrait-smile.png",
+          "archivePath": "motion-component-pf-phone-hand-v1.1.0/public/assets/portrait-smile.png",
+          "sha256": "d01da7ecdd9329691c762995168f3ef7b0b3d395cb674b3f4862791fecda966c",
+          "bytes": 2038079,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/portrait-turn.png",
+          "archivePath": "motion-component-pf-phone-hand-v1.1.0/public/assets/portrait-turn.png",
+          "sha256": "b8cf52e5f20d729de97dee6d78249aff691189e983494e2f138a854ab1c146dd",
+          "bytes": 2095588,
+          "storage": "download"
+        },
+        {
+          "path": "scripts/render.mjs",
+          "sha256": "5dcdb485c2ed2268870e25090fdf22239f46ef5fad691d7bcc9b04941b50eecc",
+          "bytes": 2807,
+          "storage": "git"
+        },
+        {
+          "path": "src/FieldApp.tsx",
+          "sha256": "aac083f545fa4454a703d43845ec86f1e8eb2a8b434d8d384159ac531747c757",
+          "bytes": 26672,
+          "storage": "git"
+        },
+        {
+          "path": "src/PhoneHand.tsx",
+          "sha256": "eb90396450ab11b99d0e5350db1c5f1c4ed18a2bf2028a19201451caf787dce8",
+          "bytes": 3286,
+          "storage": "git"
+        },
+        {
+          "path": "src/font.ts",
+          "sha256": "67fa74f06a5fb8547798e1e32933e0cfb0cd707a87848af09f76a256516b54fe",
+          "bytes": 982,
+          "storage": "git"
+        },
+        {
+          "path": "src/icons.tsx",
+          "sha256": "fc0b5a85db473cb37338d11250c7b83e8da4b2a04502006b224c4b1fa94a1677",
+          "bytes": 6652,
+          "storage": "git"
+        },
+        {
+          "path": "src/index.tsx",
+          "sha256": "baa053f52122c7b535a26a66b6efef0ffec24d59a966dc2502c381cb330e68d0",
+          "bytes": 291,
+          "storage": "git"
+        },
+        {
+          "path": "src/timing.ts",
+          "sha256": "c5364c6051f47080bb7eff29885da770d369e88ecfb3934d81a42ae81e7d2c95",
+          "bytes": 3137,
+          "storage": "git"
+        },
+        {
+          "path": "template.json",
+          "sha256": "e1aeaa391024a3659bd120ee9b38f69a494f23c572607298f81676da99b31481",
+          "bytes": 161,
+          "storage": "git"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "277a12362d46208423937a3d8f47ba75548786b647c8f293e344ddcaa1c73b3b",
+          "bytes": 284,
+          "storage": "git"
+        }
+      ]
+    },
+    {
+      "id": "pf-phone-carousel",
+      "title": "Three-Phone Carousel",
+      "template": "templates/pf-phone-carousel",
+      "spec": "precise",
+      "model": "claude-opus-5-5",
+      "harness": "Claude Code",
+      "width": 1440,
+      "height": 1080,
+      "fps": 60,
+      "frames": 288,
+      "minutes": 15,
+      "reviewRounds": 4,
+      "sourcePath": "pf-phone-carousel/project",
+      "readingOrder": [
+        "TASK.md",
+        "BUILD-LOG.md",
+        "src/index.tsx",
+        "scripts/render.mjs"
+      ],
+      "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-phone-carousel/remake.mp4",
+      "compareUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-phone-carousel/compare.mp4",
+      "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-phone-carousel/compare.jpg",
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-phone-carousel-v1.0.0/motion-component-pf-phone-carousel-v1.1.0.zip",
+      "archiveSha256": "3acc03bdbea32306fe363b4162ad49f1635018032ac4965d5ef41c2ffd8f37c6",
+      "archiveBytes": 9386984,
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "9ae8e02462ff393bb40e787f0a65e79d241ed4f74b32cc57c64acb4ac18fa3fc",
+          "bytes": 19,
+          "storage": "git"
+        },
+        {
+          "path": "BUILD-LOG.md",
+          "sha256": "ba13b8500c4aed50dc53b7b954cadd1c3e0934e53f7425214c8272170bed02eb",
+          "bytes": 3700,
+          "storage": "git"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "1772a20852e0788789fc2b45675c3c6b0ade54e7875e496a0386db34babaea96",
+          "bytes": 2079,
+          "storage": "git"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "a4b4712f58e06d86078945ff77e49f12f619ce721675513c75f93e0cbe100b39",
+          "bytes": 106601,
+          "storage": "git"
+        },
+        {
+          "path": "package.json",
+          "sha256": "769b7c8d7c002234ae836383805ef3b687ad76016dc4356223c253e8c00287c0",
+          "bytes": 661,
+          "storage": "git"
+        },
+        {
+          "path": "public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-phone-carousel-v1.1.0/public/assets/GeistVF.woff2",
+          "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
+          "bytes": 56800,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-phone-carousel-v1.1.0/public/assets/coast.jpg",
+          "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
+          "bytes": 251741,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-phone-carousel-v1.1.0/public/assets/desert.jpg",
+          "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
+          "bytes": 205527,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-phone-carousel-v1.1.0/public/assets/forest.jpg",
+          "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
+          "bytes": 229748,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/hand-phone.png",
+          "archivePath": "motion-component-pf-phone-carousel-v1.1.0/public/assets/hand-phone.png",
+          "sha256": "3ac26069bbaab1225cc4f8016f2af74141397bc5ccbe0c81a35d374dea873230",
+          "bytes": 1835525,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-phone-carousel-v1.1.0/public/assets/mountains.jpg",
+          "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
+          "bytes": 269763,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/portrait-front.png",
+          "archivePath": "motion-component-pf-phone-carousel-v1.1.0/public/assets/portrait-front.png",
+          "sha256": "ff587900014fc340a07f8e351e5d2a4a597e34d09de2372fadb7e54722cc8d77",
+          "bytes": 2172904,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/portrait-smile.png",
+          "archivePath": "motion-component-pf-phone-carousel-v1.1.0/public/assets/portrait-smile.png",
+          "sha256": "d01da7ecdd9329691c762995168f3ef7b0b3d395cb674b3f4862791fecda966c",
+          "bytes": 2038079,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/portrait-turn.png",
+          "archivePath": "motion-component-pf-phone-carousel-v1.1.0/public/assets/portrait-turn.png",
+          "sha256": "b8cf52e5f20d729de97dee6d78249aff691189e983494e2f138a854ab1c146dd",
+          "bytes": 2095588,
+          "storage": "download"
+        },
+        {
+          "path": "scripts/audit.mjs",
+          "sha256": "efb9a24f2ebf02c0cd7eca3869bc2981440e765c6723e8fb3da33ddaecb92011",
+          "bytes": 3510,
+          "storage": "git"
+        },
+        {
+          "path": "scripts/render.mjs",
+          "sha256": "5dcdb485c2ed2268870e25090fdf22239f46ef5fad691d7bcc9b04941b50eecc",
+          "bytes": 2807,
+          "storage": "git"
+        },
+        {
+          "path": "spatial-audit.json",
+          "sha256": "a75c9539ba8167b3446ff4f1dc308d0fdc68863da04e97e863925d80e5cb8c1f",
+          "bytes": 4460,
+          "storage": "git"
+        },
+        {
+          "path": "src/FieldScreen.tsx",
+          "sha256": "4260f3a14e332dfbb617625718c46b72cb6d2a647b8bec17230f9df2881d1f2e",
+          "bytes": 14264,
+          "storage": "git"
+        },
+        {
+          "path": "src/Phone.tsx",
+          "sha256": "aa32ade616a8c7f0ff39d69b1acfee682aafc9b1e93befdf034ec737ccded4d4",
+          "bytes": 1731,
+          "storage": "git"
+        },
+        {
+          "path": "src/PhoneCarousel.tsx",
+          "sha256": "6df2fe11b8020348ec2dde512fc1af7442b94f649aab50b5a6995df55a3810b7",
+          "bytes": 2404,
+          "storage": "git"
+        },
+        {
+          "path": "src/data.ts",
+          "sha256": "1476f7f59c099cff8ffb2d02455f95782dedc0601547e2edd0bb8b6779531bec",
+          "bytes": 1735,
+          "storage": "git"
+        },
+        {
+          "path": "src/font.ts",
+          "sha256": "a1572df1e6be8d216d2ac7a0744fa7672a28315f99bfc4ccbdc75878cd3a0130",
+          "bytes": 920,
+          "storage": "git"
+        },
+        {
+          "path": "src/index.tsx",
+          "sha256": "9c8e6f5a2cce7dea154ed23e3e962893cab241d630e628a0d9faac354cf37ce4",
+          "bytes": 482,
+          "storage": "git"
+        },
+        {
+          "path": "src/map.ts",
+          "sha256": "b80a1a84e7b28958acbce365e1bc341da4644a4f6df230a1b9e1e514bf39100a",
+          "bytes": 5735,
+          "storage": "git"
+        },
+        {
+          "path": "src/motion.ts",
+          "sha256": "856d06e91b2901af20b52c644bcfc74f30b7a814f84d964a3deb61a758c3c001",
+          "bytes": 6517,
+          "storage": "git"
+        },
+        {
+          "path": "template.json",
+          "sha256": "cb162ede155f05e487391104a2c7baf1a91eeea0e5b99ad9ac2d3b3b9431e5d4",
+          "bytes": 171,
+          "storage": "git"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "277a12362d46208423937a3d8f47ba75548786b647c8f293e344ddcaa1c73b3b",
+          "bytes": 284,
+          "storage": "git"
+        }
+      ]
+    },
+    {
+      "id": "pf-camera-campaign",
+      "title": "Camera to Fashion Campaign",
+      "template": "templates/pf-camera-campaign",
+      "spec": "precise",
+      "model": "claude-opus-5-5",
+      "harness": "Claude Code",
+      "width": 1080,
+      "height": 1920,
+      "fps": 60,
+      "frames": 252,
+      "minutes": 17,
+      "reviewRounds": 8,
+      "sourcePath": "pf-camera-campaign/project",
+      "readingOrder": [
+        "TASK.md",
+        "BUILD-LOG.md",
+        "src/index.tsx",
+        "scripts/render.mjs"
+      ],
+      "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-camera-campaign/remake.mp4",
+      "compareUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-camera-campaign/compare.mp4",
+      "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-camera-campaign/compare.jpg",
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-camera-campaign-v1.0.0/motion-component-pf-camera-campaign-v1.1.0.zip",
+      "archiveSha256": "18c7122806f3cbbe35c431bbbc526d0e871caf80b4d513e5afbaf40825b5f37e",
+      "archiveBytes": 16831293,
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "9ae8e02462ff393bb40e787f0a65e79d241ed4f74b32cc57c64acb4ac18fa3fc",
+          "bytes": 19,
+          "storage": "git"
+        },
+        {
+          "path": "BUILD-LOG.md",
+          "sha256": "af2f6737af3def284fc4db2f0a8b117d4e0f33781dc8438316bbcbc4ee423fdd",
+          "bytes": 4201,
+          "storage": "git"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "a9291c3d4a13776a26ecf2b1709e83828c0cc0f2444bc8b069977a74f70bd387",
+          "bytes": 2276,
+          "storage": "git"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "b7ba1821add08f0937082c950c051ef00cb720a9e54064c5ba1ad9265470f59f",
+          "bytes": 106603,
+          "storage": "git"
+        },
+        {
+          "path": "package.json",
+          "sha256": "47e64f4555d111087ae01f39f1e3df87fdf6656a8b26837904e58d32dbae1805",
+          "bytes": 662,
+          "storage": "git"
+        },
+        {
+          "path": "public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-camera-campaign-v1.1.0/public/assets/GeistVF.woff2",
+          "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
+          "bytes": 56800,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/editorial-silver-close.png",
+          "archivePath": "motion-component-pf-camera-campaign-v1.1.0/public/assets/editorial-silver-close.png",
+          "sha256": "f26aa3c99069a8a34996a49a47b95449f4a32312dcdf566ea93dcd61d44fa51e",
+          "bytes": 2395741,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/editorial-silver-detail.png",
+          "archivePath": "motion-component-pf-camera-campaign-v1.1.0/public/assets/editorial-silver-detail.png",
+          "sha256": "06ecd9b3d98cbb94c02841bebe908dbe1f15654e6997242d6f2f3b8096210b1c",
+          "bytes": 2418183,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/editorial-silver-wide.png",
+          "archivePath": "motion-component-pf-camera-campaign-v1.1.0/public/assets/editorial-silver-wide.png",
+          "sha256": "3e2b52708791bc9969d2e9da08187b6607db812784cb5627aebd2eff81d5f185",
+          "bytes": 2293542,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/editorial-sunset-macro.png",
+          "archivePath": "motion-component-pf-camera-campaign-v1.1.0/public/assets/editorial-sunset-macro.png",
+          "sha256": "182a18fad9fdda45444b708e31a674bf4cf0349fc170ca9b8151a3080b3b00c5",
+          "bytes": 2486270,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/editorial-sunset-turn.png",
+          "archivePath": "motion-component-pf-camera-campaign-v1.1.0/public/assets/editorial-sunset-turn.png",
+          "sha256": "4e5c8b5f424d2a7064c8a33cdc7bc314db821653fe3b3d76f51e800602b93999",
+          "bytes": 2224198,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/editorial-sunset-wide.png",
+          "archivePath": "motion-component-pf-camera-campaign-v1.1.0/public/assets/editorial-sunset-wide.png",
+          "sha256": "9d7d50a0d9bd1b5d333765766fd321526c0c4b65b088bed4d391cae4b8d0ea78",
+          "bytes": 2271452,
+          "storage": "download"
+        },
+        {
+          "path": "scripts/render.mjs",
+          "sha256": "5dcdb485c2ed2268870e25090fdf22239f46ef5fad691d7bcc9b04941b50eecc",
+          "bytes": 2807,
+          "storage": "git"
+        },
+        {
+          "path": "src/CameraCampaign.tsx",
+          "sha256": "51bc4e9ffbefa93a7ae382db6cb6f1a72e571607c68a37071559e0f8607f4703",
+          "bytes": 808,
+          "storage": "git"
+        },
+        {
+          "path": "src/CameraChrome.tsx",
+          "sha256": "5268cf4975434e9428793c543b9a82247d9db07350c7725334b7f3c9ce7e6aa1",
+          "bytes": 10194,
+          "storage": "git"
+        },
+        {
+          "path": "src/Copy.tsx",
+          "sha256": "e51631a25da9d790f0f03b43e1c5a8221249b22d2f3a9bf221bb1762fa50d026",
+          "bytes": 4388,
+          "storage": "git"
+        },
+        {
+          "path": "src/Flash.tsx",
+          "sha256": "0f4715b13f3aab8c74917c9898e9ffeb021e6a75ef55165e2582cfb3eea7a8a8",
+          "bytes": 813,
+          "storage": "git"
+        },
+        {
+          "path": "src/LightSweep.tsx",
+          "sha256": "a0b9002705ac3908ac2b2b079c9d1e0ac8f22a8df8638c77b44c36c2d4b5a42e",
+          "bytes": 861,
+          "storage": "git"
+        },
+        {
+          "path": "src/Photos.tsx",
+          "sha256": "e7c434713662815c18e2ad3968d386361881df19106e8913745a20755652ea39",
+          "bytes": 2836,
+          "storage": "git"
+        },
+        {
+          "path": "src/font.ts",
+          "sha256": "99543d43306add6a113f95a5bbb8d0cb983f80f35e0a7db1dba66b1075cfbe10",
+          "bytes": 768,
+          "storage": "git"
+        },
+        {
+          "path": "src/index.tsx",
+          "sha256": "c5d4501d9e3271b5d42b47e8628667d6f77631262fec8d04653ba2640e2e7816",
+          "bytes": 337,
+          "storage": "git"
+        },
+        {
+          "path": "src/timeline.ts",
+          "sha256": "fc702e5447f8aac798c70a5efcff4ae79a944c2f78a715e6e98bd149f9b05f69",
+          "bytes": 2458,
+          "storage": "git"
+        },
+        {
+          "path": "template.json",
+          "sha256": "7fc94ddbde72e89bffbf6bee38c1d0b5a9f5c0259023670d0ca3c840e00684dd",
+          "bytes": 179,
+          "storage": "git"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "eb1bac7031a0de11dcb0eabccbcaf3f528c40ba9cff965d1f69e5e79667dd8a1",
+          "bytes": 284,
+          "storage": "git"
+        }
+      ]
+    },
+    {
+      "id": "pf-portrait-slices",
+      "title": "Portrait Slice Assembly",
+      "template": "templates/pf-portrait-slices",
+      "spec": "precise",
+      "model": "claude-opus-5-5",
+      "harness": "Claude Code",
+      "width": 1080,
+      "height": 1920,
+      "fps": 60,
+      "frames": 252,
+      "minutes": 15,
+      "reviewRounds": 4,
+      "sourcePath": "pf-portrait-slices/project",
+      "readingOrder": [
+        "TASK.md",
+        "BUILD-LOG.md",
+        "src/index.tsx",
+        "scripts/render.mjs"
+      ],
+      "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-portrait-slices/remake.mp4",
+      "compareUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-portrait-slices/compare.mp4",
+      "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-portrait-slices/compare.jpg",
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-portrait-slices-v1.0.0/motion-component-pf-portrait-slices-v1.1.0.zip",
+      "archiveSha256": "d35a1c4f8ad4f7e5335aefb09d2256d86ee31ff926e65567d6d446824a8e715a",
+      "archiveBytes": 17255582,
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "9ae8e02462ff393bb40e787f0a65e79d241ed4f74b32cc57c64acb4ac18fa3fc",
+          "bytes": 19,
+          "storage": "git"
+        },
+        {
+          "path": "BUILD-LOG.md",
+          "sha256": "6e0ca42c37f7c85e83acee5010156546c5c5d9594038787018f650c1362caa73",
+          "bytes": 4324,
+          "storage": "git"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "58f3f36bb62663f37cf114a2bfc02431bdc17cf699f2ac1084d21ac1ef6cff88",
+          "bytes": 2287,
+          "storage": "git"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "71ee4df1eaf317762bd6873a9024f150cc46f8c702404216eb0ad2c9b23bd242",
+          "bytes": 106603,
+          "storage": "git"
+        },
+        {
+          "path": "package.json",
+          "sha256": "88a53ed4f2be10fba7233e9a7025e87d7b81cab03f74f6b9d5cf26e6a3e41e92",
+          "bytes": 662,
+          "storage": "git"
+        },
+        {
+          "path": "public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-portrait-slices-v1.1.0/public/assets/GeistVF.woff2",
+          "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
+          "bytes": 56800,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/editorial-silver-close.png",
+          "archivePath": "motion-component-pf-portrait-slices-v1.1.0/public/assets/editorial-silver-close.png",
+          "sha256": "f26aa3c99069a8a34996a49a47b95449f4a32312dcdf566ea93dcd61d44fa51e",
+          "bytes": 2395741,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/editorial-silver-detail.png",
+          "archivePath": "motion-component-pf-portrait-slices-v1.1.0/public/assets/editorial-silver-detail.png",
+          "sha256": "06ecd9b3d98cbb94c02841bebe908dbe1f15654e6997242d6f2f3b8096210b1c",
+          "bytes": 2418183,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/editorial-silver-wide.png",
+          "archivePath": "motion-component-pf-portrait-slices-v1.1.0/public/assets/editorial-silver-wide.png",
+          "sha256": "3e2b52708791bc9969d2e9da08187b6607db812784cb5627aebd2eff81d5f185",
+          "bytes": 2293542,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/editorial-sunset-macro.png",
+          "archivePath": "motion-component-pf-portrait-slices-v1.1.0/public/assets/editorial-sunset-macro.png",
+          "sha256": "182a18fad9fdda45444b708e31a674bf4cf0349fc170ca9b8151a3080b3b00c5",
+          "bytes": 2486270,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/editorial-sunset-turn.png",
+          "archivePath": "motion-component-pf-portrait-slices-v1.1.0/public/assets/editorial-sunset-turn.png",
+          "sha256": "4e5c8b5f424d2a7064c8a33cdc7bc314db821653fe3b3d76f51e800602b93999",
+          "bytes": 2224198,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/editorial-sunset-wide.png",
+          "archivePath": "motion-component-pf-portrait-slices-v1.1.0/public/assets/editorial-sunset-wide.png",
+          "sha256": "9d7d50a0d9bd1b5d333765766fd321526c0c4b65b088bed4d391cae4b8d0ea78",
+          "bytes": 2271452,
+          "storage": "download"
+        },
+        {
+          "path": "scripts/render.mjs",
+          "sha256": "5dcdb485c2ed2268870e25090fdf22239f46ef5fad691d7bcc9b04941b50eecc",
+          "bytes": 2807,
+          "storage": "git"
+        },
+        {
+          "path": "src/Grain.tsx",
+          "sha256": "333a6d6f62777b696d17957fa8df4d86c00d0446cc260372d1ce6372f7cdb8cc",
+          "bytes": 1972,
+          "storage": "git"
+        },
+        {
+          "path": "src/PortraitSlices.tsx",
+          "sha256": "593c63ff22963f267e0560a99053fdf8a61a2284a776e04007055a46b113d676",
+          "bytes": 13301,
+          "storage": "git"
+        },
+        {
+          "path": "src/font.ts",
+          "sha256": "134d76a2de0e0f411e3959c5c28f9894927596e5316c4e20f439431f3295145c",
+          "bytes": 694,
+          "storage": "git"
+        },
+        {
+          "path": "src/index.tsx",
+          "sha256": "4d513a891ffe7aa105aa453c8849344dd5f5ffc05fff884c518fae83bbf1b34a",
+          "bytes": 337,
+          "storage": "git"
+        },
+        {
+          "path": "template.json",
+          "sha256": "d8a7708c5eed70332810baca7b80450f71911e777552d387c90d18dff41e9c41",
+          "bytes": 176,
+          "storage": "git"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "eb1bac7031a0de11dcb0eabccbcaf3f528c40ba9cff965d1f69e5e79667dd8a1",
+          "bytes": 284,
+          "storage": "git"
+        }
+      ]
+    },
+    {
+      "id": "pf-print-menu",
+      "title": "Editorial Print Launch",
+      "template": "templates/pf-print-menu",
+      "spec": "precise",
+      "model": "claude-opus-5-5",
+      "harness": "Claude Code",
+      "width": 1080,
+      "height": 1080,
+      "fps": 60,
+      "frames": 336,
+      "minutes": 15,
+      "reviewRounds": 6,
+      "sourcePath": "pf-print-menu/project",
+      "readingOrder": [
+        "TASK.md",
+        "BUILD-LOG.md",
+        "src/index.tsx",
+        "scripts/render.mjs"
+      ],
+      "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-print-menu/remake.mp4",
+      "compareUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-print-menu/compare.mp4",
+      "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-print-menu/compare.jpg",
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-print-menu-v1.0.0/motion-component-pf-print-menu-v1.1.0.zip",
+      "archiveSha256": "19fd54c40a4a6080147f97a8e2d39275e56b36f367106a60a08de7592f93044a",
+      "archiveBytes": 9197987,
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "9ae8e02462ff393bb40e787f0a65e79d241ed4f74b32cc57c64acb4ac18fa3fc",
+          "bytes": 19,
+          "storage": "git"
+        },
+        {
+          "path": "BUILD-LOG.md",
+          "sha256": "44d0316194bdcf6325d25cc56154cd465fdd4304d85f8f4cb289218273223887",
+          "bytes": 3697,
+          "storage": "git"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "933164c0e29d180151f9c339a09ea8151d5089b06267a950dfba9d09d7f7c3d1",
+          "bytes": 2089,
+          "storage": "git"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "6ec87d2e8b8e9581135bad0934119df35c3a6131668502177de200072ce8dc38",
+          "bytes": 106593,
+          "storage": "git"
+        },
+        {
+          "path": "package.json",
+          "sha256": "3393f54d8d867d4e0fc441f87b879920381f01ba1cfe5a4e10c4da851f84bceb",
+          "bytes": 657,
+          "storage": "git"
+        },
+        {
+          "path": "public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-print-menu-v1.1.0/public/assets/GeistVF.woff2",
+          "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
+          "bytes": 56800,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-print-menu-v1.1.0/public/assets/coast.jpg",
+          "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
+          "bytes": 251741,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-print-menu-v1.1.0/public/assets/desert.jpg",
+          "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
+          "bytes": 205527,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-print-menu-v1.1.0/public/assets/forest.jpg",
+          "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
+          "bytes": 229748,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/hand-phone.png",
+          "archivePath": "motion-component-pf-print-menu-v1.1.0/public/assets/hand-phone.png",
+          "sha256": "3ac26069bbaab1225cc4f8016f2af74141397bc5ccbe0c81a35d374dea873230",
+          "bytes": 1835525,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-print-menu-v1.1.0/public/assets/mountains.jpg",
+          "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
+          "bytes": 269763,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/portrait-front.png",
+          "archivePath": "motion-component-pf-print-menu-v1.1.0/public/assets/portrait-front.png",
+          "sha256": "ff587900014fc340a07f8e351e5d2a4a597e34d09de2372fadb7e54722cc8d77",
+          "bytes": 2172904,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/portrait-smile.png",
+          "archivePath": "motion-component-pf-print-menu-v1.1.0/public/assets/portrait-smile.png",
+          "sha256": "d01da7ecdd9329691c762995168f3ef7b0b3d395cb674b3f4862791fecda966c",
+          "bytes": 2038079,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/portrait-turn.png",
+          "archivePath": "motion-component-pf-print-menu-v1.1.0/public/assets/portrait-turn.png",
+          "sha256": "b8cf52e5f20d729de97dee6d78249aff691189e983494e2f138a854ab1c146dd",
+          "bytes": 2095588,
+          "storage": "download"
+        },
+        {
+          "path": "scripts/render.mjs",
+          "sha256": "5dcdb485c2ed2268870e25090fdf22239f46ef5fad691d7bcc9b04941b50eecc",
+          "bytes": 2807,
+          "storage": "git"
+        },
+        {
+          "path": "src/PrintMenu.tsx",
+          "sha256": "1a88715d1f4d15663881f8cd9ccf76c98ffbdf376ebd40fe2e1d7aeaa110024a",
+          "bytes": 12241,
+          "storage": "git"
+        },
+        {
+          "path": "src/font.ts",
+          "sha256": "215c7ba5f60163ca5cbb0c85528d417251c0bb2e9ec2209434301c5bdd2d8f55",
+          "bytes": 848,
+          "storage": "git"
+        },
+        {
+          "path": "src/index.tsx",
+          "sha256": "dd014fdbd63fa6342b6cfd96ff983e4a7e8eb985662784ad49e94f252635bbad",
+          "bytes": 291,
+          "storage": "git"
+        },
+        {
+          "path": "src/motion.ts",
+          "sha256": "b1650ae1bb9e0e11535b60249f78687462e873f1ea954709f0363647c5ae2e00",
+          "bytes": 5297,
+          "storage": "git"
+        },
+        {
+          "path": "template.json",
+          "sha256": "22d3648093846f3a0a5c556e0ca6b1e3e5bc6dd624995b714df0a62bb3ca6b12",
+          "bytes": 165,
+          "storage": "git"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "277a12362d46208423937a3d8f47ba75548786b647c8f293e344ddcaa1c73b3b",
+          "bytes": 284,
+          "storage": "git"
+        }
+      ]
+    },
+    {
+      "id": "pf-trail-recap",
+      "title": "Trail Recap Data Reveal",
+      "template": "templates/pf-trail-recap",
+      "spec": "precise",
+      "model": "claude-opus-5-5",
+      "harness": "Claude Code",
+      "width": 1080,
+      "height": 1350,
+      "fps": 60,
+      "frames": 324,
+      "minutes": 14,
+      "reviewRounds": 4,
+      "sourcePath": "pf-trail-recap/project",
+      "readingOrder": [
+        "TASK.md",
+        "BUILD-LOG.md",
+        "src/index.tsx",
+        "scripts/render.mjs"
+      ],
+      "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-trail-recap/remake.mp4",
+      "compareUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-trail-recap/compare.mp4",
+      "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-trail-recap/compare.jpg",
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-trail-recap-v1.0.0/motion-component-pf-trail-recap-v1.1.0.zip",
+      "archiveSha256": "ee31cf4a053cbee66b1b1630b544bfd14a62bfc50daa6be6df95ebab5f2c84ac",
+      "archiveBytes": 9485321,
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "9ae8e02462ff393bb40e787f0a65e79d241ed4f74b32cc57c64acb4ac18fa3fc",
+          "bytes": 19,
+          "storage": "git"
+        },
+        {
+          "path": "BUILD-LOG.md",
+          "sha256": "5711fdb98969518cb71b05a7319891a56cde9868aaa50f6667b02662cd552c2d",
+          "bytes": 4004,
+          "storage": "git"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "7ced21875c65e1acf736013163e4f5bc29a84badef1b06c0e0b4131295f2dccf",
+          "bytes": 2103,
+          "storage": "git"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "8eef1a38da4214c4e44eeb046b371791a63ce005ebe14c8a583102827fa963de",
+          "bytes": 106595,
+          "storage": "git"
+        },
+        {
+          "path": "package.json",
+          "sha256": "be0d913b686ce3dabf5d7d81c9bb655566b8d730c7e9acaebe6882f0d80174c2",
+          "bytes": 658,
+          "storage": "git"
+        },
+        {
+          "path": "public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-trail-recap-v1.1.0/public/assets/GeistVF.woff2",
+          "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
+          "bytes": 56800,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-trail-recap-v1.1.0/public/assets/coast.jpg",
+          "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
+          "bytes": 251741,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-trail-recap-v1.1.0/public/assets/desert.jpg",
+          "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
+          "bytes": 205527,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-trail-recap-v1.1.0/public/assets/forest.jpg",
+          "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
+          "bytes": 229748,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/hand-phone.png",
+          "archivePath": "motion-component-pf-trail-recap-v1.1.0/public/assets/hand-phone.png",
+          "sha256": "3ac26069bbaab1225cc4f8016f2af74141397bc5ccbe0c81a35d374dea873230",
+          "bytes": 1835525,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-trail-recap-v1.1.0/public/assets/mountains.jpg",
+          "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
+          "bytes": 269763,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/portrait-front.png",
+          "archivePath": "motion-component-pf-trail-recap-v1.1.0/public/assets/portrait-front.png",
+          "sha256": "ff587900014fc340a07f8e351e5d2a4a597e34d09de2372fadb7e54722cc8d77",
+          "bytes": 2172904,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/portrait-smile.png",
+          "archivePath": "motion-component-pf-trail-recap-v1.1.0/public/assets/portrait-smile.png",
+          "sha256": "d01da7ecdd9329691c762995168f3ef7b0b3d395cb674b3f4862791fecda966c",
+          "bytes": 2038079,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/portrait-turn.png",
+          "archivePath": "motion-component-pf-trail-recap-v1.1.0/public/assets/portrait-turn.png",
+          "sha256": "b8cf52e5f20d729de97dee6d78249aff691189e983494e2f138a854ab1c146dd",
+          "bytes": 2095588,
+          "storage": "download"
+        },
+        {
+          "path": "scripts/render.mjs",
+          "sha256": "8b2d445f79013d63eae53f8d2a2021db68e1c638a58a4ceecb326fcec96b7eb4",
+          "bytes": 2586,
+          "storage": "git"
+        },
+        {
+          "path": "src/TrailRecap.tsx",
+          "sha256": "c3761b4c5d95ff591b21970aa1a7ef5d996f1c1991afca544cc1c0c0a2249b22",
+          "bytes": 15313,
+          "storage": "git"
+        },
+        {
+          "path": "src/font.ts",
+          "sha256": "fe3c2d8a2f665b813afef4e82f550f5464a1d12f22574e4b098aa7de992a1ab9",
+          "bytes": 599,
+          "storage": "git"
+        },
+        {
+          "path": "src/index.tsx",
+          "sha256": "28bd3a980e58665acfed4ff24af76d7f5818c74053f7e323767f44f342b2cb97",
+          "bytes": 312,
+          "storage": "git"
+        },
+        {
+          "path": "src/route.ts",
+          "sha256": "780953f6045fb474f6a8895bac0aca176f11938637fa00368cbc6f411c86def0",
+          "bytes": 3936,
+          "storage": "git"
+        },
+        {
+          "path": "template.json",
+          "sha256": "73cf0e935d8b5d954a6dd240955501f05a423ed9cf31d844b65a9d26833d999b",
+          "bytes": 168,
+          "storage": "git"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "277a12362d46208423937a3d8f47ba75548786b647c8f293e344ddcaa1c73b3b",
+          "bytes": 284,
+          "storage": "git"
+        }
+      ]
+    },
+    {
+      "id": "pf-depth-swirl",
+      "title": "3D Depth Spiral",
+      "template": "templates/pf-depth-swirl",
+      "spec": "precise",
+      "model": "claude-opus-5-5",
+      "harness": "Claude Code",
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "frames": 348,
+      "minutes": 21,
+      "reviewRounds": 4,
+      "sourcePath": "pf-depth-swirl/project",
+      "readingOrder": [
+        "TASK.md",
+        "BUILD-LOG.md",
+        "src/index.tsx",
+        "scripts/render.mjs"
+      ],
+      "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-depth-swirl/remake.mp4",
+      "compareUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-depth-swirl/compare.mp4",
+      "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-depth-swirl/compare.jpg",
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-depth-swirl-v1.0.0/motion-component-pf-depth-swirl-v1.1.0.zip",
+      "archiveSha256": "1ed2e122ba5035fa3663ba12f66c52a527b468ec585cceb95df8bdd6f8257acc",
+      "archiveBytes": 3611457,
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "9ae8e02462ff393bb40e787f0a65e79d241ed4f74b32cc57c64acb4ac18fa3fc",
+          "bytes": 19,
+          "storage": "git"
+        },
+        {
+          "path": "BUILD-LOG.md",
+          "sha256": "bfbf1078cd1a3fa0912679722d26836204dff4f5f2a611d59a5cc6c1296282b3",
+          "bytes": 4400,
+          "storage": "git"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "e8a1d4a7f0ecef08714d309003978b806985735b1dbd7508cd3b3ef79a9d91b9",
+          "bytes": 2184,
+          "storage": "git"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "bd067b0f3a963f967fe111b554053f42d550685dda438c31dc4113fa99b1793f",
+          "bytes": 118189,
+          "storage": "git"
+        },
+        {
+          "path": "package.json",
+          "sha256": "cbda01f323842231c2c5276a5161ac88b5265f7696df192c4a013944eda8d557",
+          "bytes": 782,
+          "storage": "git"
+        },
+        {
+          "path": "public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-depth-swirl-v1.1.0/public/assets/GeistVF.woff2",
+          "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
+          "bytes": 56800,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-depth-swirl-v1.1.0/public/assets/coast.jpg",
+          "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
+          "bytes": 251741,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-depth-swirl-v1.1.0/public/assets/desert.jpg",
+          "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
+          "bytes": 205527,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-depth-swirl-v1.1.0/public/assets/forest.jpg",
+          "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
+          "bytes": 229748,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-depth-swirl-v1.1.0/public/assets/mountains.jpg",
+          "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
+          "bytes": 269763,
+          "storage": "download"
+        },
+        {
+          "path": "scripts/audit.mjs",
+          "sha256": "9d635668e636829bd354349ebc15e6d5fb63f6445aa0295bdd7d59c7dd4320a6",
+          "bytes": 15512,
+          "storage": "git"
+        },
+        {
+          "path": "scripts/render.mjs",
+          "sha256": "5dcdb485c2ed2268870e25090fdf22239f46ef5fad691d7bcc9b04941b50eecc",
+          "bytes": 2807,
+          "storage": "git"
+        },
+        {
+          "path": "spatial-audit.json",
+          "sha256": "37e36f1eec276df342fca794be80ccd95074140e5aa7200ef91b82a54a00857f",
+          "bytes": 1752898,
+          "storage": "git"
+        },
+        {
+          "path": "src/DepthSwirl.tsx",
+          "sha256": "7f2002a6d306133991c61324853f38f139365e4e6f8c0a34239f1d4b7ec2bc83",
+          "bytes": 3477,
+          "storage": "git"
+        },
+        {
+          "path": "src/Headline.tsx",
+          "sha256": "fcf51f4c6454bcaf82124b86af3d5a8d91ee2c69e32b21d71e96da3285bbabc2",
+          "bytes": 5657,
+          "storage": "git"
+        },
+        {
+          "path": "src/SwirlScene.tsx",
+          "sha256": "4af98c8d53660a0d266e03627603196aea626ac4e2b1d3de415f6d9c0369c1ae",
+          "bytes": 10432,
+          "storage": "git"
+        },
+        {
+          "path": "src/index.tsx",
+          "sha256": "17c3c92599daf3229412742cea61985f90e48dbb87a897cfa061054e79370e3e",
+          "bytes": 419,
+          "storage": "git"
+        },
+        {
+          "path": "src/spiral.ts",
+          "sha256": "14500d4c681b663ee621d00268643bfd0a933e32fdaaf4fbbe061b2a53e7ad79",
+          "bytes": 8850,
+          "storage": "git"
+        },
+        {
+          "path": "src/swap.ts",
+          "sha256": "2fa1e87c9221ddc2e717e2fd4fd59dcf9490f2c3a9f6a5de9b200b3f59026887",
+          "bytes": 1920,
+          "storage": "git"
+        },
+        {
+          "path": "src/typography.ts",
+          "sha256": "4842c360574cfdaf2893637ef46fef3a21cb31b110a9aa5734843000243d2dc3",
+          "bytes": 3387,
+          "storage": "git"
+        },
+        {
+          "path": "template.json",
+          "sha256": "2610e2b20d66d14c4974a26f98d42be03ac56c279c2f53b4d497f46156fdee97",
+          "bytes": 160,
+          "storage": "git"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "752980ca8327d289102ab07c8cda14eca8e28c07d5584b20e987bb1273a3c0da",
+          "bytes": 260,
+          "storage": "git"
+        }
+      ]
+    },
+    {
+      "id": "pf-type-snap",
+      "title": "Multi-Line Headline Snap",
+      "template": "templates/pf-type-snap",
+      "spec": "precise",
+      "model": "claude-opus-5-5",
+      "harness": "Claude Code",
+      "width": 1080,
+      "height": 1350,
+      "fps": 60,
+      "frames": 288,
+      "minutes": 15,
+      "reviewRounds": 5,
+      "sourcePath": "pf-type-snap/project",
+      "readingOrder": [
+        "TASK.md",
+        "BUILD-LOG.md",
+        "src/index.tsx",
+        "scripts/render.mjs"
+      ],
+      "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-type-snap/remake.mp4",
+      "compareUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-type-snap/compare.mp4",
+      "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-type-snap/compare.jpg",
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-type-snap-v1.0.0/motion-component-pf-type-snap-v1.1.0.zip",
+      "archiveSha256": "954895c0fb8e032c4209c51edf1faeb206b2b41784e44a513eabab933e750529",
+      "archiveBytes": 1284138,
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "9ae8e02462ff393bb40e787f0a65e79d241ed4f74b32cc57c64acb4ac18fa3fc",
+          "bytes": 19,
+          "storage": "git"
+        },
+        {
+          "path": "BUILD-LOG.md",
+          "sha256": "69b8430dc9a8f119b97fb25d10c2da7d26c6a592968e27b5298e0530acebd164",
+          "bytes": 3937,
+          "storage": "git"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "2eaa8191672e0101da7d805b5c182b8a03213052a1e9fd38a241c52dcb7cad13",
+          "bytes": 1983,
+          "storage": "git"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "56f03a0fbf7577a5ca1010e8e1db9761288cba335136b2775a4dbc4fd6cb9d58",
+          "bytes": 106591,
+          "storage": "git"
+        },
+        {
+          "path": "package.json",
+          "sha256": "5c9e66d246fb9a2f08c9b7b813f07335d9ee4e4c5d951482db555cac063ce32a",
+          "bytes": 656,
+          "storage": "git"
+        },
+        {
+          "path": "public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-type-snap-v1.1.0/public/assets/GeistVF.woff2",
+          "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
+          "bytes": 56800,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-type-snap-v1.1.0/public/assets/coast.jpg",
+          "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
+          "bytes": 251741,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-type-snap-v1.1.0/public/assets/desert.jpg",
+          "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
+          "bytes": 205527,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-type-snap-v1.1.0/public/assets/forest.jpg",
+          "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
+          "bytes": 229748,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-type-snap-v1.1.0/public/assets/mountains.jpg",
+          "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
+          "bytes": 269763,
+          "storage": "download"
+        },
+        {
+          "path": "scripts/render.mjs",
+          "sha256": "8b2d445f79013d63eae53f8d2a2021db68e1c638a58a4ceecb326fcec96b7eb4",
+          "bytes": 2586,
+          "storage": "git"
+        },
+        {
+          "path": "src/TypeSnap.tsx",
+          "sha256": "6e335c934b26777830604ccd28ed6e348bcde225f183c818eb03212dd717dc68",
+          "bytes": 9821,
+          "storage": "git"
+        },
+        {
+          "path": "src/easing.ts",
+          "sha256": "d055794d7166b14904b0fe6501731e3757e22709f7294da46825f8ca34229fb9",
+          "bytes": 2883,
+          "storage": "git"
+        },
+        {
+          "path": "src/font.ts",
+          "sha256": "28dff2241baea96af47af24c4a8aa27b5ee7aef585f77c64f17dcbbfda8a1b54",
+          "bytes": 706,
+          "storage": "git"
+        },
+        {
+          "path": "src/index.tsx",
+          "sha256": "a18f78b81e01907bc9787066a0b363be4bb86f13b041f9fa8d6f4444760bd84d",
+          "bytes": 287,
+          "storage": "git"
+        },
+        {
+          "path": "template.json",
+          "sha256": "0df66ad844125a7e6edac9df920406b083cae46ccb0729622e816e2a50ef1e8f",
+          "bytes": 165,
+          "storage": "git"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "13795000724a084abce822703c1ba62ab136c5f2852b3ae11af6c6d5504c277f",
+          "bytes": 260,
+          "storage": "git"
+        }
+      ]
+    },
+    {
+      "id": "pf-color-field",
+      "title": "Flowing Color Field",
+      "template": "templates/pf-color-field",
+      "spec": "precise",
+      "model": "claude-opus-5-5",
+      "harness": "Claude Code",
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "frames": 336,
+      "minutes": 19,
+      "reviewRounds": 10,
+      "sourcePath": "pf-color-field/project",
+      "readingOrder": [
+        "TASK.md",
+        "BUILD-LOG.md",
+        "src/index.tsx",
+        "scripts/render.mjs"
+      ],
+      "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-color-field/remake.mp4",
+      "compareUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-color-field/compare.mp4",
+      "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-color-field/compare.jpg",
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-color-field-v1.0.0/motion-component-pf-color-field-v1.1.0.zip",
+      "archiveSha256": "6908ddf1bd9c70f31a5ce6616e7eff133835724d30429e46d7840c2b706ad828",
+      "archiveBytes": 1890951,
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "9ae8e02462ff393bb40e787f0a65e79d241ed4f74b32cc57c64acb4ac18fa3fc",
+          "bytes": 19,
+          "storage": "git"
+        },
+        {
+          "path": "BUILD-LOG.md",
+          "sha256": "e2c8aca54c3b4ad529ffe03384eafd1587e702a1edd6a6820a46cee9b9e1ff6e",
+          "bytes": 3822,
+          "storage": "git"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "2354d510788912dd9eed227501d356f1012e4fc072b3dfd72048694d3b65a23f",
+          "bytes": 2123,
+          "storage": "git"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "2698f8f475fb4215f03d4e72442717245d0bfc042ba2592d732bcc0f79c20cda",
+          "bytes": 106595,
+          "storage": "git"
+        },
+        {
+          "path": "package.json",
+          "sha256": "1dc919fed2e30ce598c2231337e350d62314d40d125933b41f9aba2e8e4ee135",
+          "bytes": 658,
+          "storage": "git"
+        },
+        {
+          "path": "public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-color-field-v1.1.0/public/assets/GeistVF.woff2",
+          "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
+          "bytes": 56800,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-color-field-v1.1.0/public/assets/coast.jpg",
+          "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
+          "bytes": 251741,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-color-field-v1.1.0/public/assets/desert.jpg",
+          "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
+          "bytes": 205527,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-color-field-v1.1.0/public/assets/forest.jpg",
+          "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
+          "bytes": 229748,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-color-field-v1.1.0/public/assets/mountains.jpg",
+          "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
+          "bytes": 269763,
+          "storage": "download"
+        },
+        {
+          "path": "scripts/render.mjs",
+          "sha256": "5dcdb485c2ed2268870e25090fdf22239f46ef5fad691d7bcc9b04941b50eecc",
+          "bytes": 2807,
+          "storage": "git"
+        },
+        {
+          "path": "src/ColorField.tsx",
+          "sha256": "55de4a2d0c96f196072177b4b2cd924f24aeeeb22380068212e7e959d0290ee6",
+          "bytes": 12048,
+          "storage": "git"
+        },
+        {
+          "path": "src/FieldCanvas.tsx",
+          "sha256": "6c9753c715913354c140ab92cbc2ee66e23c7e40cf45af3cfab4bf5d5340fd31",
+          "bytes": 3301,
+          "storage": "git"
+        },
+        {
+          "path": "src/anim.ts",
+          "sha256": "a51b975e838f6df53e6bfa45c325f8c38001046c06ab07f2d724223e463595e5",
+          "bytes": 1000,
+          "storage": "git"
+        },
+        {
+          "path": "src/field-shader.ts",
+          "sha256": "ed68778491f7b0b0216f1f5769f6fe52e7837f8a30f29b6403228e816f65d00c",
+          "bytes": 4365,
+          "storage": "git"
+        },
+        {
+          "path": "src/fonts.ts",
+          "sha256": "613982220ca1f61c61e5382f0eedba602cd065a952679cee832393f663781584",
+          "bytes": 726,
+          "storage": "git"
+        },
+        {
+          "path": "src/index.tsx",
+          "sha256": "97749c5256673a81dca5436183a835f87ea34ebb27660e04850564c9f4ebb9e0",
+          "bytes": 295,
+          "storage": "git"
+        },
+        {
+          "path": "template.json",
+          "sha256": "0f944439551460f4468820de742019e2cfe1c181f7b459d1399ffeb7080d18cd",
+          "bytes": 164,
+          "storage": "git"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "13795000724a084abce822703c1ba62ab136c5f2852b3ae11af6c6d5504c277f",
+          "bytes": 260,
+          "storage": "git"
+        }
+      ]
+    },
+    {
+      "id": "pf-pixel-poster",
+      "title": "Dithered Event Poster",
+      "template": "templates/pf-pixel-poster",
+      "spec": "precise",
+      "model": "claude-opus-5-5",
+      "harness": "Claude Code",
+      "width": 1350,
+      "height": 1350,
+      "fps": 60,
+      "frames": 288,
+      "minutes": 16,
+      "reviewRounds": 5,
+      "sourcePath": "pf-pixel-poster/project",
+      "readingOrder": [
+        "TASK.md",
+        "BUILD-LOG.md",
+        "src/index.tsx",
+        "scripts/render.mjs"
+      ],
+      "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-pixel-poster/remake.mp4",
+      "compareUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-pixel-poster/compare.mp4",
+      "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-pixel-poster/compare.jpg",
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-pixel-poster-v1.0.0/motion-component-pf-pixel-poster-v1.1.0.zip",
+      "archiveSha256": "54e1858fb53cbdd1377676dc29a7e69c7a8f291641c27a2472e94b2a5b31867d",
+      "archiveBytes": 2392316,
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "9ae8e02462ff393bb40e787f0a65e79d241ed4f74b32cc57c64acb4ac18fa3fc",
+          "bytes": 19,
+          "storage": "git"
+        },
+        {
+          "path": "BUILD-LOG.md",
+          "sha256": "1ba3cbc40148a6ee594e68ded1d56ff355ffb7cfed31d8d32e3759ec978c4ee2",
+          "bytes": 3907,
+          "storage": "git"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "d5687ff11c96425854fbbf7c6541ff069d811b5828d730950fc02901e72be29f",
+          "bytes": 2062,
+          "storage": "git"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "3ff6fd623426acc77f65bb3707bf822c44a770bd205ed83e3094b12f698f8318",
+          "bytes": 106597,
+          "storage": "git"
+        },
+        {
+          "path": "package.json",
+          "sha256": "cb78106a1fd2679a86cc8da222b50a8670912f170b7d5b3aa19c50dbc7558891",
+          "bytes": 659,
+          "storage": "git"
+        },
+        {
+          "path": "public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-pixel-poster-v1.1.0/public/assets/GeistVF.woff2",
+          "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
+          "bytes": 56800,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-pixel-poster-v1.1.0/public/assets/coast.jpg",
+          "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
+          "bytes": 251741,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-pixel-poster-v1.1.0/public/assets/desert.jpg",
+          "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
+          "bytes": 205527,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-pixel-poster-v1.1.0/public/assets/forest.jpg",
+          "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
+          "bytes": 229748,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-pixel-poster-v1.1.0/public/assets/mountains.jpg",
+          "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
+          "bytes": 269763,
+          "storage": "download"
+        },
+        {
+          "path": "scripts/render.mjs",
+          "sha256": "5dcdb485c2ed2268870e25090fdf22239f46ef5fad691d7bcc9b04941b50eecc",
+          "bytes": 2807,
+          "storage": "git"
+        },
+        {
+          "path": "src/PixelPoster.tsx",
+          "sha256": "39f02827c8748bb1884e4416be7f17ca0ce4842a8d4c849096c1f74ff4a19646",
+          "bytes": 4178,
+          "storage": "git"
+        },
+        {
+          "path": "src/assets.ts",
+          "sha256": "54cb8bf4bd9d0ed9ac2a3638b6c3a58b94cf7824e47e46cb93ea4f732bc43890",
+          "bytes": 2342,
+          "storage": "git"
+        },
+        {
+          "path": "src/dither.ts",
+          "sha256": "278df141adf3ef297ac8db444410d10919930148a27f5bc2c0751347787b8c32",
+          "bytes": 3930,
+          "storage": "git"
+        },
+        {
+          "path": "src/index.tsx",
+          "sha256": "3d57cf9d73543a6beeb146b493eaa64d9ff7397ecf02f877068fc32bf1cebcbb",
+          "bytes": 299,
+          "storage": "git"
+        },
+        {
+          "path": "src/theme.ts",
+          "sha256": "26fb59613f9f68554e0eababe504931075ce25250009dc9fd665132e3b3b06eb",
+          "bytes": 1161,
+          "storage": "git"
+        },
+        {
+          "path": "src/title.ts",
+          "sha256": "6e4f28e34bedfb990d05a6fd4ba21ab9a492a88f0bc61b37067e4d6a1c49cb9c",
+          "bytes": 7286,
+          "storage": "git"
+        },
+        {
+          "path": "template.json",
+          "sha256": "2aefd6f5c3a17829d018e8e86b1dc451c934da2c285af22a7983fdb9cc8b0aaf",
+          "bytes": 168,
+          "storage": "git"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "13795000724a084abce822703c1ba62ab136c5f2852b3ae11af6c6d5504c277f",
+          "bytes": 260,
+          "storage": "git"
+        }
+      ]
+    },
+    {
+      "id": "pf-cart-checkout",
+      "title": "Add-to-Cart Transformation",
+      "template": "templates/pf-cart-checkout",
+      "spec": "precise",
+      "model": "claude-opus-5-5",
+      "harness": "Claude Code",
+      "width": 1600,
+      "height": 1200,
+      "fps": 60,
+      "frames": 324,
+      "minutes": 20,
+      "reviewRounds": 8,
+      "sourcePath": "pf-cart-checkout/project",
+      "readingOrder": [
+        "TASK.md",
+        "BUILD-LOG.md",
+        "src/index.tsx",
+        "scripts/render.mjs"
+      ],
+      "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-cart-checkout/remake.mp4",
+      "compareUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-cart-checkout/compare.mp4",
+      "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-cart-checkout/compare.jpg",
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-cart-checkout-v1.0.0/motion-component-pf-cart-checkout-v1.1.0.zip",
+      "archiveSha256": "09320c4baa63dc97f848a2f5bbe55451abc7972135707f970fc260d5e7db4e1e",
+      "archiveBytes": 1304261,
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "9ae8e02462ff393bb40e787f0a65e79d241ed4f74b32cc57c64acb4ac18fa3fc",
+          "bytes": 19,
+          "storage": "git"
+        },
+        {
+          "path": "BUILD-LOG.md",
+          "sha256": "745356a106b8a4fb0351ea92a3121d5e82ef1d147d928bcd8b8ecd48adfe7a6c",
+          "bytes": 5040,
+          "storage": "git"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "26000ffdd1e0780b2914862f075d038b3f9968aa28a652c2f7aaadddb343420e",
+          "bytes": 2107,
+          "storage": "git"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "58dbc36981178ccb9a183ccbadf94b93c27334488ba48fc5dc2323c5a2015767",
+          "bytes": 106599,
+          "storage": "git"
+        },
+        {
+          "path": "package.json",
+          "sha256": "fe8c1fb4ca66913c02ea79a68169391ff59a4bb08c402c8d3e1858ae96b4dfca",
+          "bytes": 660,
+          "storage": "git"
+        },
+        {
+          "path": "public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-cart-checkout-v1.1.0/public/assets/GeistVF.woff2",
+          "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
+          "bytes": 56800,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-cart-checkout-v1.1.0/public/assets/coast.jpg",
+          "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
+          "bytes": 251741,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-cart-checkout-v1.1.0/public/assets/desert.jpg",
+          "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
+          "bytes": 205527,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-cart-checkout-v1.1.0/public/assets/forest.jpg",
+          "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
+          "bytes": 229748,
+          "storage": "download"
+        },
+        {
+          "path": "public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-cart-checkout-v1.1.0/public/assets/mountains.jpg",
+          "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
+          "bytes": 269763,
+          "storage": "download"
+        },
+        {
+          "path": "scripts/render.mjs",
+          "sha256": "5dcdb485c2ed2268870e25090fdf22239f46ef5fad691d7bcc9b04941b50eecc",
+          "bytes": 2807,
+          "storage": "git"
+        },
+        {
+          "path": "src/CartCheckout.tsx",
+          "sha256": "4c8dc2501fc3ca559690fad54a6797fc40fb9e1a621a3d9ea3c81677aebbcda7",
+          "bytes": 16474,
+          "storage": "git"
+        },
+        {
+          "path": "src/Cursor.tsx",
+          "sha256": "744364ea3fb2048385277e8ca37faa3d59d71a8948952f23e37bd1fbe75b2ee3",
+          "bytes": 3053,
+          "storage": "git"
+        },
+        {
+          "path": "src/icons.tsx",
+          "sha256": "1a529610a94fd21a7f286df5cf3f94dd6d09bc1b33710ff9e3b16a1da5183c08",
+          "bytes": 1269,
+          "storage": "git"
+        },
+        {
+          "path": "src/index.tsx",
+          "sha256": "11d9708e701abf3c2d3f7e590f731b5da7ed2c2b3b023675992ec5bf5ce32406",
+          "bytes": 303,
+          "storage": "git"
+        },
+        {
+          "path": "src/timing.ts",
+          "sha256": "ef2711b4e11d224777fd396d13b038817c6908d5de79cf647e9f0b695788b5f9",
+          "bytes": 1553,
+          "storage": "git"
+        },
+        {
+          "path": "template.json",
+          "sha256": "74fbd7f95ddf9ead13bc802b6436770cae8d0902616696b62446b74dad472c75",
+          "bytes": 175,
+          "storage": "git"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "13795000724a084abce822703c1ba62ab136c5f2852b3ae11af6c6d5504c277f",
+          "bytes": 260,
+          "storage": "git"
+        }
+      ]
+    },
+    {
+      "id": "template-manifesto",
+      "title": "Glossy Serif Manifesto",
+      "template": "templates/template-manifesto",
+      "spec": "brief",
+      "model": "claude-opus-5-5",
+      "harness": "Claude Code",
+      "width": 960,
+      "height": 540,
+      "fps": 30,
+      "frames": 270,
+      "minutes": 17,
+      "reviewRounds": 6,
+      "sourcePath": "template-manifesto/project",
+      "readingOrder": [
+        "TASK.md",
+        "BUILD-LOG.md",
+        "src/index.tsx",
+        "scripts/render.mjs"
+      ],
+      "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/template-manifesto/remake.mp4",
+      "compareUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/template-manifesto/compare.mp4",
+      "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/template-manifesto/compare.jpg",
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-manifesto-v1.0.0/motion-component-template-manifesto-v1.1.0.zip",
+      "archiveSha256": "6520e08971e273eb5dc7def65bc97a4a50362a3a8fd974887cd8113352209f15",
+      "archiveBytes": 422847,
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "9ae8e02462ff393bb40e787f0a65e79d241ed4f74b32cc57c64acb4ac18fa3fc",
+          "bytes": 19,
+          "storage": "git"
+        },
+        {
+          "path": "BUILD-LOG.md",
+          "sha256": "d61222c895cd309cf13a31aa5c5aa32d6181e5eea05747df88470b913b821f2a",
+          "bytes": 3336,
+          "storage": "git"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "6df230c9d47d57e544f31c5484faa9de7e53d04d77b60cd65d2dc8c421ae31bc",
+          "bytes": 1746,
+          "storage": "git"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "a287bd3da0a510dd0f87224714a64b6fe65996dfe3495c8c32f5c5c9536ffb82",
+          "bytes": 118197,
+          "storage": "git"
+        },
+        {
+          "path": "package.json",
+          "sha256": "47ba62a8a9ccb5d37ddbfb4d8bb131f277d39357891b31d65acc50961651eed9",
+          "bytes": 786,
+          "storage": "git"
+        },
+        {
+          "path": "scripts/render.mjs",
+          "sha256": "5dcdb485c2ed2268870e25090fdf22239f46ef5fad691d7bcc9b04941b50eecc",
+          "bytes": 2807,
+          "storage": "git"
+        },
+        {
+          "path": "src/Background.tsx",
+          "sha256": "b064be6e5a1c09d871721e4be5ae7d0ea141c47aac125e3dfbb9796940125730",
+          "bytes": 2743,
+          "storage": "git"
+        },
+        {
+          "path": "src/Corners.tsx",
+          "sha256": "c29e2597c744fb81f7f05eb0ed6c96c2f2bc15009cbfbde67b3062d6447dd043",
+          "bytes": 2557,
+          "storage": "git"
+        },
+        {
+          "path": "src/Manifesto.tsx",
+          "sha256": "13cb64bea95c6e285cd9ffd1ca078e662fd993794ec333a13fd62621a97b1671",
+          "bytes": 863,
+          "storage": "git"
+        },
+        {
+          "path": "src/MotionBlur.tsx",
+          "sha256": "7299d51e22f8c4eddda8b240568c73566e0f66901cf7f949fd9eea11af0218c3",
+          "bytes": 971,
+          "storage": "git"
+        },
+        {
+          "path": "src/Typography.tsx",
+          "sha256": "d736c923838f80f1089ee603f5b3cfb6f6a5fb638b4a360bec8b33732add3726",
+          "bytes": 8519,
+          "storage": "git"
+        },
+        {
+          "path": "src/anim.ts",
+          "sha256": "70c4fecf423e996dcbb20ce2a60dfecb1cf8c70f63d0932ed1fe9295a62efe7b",
+          "bytes": 925,
+          "storage": "git"
+        },
+        {
+          "path": "src/index.tsx",
+          "sha256": "40320cb0bdbdfac57cdcb878230e70db5450304f1d0b57ccd07d39fb7c3aeb18",
+          "bytes": 294,
+          "storage": "git"
+        },
+        {
+          "path": "src/text.tsx",
+          "sha256": "50abd3782858ca1ed0287b6c8f66350f5c4f67f012e7304e5cdf42494d4627fa",
+          "bytes": 6990,
+          "storage": "git"
+        },
+        {
+          "path": "template.json",
+          "sha256": "cb9ba7a0b3ed8315cbc28a711a0c20e97b1356dab97b4eb2c1f1a1a21e548d96",
+          "bytes": 173,
+          "storage": "git"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "951b8335a4cdb8203c3305f6e138ecca8e53e55dcab091cf6a623297a5fdb3f2",
+          "bytes": 328,
+          "storage": "git"
+        }
+      ]
+    },
+    {
+      "id": "template-ribbon-manifesto",
+      "title": "Three-Ribbon Campaign",
+      "template": "templates/template-ribbon-manifesto",
+      "spec": "precise",
+      "model": "claude-opus-5-5",
+      "harness": "Claude Code",
+      "width": 960,
+      "height": 540,
+      "fps": 30,
+      "frames": 240,
+      "minutes": 13,
+      "reviewRounds": 5,
+      "sourcePath": "template-ribbon-manifesto/project",
+      "readingOrder": [
+        "TASK.md",
+        "BUILD-LOG.md",
+        "src/index.tsx",
+        "scripts/render.mjs"
+      ],
+      "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/template-ribbon-manifesto/remake.mp4",
+      "compareUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/template-ribbon-manifesto/compare.mp4",
+      "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/template-ribbon-manifesto/compare.jpg",
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-ribbon-manifesto-v1.0.0/motion-component-template-ribbon-manifesto-v1.1.0.zip",
+      "archiveSha256": "f50624b1f6ec8b263dc0950c9216ae43c95080a4302a38d642d957d8d8986fa5",
+      "archiveBytes": 799040,
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "9ae8e02462ff393bb40e787f0a65e79d241ed4f74b32cc57c64acb4ac18fa3fc",
+          "bytes": 19,
+          "storage": "git"
+        },
+        {
+          "path": "BUILD-LOG.md",
+          "sha256": "25c9f03a98d15e0ab916151af0d56336f72849955089ffe6dc5231741fdb7af7",
+          "bytes": 3383,
+          "storage": "git"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "ac081038990673b17c8a476056409230d4918ee53cbc69f6fc9a88350ce2530d",
+          "bytes": 4554,
+          "storage": "git"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "17c00de31e4b4381d015eebb38b0c3ae1cc430b366da3d9f06c8e549519730e2",
+          "bytes": 118211,
+          "storage": "git"
+        },
+        {
+          "path": "package.json",
+          "sha256": "d1c74762ee341e682d5e2a0f54d270e1f534903908615929e854ff0a8308956a",
+          "bytes": 793,
+          "storage": "git"
+        },
+        {
+          "path": "scripts/render.mjs",
+          "sha256": "5dcdb485c2ed2268870e25090fdf22239f46ef5fad691d7bcc9b04941b50eecc",
+          "bytes": 2807,
+          "storage": "git"
+        },
+        {
+          "path": "src/RibbonManifesto.tsx",
+          "sha256": "ddf8eda1b7277c4360c2391358d369ffcbdef8af32703822f1e434658d3039b1",
+          "bytes": 10063,
+          "storage": "git"
+        },
+        {
+          "path": "src/index.tsx",
+          "sha256": "0b16f35228e96cb161580f164df709eb53f45d474cd33c08597764da965a128a",
+          "bytes": 403,
+          "storage": "git"
+        },
+        {
+          "path": "src/measure.ts",
+          "sha256": "939c275d5195409f515a695fc4b7a02fd802e15b05955290a648adceb69ae124",
+          "bytes": 1523,
+          "storage": "git"
+        },
+        {
+          "path": "src/motion.ts",
+          "sha256": "1191aa501c52f4195e475304217a56ea8cb57a4dc7a0d66d0f229ee02c19e48e",
+          "bytes": 1439,
+          "storage": "git"
+        },
+        {
+          "path": "template.json",
+          "sha256": "c5ac678124dd07f4742fa5539ff6d893f8647f14d6733cf30693b9215ac72331",
+          "bytes": 186,
+          "storage": "git"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "951b8335a4cdb8203c3305f6e138ecca8e53e55dcab091cf6a623297a5fdb3f2",
+          "bytes": 328,
+          "storage": "git"
+        }
+      ]
+    },
+    {
+      "id": "template-analytics-glow",
+      "title": "Growing Analytics Capsules",
+      "template": "templates/template-analytics-glow",
+      "spec": "brief",
+      "model": "claude-opus-5-5",
+      "harness": "Claude Code",
+      "width": 960,
+      "height": 540,
+      "fps": 60,
+      "frames": 180,
+      "minutes": 11,
+      "reviewRounds": 5,
+      "sourcePath": "template-analytics-glow/project",
+      "readingOrder": [
+        "TASK.md",
+        "BUILD-LOG.md",
+        "src/index.tsx",
+        "scripts/render.mjs"
+      ],
+      "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/template-analytics-glow/remake.mp4",
+      "compareUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/template-analytics-glow/compare.mp4",
+      "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/template-analytics-glow/compare.jpg",
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-analytics-glow-v1.0.0/motion-component-template-analytics-glow-v1.1.0.zip",
+      "archiveSha256": "3bce9719a23bd0b4bab43806e877716ea6688188149b8a62d57c87fcd2dc9ff8",
+      "archiveBytes": 105807,
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "9ae8e02462ff393bb40e787f0a65e79d241ed4f74b32cc57c64acb4ac18fa3fc",
+          "bytes": 19,
+          "storage": "git"
+        },
+        {
+          "path": "BUILD-LOG.md",
+          "sha256": "ee9803b793ff12852ce7f2ae58b30b7408860ff1a407a5e759f122227a898d16",
+          "bytes": 3928,
+          "storage": "git"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "bcbca8a030e14e4dc15cca21e09b0505dd9c65679d01bfe403abd832669e6225",
+          "bytes": 1738,
+          "storage": "git"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "b38fa33796dd791ec30095785bba193de33e85f3ae755e913a5afc124b95aa50",
+          "bytes": 118207,
+          "storage": "git"
+        },
+        {
+          "path": "package.json",
+          "sha256": "6fe4f763660bea3d3912c42feb3628964f863ccbffc2174237938120bb25cfeb",
+          "bytes": 791,
+          "storage": "git"
+        },
+        {
+          "path": "scripts/render.mjs",
+          "sha256": "5dcdb485c2ed2268870e25090fdf22239f46ef5fad691d7bcc9b04941b50eecc",
+          "bytes": 2807,
+          "storage": "git"
+        },
+        {
+          "path": "src/AnalyticsGlow.tsx",
+          "sha256": "877c0fbdd172b1fed9843508b9c600e66911223d37a3a10118a0ae983758910a",
+          "bytes": 18043,
+          "storage": "git"
+        },
+        {
+          "path": "src/anim.ts",
+          "sha256": "bd5c9f05920a4b00f112a9e9f25911af484209fd373f2e805cea05ae03f44268",
+          "bytes": 2644,
+          "storage": "git"
+        },
+        {
+          "path": "src/index.tsx",
+          "sha256": "2b15e66b862ca28f3474c3108a316539359a2391831a8541b7cfa293e6b5e8fd",
+          "bytes": 337,
+          "storage": "git"
+        },
+        {
+          "path": "template.json",
+          "sha256": "d93bc1910129a7c0995666a1f973da4f1c997a7f5f6e1375f8a13a86016542ac",
+          "bytes": 187,
+          "storage": "git"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "951b8335a4cdb8203c3305f6e138ecca8e53e55dcab091cf6a623297a5fdb3f2",
+          "bytes": 328,
+          "storage": "git"
+        }
+      ]
+    },
+    {
+      "id": "template-case-numo",
+      "title": "Anomaly to Action",
+      "template": "templates/template-case-numo",
+      "spec": "brief",
+      "model": "claude-opus-5-5",
+      "harness": "Claude Code",
+      "width": 960,
+      "height": 540,
+      "fps": 60,
+      "frames": 612,
+      "minutes": 20,
+      "reviewRounds": 8,
+      "sourcePath": "template-case-numo/project",
+      "readingOrder": [
+        "TASK.md",
+        "BUILD-LOG.md",
+        "src/index.tsx",
+        "scripts/render.mjs"
+      ],
+      "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/template-case-numo/remake.mp4",
+      "compareUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/template-case-numo/compare.mp4",
+      "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/template-case-numo/compare.jpg",
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-case-numo-v1.0.0/motion-component-template-case-numo-v1.1.0.zip",
+      "archiveSha256": "6413d7e5e3deb7ed58e7f16445bfc7654393ad97c4a36d3eae0a4f3bd3ebb391",
+      "archiveBytes": 5095070,
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "9ae8e02462ff393bb40e787f0a65e79d241ed4f74b32cc57c64acb4ac18fa3fc",
+          "bytes": 19,
+          "storage": "git"
+        },
+        {
+          "path": "BUILD-LOG.md",
+          "sha256": "b44cb547fceacb09600c6ac4ca0878d4ade3cc0b5dcfb99ce6cfaf44f2f583aa",
+          "bytes": 4581,
+          "storage": "git"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "18ee4774e782c6e0a1a9521574bf1ee4a2927d74ec4570ca664bc878348a45e9",
+          "bytes": 1720,
+          "storage": "git"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "98a82cc135305a432beb0af8ba340764b56f6f091bd734dfea9526411d150fd6",
+          "bytes": 118197,
+          "storage": "git"
+        },
+        {
+          "path": "package.json",
+          "sha256": "1e651361c0027db386fbc973b662d81bd946cc04bf717b00b3b69cdb7cddec57",
+          "bytes": 786,
+          "storage": "git"
+        },
+        {
+          "path": "scripts/render.mjs",
+          "sha256": "5dcdb485c2ed2268870e25090fdf22239f46ef5fad691d7bcc9b04941b50eecc",
+          "bytes": 2807,
+          "storage": "git"
+        },
+        {
+          "path": "src/Interstitials.tsx",
+          "sha256": "d8cd95bf31d70440409492ee24210017c76125480f5271bfe555ffd064af8eee",
+          "bytes": 7473,
+          "storage": "git"
+        },
+        {
+          "path": "src/Main.tsx",
+          "sha256": "743459538fad0c5d14583e9784d4eb89e1b4fbe6db05972e7e354da299226533",
+          "bytes": 6266,
+          "storage": "git"
+        },
+        {
+          "path": "src/S1Wall.tsx",
+          "sha256": "ad82c58c49c7e5b835f2f063e025cecb79891258f62b5a78ee3622b1e1c38cdd",
+          "bytes": 15613,
+          "storage": "git"
+        },
+        {
+          "path": "src/S2Where.tsx",
+          "sha256": "788da710edb278cb5bd0bbf683741b17e644badcd38afe5acbe46bbc0ff3e06a",
+          "bytes": 9834,
+          "storage": "git"
+        },
+        {
+          "path": "src/S3When.tsx",
+          "sha256": "1d2fa93a8510f86ac855b0b905f5865767dfd4e48a9068c723f9f3b9418f2bf1",
+          "bytes": 10412,
+          "storage": "git"
+        },
+        {
+          "path": "src/S4Action.tsx",
+          "sha256": "6cffa84347f26f473cdb17c624500cd79b4b792a40afdc8f3384d521bb8cd20f",
+          "bytes": 14833,
+          "storage": "git"
+        },
+        {
+          "path": "src/data.ts",
+          "sha256": "c6c36b267d12a2055327a92ed7aca57e68e71a5b1b3945031993829ed7d91299",
+          "bytes": 2970,
+          "storage": "git"
+        },
+        {
+          "path": "src/index.tsx",
+          "sha256": "95e1e8fd83be4c230dab50ba03052d9c65d82c777d29e90c8282d9dbbb0b2cd0",
+          "bytes": 279,
+          "storage": "git"
+        },
+        {
+          "path": "src/theme.ts",
+          "sha256": "c1c51c5898378a81e0412b7171533d6f698952106262a14086ea4615b8c3a07d",
+          "bytes": 1289,
+          "storage": "git"
+        },
+        {
+          "path": "src/util.tsx",
+          "sha256": "387c202c0528a64d0175363b6d4ffaac1fa1e03d1c237a0235f89e6a3a10ecf4",
+          "bytes": 3976,
+          "storage": "git"
+        },
+        {
+          "path": "template.json",
+          "sha256": "b2c650cd6bff1a6a92bc63ae70b89300cef2213eed62abc2c428b61d439d8dd6",
+          "bytes": 168,
+          "storage": "git"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "951b8335a4cdb8203c3305f6e138ecca8e53e55dcab091cf6a623297a5fdb3f2",
+          "bytes": 328,
+          "storage": "git"
+        }
+      ]
+    },
+    {
+      "id": "template-case-search",
+      "title": "Creative Search Selection",
+      "template": "templates/template-case-search",
+      "spec": "brief",
+      "model": "claude-opus-5-5",
+      "harness": "Claude Code",
+      "width": 960,
+      "height": 540,
+      "fps": 60,
+      "frames": 590,
+      "minutes": 24,
+      "reviewRounds": 7,
+      "sourcePath": "template-case-search/project",
+      "readingOrder": [
+        "TASK.md",
+        "BUILD-LOG.md",
+        "src/index.tsx",
+        "scripts/render.mjs"
+      ],
+      "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/template-case-search/remake.mp4",
+      "compareUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/template-case-search/compare.mp4",
+      "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/template-case-search/compare.jpg",
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-case-search-v1.0.0/motion-component-template-case-search-v1.1.0.zip",
+      "archiveSha256": "ac19fafe1ca428dc726229027859c8f681bcc077f615f33e1a2e1f18cf89cf49",
+      "archiveBytes": 287395,
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "9ae8e02462ff393bb40e787f0a65e79d241ed4f74b32cc57c64acb4ac18fa3fc",
+          "bytes": 19,
+          "storage": "git"
+        },
+        {
+          "path": "BUILD-LOG.md",
+          "sha256": "a014bea6b8f95fc9ecc9c7b5d788f25a195f4446aeb7d1edd5f0683d21dcd074",
+          "bytes": 4352,
+          "storage": "git"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "35cbe3afb09b3895e7ab811f81edf623ca94b3327d51136264f50f8a38bea9d2",
+          "bytes": 1738,
+          "storage": "git"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "fb3a8440e3318cce03b2b44757f862d871a2255d5c095df113df86979262f2ff",
+          "bytes": 118201,
+          "storage": "git"
+        },
+        {
+          "path": "package.json",
+          "sha256": "af1ae2c2ecdba8fe6bb3f9f088b6f15e1d7b98ce61f58a1c8408c43a10bb4fd7",
+          "bytes": 788,
+          "storage": "git"
+        },
+        {
+          "path": "scripts/render.mjs",
+          "sha256": "5dcdb485c2ed2268870e25090fdf22239f46ef5fad691d7bcc9b04941b50eecc",
+          "bytes": 2807,
+          "storage": "git"
+        },
+        {
+          "path": "src/BgChrome.tsx",
+          "sha256": "0c392b5672c6bbfc8af79d06de162b1be854bb3f0ce0f7cb14b5ada10c2fae6c",
+          "bytes": 2322,
+          "storage": "git"
+        },
+        {
+          "path": "src/Hero3D.tsx",
+          "sha256": "fde84fc3b54ecb63831c33993b15c9d84e6fb943e8f950f0feaa2bfddcc174b6",
+          "bytes": 10266,
+          "storage": "git"
+        },
+        {
+          "path": "src/Main.tsx",
+          "sha256": "d26b63c16dedcf380c420444a62fa763d40e0b773421ebdbf032a50395b571ee",
+          "bytes": 18862,
+          "storage": "git"
+        },
+        {
+          "path": "src/grid.ts",
+          "sha256": "f1f8c702a5dd785df8c50856b5d049bc793166240ab24c51b1cf673edf0c6d6d",
+          "bytes": 1359,
+          "storage": "git"
+        },
+        {
+          "path": "src/index.tsx",
+          "sha256": "636a8de6e7d3333a4dac6cc10b927756b1aeeb0ddf95ab317c3ac30709a7aebb",
+          "bytes": 281,
+          "storage": "git"
+        },
+        {
+          "path": "src/objects.tsx",
+          "sha256": "94ef48dfee0a06d8ce7b4e0dbbdf1af9ff77ee4337decf82e5f40eb0612ec3b7",
+          "bytes": 8575,
+          "storage": "git"
+        },
+        {
+          "path": "src/poster.ts",
+          "sha256": "380a23c11a2f4708ca3943b594aa785a0ee12965914dd50c4af9516c4ae122de",
+          "bytes": 4272,
+          "storage": "git"
+        },
+        {
+          "path": "src/timing.ts",
+          "sha256": "02f76aaa9644fb910116e1c0f84f5e3d579be74098c2b0900640f4fa06bac9b2",
+          "bytes": 2012,
+          "storage": "git"
+        },
+        {
+          "path": "template.json",
+          "sha256": "84ddb2e3c15060dbb42e08ec3d681c1f2e9cde9aa3b416503b98cdfa599c3d54",
+          "bytes": 180,
+          "storage": "git"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "951b8335a4cdb8203c3305f6e138ecca8e53e55dcab091cf6a623297a5fdb3f2",
+          "bytes": 328,
+          "storage": "git"
+        }
+      ]
+    },
+    {
+      "id": "template-case-website",
+      "title": "Live Website Restyle",
+      "template": "templates/template-case-website",
+      "spec": "brief",
+      "model": "claude-opus-5-5",
+      "harness": "Claude Code",
+      "width": 960,
+      "height": 540,
+      "fps": 30,
+      "frames": 195,
+      "minutes": 14,
+      "reviewRounds": 8,
+      "sourcePath": "template-case-website/project",
+      "readingOrder": [
+        "TASK.md",
+        "BUILD-LOG.md",
+        "src/index.tsx",
+        "scripts/render.mjs"
+      ],
+      "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/template-case-website/remake.mp4",
+      "compareUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/template-case-website/compare.mp4",
+      "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/template-case-website/compare.jpg",
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-case-website-v1.0.0/motion-component-template-case-website-v1.1.0.zip",
+      "archiveSha256": "6b13c9c75439b72eb03bfc0778e126854349565ad1953e6bfa6ab4dd12b324d1",
+      "archiveBytes": 15637807,
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "9ae8e02462ff393bb40e787f0a65e79d241ed4f74b32cc57c64acb4ac18fa3fc",
+          "bytes": 19,
+          "storage": "git"
+        },
+        {
+          "path": "BUILD-LOG.md",
+          "sha256": "7a31160b6277a3b2313879d07ccf594d7da73b1697ee6acca0f1622d5673d640",
+          "bytes": 3757,
+          "storage": "git"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "7deb9d638f962be8ed1b7f21f320d2930de1f223da7eb851182ad125d32baadf",
+          "bytes": 1864,
+          "storage": "git"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "ccb96da0309f4ffc13d81363f457ec727534249d4a42ef4dd8dc96aac33500f0",
+          "bytes": 106609,
+          "storage": "git"
+        },
+        {
+          "path": "package.json",
+          "sha256": "5fbff0e928638423f4e6aafe108e7b5007e214dfd251b6ab9a0facffc44395c6",
+          "bytes": 665,
+          "storage": "git"
+        },
+        {
+          "path": "public/generated-assets/alpine-valley.png",
+          "archivePath": "motion-component-template-case-website-v1.1.0/public/generated-assets/alpine-valley.png",
+          "sha256": "24dbbb753cdda79be9d09ad16f1bf42c3fc60a6d587c7d2aa0581623e0867b66",
+          "bytes": 2715591,
+          "storage": "download"
+        },
+        {
+          "path": "public/generated-assets/evidence-room-attempt-1.png",
+          "archivePath": "motion-component-template-case-website-v1.1.0/public/generated-assets/evidence-room-attempt-1.png",
+          "sha256": "681821877767a13eaef580114c2c6b06508a3c323ebd4344f4530ccbacc64d4a",
+          "bytes": 1660216,
+          "storage": "download"
+        },
+        {
+          "path": "public/generated-assets/evidence-room.png",
+          "archivePath": "motion-component-template-case-website-v1.1.0/public/generated-assets/evidence-room.png",
+          "sha256": "3c48d6503b3c7293fbbbe54db74ae015c0f28eb8b84e4c34efac200c07543427",
+          "bytes": 1896985,
+          "storage": "download"
+        },
+        {
+          "path": "public/generated-assets/ridge-meadow.png",
+          "archivePath": "motion-component-template-case-website-v1.1.0/public/generated-assets/ridge-meadow.png",
+          "sha256": "bdce07b4cf9ad958aefa21fa1745e6bec2ef052de7e3e6d5a0b34ba195db3223",
+          "bytes": 3223941,
+          "storage": "download"
+        },
+        {
+          "path": "public/generated-assets/rowboat-lake.png",
+          "archivePath": "motion-component-template-case-website-v1.1.0/public/generated-assets/rowboat-lake.png",
+          "sha256": "fb1af199046f5cd2e0c85037f5c008a0e144ef9659cba3d61bc9c2e3d41c3f0f",
+          "bytes": 3003479,
+          "storage": "download"
+        },
+        {
+          "path": "public/generated-assets/sandstone-desert.png",
+          "archivePath": "motion-component-template-case-website-v1.1.0/public/generated-assets/sandstone-desert.png",
+          "sha256": "ee978b7b00f2ca246512b670cad4533f0afa1afa290eedb552dbd087bd4e8a66",
+          "bytes": 2978035,
+          "storage": "download"
+        },
+        {
+          "path": "scripts/render.mjs",
+          "sha256": "5dcdb485c2ed2268870e25090fdf22239f46ef5fad691d7bcc9b04941b50eecc",
+          "bytes": 2807,
+          "storage": "git"
+        },
+        {
+          "path": "src/Chrome.tsx",
+          "sha256": "214ed4dff55cac90446bde0929b5a88ead282919f830855506cc9616ecb0d4c9",
+          "bytes": 5159,
+          "storage": "git"
+        },
+        {
+          "path": "src/Cursor.tsx",
+          "sha256": "0b8734b543328bda7e390e3d7bfb67f16f1a370afab3880d33d7354318ac8aa9",
+          "bytes": 2601,
+          "storage": "git"
+        },
+        {
+          "path": "src/Page.tsx",
+          "sha256": "d472139f5216c927c0a60233ddfdb204a17bb52fd1b63445f02915829373cdac",
+          "bytes": 9261,
+          "storage": "git"
+        },
+        {
+          "path": "src/Scene.tsx",
+          "sha256": "cf277e25624ce6f622de993f42cd5b943991e97131c1c2276a8d24060568b78c",
+          "bytes": 6626,
+          "storage": "git"
+        },
+        {
+          "path": "src/index.tsx",
+          "sha256": "9b8e0a18762dccf4a6b8188a5c42148da864199fcb7a514695ff83bb49a61bc9",
+          "bytes": 285,
+          "storage": "git"
+        },
+        {
+          "path": "src/themes.ts",
+          "sha256": "864ddb0c32b79aefc2248f5df549ca451125fe2b5796fdae01208d0986f57d4e",
+          "bytes": 3818,
+          "storage": "git"
+        },
+        {
+          "path": "src/timeline.ts",
+          "sha256": "0e28343c96c28f112b65a8a2f9ba72de740c34a4a7ef833b07e1d1cd649640ea",
+          "bytes": 2655,
+          "storage": "git"
+        },
+        {
+          "path": "template.json",
+          "sha256": "9001e2852795da8c4ddc293fdf6186c8b4c4697100c1c023de2f99bf8f714396",
+          "bytes": 177,
+          "storage": "git"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "1e1eb3d140cadf328145a3daaab2057660c65130ae4576617f6a3e97eb4cb675",
+          "bytes": 284,
+          "storage": "git"
+        }
+      ]
+    },
+    {
+      "id": "template-case-research",
+      "title": "Evidence-Backed Answer",
+      "template": "templates/template-case-research",
+      "spec": "brief",
+      "model": "claude-opus-5-5",
+      "harness": "Claude Code",
+      "width": 960,
+      "height": 540,
+      "fps": 30,
+      "frames": 252,
+      "minutes": 18,
+      "reviewRounds": 6,
+      "sourcePath": "template-case-research/project",
+      "readingOrder": [
+        "TASK.md",
+        "BUILD-LOG.md",
+        "src/index.tsx",
+        "scripts/render.mjs"
+      ],
+      "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/template-case-research/remake.mp4",
+      "compareUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/template-case-research/compare.mp4",
+      "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/template-case-research/compare.jpg",
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-case-research-v1.0.0/motion-component-template-case-research-v1.1.0.zip",
+      "archiveSha256": "ed9bebd076635d5b27d9ae32835de4c4126a1ea6448844fc7a71128cbd0414e7",
+      "archiveBytes": 16288451,
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "9ae8e02462ff393bb40e787f0a65e79d241ed4f74b32cc57c64acb4ac18fa3fc",
+          "bytes": 19,
+          "storage": "git"
+        },
+        {
+          "path": "BUILD-LOG.md",
+          "sha256": "3cc571e1acff126c38f8f6a3d03268fb3849ad66552dda9631831ae5cdad5380",
+          "bytes": 5193,
+          "storage": "git"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "0b0a0afa33cd08ac3f67a4c71f049eb39edd32e6193fabe407f317fad76ceacd",
+          "bytes": 1880,
+          "storage": "git"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "f50ad06dbc6cd888484885d13684a1236e918f9df287cbc67e726f493b09ce87",
+          "bytes": 106611,
+          "storage": "git"
+        },
+        {
+          "path": "package.json",
+          "sha256": "afc2bf26fbf259efae09a7cf688ada37aa406ed2ea7c022cea2f9893f41f4c77",
+          "bytes": 666,
+          "storage": "git"
+        },
+        {
+          "path": "public/generated-assets/alpine-valley.png",
+          "archivePath": "motion-component-template-case-research-v1.1.0/public/generated-assets/alpine-valley.png",
+          "sha256": "24dbbb753cdda79be9d09ad16f1bf42c3fc60a6d587c7d2aa0581623e0867b66",
+          "bytes": 2715591,
+          "storage": "download"
+        },
+        {
+          "path": "public/generated-assets/evidence-room-attempt-1.png",
+          "archivePath": "motion-component-template-case-research-v1.1.0/public/generated-assets/evidence-room-attempt-1.png",
+          "sha256": "681821877767a13eaef580114c2c6b06508a3c323ebd4344f4530ccbacc64d4a",
+          "bytes": 1660216,
+          "storage": "download"
+        },
+        {
+          "path": "public/generated-assets/evidence-room.png",
+          "archivePath": "motion-component-template-case-research-v1.1.0/public/generated-assets/evidence-room.png",
+          "sha256": "3c48d6503b3c7293fbbbe54db74ae015c0f28eb8b84e4c34efac200c07543427",
+          "bytes": 1896985,
+          "storage": "download"
+        },
+        {
+          "path": "public/generated-assets/ridge-meadow.png",
+          "archivePath": "motion-component-template-case-research-v1.1.0/public/generated-assets/ridge-meadow.png",
+          "sha256": "bdce07b4cf9ad958aefa21fa1745e6bec2ef052de7e3e6d5a0b34ba195db3223",
+          "bytes": 3223941,
+          "storage": "download"
+        },
+        {
+          "path": "public/generated-assets/rowboat-lake.png",
+          "archivePath": "motion-component-template-case-research-v1.1.0/public/generated-assets/rowboat-lake.png",
+          "sha256": "fb1af199046f5cd2e0c85037f5c008a0e144ef9659cba3d61bc9c2e3d41c3f0f",
+          "bytes": 3003479,
+          "storage": "download"
+        },
+        {
+          "path": "public/generated-assets/sandstone-desert.png",
+          "archivePath": "motion-component-template-case-research-v1.1.0/public/generated-assets/sandstone-desert.png",
+          "sha256": "ee978b7b00f2ca246512b670cad4533f0afa1afa290eedb552dbd087bd4e8a66",
+          "bytes": 2978035,
+          "storage": "download"
+        },
+        {
+          "path": "scripts/render.mjs",
+          "sha256": "5dcdb485c2ed2268870e25090fdf22239f46ef5fad691d7bcc9b04941b50eecc",
+          "bytes": 2807,
+          "storage": "git"
+        },
+        {
+          "path": "src/Atmosphere.tsx",
+          "sha256": "9d07d3c931598f491d048645a65352dce83c63dce8225f40156f692a3035ea37",
+          "bytes": 5439,
+          "storage": "git"
+        },
+        {
+          "path": "src/Brand.tsx",
+          "sha256": "4147f31d0c8e5b3f09a4ab059e88c1b13334e511a5213aaa4ec0881ab140040a",
+          "bytes": 4237,
+          "storage": "git"
+        },
+        {
+          "path": "src/Main.tsx",
+          "sha256": "395d09cb0832723900295c93839e9860e2e0174e218b21bd39eeb5fe11d365f9",
+          "bytes": 712,
+          "storage": "git"
+        },
+        {
+          "path": "src/Markers.tsx",
+          "sha256": "8cbe7041b5b06674ebc94c22f16d9a9cf07b78c5ddeec28ef65dd46dba3cd887",
+          "bytes": 4367,
+          "storage": "git"
+        },
+        {
+          "path": "src/Proof.tsx",
+          "sha256": "8912ea17e2053f9460f3ab604d0fa9d77ec835b711894893470565277afc55df",
+          "bytes": 9224,
+          "storage": "git"
+        },
+        {
+          "path": "src/Surface.tsx",
+          "sha256": "436236b72585d422a46aa4072d0464a1854535ebd99f3673974b591c647d3723",
+          "bytes": 14271,
+          "storage": "git"
+        },
+        {
+          "path": "src/index.tsx",
+          "sha256": "5c51859fcbab3eba68042326325622f3b6c79b533893afd4a2c27a6ad34add60",
+          "bytes": 341,
+          "storage": "git"
+        },
+        {
+          "path": "src/layout.ts",
+          "sha256": "7a4c6a89082f7a587af536d1dd5152ffa062c687543bf1cefc38ec0a24681cdd",
+          "bytes": 3481,
+          "storage": "git"
+        },
+        {
+          "path": "src/lib.ts",
+          "sha256": "8f5d2942eb21ba97b36e1d8b31543299361cfba3c0fc312fbd8904e151ae6e21",
+          "bytes": 2136,
+          "storage": "git"
+        },
+        {
+          "path": "template.json",
+          "sha256": "abcc73fb4ae44d9cc2f0c80804436eedde0d8171ab1d7ccc14aeeb6321e04066",
+          "bytes": 181,
+          "storage": "git"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "1e1eb3d140cadf328145a3daaab2057660c65130ae4576617f6a3e97eb4cb675",
+          "bytes": 284,
+          "storage": "git"
+        }
+      ]
+    },
+    {
+      "id": "template-case-companion",
+      "title": "Idea to Shared World",
+      "template": "templates/template-case-companion",
+      "spec": "brief",
+      "model": "claude-opus-5-5",
+      "harness": "Claude Code",
+      "width": 960,
+      "height": 540,
+      "fps": 30,
+      "frames": 316,
+      "minutes": 25,
+      "reviewRounds": 12,
+      "sourcePath": "template-case-companion/project",
+      "readingOrder": [
+        "TASK.md",
+        "BUILD-LOG.md",
+        "src/index.tsx",
+        "scripts/render.mjs"
+      ],
+      "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/template-case-companion/remake.mp4",
+      "compareUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/template-case-companion/compare.mp4",
+      "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/template-case-companion/compare.jpg",
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-case-companion-v1.0.0/motion-component-template-case-companion-v1.1.0.zip",
+      "archiveSha256": "310cc5628f9b742e634576b19afec025cfe060c113d5b6acb6b5224ec5ba7ff0",
+      "archiveBytes": 755653,
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "9ae8e02462ff393bb40e787f0a65e79d241ed4f74b32cc57c64acb4ac18fa3fc",
+          "bytes": 19,
+          "storage": "git"
+        },
+        {
+          "path": "BUILD-LOG.md",
+          "sha256": "61a1727d8e1513e74aaea9f9346eeda2e4049060762c2f94ed0aff489cfe8f29",
+          "bytes": 4039,
+          "storage": "git"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "ad26e3ecad95263f6a2c0e1c64e22861b536707fd423cee0eb1a65122de688ff",
+          "bytes": 1760,
+          "storage": "git"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "32f74ff887598c4214917d3249679b409cee7c47bf76e37ba8f4016463e6b313",
+          "bytes": 118207,
+          "storage": "git"
+        },
+        {
+          "path": "package.json",
+          "sha256": "8a482d4a8b3c6068844066275686069442ace4a4630514155f7a8cb908b2a3aa",
+          "bytes": 791,
+          "storage": "git"
+        },
+        {
+          "path": "scripts/render.mjs",
+          "sha256": "5dcdb485c2ed2268870e25090fdf22239f46ef5fad691d7bcc9b04941b50eecc",
+          "bytes": 2807,
+          "storage": "git"
+        },
+        {
+          "path": "src/Isle.tsx",
+          "sha256": "d763d005b704c1757c51c483ef3d7da76a5c4ef1d69ed1b861c0e68513c4f4ec",
+          "bytes": 13694,
+          "storage": "git"
+        },
+        {
+          "path": "src/Main.tsx",
+          "sha256": "552689f52c3a03b83dbe48ff624b7c70886d0377477effc728055ec716a945de",
+          "bytes": 2986,
+          "storage": "git"
+        },
+        {
+          "path": "src/index.tsx",
+          "sha256": "b4a95f4cd5689985aaaee27a01108570f7ed88a9ef5e90fab738d092f0d226db",
+          "bytes": 284,
+          "storage": "git"
+        },
+        {
+          "path": "src/math.ts",
+          "sha256": "7e595a6bc5d54409dc7369bbb1ef2aedf3d129ae9268f370ea56f82c6a4092f2",
+          "bytes": 5273,
+          "storage": "git"
+        },
+        {
+          "path": "src/parts.tsx",
+          "sha256": "90dd3232180109edc3b822d60582586939569a1fa63694260bbe7cea427ed879",
+          "bytes": 23204,
+          "storage": "git"
+        },
+        {
+          "path": "src/share.tsx",
+          "sha256": "9bf9bf8e028f9fe2f0a1bdf84917b9152fa1bbf697f2df435945c81736139193",
+          "bytes": 18063,
+          "storage": "git"
+        },
+        {
+          "path": "src/timeline.ts",
+          "sha256": "2a35655882f566e079aecc855c07172a49650f900e91cd86a22819e39352c874",
+          "bytes": 4778,
+          "storage": "git"
+        },
+        {
+          "path": "template.json",
+          "sha256": "c7bc4ff8d264cda193339d19873758c23cee9c6a3aca65b95ad26e6e1d1304c7",
+          "bytes": 181,
+          "storage": "git"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "951b8335a4cdb8203c3305f6e138ecca8e53e55dcab091cf6a623297a5fdb3f2",
+          "bytes": 328,
+          "storage": "git"
+        }
+      ]
+    },
+    {
+      "id": "study-brand-lockup",
+      "title": "Symbol to Wordmark",
+      "template": "templates/study-brand-lockup",
+      "spec": "precise",
+      "model": "claude-opus-5-5",
+      "harness": "Claude Code",
+      "width": 960,
+      "height": 540,
+      "fps": 30,
+      "frames": 66,
+      "minutes": 6,
+      "reviewRounds": 3,
+      "sourcePath": "study-brand-lockup/project",
+      "readingOrder": [
+        "TASK.md",
+        "BUILD-LOG.md",
+        "src/index.tsx",
+        "scripts/render.mjs"
+      ],
+      "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/study-brand-lockup/remake.mp4",
+      "compareUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/study-brand-lockup/compare.mp4",
+      "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/study-brand-lockup/compare.jpg",
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-study-brand-lockup-v1.0.0/motion-component-study-brand-lockup-v1.1.0.zip",
+      "archiveSha256": "8bf10f3058f6cfdbacd12db63d4d4fea400db7e4f9510495e60147c5b79e3677",
+      "archiveBytes": 85401,
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "9ae8e02462ff393bb40e787f0a65e79d241ed4f74b32cc57c64acb4ac18fa3fc",
+          "bytes": 19,
+          "storage": "git"
+        },
+        {
+          "path": "BUILD-LOG.md",
+          "sha256": "ee756cae078325b18ce6d0e7e937560ce1cb24f8166a52c0344a46c73c9d0b39",
+          "bytes": 3623,
+          "storage": "git"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "ae379259fa400686ed7bc9e720e6fee42974bd931f9f84b620ac6dbd418460db",
+          "bytes": 3942,
+          "storage": "git"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "e6b4cce5978bfffb8cca9671a2fda4e16aaea253f2c76e625e3462dc30bc8a86",
+          "bytes": 118197,
+          "storage": "git"
+        },
+        {
+          "path": "package.json",
+          "sha256": "cd5d02f5a242c7ad0e74ce559caa7184541a3762da59a994b2fcd9bd4143cab3",
+          "bytes": 786,
+          "storage": "git"
+        },
+        {
+          "path": "scripts/render.mjs",
+          "sha256": "5dcdb485c2ed2268870e25090fdf22239f46ef5fad691d7bcc9b04941b50eecc",
+          "bytes": 2807,
+          "storage": "git"
+        },
+        {
+          "path": "src/BrandLockup.tsx",
+          "sha256": "b287ffc42c11df45487a76d7b43a79cd7652fba489afae2c5d7476911da5df2b",
+          "bytes": 6820,
+          "storage": "git"
+        },
+        {
+          "path": "src/geometry.ts",
+          "sha256": "530896daa6945fa2955fe1d0e8ae368ae5a43a06d47ec15872aa820eafc60ed8",
+          "bytes": 1593,
+          "storage": "git"
+        },
+        {
+          "path": "src/index.tsx",
+          "sha256": "1bb04313e29d24f741860e7ec5e5a8beffd0361cbd27ecb4677ae6cc16246c93",
+          "bytes": 466,
+          "storage": "git"
+        },
+        {
+          "path": "template.json",
+          "sha256": "aaefd78d12398251b72281850bc5fa4307eebf9d755aa7ec0cc27062cf639e12",
+          "bytes": 168,
+          "storage": "git"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "951b8335a4cdb8203c3305f6e138ecca8e53e55dcab091cf6a623297a5fdb3f2",
+          "bytes": 328,
+          "storage": "git"
+        }
+      ]
+    },
+    {
+      "id": "study-brand-bloom",
+      "title": "Logo Bloom",
+      "template": "templates/study-brand-bloom",
+      "spec": "precise",
+      "model": "claude-opus-5-5",
+      "harness": "Claude Code",
+      "width": 960,
+      "height": 540,
+      "fps": 30,
+      "frames": 66,
+      "minutes": 8,
+      "reviewRounds": 3,
+      "sourcePath": "study-brand-bloom/project",
+      "readingOrder": [
+        "TASK.md",
+        "BUILD-LOG.md",
+        "src/index.tsx",
+        "scripts/render.mjs"
+      ],
+      "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/study-brand-bloom/remake.mp4",
+      "compareUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/study-brand-bloom/compare.mp4",
+      "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/study-brand-bloom/compare.jpg",
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-study-brand-bloom-v1.0.0/motion-component-study-brand-bloom-v1.1.0.zip",
+      "archiveSha256": "483db2117ee32e820d8c4d8e465d9ca4807a647cf54e32a9b3f9fa8ece4ba52d",
+      "archiveBytes": 82557,
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "9ae8e02462ff393bb40e787f0a65e79d241ed4f74b32cc57c64acb4ac18fa3fc",
+          "bytes": 19,
+          "storage": "git"
+        },
+        {
+          "path": "BUILD-LOG.md",
+          "sha256": "0a555f91a31450de903f32dfa97fc2ec5dfd0d02aaae19dcadbaa9b4df5c1266",
+          "bytes": 3524,
+          "storage": "git"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "2429aa680043336be08c5e9a3418073bf0d7dab75145c630e378fa2c9def4403",
+          "bytes": 3411,
+          "storage": "git"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "ee93309e3e5c09a72230fc8ff8fafd5168dcd29ec64c2a7ec40808c7b776f5cd",
+          "bytes": 118195,
+          "storage": "git"
+        },
+        {
+          "path": "package.json",
+          "sha256": "f7cda90fe42847da47fbae3871528a01dbb5e1ccd7f315d14be1f598b133de4f",
+          "bytes": 785,
+          "storage": "git"
+        },
+        {
+          "path": "scripts/render.mjs",
+          "sha256": "5dcdb485c2ed2268870e25090fdf22239f46ef5fad691d7bcc9b04941b50eecc",
+          "bytes": 2807,
+          "storage": "git"
+        },
+        {
+          "path": "src/LogoBloom.tsx",
+          "sha256": "bfe956c2a5e1a6c59b82a30379e4e3d0a570cb791e0c2d0d1eb6c170f9dc6801",
+          "bytes": 7818,
+          "storage": "git"
+        },
+        {
+          "path": "src/geometry.ts",
+          "sha256": "ff0bf9bc5811c3e05e89d15b7875786e1c8e2090cd531b1412eb1f01f288bdec",
+          "bytes": 1817,
+          "storage": "git"
+        },
+        {
+          "path": "src/index.tsx",
+          "sha256": "8e34606cd2401b1282b2854869342ccdb6cecc91ce0ed1fdc8312248018bbb86",
+          "bytes": 496,
+          "storage": "git"
+        },
+        {
+          "path": "template.json",
+          "sha256": "ef97a10868b8ac8b3f1379364fa3aff2e0f1c5c69f1d6bc84a9deb6c58524d5b",
+          "bytes": 158,
+          "storage": "git"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "951b8335a4cdb8203c3305f6e138ecca8e53e55dcab091cf6a623297a5fdb3f2",
+          "bytes": 328,
+          "storage": "git"
+        }
+      ]
+    },
+    {
+      "id": "study-brand-spin",
+      "title": "Logo Half Turn",
+      "template": "templates/study-brand-spin",
+      "spec": "precise",
+      "model": "claude-opus-5-5",
+      "harness": "Claude Code",
+      "width": 960,
+      "height": 540,
+      "fps": 30,
+      "frames": 66,
+      "minutes": 4,
+      "reviewRounds": 3,
+      "sourcePath": "study-brand-spin/project",
+      "readingOrder": [
+        "TASK.md",
+        "BUILD-LOG.md",
+        "src/index.tsx",
+        "scripts/render.mjs"
+      ],
+      "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/study-brand-spin/remake.mp4",
+      "compareUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/study-brand-spin/compare.mp4",
+      "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/study-brand-spin/compare.jpg",
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-study-brand-spin-v1.0.0/motion-component-study-brand-spin-v1.1.0.zip",
+      "archiveSha256": "03a292845e76cfab06c571129960286119a40e1002e7901bf3bc4dcbe915c6bd",
+      "archiveBytes": 84343,
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "9ae8e02462ff393bb40e787f0a65e79d241ed4f74b32cc57c64acb4ac18fa3fc",
+          "bytes": 19,
+          "storage": "git"
+        },
+        {
+          "path": "BUILD-LOG.md",
+          "sha256": "06cfdde8548f52edda30b3dcd3826284351b6fdaf3253c90fe3baa970acedd96",
+          "bytes": 2373,
+          "storage": "git"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "c509a227e9f3dbf4f271921f2310f7d77b66d6797a91cb3abc7c3fa47a976a68",
+          "bytes": 3313,
+          "storage": "git"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "66e6f9f1f38ac81b0c93d8e41fe1ec993a508133fba4a761fbed91a3070cebda",
+          "bytes": 118193,
+          "storage": "git"
+        },
+        {
+          "path": "package.json",
+          "sha256": "765a6b9541ad1657f4d6f0dcab59bf172343d7bb21e2429f828a3dbec8d62538",
+          "bytes": 784,
+          "storage": "git"
+        },
+        {
+          "path": "scripts/render.mjs",
+          "sha256": "5dcdb485c2ed2268870e25090fdf22239f46ef5fad691d7bcc9b04941b50eecc",
+          "bytes": 2807,
+          "storage": "git"
+        },
+        {
+          "path": "src/BrandSpin.tsx",
+          "sha256": "e89a39db4751fa20cc98277d71e637827d5c8bbd511ce12c6e6148ebb7ef1502",
+          "bytes": 4308,
+          "storage": "git"
+        },
+        {
+          "path": "src/index.tsx",
+          "sha256": "ce15e38c5d92f4b8160e44aa4e117e1cfe10947846b2970eb819cf6e74f35326",
+          "bytes": 373,
+          "storage": "git"
+        },
+        {
+          "path": "template.json",
+          "sha256": "a9ab342f64c680fd85f93c823cc341b8a2ef16d0fc2d13731e30c579ded392ab",
+          "bytes": 160,
+          "storage": "git"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "951b8335a4cdb8203c3305f6e138ecca8e53e55dcab091cf6a623297a5fdb3f2",
+          "bytes": 328,
+          "storage": "git"
+        }
+      ]
+    },
+    {
+      "id": "study-brand-gather",
+      "title": "Four Blocks Converge",
+      "template": "templates/study-brand-gather",
+      "spec": "precise",
+      "model": "claude-opus-5-5",
+      "harness": "Claude Code",
+      "width": 960,
+      "height": 540,
+      "fps": 30,
+      "frames": 66,
+      "minutes": 8,
+      "reviewRounds": 4,
+      "sourcePath": "study-brand-gather/project",
+      "readingOrder": [
+        "TASK.md",
+        "BUILD-LOG.md",
+        "src/index.tsx",
+        "scripts/render.mjs"
+      ],
+      "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/study-brand-gather/remake.mp4",
+      "compareUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/study-brand-gather/compare.mp4",
+      "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/study-brand-gather/compare.jpg",
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-study-brand-gather-v1.0.0/motion-component-study-brand-gather-v1.1.0.zip",
+      "archiveSha256": "81a6f90ddfa433edc16663dd60d791d380efb25fff19cbfc7e381c66635ba291",
+      "archiveBytes": 90558,
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "9ae8e02462ff393bb40e787f0a65e79d241ed4f74b32cc57c64acb4ac18fa3fc",
+          "bytes": 19,
+          "storage": "git"
+        },
+        {
+          "path": "BUILD-LOG.md",
+          "sha256": "ac7ad4e6429ff368b86129253861f98961ddb68c672eb0515c29292016500b06",
+          "bytes": 3733,
+          "storage": "git"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "c5fc36141a6d501c3c173a5ee4614ad8c93adecdae952af2513123bb44cc4913",
+          "bytes": 3745,
+          "storage": "git"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "47036f41306e5c867d54168f4f67e80f5371097f682690f02425285fc5e9c532",
+          "bytes": 118197,
+          "storage": "git"
+        },
+        {
+          "path": "package.json",
+          "sha256": "c0819363658bf95730a2dad57b23b06ac1f9eb65d6c0778f67745af3b16ed77e",
+          "bytes": 786,
+          "storage": "git"
+        },
+        {
+          "path": "scripts/render.mjs",
+          "sha256": "5dcdb485c2ed2268870e25090fdf22239f46ef5fad691d7bcc9b04941b50eecc",
+          "bytes": 2807,
+          "storage": "git"
+        },
+        {
+          "path": "src/FourBlocksConverge.tsx",
+          "sha256": "56b456300689fe4918e3acb98f54a2927b803eab1ddb16fb3e0249b96544e4fb",
+          "bytes": 6550,
+          "storage": "git"
+        },
+        {
+          "path": "src/geometry.ts",
+          "sha256": "489a96dc9816ed3d56b19b30c5201806438f18cbd23944dab84ed4d8eb9891c4",
+          "bytes": 2371,
+          "storage": "git"
+        },
+        {
+          "path": "src/index.tsx",
+          "sha256": "97dc1ec321596da6df3ba5966766ea8229fbf5c5c648465d370ae011f36b30a0",
+          "bytes": 412,
+          "storage": "git"
+        },
+        {
+          "path": "src/timing.ts",
+          "sha256": "6bc4cc9ed2ff971f6b95fa7bdeaeed8563fd4af3c66ad240677a3a5693603585",
+          "bytes": 979,
+          "storage": "git"
+        },
+        {
+          "path": "template.json",
+          "sha256": "5921776a279910b623d9451d6a5b615e67c2390bed9b3d415f66c2739c4bda55",
+          "bytes": 170,
+          "storage": "git"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "951b8335a4cdb8203c3305f6e138ecca8e53e55dcab091cf6a623297a5fdb3f2",
+          "bytes": 328,
+          "storage": "git"
+        }
+      ]
+    }
+  ]
+}

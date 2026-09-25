@@ -1,0 +1,244 @@
+{
+  "composition": {
+    "id": "pf-brand-dots",
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "frames": 336
+  },
+  "board": {
+    "x": 80,
+    "y": 80,
+    "w": 1760,
+    "h": 920,
+    "measuredUnion": {
+      "x": 80,
+      "y": 80,
+      "w": 1760,
+      "h": 920
+    },
+    "seamPx": 12,
+    "cornerRadiusAtRest": 0
+  },
+  "panels": {
+    "A": {
+      "role": "moving monochrome mark pattern",
+      "x": 80,
+      "y": 80,
+      "w": 540,
+      "h": 380
+    },
+    "B": {
+      "role": "coast photo + caption",
+      "x": 632,
+      "y": 80,
+      "w": 680,
+      "h": 560
+    },
+    "C": {
+      "role": "coral hero mark",
+      "x": 1324,
+      "y": 80,
+      "w": 516,
+      "h": 920
+    },
+    "D": {
+      "role": "dark wordmark + tagline",
+      "x": 80,
+      "y": 472,
+      "w": 540,
+      "h": 528
+    },
+    "E": {
+      "role": "three labeled colour bands",
+      "x": 632,
+      "y": 652,
+      "w": 680,
+      "h": 348
+    }
+  },
+  "seams": [
+    {
+      "pair": "AD",
+      "axis": "horizontal",
+      "gapPx": 12
+    },
+    {
+      "pair": "AB",
+      "axis": "vertical",
+      "gapPx": 12
+    },
+    {
+      "pair": "DE",
+      "axis": "vertical",
+      "gapPx": 12
+    },
+    {
+      "pair": "BD",
+      "axis": "vertical",
+      "gapPx": 12
+    },
+    {
+      "pair": "BE",
+      "axis": "horizontal",
+      "gapPx": 12
+    },
+    {
+      "pair": "BC",
+      "axis": "vertical",
+      "gapPx": 12
+    },
+    {
+      "pair": "CE",
+      "axis": "vertical",
+      "gapPx": 12
+    }
+  ],
+  "startPoints": [
+    {
+      "panel": "A",
+      "cx": 672,
+      "cy": 540,
+      "diameter": 72.01
+    },
+    {
+      "panel": "D",
+      "cx": 816,
+      "cy": 540,
+      "diameter": 72
+    },
+    {
+      "panel": "B",
+      "cx": 960,
+      "cy": 540,
+      "diameter": 72
+    },
+    {
+      "panel": "E",
+      "cx": 1104,
+      "cy": 540,
+      "diameter": 72
+    },
+    {
+      "panel": "C",
+      "cx": 1248,
+      "cy": 540,
+      "diameter": 72
+    }
+  ],
+  "morph": {
+    "startFrame": 42,
+    "endFrame": 87,
+    "startSec": 0.7,
+    "endSec": 1.45,
+    "landedShapes": [
+      {
+        "panel": "A",
+        "x": 80,
+        "y": 80,
+        "w": 540,
+        "h": 380,
+        "cornerRadius": 0
+      },
+      {
+        "panel": "D",
+        "x": 80,
+        "y": 472,
+        "w": 540,
+        "h": 528,
+        "cornerRadius": 0
+      },
+      {
+        "panel": "B",
+        "x": 632,
+        "y": 80,
+        "w": 680,
+        "h": 560,
+        "cornerRadius": 0
+      },
+      {
+        "panel": "E",
+        "x": 632,
+        "y": 652,
+        "w": 680,
+        "h": 348,
+        "cornerRadius": 0
+      },
+      {
+        "panel": "C",
+        "x": 1324,
+        "y": 80,
+        "w": 516,
+        "h": 920,
+        "cornerRadius": 0
+      }
+    ]
+  },
+  "revealOrder": [
+    {
+      "panel": "A",
+      "frame": 88,
+      "sec": 1.467
+    },
+    {
+      "panel": "C",
+      "frame": 98,
+      "sec": 1.633
+    },
+    {
+      "panel": "B",
+      "frame": 108,
+      "sec": 1.8
+    },
+    {
+      "panel": "E",
+      "frame": 118,
+      "sec": 1.967
+    },
+    {
+      "panel": "D",
+      "frame": 128,
+      "sec": 2.133
+    }
+  ],
+  "motion": {
+    "patternDriftPxPerFrame": {
+      "x": 0.46,
+      "y": 0.22
+    },
+    "photoPushIn": {
+      "fromScale": 1.02,
+      "toScale": 1.16,
+      "frames": [
+        108,
+        335
+      ]
+    },
+    "markTurn": {
+      "degrees": 90,
+      "frames": [
+        204,
+        240
+      ]
+    },
+    "textLines": {
+      "panel": "D",
+      "lines": [
+        "Five points.",
+        "One open field."
+      ],
+      "startFrames": [
+        150,
+        160
+      ]
+    },
+    "bands": {
+      "panel": "E",
+      "startFrames": [
+        118,
+        126,
+        134
+      ]
+    }
+  }
+}

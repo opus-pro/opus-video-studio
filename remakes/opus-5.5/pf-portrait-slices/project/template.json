@@ -1,0 +1,9 @@
+{
+  "id": "pf-portrait-slices",
+  "title": "Portrait Slice Assembly",
+  "compositionId": "pf-portrait-slices",
+  "width": 1080,
+  "height": 1920,
+  "fps": 60,
+  "frames": 252
+}

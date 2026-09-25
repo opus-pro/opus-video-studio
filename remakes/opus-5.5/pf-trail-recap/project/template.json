@@ -1,0 +1,9 @@
+{
+  "id": "pf-trail-recap",
+  "title": "Trail Recap Data Reveal",
+  "compositionId": "pf-trail-recap",
+  "width": 1080,
+  "height": 1350,
+  "fps": 60,
+  "frames": 324
+}

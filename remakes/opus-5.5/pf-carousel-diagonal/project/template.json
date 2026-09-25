@@ -1,0 +1,9 @@
+{
+  "id": "pf-carousel-diagonal",
+  "title": "3D Diagonal Portfolio Relay",
+  "compositionId": "pf-carousel-diagonal",
+  "width": 1200,
+  "height": 1200,
+  "fps": 60,
+  "frames": 288
+}
