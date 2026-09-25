@@ -1,143 +1,222 @@
 <p align="center">
-  <a href="https://labs.opus.pro">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset=".github/assets/opus-labs-wordmark-white.svg">
-      <img alt="Opus Labs" src=".github/assets/opus-labs-wordmark-black.svg" height="34">
-    </picture>
-  </a>
+  <a href="https://labs.opus.pro"><img src=".github/assets/banner.png" alt="Opus Video Studio by Opus Labs. You shipped it. Now show it. Your coding agent turns one of 43 proven launch templates into a video for your product, sized for every social feed." width="100%"></a>
 </p>
 
-<h1 align="center">Opus Video Tools</h1>
-
 <p align="center">
-  Create videos, images, voiceovers, and music with Opus tools in Codex and Claude Code.<br>
-  Use a local Remotion Studio project to preview and assemble your results.
+  <a href="#quick-start"><img alt="Claude Code plugin" src="https://img.shields.io/badge/Claude_Code-plugin-1f1f23?style=flat-square&labelColor=ff570a"></a> <a href="#quick-start"><img alt="Codex plugin" src="https://img.shields.io/badge/Codex-plugin-1f1f23?style=flat-square&labelColor=ff570a"></a> <a href="templates/README.md"><img alt="43 templates" src="https://img.shields.io/badge/templates-43-1f1f23?style=flat-square&labelColor=0a0a0b"></a> <a href="remakes/opus-5.5/README.md"><img alt="34 Claude Opus 5.5 remakes" src="https://img.shields.io/badge/Claude_Opus_5.5_remakes-34-1f1f23?style=flat-square&labelColor=0a0a0b"></a> <a href="templates/LICENSE"><img alt="MIT template license" src="https://img.shields.io/badge/template_license-MIT-1f1f23?style=flat-square&labelColor=0a0a0b"></a>
 </p>
 
 <p align="center">
   <a href="https://labs.opus.pro"><b>labs.opus.pro</b></a> ·
   <a href="https://product-videos.labs.opus.pro/">Template gallery</a> ·
-  <a href="templates/README.md">43 open-source templates</a> ·
-  <a href="remakes/opus-5.5/README.md">Claude Opus 5.5 remakes</a> ·
-  <a href="#install">Install</a>
+  <a href="#quick-start">Quick start</a> ·
+  <a href="#for-ai-agents">For AI agents</a> ·
+  <a href="remakes/opus-5.5/README.md">GPT-6 vs Claude Opus 5.5</a>
+</p>
+
+**Everyone knows a launch should go out on social. The hard part is making the video.** Opus Video Studio handles
+that inside **Claude Code** and **Codex**: pick one of 43 open-source launch templates, and your coding agent adapts it
+to your product and renders it for every feed.
+
+<table>
+<tr>
+<td width="33%" valign="top"><b>No video skills needed</b><br><sub>Describe what you shipped in one sentence. Your agent edits the template's code, so there's no timeline to learn.</sub></td>
+<td width="33%" valign="top"><b>Ready-made, down to the piece</b><br><sub>9 full launch films and 34 components already split out: logo reveals, headlines, showcases, product UI, data stories. Use one as is or combine them.</sub></td>
+<td width="33%" valign="top"><b>Every feed from one run</b><br><sub>16:9 for X, YouTube and LinkedIn, 1:1 for feeds, and 9:16 for Reels, Shorts and TikTok, rendered on your machine.</sub></td>
+</tr>
+</table>
+
+<p align="center">
+  <img src=".github/assets/demo.gif" alt="A Claude Code session with Opus Video Studio: one sentence asks for an Opus Labs logo reveal in three formats, the agent downloads and verifies the template, adapts it, and renders 16:9, 1:1 and 9:16 versions" width="100%"><br>
+  <sub>A real Claude Code session with the plugin, sped up. One sentence in, every feed out: 11 minutes, rendered locally, no paid media.</sub>
 </p>
 
 <p align="center">
-  <a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/launch-film/launch-film-16x9.mp4"><img alt="Watch the launch film" src="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/launch-film/poster.jpg" width="820"></a><br>
-  <sub>The launch film, made by Claude Opus 5.5 with this repository. <a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/launch-film/launch-film-9x16.mp4">Vertical cut</a></sub>
+  <a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/launch-film/r3/launch-film-16x9.mp4"><img src=".github/assets/launch-film-poster.jpg" alt="Watch the 45-second launch film" width="72%"></a><br>
+  <sub><b>Watch the launch film</b> (45 s). Claude Opus 5.5 made it with this plugin, and every clip in it comes from this repository. · <a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/launch-film/r3/launch-film-9x16.mp4">Vertical cut</a></sub>
 </p>
 
-## Open-source video templates
+## Quick start
 
-**9 full video templates and 34 motion components** from Product Videos are now
-available as [editable source in this repository](templates/), under the
-[MIT License](templates/LICENSE).
-
-[Browse the gallery](https://product-videos.labs.opus.pro/) ·
-[Explore all templates and video demos](templates/README.md) ·
-[Watch the AI Coding Agent demo](https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/aiagent-motion-template-lite-1.0.0/preview.mp4)
-
-[![Watch the AI Coding Agent video demo](https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/aiagent-motion-template-lite-1.0.0/poster.jpg)](https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/aiagent-motion-template-lite-1.0.0/preview.mp4)
-
-Each template includes its original animation source, configuration, locked
-dependencies, and asset notes. Download only the selected template's media:
-
-```sh
-git clone https://github.com/opus-pro/opus-video-studio.git
-cd opus-video-studio
-npm run templates:prepare -- ai-research
-cd templates/ai-research/project
-npm ci
-npm run studio
-# Export the video:
-npm run render
-```
-
-See the [template guide](templates/README.md) for prerequisites and all 43 examples.
-Local template editing and rendering need no Opus account or paid generation.
-The hosted gallery may require sign-in; source and video demo links are public.
-
-## Claude Opus 5.5 remakes
-
-Each of the 34 motion components also comes as a **blind remake by Claude Opus 5.5**, placed next to the original.
-Claude Opus 5.5 received only the component's written spec, the same assets and an empty Remotion
-project. It never saw the original source or video demo, and it worked without human feedback.
-Every remake keeps the exact prompt (`TASK.md`) and the model's own `BUILD-LOG.md`.
-
-```sh
-npm run remakes:prepare -- pf-brand-clover
-cd remakes/opus-5.5/pf-brand-clover/project
-npm ci
-npm run studio
-```
-
-See the [remake guide](remakes/opus-5.5/README.md) for the protocol and all 34 side-by-side comparisons.
-Remakes reuse the original release's media, so preparation downloads and verifies the same files.
-
-## Install
-
-In **Claude Code**, run:
+**1. Install the plugin.** In **Claude Code**, in a terminal session or the Desktop Code tab:
 
 ```text
 /plugin marketplace add opus-pro/opus-video-studio
 /plugin install opus-video-studio@opus-pro
 ```
 
-In **Codex**, run:
+In **Codex**:
 
 ```sh
 codex plugin marketplace add https://github.com/opus-pro/opus-video-studio.git --ref main
 codex plugin add opus-video-studio@opus-pro
 ```
 
-Or ask your agent to *"install Opus Video Tools by following the guide at
-https://github.com/opus-pro/opus-video-studio/blob/main/docs/claude-code-install-protocol.md"*
-(swap in `codex-install-protocol.md` for Codex). The guides also cover upgrades, Desktop and MCP sign-in.
+Then start a new session so the skills load. The [Claude Code](docs/claude-code-install-protocol.md) and
+[Codex](docs/codex-install-protocol.md) guides cover upgrades, Desktop, and signing in to the managed tools.
 
-- [Codex installation guide](docs/codex-install-protocol.md)
-- [Claude Code installation guide](docs/claude-code-install-protocol.md)
-- [Publishing and verifying the shared website guides](docs/guide-publication.md)
+**2. Ask for a video.** Pick a template in the [gallery](https://product-videos.labs.opus.pro/) or [below](#pick-a-template-for-your-launch), then say what you want:
 
-The Product Videos website currently offers Codex onboarding. The plugin keeps
-both client distributions and shares its source-template and media workflows.
+```text
+Make a 20-second launch video for Acme (acme.com) from https://labs.opus.pro/product-videos/ai-research, in 16:9 and 9:16
+```
 
-The repository is public; managed generation still requires an authorized Opus account,
-product access, and sufficient credits. Installing the plugin does not grant service access.
-Local Remotion setup and preview do not spend Opus generation credits.
+```text
+Turn https://labs.opus.pro/product-videos/pf-mark-lockup into a 4-second logo reveal. Logo: ./brand/logo.svg
+```
 
-## Included
+```text
+Write and generate a 30-second music bed for our product demo
+```
 
-- [Get started](plugins/opus-video-studio/skills/get-started/SKILL.md): choose a template or generated media. Browse the [template library](https://product-videos.labs.opus.pro/) or start from the [open-source templates](templates/).
+Your agent downloads the template's original source and verifies its SHA-256, swaps in your copy, logo and colors,
+renders a baseline and the final MP4 locally, and reviews every transition. Local templates and rendering are free and
+need no Opus account. Generated media, such as the music bed in the last example, needs an Opus account and credits,
+and the agent always shows you the exact request before it spends any.
 
-- [Motion UI](plugins/opus-video-studio/skills/motion-ui/SKILL.md): editable UI animation and code-driven product videos, with real-UI fidelity, kinetic typography, deliberate easing, and optional Opus audio.
-- [Media Tools](plugins/opus-video-studio/skills/media-tools/SKILL.md): standalone audio, images/keyframes, transcription, asset import, and job status/recovery.
-- [Video Director](plugins/opus-video-studio/skills/video-director/SKILL.md): directing and prompt optimization for every new AI video generation, including direct model requests. It supports whichever video models the public tools expose; the bundled Seedance pack is loaded only for Seedance.
-- The `opus-video-tools` MCP connection at `https://labs.opus.pro/opus-video-tools/mcp`.
-- Pinned local Remotion dependencies, a setup helper, and an editable starter composition.
+**3. Or skip the plugin.** Every template is plain Remotion source:
 
-Video Director planning and the complete timed script apply to managed video clips. Local
-animation and code-generated video use the chosen framework; standalone media calls review the
-requested text, audio brief, or image prompt without a video storyboard. Paid generation still
-requires approval of the exact request. The plugin
-tracks asynchronous jobs and reuses request keys for identical retries. It contains no provider
-credentials or backend service implementation.
+```sh
+git clone https://github.com/opus-pro/opus-video-studio.git && cd opus-video-studio
+npm run templates:prepare -- ai-research      # restores this template's media, verified by SHA-256
+cd templates/ai-research/project && npm ci && npm run studio   # or: npm run render
+```
 
-## Names
+## For AI agents
+
+If you are an agent working in this repository or helping a user with it, read [`AGENTS.md`](AGENTS.md) first. In short:
+
+- **To install for a user**, follow the protocol for your client:
+  [Claude Code](docs/claude-code-install-protocol.md) or [Codex](docs/codex-install-protocol.md).
+  Don't treat a checkout as an installed plugin; the skills resolve their plugin root from the installed path.
+- **When given a template link** (`https://labs.opus.pro/product-videos/<id>`), use the `motion-ui` skill and the
+  [source workflow](plugins/opus-video-studio/docs/template-source.md). Download and verify the original project and edit it.
+  Never rebuild it from the preview video.
+- **The catalogues are machine-readable:** [`templates/catalog.json`](templates/catalog.json) and
+  [`remakes/opus-5.5/catalog.json`](remakes/opus-5.5/catalog.json) give ids, sizes, demos and file checksums.
+- **Local rendering is free.** Paid generation needs the user's approval of the exact request, as set out in the
+  [shared rules](plugins/opus-video-studio/docs/shared-rules.md).
+- **Never commit restored media.** Files recorded as `"storage": "download"` stay out of Git. Run `npm test` before committing.
+
+A user can hand their agent one line:
+
+```text
+Install Opus Video Studio by following https://github.com/opus-pro/opus-video-studio/blob/main/docs/claude-code-install-protocol.md, then help me make a launch video.
+```
+
+For Codex, swap in `codex-install-protocol.md`.
+
+## Pick a template for your launch
+
+Every template is editable source under the [MIT License](templates/LICENSE), with its original animation code,
+locked dependencies and asset notes. Click a poster to watch it.
+
+### Full launch films
+
+Nine complete launch videos, each designed around a kind of product. Swap in your name, screens and colors.
+
+<table>
+<tr>
+<td width="33%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/ai-research-motion-template-lite-v5-1.0.0/preview.mp4"><img src=".github/assets/templates/ai-research.jpg" alt="AI Research Assistant video demo" width="100%"></a><br><b><a href="templates/ai-research/">AI Research Assistant</a></b><br><sub>Research and evidence workflows · 19 s</sub></td>
+<td width="33%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/margin-motion-template-lite-fast20-1.0.0/preview.mp4"><img src=".github/assets/templates/margin.jpg" alt="AI Writing Assistant video demo" width="100%"></a><br><b><a href="templates/margin/">AI Writing Assistant</a></b><br><sub>Writing and document workflows · 20 s</sub></td>
+<td width="33%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/aiagent-motion-template-lite-1.0.0/preview.mp4"><img src=".github/assets/templates/aiagent.jpg" alt="AI Coding Agent video demo" width="100%"></a><br><b><a href="templates/aiagent/">AI Coding Agent</a></b><br><sub>AI coding agents and software creation workflows · 28 s</sub></td>
+</tr>
+<tr>
+<td width="33%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/agent-opus-motion-template-lite-v19.10-1.1.0/preview.mp4"><img src=".github/assets/templates/agent-opus.jpg" alt="AI Video Generator video demo" width="100%"></a><br><b><a href="templates/agent-opus/">AI Video Generator</a></b><br><sub>AI video creation · 41 s</sub></td>
+<td width="33%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/ai-companion-motion-template-lite-v12-1.0.0/preview.mp4"><img src=".github/assets/templates/ai-companion.jpg" alt="AI Companion video demo" width="100%"></a><br><b><a href="templates/ai-companion/">AI Companion</a></b><br><sub>Character chat and personal assistants · 30 s</sub></td>
+<td width="33%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/creative-search-motion-template-lite-v8-1.0.0/preview.mp4"><img src=".github/assets/templates/creative-search.jpg" alt="Creative Search video demo" width="100%"></a><br><b><a href="templates/creative-search/">Creative Search</a></b><br><sub>Creative file search · 23 s</sub></td>
+</tr>
+<tr>
+<td width="33%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/website-builder-motion-template-lite-v3-1.0.0/preview.mp4"><img src=".github/assets/templates/website-builder.jpg" alt="Website Builder video demo" width="100%"></a><br><b><a href="templates/website-builder/">Website Builder</a></b><br><sub>Website and visual editors · 52 s</sub></td>
+<td width="33%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/tovo-motion-template-lite-1.0.0/preview.mp4"><img src=".github/assets/templates/tovo.jpg" alt="AI Meeting Assistant video demo" width="100%"></a><br><b><a href="templates/tovo/">AI Meeting Assistant</a></b><br><sub>Meeting notes and action items · 15 s</sub></td>
+<td width="33%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/numo-motion-template-lite-1.0.0/preview.mp4"><img src=".github/assets/templates/numo.jpg" alt="Analytics Dashboard video demo" width="100%"></a><br><b><a href="templates/numo/">Analytics Dashboard</a></b><br><sub>Data analytics · 15 s</sub></td>
+</tr>
+</table>
+
+### Or grab just the piece you need
+
+34 motion components, each split out as its own project, so you can drop a logo reveal into a video you already have
+or string a few together into a new one.
+
+<table>
+<tr>
+<td width="20%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-brand-clover-v1.0.0/preview.mp4"><img src=".github/assets/components/pf-brand-clover.jpg" alt="Logo Unfold Brand System component" width="100%"></a><br><b><a href="templates/README.md#brand-intros">Logo reveals</a></b><br><sub>9 brand intros</sub></td>
+<td width="20%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-ribbon-manifesto-v1.0.0/preview.mp4"><img src=".github/assets/components/template-ribbon-manifesto.jpg" alt="Three-Ribbon Campaign component" width="100%"></a><br><b><a href="templates/README.md#titles-and-announcements">Headlines</a></b><br><sub>6 titles and announcements</sub></td>
+<td width="20%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-depth-swirl-v1.0.0/preview.mp4"><img src=".github/assets/components/pf-depth-swirl.jpg" alt="3D Depth Spiral component" width="100%"></a><br><b><a href="templates/README.md#showcase-and-portfolio">Showcases</a></b><br><sub>9 galleries, 3D and portfolios</sub></td>
+<td width="20%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-phone-carousel-v1.0.0/preview.mp4"><img src=".github/assets/components/pf-phone-carousel.jpg" alt="Three-Phone Carousel component" width="100%"></a><br><b><a href="templates/README.md#product-and-ui-demos">Product UI</a></b><br><sub>6 app and UI demos</sub></td>
+<td width="20%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-case-numo-v1.0.0/preview.mp4"><img src=".github/assets/components/template-case-numo.jpg" alt="Anomaly to Action component" width="100%"></a><br><b><a href="templates/README.md#data-and-results">Data stories</a></b><br><sub>4 charts and results</sub></td>
+</tr>
+</table>
+
+<p align="center"><a href="templates/README.md"><b>Browse all 43 templates and components →</b></a></p>
+
+## GPT-6 vs Claude Opus 5.5
+
+The 34 motion components were originally built with GPT-6 and refined through human review. **Claude Opus 5.5 remade
+every one of them blind.** It got only the written spec, the same assets and an empty Remotion project, and it worked in one pass
+without seeing the original or getting any feedback. Each remake keeps its prompt (`TASK.md`) and the model's own
+`BUILD-LOG.md`. Click a pair to play it side by side.
+
+<table>
+<tr>
+<td width="50%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-brand-clover/compare.mp4"><img src="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-brand-clover/compare.jpg" alt="Logo Unfold Brand System: GPT-6 original vs Claude Opus 5.5 remake" width="100%"></a><br><b><a href="remakes/opus-5.5/pf-brand-clover/">Logo Unfold Brand System</a></b><br><sub>GPT-6 original · Claude Opus 5.5 remake · precise spec</sub></td>
+<td width="50%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/template-manifesto/compare.mp4"><img src="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/template-manifesto/compare.jpg" alt="Glossy Serif Manifesto: GPT-6 original vs Claude Opus 5.5 remake" width="100%"></a><br><b><a href="remakes/opus-5.5/template-manifesto/">Glossy Serif Manifesto</a></b><br><sub>GPT-6 original · Claude Opus 5.5 remake · one-paragraph brief</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-carousel-vertical/compare.mp4"><img src="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-carousel-vertical/compare.jpg" alt="Vertical Portfolio Relay: GPT-6 original vs Claude Opus 5.5 remake" width="100%"></a><br><b><a href="remakes/opus-5.5/pf-carousel-vertical/">Vertical Portfolio Relay</a></b><br><sub>GPT-6 original · Claude Opus 5.5 remake · precise spec</sub></td>
+<td width="50%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-orbit-focus/compare.mp4"><img src="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-orbit-focus/compare.jpg" alt="3D Orbit to Hero: GPT-6 original vs Claude Opus 5.5 remake" width="100%"></a><br><b><a href="remakes/opus-5.5/pf-orbit-focus/">3D Orbit to Hero</a></b><br><sub>GPT-6 original · Claude Opus 5.5 remake · precise spec</sub></td>
+</tr>
+</table>
+
+<p align="center"><a href="remakes/opus-5.5/README.md"><b>See all 34 comparisons and the protocol →</b></a></p>
+
+```sh
+npm run remakes:prepare -- pf-brand-clover    # the same verified media as the original release
+cd remakes/opus-5.5/pf-brand-clover/project && npm ci && npm run studio
+```
+
+## What's in the plugin
+
+| | |
+|---|---|
+| [**Get started**](plugins/opus-video-studio/skills/get-started/SKILL.md) | Choose a template or generated media. Browse the [template library](https://product-videos.labs.opus.pro/) or start from the [open-source templates](templates/). |
+| [**Motion UI**](plugins/opus-video-studio/skills/motion-ui/SKILL.md) | Editable UI animation and code-driven product videos, with real-UI fidelity, kinetic typography, deliberate easing, and optional Opus audio. |
+| [**Media Tools**](plugins/opus-video-studio/skills/media-tools/SKILL.md) | Standalone audio, images and keyframes, transcription, asset import, and job status and recovery. |
+| [**Video Director**](plugins/opus-video-studio/skills/video-director/SKILL.md) | Directing and prompt optimization for every new AI video generation, including direct model requests. It supports whichever video models the public tools expose; the bundled Seedance pack is loaded only for Seedance. |
+| **Opus Video Tools MCP** | The managed `opus-video-tools` connection at `https://labs.opus.pro/opus-video-tools/mcp`. |
+| **Local Remotion** | Pinned local Remotion dependencies, a setup helper, and an editable starter composition. |
+
+**What it costs.** Templates, local rendering and preview are free and need no Opus account. Generated voiceover,
+music, images and AI video need an authorized Opus account, product access and credits; installing the plugin does
+not grant service access. Your agent shows you the exact request before it spends anything, tracks asynchronous jobs,
+and reuses request keys for identical retries. The plugin contains no provider credentials or backend code.
+
+<details>
+<summary><b>For maintainers</b>: names, website guides and validation</summary>
+
+### Names
 
 | Setting | Value | Defined in |
 |---|---|---|
 | Public repository | `opus-pro/opus-video-studio` | GitHub and installation guides |
-| Display name | `Opus Video Tools` | Codex plugin manifest |
+| Display name | `Opus Video Studio` | Codex plugin manifest |
 | Plugin installation ID | `opus-video-studio@opus-pro` | Codex and Claude marketplace manifests |
-| MCP server ID | `opus-video-tools` | Plugin `.mcp.json` |
+| MCP server ID | `opus-video-tools` (the managed Opus Video Tools connection) | Plugin `.mcp.json` |
 
 The installation ID is stable so existing clients can upgrade. Repository names, plugin IDs,
 display names, and OAuth resource addresses are separate settings.
 
-## Validate
+### Website guides
+
+The Product Videos website currently offers Codex onboarding. Both client distributions share one set of
+template-source and media workflows; see [publishing and verifying the shared website guides](docs/guide-publication.md).
+
+### Validate
 
 Run `npm test` with Node.js 22 or newer. These local checks do not prove live OAuth, generation,
 or billing availability. The installation guides include connection checks.
+
+</details>
 
 ## License
 
