@@ -117,6 +117,27 @@ separately as passed, failed, pending or not requested. The ten public tools are
 another plugin do not prove that this server loaded. A missing tool is not a
 reason to generate media or silently install a duplicate MCP server.
 
+Keep the final setup message short and in plain language, like this (in the
+user's language; no tables, and no user, org or token IDs):
+
+```text
+Setup is complete.
+- Plugin: Opus Video Studio <version>
+- Skills: all four loaded
+- Tools: all 10 available
+- Account: signed in (<plan> plan)
+Nothing was generated and no credits were used.
+
+Next, paste a motion template link to edit, or ask me to generate video,
+voiceover, music, images or sound effects.
+```
+
+Link "motion template" to https://product-videos.labs.opus.pro/. Add the
+account email or organization name only when whoami returns one. For a
+failed or pending check, replace its line with what is missing and the single
+action the user needs to take. Do not list account identity as pending just
+because whoami returns only IDs.
+
 An installation that still names the old `aao` server is stale: refresh the
 public marketplace and replace only this plugin using the steps above. Inspect
 the installed `.mcp.json` again before troubleshooting OAuth. Both production

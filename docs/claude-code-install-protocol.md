@@ -176,6 +176,27 @@ verification, the public catalog has ten tools (the host may namespace them):
 `list_jobs` and `resolve_job`. Do not substitute another server's similarly
 named tool. Only a successful whoami establishes authenticated tool access.
 
+Keep the final setup message short and in plain language, like this (in the
+user's language; no tables, and no user, org or token IDs):
+
+```text
+Setup is complete.
+- Plugin: Opus Video Studio <version>
+- Skills: all four loaded
+- Tools: all 10 available
+- Account: signed in (<plan> plan)
+Nothing was generated and no credits were used.
+
+Next, paste a motion template link to edit, or ask me to generate video,
+voiceover, music, images or sound effects.
+```
+
+Link "motion template" to https://product-videos.labs.opus.pro/. Add the
+account email or organization name only when whoami returns one. For a
+failed or pending check, replace its line with what is missing and the single
+action the user needs to take. Do not list account identity as pending just
+because whoami returns only IDs.
+
 Continue the original request in this conversation when capabilities are loaded.
 For a welcome, offer the template library or media generation briefly. Follow
 `motion-ui` and `docs/template-source.md` for a selected template; preserve its

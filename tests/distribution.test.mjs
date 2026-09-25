@@ -98,3 +98,11 @@ test("setup does not require an unshipped button or automatic session handoff", 
     assert.doesNotMatch(text, /click Start creating|After installing\/updating, use a fresh|start a new Codex task/);
   }
 });
+
+test("both setup guides end with the same short confirmation", () => {
+  for (const file of ["docs/codex-install-protocol.md", "docs/claude-code-install-protocol.md"]) {
+    const text = read(file);
+    assert.match(text, /Setup is complete\.\n- Plugin: Opus Video Studio <version>/, file);
+    assert.match(text, /no tables, and no user, org or token IDs/, file);
+  }
+});
