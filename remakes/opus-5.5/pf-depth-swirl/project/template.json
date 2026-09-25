@@ -1,0 +1,9 @@
+{
+  "id": "pf-depth-swirl",
+  "title": "3D Depth Spiral",
+  "compositionId": "pf-depth-swirl",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "frames": 348
+}

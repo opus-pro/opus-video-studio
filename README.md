@@ -1,7 +1,31 @@
-# Opus Video Tools
+<p align="center">
+  <a href="https://labs.opus.pro">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset=".github/assets/opus-labs-wordmark-white.svg">
+      <img alt="Opus Labs" src=".github/assets/opus-labs-wordmark-black.svg" height="34">
+    </picture>
+  </a>
+</p>
 
-Create videos, images, voiceovers, and music with Opus tools in Codex and Claude Code.
-Use a local Remotion Studio project to preview and assemble your results.
+<h1 align="center">Opus Video Tools</h1>
+
+<p align="center">
+  Create videos, images, voiceovers, and music with Opus tools in Codex and Claude Code.<br>
+  Use a local Remotion Studio project to preview and assemble your results.
+</p>
+
+<p align="center">
+  <a href="https://labs.opus.pro"><b>labs.opus.pro</b></a> ·
+  <a href="https://product-videos.labs.opus.pro/">Template gallery</a> ·
+  <a href="templates/README.md">43 open-source templates</a> ·
+  <a href="remakes/opus-5.5/README.md">Claude Opus 5.5 remakes</a> ·
+  <a href="#install">Install</a>
+</p>
+
+<p align="center">
+  <a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/launch-film/launch-film-16x9.mp4"><img alt="Watch the launch film" src="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/launch-film/poster.jpg" width="820"></a><br>
+  <sub>The launch film, made by Claude Opus 5.5 with this repository. <a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/launch-film/launch-film-9x16.mp4">Vertical cut</a></sub>
+</p>
 
 ## Open-source video templates
 
@@ -33,7 +57,42 @@ See the [template guide](templates/README.md) for prerequisites and all 43 examp
 Local template editing and rendering need no Opus account or paid generation.
 The hosted gallery may require sign-in; source and video demo links are public.
 
+## Claude Opus 5.5 remakes
+
+Each of the 34 motion components also comes as a **blind remake by Claude Opus 5.5**, placed next to the original.
+Claude Opus 5.5 received only the component's written spec, the same assets and an empty Remotion
+project. It never saw the original source or video demo, and it worked without human feedback.
+Every remake keeps the exact prompt (`TASK.md`) and the model's own `BUILD-LOG.md`.
+
+```sh
+npm run remakes:prepare -- pf-brand-clover
+cd remakes/opus-5.5/pf-brand-clover/project
+npm ci
+npm run studio
+```
+
+See the [remake guide](remakes/opus-5.5/README.md) for the protocol and all 34 side-by-side comparisons.
+Remakes reuse the original release's media, so preparation downloads and verifies the same files.
+
 ## Install
+
+In **Claude Code**, run:
+
+```text
+/plugin marketplace add opus-pro/opus-video-studio
+/plugin install opus-video-studio@opus-pro
+```
+
+In **Codex**, run:
+
+```sh
+codex plugin marketplace add https://github.com/opus-pro/opus-video-studio.git --ref main
+codex plugin add opus-video-studio@opus-pro
+```
+
+Or ask your agent to *"install Opus Video Tools by following the guide at
+https://github.com/opus-pro/opus-video-studio/blob/main/docs/claude-code-install-protocol.md"*
+(swap in `codex-install-protocol.md` for Codex). The guides also cover upgrades, Desktop and MCP sign-in.
 
 - [Codex installation guide](docs/codex-install-protocol.md)
 - [Claude Code installation guide](docs/claude-code-install-protocol.md)
@@ -82,7 +141,20 @@ or billing availability. The installation guides include connection checks.
 
 ## License
 
-Opus-authored template source and tooling in [`templates/`](templates/) are
-[MIT licensed](templates/LICENSE). Media, fonts, trademarks, and dependencies
-retain their own terms; see the [asset notices](templates/THIRD_PARTY_NOTICES.md).
-The plugin outside `templates/` retains its existing proprietary license designation.
+Opus-authored template source and tooling in [`templates/`](templates/) and the
+remake source in [`remakes/`](remakes/) are [MIT licensed](templates/LICENSE). Media, fonts,
+trademarks, and dependencies retain their own terms; see the
+[asset notices](templates/THIRD_PARTY_NOTICES.md).
+The plugin outside `templates/` and `remakes/` retains its existing proprietary license designation.
+
+---
+
+<p align="center">
+  <a href="https://labs.opus.pro">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset=".github/assets/opus-labs-wordmark-white.svg">
+      <img alt="Opus Labs" src=".github/assets/opus-labs-wordmark-black.svg" height="20">
+    </picture>
+  </a><br>
+  <sub>Built by <a href="https://labs.opus.pro">Opus Labs</a> at <a href="https://www.opus.pro">OpusClip</a>.</sub>
+</p>

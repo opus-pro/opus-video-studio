@@ -1,0 +1,256 @@
+{
+  "composition": {
+    "width": 1440,
+    "height": 1080,
+    "fps": 60,
+    "frames": 288
+  },
+  "phone": {
+    "width": 330,
+    "height": 720
+  },
+  "timing": {
+    "openEnd": 30,
+    "shifts": [
+      {
+        "start": 60,
+        "end": 99
+      },
+      {
+        "start": 138,
+        "end": 177
+      }
+    ],
+    "settle": {
+      "start": 204,
+      "end": 237
+    }
+  },
+  "shiftCurve": "cubic-bezier(0.8, 0, 0.5, 1.18)",
+  "maxOvershootPx": 9.08,
+  "overshootLimitPx": 24,
+  "peakBlurPx": 4,
+  "blurProfile_t_0_25_50_65_75_90_100": [
+    0,
+    0.57,
+    2.22,
+    3.95,
+    1.85,
+    0.03,
+    0
+  ],
+  "minGapBetweenVisiblePhonesPx": 195.6,
+  "recycles": [
+    {
+      "phone": 0,
+      "frame": 99,
+      "fromX": -264,
+      "toX": 1700,
+      "fromContent": 2,
+      "toContent": 0,
+      "fullyOffscreen": true
+    },
+    {
+      "phone": 1,
+      "frame": 177,
+      "fromX": -264,
+      "toX": 1700,
+      "fromContent": 0,
+      "toContent": 1,
+      "fullyOffscreen": true
+    }
+  ],
+  "keyframes": {
+    "f0 closed stack": [
+      {
+        "phone": 0,
+        "content": 2,
+        "x": 656,
+        "y": 570,
+        "scale": 0.72,
+        "blur": 0,
+        "visible": true
+      },
+      {
+        "phone": 1,
+        "content": 0,
+        "x": 720,
+        "y": 558,
+        "scale": 0.9,
+        "blur": 0,
+        "visible": true
+      },
+      {
+        "phone": 2,
+        "content": 1,
+        "x": 784,
+        "y": 570,
+        "scale": 0.72,
+        "blur": 0,
+        "visible": true
+      },
+      {
+        "phone": 3,
+        "content": 2,
+        "x": 1700,
+        "y": 540,
+        "scale": 0.78,
+        "blur": 0,
+        "visible": false
+      }
+    ],
+    "f30 stack open (0.5s)": [
+      {
+        "phone": 0,
+        "content": 2,
+        "x": 230,
+        "y": 540,
+        "scale": 0.78,
+        "blur": 0,
+        "visible": true
+      },
+      {
+        "phone": 1,
+        "content": 0,
+        "x": 720,
+        "y": 540,
+        "scale": 1,
+        "blur": 0,
+        "visible": true
+      },
+      {
+        "phone": 2,
+        "content": 1,
+        "x": 1210,
+        "y": 540,
+        "scale": 0.78,
+        "blur": 0,
+        "visible": true
+      },
+      {
+        "phone": 3,
+        "content": 2,
+        "x": 1700,
+        "y": 540,
+        "scale": 0.78,
+        "blur": 0,
+        "visible": false
+      }
+    ],
+    "f99 after shift 1 (1.65s)": [
+      {
+        "phone": 0,
+        "content": 0,
+        "x": 1700,
+        "y": 540,
+        "scale": 0.78,
+        "blur": 0,
+        "visible": false
+      },
+      {
+        "phone": 1,
+        "content": 0,
+        "x": 230,
+        "y": 540,
+        "scale": 0.78,
+        "blur": 0,
+        "visible": true
+      },
+      {
+        "phone": 2,
+        "content": 1,
+        "x": 720,
+        "y": 540,
+        "scale": 1,
+        "blur": 0,
+        "visible": true
+      },
+      {
+        "phone": 3,
+        "content": 2,
+        "x": 1210,
+        "y": 540,
+        "scale": 0.78,
+        "blur": 0,
+        "visible": true
+      }
+    ],
+    "f177 after shift 2 (2.95s)": [
+      {
+        "phone": 0,
+        "content": 0,
+        "x": 1210,
+        "y": 540,
+        "scale": 0.78,
+        "blur": 0,
+        "visible": true
+      },
+      {
+        "phone": 1,
+        "content": 1,
+        "x": 1700,
+        "y": 540,
+        "scale": 0.78,
+        "blur": 0,
+        "visible": false
+      },
+      {
+        "phone": 2,
+        "content": 1,
+        "x": 230,
+        "y": 540,
+        "scale": 0.78,
+        "blur": 0,
+        "visible": true
+      },
+      {
+        "phone": 3,
+        "content": 2,
+        "x": 720,
+        "y": 540,
+        "scale": 1,
+        "blur": 0,
+        "visible": true
+      }
+    ],
+    "f237 settled (3.95s)": [
+      {
+        "phone": 0,
+        "content": 0,
+        "x": 1235,
+        "y": 540,
+        "scale": 0.78,
+        "blur": 0,
+        "visible": true
+      },
+      {
+        "phone": 1,
+        "content": 1,
+        "x": 1700,
+        "y": 540,
+        "scale": 0.78,
+        "blur": 0,
+        "visible": false
+      },
+      {
+        "phone": 2,
+        "content": 1,
+        "x": 205,
+        "y": 540,
+        "scale": 0.78,
+        "blur": 0,
+        "visible": true
+      },
+      {
+        "phone": 3,
+        "content": 2,
+        "x": 720,
+        "y": 540,
+        "scale": 1.03,
+        "blur": 0,
+        "visible": true
+      }
+    ]
+  },
+  "failures": []
+}

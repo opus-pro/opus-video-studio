@@ -7,7 +7,9 @@
     "test": "node --test tests/*.test.mjs",
     "guides:check": "node scripts/check-install-guides.mjs",
     "templates:prepare": "node templates/prepare.mjs",
-    "templates:check": "node templates/check.mjs"
+    "templates:check": "node templates/check.mjs",
+    "remakes:prepare": "node remakes/opus-5.5/prepare.mjs",
+    "remakes:check": "node remakes/opus-5.5/check.mjs"
   },
   "engines": {
     "node": ">=22"

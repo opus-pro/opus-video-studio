@@ -1,0 +1,2903 @@
+{
+  "id": "pf-orbit-focus",
+  "generatedAt": "2026-09-24T23:17:46.098Z",
+  "composition": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "durationInFrames": 360,
+    "seconds": 6
+  },
+  "camera": {
+    "type": "PerspectiveCamera",
+    "component": "@remotion/three ThreeCanvas",
+    "position": [
+      0,
+      0,
+      12
+    ],
+    "fovDeg": 54,
+    "aspect": 1.777778,
+    "near": 0.1,
+    "far": 100,
+    "quaternion": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "animated": false,
+    "focalLengthPx": 1059.8097
+  },
+  "cards": {
+    "count": 10,
+    "geometry": {
+      "type": "PlaneGeometry",
+      "width": 1.75,
+      "height": 2.15
+    },
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "orientation": "billboard: mesh.quaternion = camera.quaternion every sample, so each plane is parallel to the image plane and its normal points toward the camera",
+    "images": {
+      "coast": [
+        2
+      ],
+      "mountains": [
+        0,
+        4,
+        8
+      ],
+      "forest": [
+        1,
+        3,
+        6
+      ],
+      "desert": [
+        5,
+        7,
+        9
+      ]
+    },
+    "heroIndex": 2
+  },
+  "orbit": {
+    "localEllipse": "(7.9*cos(theta), 4.6*sin(theta), 0)",
+    "rx": 7.9,
+    "ry": 4.6,
+    "theta": "theta_i = 2*PI*i/10 + phase",
+    "rotation": {
+      "aboutWorldXDeg": 50,
+      "thenAboutWorldZDeg": -8,
+      "matrix": "Rz(-8deg) * Rx(50deg)",
+      "threeEuler": "Euler(50deg, 0, -8deg, 'ZYX')",
+      "matrix4ColumnMajor": [
+        0.990268,
+        -0.139173,
+        0,
+        0,
+        0.089459,
+        0.636532,
+        0.766044,
+        0,
+        -0.106613,
+        -0.758589,
+        0.642788,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  },
+  "timeline": {
+    "unfold": {
+      "seconds": [
+        0,
+        0.8
+      ],
+      "frames": [
+        0,
+        48
+      ],
+      "from": "flat row y=0, z=-2.2, pitch 2.2",
+      "to": "ring at phase 0"
+    },
+    "orbit": {
+      "seconds": [
+        0.9,
+        2.8
+      ],
+      "frames": [
+        54,
+        168
+      ],
+      "phaseKeys": {
+        "0.9": 0,
+        "1.85": "PI/2",
+        "2.8": "PI"
+      },
+      "easing": "two quintic-Hermite beats, C2 through PI/2 with reduced (non-zero) speed"
+    },
+    "pause": {
+      "seconds": [
+        2.8,
+        3.2
+      ]
+    },
+    "focus": {
+      "seconds": [
+        3.2,
+        4.45
+      ],
+      "frames": [
+        192,
+        267
+      ],
+      "hero": "coast card -> (0, 0, 11.1), depth eased in log space, screen position eased toward centre",
+      "others": "z -> -12, x/y held"
+    },
+    "finalCopy": {
+      "seconds": [
+        4.22,
+        6
+      ]
+    }
+  },
+  "keyframes": {
+    "start_flat_row": {
+      "time": 0,
+      "frame": 0,
+      "orbitPhase": 0,
+      "cards": [
+        {
+          "index": 0,
+          "image": "mountains",
+          "position": [
+            9.9,
+            0,
+            -2.2
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.8203,
+          "viewDistance": 14.2,
+          "screenRectPx": {
+            "left": 1633.6,
+            "top": 459.8,
+            "right": 1764.2,
+            "bottom": 620.2,
+            "width": 130.6,
+            "height": 160.5
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 1,
+          "image": "forest",
+          "position": [
+            7.7,
+            0,
+            -2.2
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.8791,
+          "viewDistance": 14.2,
+          "screenRectPx": {
+            "left": 1469.4,
+            "top": 459.8,
+            "right": 1600,
+            "bottom": 620.2,
+            "width": 130.6,
+            "height": 160.5
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 2,
+          "image": "coast",
+          "position": [
+            3.3,
+            0,
+            -2.2
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.974,
+          "viewDistance": 14.2,
+          "screenRectPx": {
+            "left": 1141,
+            "top": 459.8,
+            "right": 1271.6,
+            "bottom": 620.2,
+            "width": 130.6,
+            "height": 160.5
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 3,
+          "image": "forest",
+          "position": [
+            -1.1,
+            0,
+            -2.2
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.997,
+          "viewDistance": 14.2,
+          "screenRectPx": {
+            "left": 812.6,
+            "top": 459.8,
+            "right": 943.2,
+            "bottom": 620.2,
+            "width": 130.6,
+            "height": 160.5
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 4,
+          "image": "mountains",
+          "position": [
+            -5.5,
+            0,
+            -2.2
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9325,
+          "viewDistance": 14.2,
+          "screenRectPx": {
+            "left": 484.2,
+            "top": 459.8,
+            "right": 614.8,
+            "bottom": 620.2,
+            "width": 130.6,
+            "height": 160.5
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 5,
+          "image": "desert",
+          "position": [
+            -9.9,
+            0,
+            -2.2
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.8203,
+          "viewDistance": 14.2,
+          "screenRectPx": {
+            "left": 155.8,
+            "top": 459.8,
+            "right": 286.4,
+            "bottom": 620.2,
+            "width": 130.6,
+            "height": 160.5
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 6,
+          "image": "forest",
+          "position": [
+            -7.7,
+            0,
+            -2.2
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.8791,
+          "viewDistance": 14.2,
+          "screenRectPx": {
+            "left": 320,
+            "top": 459.8,
+            "right": 450.6,
+            "bottom": 620.2,
+            "width": 130.6,
+            "height": 160.5
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 7,
+          "image": "desert",
+          "position": [
+            -3.3,
+            0,
+            -2.2
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.974,
+          "viewDistance": 14.2,
+          "screenRectPx": {
+            "left": 648.4,
+            "top": 459.8,
+            "right": 779,
+            "bottom": 620.2,
+            "width": 130.6,
+            "height": 160.5
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 8,
+          "image": "mountains",
+          "position": [
+            1.1,
+            0,
+            -2.2
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.997,
+          "viewDistance": 14.2,
+          "screenRectPx": {
+            "left": 976.8,
+            "top": 459.8,
+            "right": 1107.4,
+            "bottom": 620.2,
+            "width": 130.6,
+            "height": 160.5
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 9,
+          "image": "desert",
+          "position": [
+            5.5,
+            0,
+            -2.2
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9325,
+          "viewDistance": 14.2,
+          "screenRectPx": {
+            "left": 1305.2,
+            "top": 459.8,
+            "right": 1435.8,
+            "bottom": 620.2,
+            "width": 130.6,
+            "height": 160.5
+          },
+          "screenRectMaxErrPx": 0
+        }
+      ]
+    },
+    "unfold_end": {
+      "time": 0.8,
+      "frame": 48,
+      "orbitPhase": 0,
+      "cards": [
+        {
+          "index": 0,
+          "image": "mountains",
+          "position": [
+            7.8231,
+            -1.0995,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.8352,
+          "viewDistance": 12,
+          "screenRectPx": {
+            "left": 1573.6,
+            "top": 542.2,
+            "right": 1728.2,
+            "bottom": 732,
+            "width": 154.6,
+            "height": 189.9
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 1,
+          "image": "forest",
+          "position": [
+            6.5709,
+            0.8316,
+            2.0712
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.8319,
+          "viewDistance": 9.9288,
+          "screenRectPx": {
+            "left": 1568,
+            "top": 336.5,
+            "right": 1754.8,
+            "bottom": 566,
+            "width": 186.8,
+            "height": 229.5
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 2,
+          "image": "coast",
+          "position": [
+            2.8088,
+            2.445,
+            3.3513
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9185,
+          "viewDistance": 8.6487,
+          "screenRectPx": {
+            "left": 1197,
+            "top": 108.7,
+            "right": 1411.4,
+            "bottom": 372.1,
+            "width": 214.4,
+            "height": 263.5
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 3,
+          "image": "forest",
+          "position": [
+            -2.0261,
+            3.1245,
+            3.3513
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9185,
+          "viewDistance": 8.6487,
+          "screenRectPx": {
+            "left": 604.5,
+            "top": 25.4,
+            "right": 818.9,
+            "bottom": 288.9,
+            "width": 214.4,
+            "height": 263.5
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 4,
+          "image": "mountains",
+          "position": [
+            -6.0872,
+            2.6106,
+            2.0712
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.8319,
+          "viewDistance": 9.9288,
+          "screenRectPx": {
+            "left": 216.8,
+            "top": 146.6,
+            "right": 403.6,
+            "bottom": 376.1,
+            "width": 186.8,
+            "height": 229.5
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 5,
+          "image": "desert",
+          "position": [
+            -7.8231,
+            1.0995,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.8352,
+          "viewDistance": 12,
+          "screenRectPx": {
+            "left": 191.8,
+            "top": 348,
+            "right": 346.4,
+            "bottom": 537.8,
+            "width": 154.6,
+            "height": 189.9
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 6,
+          "image": "forest",
+          "position": [
+            -6.5709,
+            -0.8316,
+            -2.0712
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9048,
+          "viewDistance": 14.0712,
+          "screenRectPx": {
+            "left": 399.2,
+            "top": 521.7,
+            "right": 531,
+            "bottom": 683.6,
+            "width": 131.8,
+            "height": 161.9
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 7,
+          "image": "desert",
+          "position": [
+            -2.8088,
+            -2.445,
+            -3.3513
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9718,
+          "viewDistance": 15.3513,
+          "screenRectPx": {
+            "left": 705.7,
+            "top": 634.6,
+            "right": 826.5,
+            "bottom": 783,
+            "width": 120.8,
+            "height": 148.4
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 8,
+          "image": "mountains",
+          "position": [
+            2.0261,
+            -3.1245,
+            -3.3513
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9718,
+          "viewDistance": 15.3513,
+          "screenRectPx": {
+            "left": 1039.5,
+            "top": 681.5,
+            "right": 1160.3,
+            "bottom": 829.9,
+            "width": 120.8,
+            "height": 148.4
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 9,
+          "image": "desert",
+          "position": [
+            6.0872,
+            -2.6106,
+            -2.0712
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9048,
+          "viewDistance": 14.0712,
+          "screenRectPx": {
+            "left": 1352.6,
+            "top": 655.7,
+            "right": 1484.4,
+            "bottom": 817.6,
+            "width": 131.8,
+            "height": 161.9
+          },
+          "screenRectMaxErrPx": 0
+        }
+      ]
+    },
+    "orbit_start": {
+      "time": 0.9,
+      "frame": 54,
+      "orbitPhase": 0,
+      "cards": [
+        {
+          "index": 0,
+          "image": "mountains",
+          "position": [
+            7.8231,
+            -1.0995,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.8352,
+          "viewDistance": 12,
+          "screenRectPx": {
+            "left": 1573.6,
+            "top": 542.2,
+            "right": 1728.2,
+            "bottom": 732,
+            "width": 154.6,
+            "height": 189.9
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 1,
+          "image": "forest",
+          "position": [
+            6.5709,
+            0.8316,
+            2.0712
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.8319,
+          "viewDistance": 9.9288,
+          "screenRectPx": {
+            "left": 1568,
+            "top": 336.5,
+            "right": 1754.8,
+            "bottom": 566,
+            "width": 186.8,
+            "height": 229.5
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 2,
+          "image": "coast",
+          "position": [
+            2.8088,
+            2.445,
+            3.3513
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9185,
+          "viewDistance": 8.6487,
+          "screenRectPx": {
+            "left": 1197,
+            "top": 108.7,
+            "right": 1411.4,
+            "bottom": 372.1,
+            "width": 214.4,
+            "height": 263.5
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 3,
+          "image": "forest",
+          "position": [
+            -2.0261,
+            3.1245,
+            3.3513
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9185,
+          "viewDistance": 8.6487,
+          "screenRectPx": {
+            "left": 604.5,
+            "top": 25.4,
+            "right": 818.9,
+            "bottom": 288.9,
+            "width": 214.4,
+            "height": 263.5
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 4,
+          "image": "mountains",
+          "position": [
+            -6.0872,
+            2.6106,
+            2.0712
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.8319,
+          "viewDistance": 9.9288,
+          "screenRectPx": {
+            "left": 216.8,
+            "top": 146.6,
+            "right": 403.6,
+            "bottom": 376.1,
+            "width": 186.8,
+            "height": 229.5
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 5,
+          "image": "desert",
+          "position": [
+            -7.8231,
+            1.0995,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.8352,
+          "viewDistance": 12,
+          "screenRectPx": {
+            "left": 191.8,
+            "top": 348,
+            "right": 346.4,
+            "bottom": 537.8,
+            "width": 154.6,
+            "height": 189.9
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 6,
+          "image": "forest",
+          "position": [
+            -6.5709,
+            -0.8316,
+            -2.0712
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9048,
+          "viewDistance": 14.0712,
+          "screenRectPx": {
+            "left": 399.2,
+            "top": 521.7,
+            "right": 531,
+            "bottom": 683.6,
+            "width": 131.8,
+            "height": 161.9
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 7,
+          "image": "desert",
+          "position": [
+            -2.8088,
+            -2.445,
+            -3.3513
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9718,
+          "viewDistance": 15.3513,
+          "screenRectPx": {
+            "left": 705.7,
+            "top": 634.6,
+            "right": 826.5,
+            "bottom": 783,
+            "width": 120.8,
+            "height": 148.4
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 8,
+          "image": "mountains",
+          "position": [
+            2.0261,
+            -3.1245,
+            -3.3513
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9718,
+          "viewDistance": 15.3513,
+          "screenRectPx": {
+            "left": 1039.5,
+            "top": 681.5,
+            "right": 1160.3,
+            "bottom": 829.9,
+            "width": 120.8,
+            "height": 148.4
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 9,
+          "image": "desert",
+          "position": [
+            6.0872,
+            -2.6106,
+            -2.0712
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9048,
+          "viewDistance": 14.0712,
+          "screenRectPx": {
+            "left": 1352.6,
+            "top": 655.7,
+            "right": 1484.4,
+            "bottom": 817.6,
+            "width": 131.8,
+            "height": 161.9
+          },
+          "screenRectMaxErrPx": 0
+        }
+      ]
+    },
+    "orbit_phase_half_pi": {
+      "time": 1.85,
+      "frame": 111,
+      "orbitPhase": 1.570796,
+      "cards": [
+        {
+          "index": 0,
+          "image": "mountains",
+          "position": [
+            0.4115,
+            2.928,
+            3.5238
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9442,
+          "viewDistance": 8.4762,
+          "screenRectPx": {
+            "left": 902,
+            "top": 39.5,
+            "right": 1120.9,
+            "bottom": 308.3,
+            "width": 218.8,
+            "height": 268.8
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 1,
+          "image": "forest",
+          "position": [
+            -4.2654,
+            3.0151,
+            2.8508
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.8684,
+          "viewDistance": 9.1492,
+          "screenRectPx": {
+            "left": 364.6,
+            "top": 66.2,
+            "right": 567.3,
+            "bottom": 315.3,
+            "width": 202.7,
+            "height": 249
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 2,
+          "image": "coast",
+          "position": [
+            -7.3131,
+            1.9505,
+            1.0889
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.8217,
+          "viewDistance": 10.9111,
+          "screenRectPx": {
+            "left": 164.7,
+            "top": 246.1,
+            "right": 334.7,
+            "bottom": 455,
+            "width": 170,
+            "height": 208.8
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 3,
+          "image": "forest",
+          "position": [
+            -7.5674,
+            0.1408,
+            -1.0889
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.8657,
+          "viewDistance": 13.0889,
+          "screenRectPx": {
+            "left": 276.4,
+            "top": 441.6,
+            "right": 418.1,
+            "bottom": 615.6,
+            "width": 141.7,
+            "height": 174.1
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 4,
+          "image": "mountains",
+          "position": [
+            -4.9312,
+            -1.7226,
+            -2.8508
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9433,
+          "viewDistance": 14.8508,
+          "screenRectPx": {
+            "left": 545.6,
+            "top": 586.2,
+            "right": 670.5,
+            "bottom": 739.6,
+            "width": 124.9,
+            "height": 153.4
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 5,
+          "image": "desert",
+          "position": [
+            -0.4115,
+            -2.928,
+            -3.5238
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9823,
+          "viewDistance": 15.5238,
+          "screenRectPx": {
+            "left": 872.2,
+            "top": 666.5,
+            "right": 991.6,
+            "bottom": 813.3,
+            "width": 119.5,
+            "height": 146.8
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 6,
+          "image": "forest",
+          "position": [
+            4.2654,
+            -3.0151,
+            -2.8508
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9433,
+          "viewDistance": 14.8508,
+          "screenRectPx": {
+            "left": 1202,
+            "top": 678.5,
+            "right": 1326.8,
+            "bottom": 831.9,
+            "width": 124.9,
+            "height": 153.4
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 7,
+          "image": "desert",
+          "position": [
+            7.3131,
+            -1.9505,
+            -1.0889
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.8657,
+          "viewDistance": 13.0889,
+          "screenRectPx": {
+            "left": 1481.3,
+            "top": 610.9,
+            "right": 1623,
+            "bottom": 785,
+            "width": 141.7,
+            "height": 174.1
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 8,
+          "image": "mountains",
+          "position": [
+            7.5674,
+            -0.1408,
+            1.0889
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.8217,
+          "viewDistance": 10.9111,
+          "screenRectPx": {
+            "left": 1610,
+            "top": 449.3,
+            "right": 1780,
+            "bottom": 658.1,
+            "width": 170,
+            "height": 208.8
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 9,
+          "image": "desert",
+          "position": [
+            4.9312,
+            1.7226,
+            2.8508
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.8684,
+          "viewDistance": 9.1492,
+          "screenRectPx": {
+            "left": 1429.9,
+            "top": 215.9,
+            "right": 1632.6,
+            "bottom": 465,
+            "width": 202.7,
+            "height": 249
+          },
+          "screenRectMaxErrPx": 0
+        }
+      ]
+    },
+    "orbit_phase_pi": {
+      "time": 2.8,
+      "frame": 168,
+      "orbitPhase": 3.141593,
+      "cards": [
+        {
+          "index": 0,
+          "image": "mountains",
+          "position": [
+            -7.8231,
+            1.0995,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.8352,
+          "viewDistance": 12,
+          "screenRectPx": {
+            "left": 191.8,
+            "top": 348,
+            "right": 346.4,
+            "bottom": 537.8,
+            "width": 154.6,
+            "height": 189.9
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 1,
+          "image": "forest",
+          "position": [
+            -6.5709,
+            -0.8316,
+            -2.0712
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9048,
+          "viewDistance": 14.0712,
+          "screenRectPx": {
+            "left": 399.2,
+            "top": 521.7,
+            "right": 531,
+            "bottom": 683.6,
+            "width": 131.8,
+            "height": 161.9
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 2,
+          "image": "coast",
+          "position": [
+            -2.8088,
+            -2.445,
+            -3.3513
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9718,
+          "viewDistance": 15.3513,
+          "screenRectPx": {
+            "left": 705.7,
+            "top": 634.6,
+            "right": 826.5,
+            "bottom": 783,
+            "width": 120.8,
+            "height": 148.4
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 3,
+          "image": "forest",
+          "position": [
+            2.0261,
+            -3.1245,
+            -3.3513
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9718,
+          "viewDistance": 15.3513,
+          "screenRectPx": {
+            "left": 1039.5,
+            "top": 681.5,
+            "right": 1160.3,
+            "bottom": 829.9,
+            "width": 120.8,
+            "height": 148.4
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 4,
+          "image": "mountains",
+          "position": [
+            6.0872,
+            -2.6106,
+            -2.0712
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9048,
+          "viewDistance": 14.0712,
+          "screenRectPx": {
+            "left": 1352.6,
+            "top": 655.7,
+            "right": 1484.4,
+            "bottom": 817.6,
+            "width": 131.8,
+            "height": 161.9
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 5,
+          "image": "desert",
+          "position": [
+            7.8231,
+            -1.0995,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.8352,
+          "viewDistance": 12,
+          "screenRectPx": {
+            "left": 1573.6,
+            "top": 542.2,
+            "right": 1728.2,
+            "bottom": 732,
+            "width": 154.6,
+            "height": 189.9
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 6,
+          "image": "forest",
+          "position": [
+            6.5709,
+            0.8316,
+            2.0712
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.8319,
+          "viewDistance": 9.9288,
+          "screenRectPx": {
+            "left": 1568,
+            "top": 336.5,
+            "right": 1754.8,
+            "bottom": 566,
+            "width": 186.8,
+            "height": 229.5
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 7,
+          "image": "desert",
+          "position": [
+            2.8088,
+            2.445,
+            3.3513
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9185,
+          "viewDistance": 8.6487,
+          "screenRectPx": {
+            "left": 1197,
+            "top": 108.7,
+            "right": 1411.4,
+            "bottom": 372.1,
+            "width": 214.4,
+            "height": 263.5
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 8,
+          "image": "mountains",
+          "position": [
+            -2.0261,
+            3.1245,
+            3.3513
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9185,
+          "viewDistance": 8.6487,
+          "screenRectPx": {
+            "left": 604.5,
+            "top": 25.4,
+            "right": 818.9,
+            "bottom": 288.9,
+            "width": 214.4,
+            "height": 263.5
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 9,
+          "image": "desert",
+          "position": [
+            -6.0872,
+            2.6106,
+            2.0712
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.8319,
+          "viewDistance": 9.9288,
+          "screenRectPx": {
+            "left": 216.8,
+            "top": 146.6,
+            "right": 403.6,
+            "bottom": 376.1,
+            "width": 186.8,
+            "height": 229.5
+          },
+          "screenRectMaxErrPx": 0
+        }
+      ]
+    },
+    "pause_end_focus_start": {
+      "time": 3.2,
+      "frame": 192,
+      "orbitPhase": 3.141593,
+      "cards": [
+        {
+          "index": 0,
+          "image": "mountains",
+          "position": [
+            -7.8231,
+            1.0995,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.8352,
+          "viewDistance": 12,
+          "screenRectPx": {
+            "left": 191.8,
+            "top": 348,
+            "right": 346.4,
+            "bottom": 537.8,
+            "width": 154.6,
+            "height": 189.9
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 1,
+          "image": "forest",
+          "position": [
+            -6.5709,
+            -0.8316,
+            -2.0712
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9048,
+          "viewDistance": 14.0712,
+          "screenRectPx": {
+            "left": 399.2,
+            "top": 521.7,
+            "right": 531,
+            "bottom": 683.6,
+            "width": 131.8,
+            "height": 161.9
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 2,
+          "image": "coast",
+          "position": [
+            -2.8088,
+            -2.445,
+            -3.3513
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9718,
+          "viewDistance": 15.3513,
+          "screenRectPx": {
+            "left": 705.7,
+            "top": 634.6,
+            "right": 826.5,
+            "bottom": 783,
+            "width": 120.8,
+            "height": 148.4
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 3,
+          "image": "forest",
+          "position": [
+            2.0261,
+            -3.1245,
+            -3.3513
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9718,
+          "viewDistance": 15.3513,
+          "screenRectPx": {
+            "left": 1039.5,
+            "top": 681.5,
+            "right": 1160.3,
+            "bottom": 829.9,
+            "width": 120.8,
+            "height": 148.4
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 4,
+          "image": "mountains",
+          "position": [
+            6.0872,
+            -2.6106,
+            -2.0712
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9048,
+          "viewDistance": 14.0712,
+          "screenRectPx": {
+            "left": 1352.6,
+            "top": 655.7,
+            "right": 1484.4,
+            "bottom": 817.6,
+            "width": 131.8,
+            "height": 161.9
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 5,
+          "image": "desert",
+          "position": [
+            7.8231,
+            -1.0995,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.8352,
+          "viewDistance": 12,
+          "screenRectPx": {
+            "left": 1573.6,
+            "top": 542.2,
+            "right": 1728.2,
+            "bottom": 732,
+            "width": 154.6,
+            "height": 189.9
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 6,
+          "image": "forest",
+          "position": [
+            6.5709,
+            0.8316,
+            2.0712
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.8319,
+          "viewDistance": 9.9288,
+          "screenRectPx": {
+            "left": 1568,
+            "top": 336.5,
+            "right": 1754.8,
+            "bottom": 566,
+            "width": 186.8,
+            "height": 229.5
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 7,
+          "image": "desert",
+          "position": [
+            2.8088,
+            2.445,
+            3.3513
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9185,
+          "viewDistance": 8.6487,
+          "screenRectPx": {
+            "left": 1197,
+            "top": 108.7,
+            "right": 1411.4,
+            "bottom": 372.1,
+            "width": 214.4,
+            "height": 263.5
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 8,
+          "image": "mountains",
+          "position": [
+            -2.0261,
+            3.1245,
+            3.3513
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9185,
+          "viewDistance": 8.6487,
+          "screenRectPx": {
+            "left": 604.5,
+            "top": 25.4,
+            "right": 818.9,
+            "bottom": 288.9,
+            "width": 214.4,
+            "height": 263.5
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 9,
+          "image": "desert",
+          "position": [
+            -6.0872,
+            2.6106,
+            2.0712
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.8319,
+          "viewDistance": 9.9288,
+          "screenRectPx": {
+            "left": 216.8,
+            "top": 146.6,
+            "right": 403.6,
+            "bottom": 376.1,
+            "width": 186.8,
+            "height": 229.5
+          },
+          "screenRectMaxErrPx": 0
+        }
+      ]
+    },
+    "focus_end": {
+      "time": 4.45,
+      "frame": 267,
+      "orbitPhase": 3.141593,
+      "cards": [
+        {
+          "index": 0,
+          "image": "mountains",
+          "position": [
+            -7.8231,
+            1.0995,
+            -12
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9499,
+          "viewDistance": 24,
+          "screenRectPx": {
+            "left": 575.9,
+            "top": 444,
+            "right": 653.2,
+            "bottom": 538.9,
+            "width": 77.3,
+            "height": 94.9
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 1,
+          "image": "forest",
+          "position": [
+            -6.5709,
+            -0.8316,
+            -12
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.964,
+          "viewDistance": 24,
+          "screenRectPx": {
+            "left": 631.2,
+            "top": 529.3,
+            "right": 708.5,
+            "bottom": 624.2,
+            "width": 77.3,
+            "height": 94.9
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 2,
+          "image": "coast",
+          "position": [
+            0,
+            0,
+            11.1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 1,
+          "viewDistance": 0.9,
+          "screenRectPx": {
+            "left": -70.4,
+            "top": -725.9,
+            "right": 1990.4,
+            "bottom": 1805.9,
+            "width": 2060.7,
+            "height": 2531.8
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 3,
+          "image": "forest",
+          "position": [
+            2.0261,
+            -3.1245,
+            -12
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9882,
+          "viewDistance": 24,
+          "screenRectPx": {
+            "left": 1010.8,
+            "top": 630.5,
+            "right": 1088.1,
+            "bottom": 725.4,
+            "width": 77.3,
+            "height": 94.9
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 4,
+          "image": "mountains",
+          "position": [
+            6.0872,
+            -2.6106,
+            -12
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.964,
+          "viewDistance": 24,
+          "screenRectPx": {
+            "left": 1190.2,
+            "top": 607.8,
+            "right": 1267.4,
+            "bottom": 702.7,
+            "width": 77.3,
+            "height": 94.9
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 5,
+          "image": "desert",
+          "position": [
+            7.8231,
+            -1.0995,
+            -12
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9499,
+          "viewDistance": 24,
+          "screenRectPx": {
+            "left": 1266.8,
+            "top": 541.1,
+            "right": 1344.1,
+            "bottom": 636,
+            "width": 77.3,
+            "height": 94.9
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 6,
+          "image": "forest",
+          "position": [
+            6.5709,
+            0.8316,
+            -12
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.964,
+          "viewDistance": 24,
+          "screenRectPx": {
+            "left": 1211.5,
+            "top": 455.8,
+            "right": 1288.8,
+            "bottom": 550.7,
+            "width": 77.3,
+            "height": 94.9
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 7,
+          "image": "desert",
+          "position": [
+            2.8088,
+            2.445,
+            -12
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9882,
+          "viewDistance": 24,
+          "screenRectPx": {
+            "left": 1045.4,
+            "top": 384.6,
+            "right": 1122.7,
+            "bottom": 479.5,
+            "width": 77.3,
+            "height": 94.9
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 8,
+          "image": "mountains",
+          "position": [
+            -2.0261,
+            3.1245,
+            -12
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9882,
+          "viewDistance": 24,
+          "screenRectPx": {
+            "left": 831.9,
+            "top": 354.6,
+            "right": 909.2,
+            "bottom": 449.5,
+            "width": 77.3,
+            "height": 94.9
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 9,
+          "image": "desert",
+          "position": [
+            -6.0872,
+            2.6106,
+            -12
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.964,
+          "viewDistance": 24,
+          "screenRectPx": {
+            "left": 652.6,
+            "top": 377.3,
+            "right": 729.8,
+            "bottom": 472.2,
+            "width": 77.3,
+            "height": 94.9
+          },
+          "screenRectMaxErrPx": 0
+        }
+      ]
+    },
+    "last_frame": {
+      "time": 5.9833,
+      "frame": 359,
+      "orbitPhase": 3.141593,
+      "cards": [
+        {
+          "index": 0,
+          "image": "mountains",
+          "position": [
+            -7.8231,
+            1.0995,
+            -12
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9499,
+          "viewDistance": 24,
+          "screenRectPx": {
+            "left": 575.9,
+            "top": 444,
+            "right": 653.2,
+            "bottom": 538.9,
+            "width": 77.3,
+            "height": 94.9
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 1,
+          "image": "forest",
+          "position": [
+            -6.5709,
+            -0.8316,
+            -12
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.964,
+          "viewDistance": 24,
+          "screenRectPx": {
+            "left": 631.2,
+            "top": 529.3,
+            "right": 708.5,
+            "bottom": 624.2,
+            "width": 77.3,
+            "height": 94.9
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 2,
+          "image": "coast",
+          "position": [
+            0,
+            0,
+            11.1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 1,
+          "viewDistance": 0.9,
+          "screenRectPx": {
+            "left": -70.4,
+            "top": -725.9,
+            "right": 1990.4,
+            "bottom": 1805.9,
+            "width": 2060.7,
+            "height": 2531.8
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 3,
+          "image": "forest",
+          "position": [
+            2.0261,
+            -3.1245,
+            -12
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9882,
+          "viewDistance": 24,
+          "screenRectPx": {
+            "left": 1010.8,
+            "top": 630.5,
+            "right": 1088.1,
+            "bottom": 725.4,
+            "width": 77.3,
+            "height": 94.9
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 4,
+          "image": "mountains",
+          "position": [
+            6.0872,
+            -2.6106,
+            -12
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.964,
+          "viewDistance": 24,
+          "screenRectPx": {
+            "left": 1190.2,
+            "top": 607.8,
+            "right": 1267.4,
+            "bottom": 702.7,
+            "width": 77.3,
+            "height": 94.9
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 5,
+          "image": "desert",
+          "position": [
+            7.8231,
+            -1.0995,
+            -12
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9499,
+          "viewDistance": 24,
+          "screenRectPx": {
+            "left": 1266.8,
+            "top": 541.1,
+            "right": 1344.1,
+            "bottom": 636,
+            "width": 77.3,
+            "height": 94.9
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 6,
+          "image": "forest",
+          "position": [
+            6.5709,
+            0.8316,
+            -12
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.964,
+          "viewDistance": 24,
+          "screenRectPx": {
+            "left": 1211.5,
+            "top": 455.8,
+            "right": 1288.8,
+            "bottom": 550.7,
+            "width": 77.3,
+            "height": 94.9
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 7,
+          "image": "desert",
+          "position": [
+            2.8088,
+            2.445,
+            -12
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9882,
+          "viewDistance": 24,
+          "screenRectPx": {
+            "left": 1045.4,
+            "top": 384.6,
+            "right": 1122.7,
+            "bottom": 479.5,
+            "width": 77.3,
+            "height": 94.9
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 8,
+          "image": "mountains",
+          "position": [
+            -2.0261,
+            3.1245,
+            -12
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.9882,
+          "viewDistance": 24,
+          "screenRectPx": {
+            "left": 831.9,
+            "top": 354.6,
+            "right": 909.2,
+            "bottom": 449.5,
+            "width": 77.3,
+            "height": 94.9
+          },
+          "screenRectMaxErrPx": 0
+        },
+        {
+          "index": 9,
+          "image": "desert",
+          "position": [
+            -6.0872,
+            2.6106,
+            -12
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "normalDotToCamera": 0.964,
+          "viewDistance": 24,
+          "screenRectPx": {
+            "left": 652.6,
+            "top": 377.3,
+            "right": 729.8,
+            "bottom": 472.2,
+            "width": 77.3,
+            "height": 94.9
+          },
+          "screenRectMaxErrPx": 0
+        }
+      ]
+    }
+  },
+  "text": {
+    "title": {
+      "text": "SELECTED / FIELD NOTES",
+      "rectPx": {
+        "left": 738.2,
+        "top": 488.4,
+        "right": 1181.8,
+        "bottom": 591.6,
+        "width": 443.5,
+        "height": 103.2
+      },
+      "centerPx": [
+        960,
+        540
+      ],
+      "visibleSeconds": [
+        0.46,
+        3.38
+      ],
+      "minClearanceToAnyCardPx": 17.3
+    },
+    "finalCopy": {
+      "rectPx": {
+        "left": 128,
+        "top": 660.5,
+        "right": 874.1,
+        "bottom": 962,
+        "width": 746.1,
+        "height": 301.5
+      },
+      "text": "FIELD NOTE 01\nCOAST\nWhere the water\ngoes quiet.\nTen places worth the long way round.",
+      "color": "#ffffff"
+    }
+  },
+  "rendering": {
+    "motionBlur": "sub-frame accumulation, 180-degree shutter centred on frame time, adaptive 1-64 samples (~1.25px spacing), half-float linear accumulation",
+    "antialiasing": "MSAA x4 per sample + analytic rounded-corner coverage",
+    "heroTexture": {
+      "note": "Only the UV mapping of the photo adapts; the plane, its scale and its position are untouched. Once the card fills the frame the mapping equals object-fit: cover of the full 1200x800 photo.",
+      "finalImagePxPerWorldUnit": 735.979,
+      "finalVisibleImagePx": [
+        1200,
+        675
+      ]
+    }
+  },
+  "checks": [
+    {
+      "name": "camera is PerspectiveCamera at (0,0,12), fov 54, identity rotation",
+      "pass": true
+    },
+    {
+      "name": "orbit rotation Rz(-8deg)*Rx(50deg) equals Euler(50deg,0,-8deg,\"ZYX\")",
+      "pass": true
+    },
+    {
+      "name": "ring points match three.js ellipse (7.9cos, 4.6sin, 0) * orbit matrix",
+      "pass": true,
+      "detail": {
+        "maxAbsErr": 8.881784197001252e-16
+      }
+    },
+    {
+      "name": "own projection matches three.js Vector3.project for all cards, all frames",
+      "pass": true,
+      "detail": {
+        "maxErrPx": 6.821210263296962e-13
+      }
+    },
+    {
+      "name": "every plane faces the camera (quaternion = camera quaternion, normal toward camera)",
+      "pass": true,
+      "detail": {
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "minNormalDotToCamera": 0.819
+      }
+    },
+    {
+      "name": "scale stays (1,1,1) for every card, every frame (never animated)",
+      "pass": true
+    },
+    {
+      "name": "cards sit exactly on the rotated ellipse from 0.8s to 3.2s",
+      "pass": true,
+      "detail": {
+        "maxAbsErr": 8.881784197001252e-16
+      }
+    },
+    {
+      "name": "frame 0 is a flat row (shared y and z, increasing x)",
+      "pass": true,
+      "detail": {
+        "y": 0,
+        "z": -2.2,
+        "pitch": 2.2
+      }
+    },
+    {
+      "name": "ring formed at 0.8s (phase 0)",
+      "pass": true
+    },
+    {
+      "name": "orbit phase keys: 0 @0.9s, PI/2 @1.85s, PI @2.8s",
+      "pass": true,
+      "detail": {
+        "samples": {
+          "3": 3.14159,
+          "0.9": 0,
+          "1.2": 0.23312,
+          "1.5": 0.98659,
+          "1.85": 1.5708,
+          "2.2": 2.155,
+          "2.5": 2.90847,
+          "2.8": 3.14159
+        }
+      }
+    },
+    {
+      "name": "pause 2.8s-3.2s: no card moves",
+      "pass": true,
+      "detail": {
+        "maxDisplacement": 0
+      }
+    },
+    {
+      "name": "coast card at (0,0,11.1) at 4.45s",
+      "pass": true,
+      "detail": {
+        "position": [
+          0,
+          0,
+          11.1
+        ]
+      }
+    },
+    {
+      "name": "all other cards at z = -12 at 4.45s",
+      "pass": true
+    },
+    {
+      "name": "positions hold after 4.45s",
+      "pass": true
+    },
+    {
+      "name": "hero near-camera size comes only from perspective (scale 1, px = focal * size / distance)",
+      "pass": true,
+      "detail": {
+        "focalLengthPx": 1059.81,
+        "distance": 0.9,
+        "expectedPx": [
+          2060.7,
+          2531.8
+        ],
+        "measuredPx": [
+          2060.7,
+          2531.8
+        ]
+      }
+    },
+    {
+      "name": "hero image covers the full frame from focus end onward",
+      "pass": true,
+      "detail": {
+        "firstFullFrame": 253,
+        "firstFullTime": 4.217
+      }
+    },
+    {
+      "name": "title text is \"SELECTED / FIELD NOTES\"",
+      "pass": true,
+      "detail": {
+        "domText": "SELECTED / FIELD NOTES"
+      }
+    },
+    {
+      "name": "title is centred in frame (|dx|,|dy| <= 4px)",
+      "pass": true,
+      "detail": {
+        "centerPx": [
+          960,
+          540
+        ]
+      }
+    },
+    {
+      "name": "no card overlaps the title while it is visible (0.46s-3.38s, incl. reveal travel)",
+      "pass": true,
+      "detail": {
+        "minClearancePx": 17.3,
+        "hits": []
+      }
+    },
+    {
+      "name": "final white copy sits inside the 5% safe area, over the full-frame image",
+      "pass": true,
+      "detail": {
+        "rectPx": {
+          "left": 128,
+          "top": 660.5,
+          "right": 874.1,
+          "bottom": 962,
+          "width": 746.1,
+          "height": 301.5
+        },
+        "text": "FIELD NOTE 01\nCOAST\nWhere the water\ngoes quiet.\nTen places worth the long way round."
+      }
+    }
+  ],
+  "allChecksPass": true
+}

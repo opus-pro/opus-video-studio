@@ -1,0 +1,9 @@
+{
+  "id": "pf-carousel-vertical",
+  "title": "Vertical Portfolio Relay",
+  "compositionId": "pf-carousel-vertical",
+  "width": 1200,
+  "height": 1200,
+  "fps": 60,
+  "frames": 288
+}
