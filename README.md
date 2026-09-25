@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://labs.opus.pro"><img src=".github/assets/banner.png" alt="Opus Video Studio by Opus Labs: launch videos, UI motion, music and voiceovers made by your coding agent in Claude Code or Codex" width="100%"></a>
+  <a href="https://labs.opus.pro"><img src=".github/assets/banner.png" alt="Opus Video Studio by Opus Labs. You shipped it. Now show it. Your coding agent turns one of 43 proven launch templates into a video for your product, sized for every social feed." width="100%"></a>
 </p>
 
 <p align="center">
@@ -14,14 +14,21 @@
   <a href="remakes/opus-5.5/README.md">GPT-6 vs Claude Opus 5.5</a>
 </p>
 
-Opus Video Studio is a plugin for **Claude Code** and **Codex** that turns your coding agent into a video studio.
-Start from one of **43 open-source Remotion templates**, and your agent adapts the original source to your product
-and renders it on your machine. Voiceover, music, images and AI video clips come from the managed
-Opus Video Tools connection.
+**Everyone knows a launch should go out on social. The hard part is making the video.** Opus Video Studio handles
+that inside **Claude Code** and **Codex**: pick one of 43 open-source launch templates, and your coding agent adapts it
+to your product and renders it for every feed.
+
+<table>
+<tr>
+<td width="33%" valign="top"><b>No video skills needed</b><br><sub>Describe what you shipped in one sentence. Your agent edits the template's code, so there's no timeline to learn.</sub></td>
+<td width="33%" valign="top"><b>Ready-made, down to the piece</b><br><sub>9 full launch films and 34 components already split out: logo reveals, headlines, showcases, product UI, data stories. Use one as is or combine them.</sub></td>
+<td width="33%" valign="top"><b>Every feed from one run</b><br><sub>16:9 for X, YouTube and LinkedIn, 1:1 for feeds, and 9:16 for Reels, Shorts and TikTok, rendered on your machine.</sub></td>
+</tr>
+</table>
 
 <p align="center">
   <img src=".github/assets/demo.gif" alt="A Claude Code session with Opus Video Studio: one sentence asks for an Opus Labs logo reveal in three formats, the agent downloads and verifies the template, adapts it, and renders 16:9, 1:1 and 9:16 versions" width="100%"><br>
-  <sub>A real Claude Code session with the plugin, sped up. One sentence in, three formats out: 11 minutes, rendered locally, no paid media.</sub>
+  <sub>A real Claude Code session with the plugin, sped up. One sentence in, every feed out: 11 minutes, rendered locally, no paid media.</sub>
 </p>
 
 <p align="center">
@@ -48,10 +55,10 @@ codex plugin add opus-video-studio@opus-pro
 Then start a new session so the skills load. The [Claude Code](docs/claude-code-install-protocol.md) and
 [Codex](docs/codex-install-protocol.md) guides cover upgrades, Desktop, and signing in to the managed tools.
 
-**2. Ask for a video.** Pick a template in the [gallery](https://product-videos.labs.opus.pro/) or [below](#templates), then say what you want:
+**2. Ask for a video.** Pick a template in the [gallery](https://product-videos.labs.opus.pro/) or [below](#pick-a-template-for-your-launch), then say what you want:
 
 ```text
-Make a 20-second launch video for Acme (acme.com) from https://labs.opus.pro/product-videos/ai-research
+Make a 20-second launch video for Acme (acme.com) from https://labs.opus.pro/product-videos/ai-research, in 16:9 and 9:16
 ```
 
 ```text
@@ -99,10 +106,14 @@ Install Opus Video Studio by following https://github.com/opus-pro/opus-video-st
 
 For Codex, swap in `codex-install-protocol.md`.
 
-## Templates
+## Pick a template for your launch
 
-**9 full launch films and 34 motion components**, all editable source under the [MIT License](templates/LICENSE).
-Each keeps its original animation code, configuration, locked dependencies and asset notes. Click a poster to watch it.
+Every template is editable source under the [MIT License](templates/LICENSE), with its original animation code,
+locked dependencies and asset notes. Click a poster to watch it.
+
+### Full launch films
+
+Nine complete launch videos, each designed around a kind of product. Swap in your name, screens and colors.
 
 <table>
 <tr>
@@ -119,6 +130,21 @@ Each keeps its original animation code, configuration, locked dependencies and a
 <td width="33%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/website-builder-motion-template-lite-v3-1.0.0/preview.mp4"><img src=".github/assets/templates/website-builder.jpg" alt="Website Builder video demo" width="100%"></a><br><b><a href="templates/website-builder/">Website Builder</a></b><br><sub>Website and visual editors · 52 s</sub></td>
 <td width="33%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/tovo-motion-template-lite-1.0.0/preview.mp4"><img src=".github/assets/templates/tovo.jpg" alt="AI Meeting Assistant video demo" width="100%"></a><br><b><a href="templates/tovo/">AI Meeting Assistant</a></b><br><sub>Meeting notes and action items · 15 s</sub></td>
 <td width="33%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/numo-motion-template-lite-1.0.0/preview.mp4"><img src=".github/assets/templates/numo.jpg" alt="Analytics Dashboard video demo" width="100%"></a><br><b><a href="templates/numo/">Analytics Dashboard</a></b><br><sub>Data analytics · 15 s</sub></td>
+</tr>
+</table>
+
+### Or grab just the piece you need
+
+34 motion components, each split out as its own project, so you can drop a logo reveal into a video you already have
+or string a few together into a new one.
+
+<table>
+<tr>
+<td width="20%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-brand-clover-v1.0.0/preview.mp4"><img src=".github/assets/components/pf-brand-clover.jpg" alt="Logo Unfold Brand System component" width="100%"></a><br><b><a href="templates/README.md#brand-intros">Logo reveals</a></b><br><sub>9 brand intros</sub></td>
+<td width="20%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-ribbon-manifesto-v1.0.0/preview.mp4"><img src=".github/assets/components/template-ribbon-manifesto.jpg" alt="Three-Ribbon Campaign component" width="100%"></a><br><b><a href="templates/README.md#titles-and-announcements">Headlines</a></b><br><sub>6 titles and announcements</sub></td>
+<td width="20%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-depth-swirl-v1.0.0/preview.mp4"><img src=".github/assets/components/pf-depth-swirl.jpg" alt="3D Depth Spiral component" width="100%"></a><br><b><a href="templates/README.md#showcase-and-portfolio">Showcases</a></b><br><sub>9 galleries, 3D and portfolios</sub></td>
+<td width="20%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-phone-carousel-v1.0.0/preview.mp4"><img src=".github/assets/components/pf-phone-carousel.jpg" alt="Three-Phone Carousel component" width="100%"></a><br><b><a href="templates/README.md#product-and-ui-demos">Product UI</a></b><br><sub>6 app and UI demos</sub></td>
+<td width="20%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-case-numo-v1.0.0/preview.mp4"><img src=".github/assets/components/template-case-numo.jpg" alt="Anomaly to Action component" width="100%"></a><br><b><a href="templates/README.md#data-and-results">Data stories</a></b><br><sub>4 charts and results</sub></td>
 </tr>
 </table>
 
