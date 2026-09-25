@@ -1,0 +1,75 @@
+{
+  "packageStatus": "Evaluation draft; publication license has not been selected.",
+  "demoIdentity": {
+    "name": "Companion",
+    "type": "Generic fictional product demonstration",
+    "domain": "yourbrand.example",
+    "trademarkSearch": "Not performed; no exclusive mark is claimed."
+  },
+  "sources": [
+    {
+      "paths": [
+        "src/Character.tsx",
+        "src/Stage.tsx",
+        "src/Film.tsx",
+        "src/motion.ts",
+        "src/StoryWorld.tsx",
+        "src/Optics.tsx",
+        "src/Phone.tsx",
+        "src/ReferenceMoves.tsx",
+        "src/clock.ts"
+      ],
+      "origin": "Project-authored procedural characters, illustration and neutral UI. Selected geometric and timing mechanisms adapted from the project’s prior reconstruction, with new product content and original template artwork.",
+      "thirdPartyEmbeddedArt": false,
+      "releaseLicense": "Not selected by publisher."
+    },
+    {
+      "paths": [
+        "public/fonts/GeistVF.woff2"
+      ],
+      "origin": "Geist variable font",
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "public/fonts/Geist-OFL.txt",
+      "source": "https://github.com/vercel/geist-font"
+    },
+    {
+      "paths": [
+        "public/fonts/InstrumentSerif-Regular.ttf"
+      ],
+      "origin": "Instrument Serif",
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "public/fonts/InstrumentSerif-OFL.txt",
+      "source": "https://github.com/google/fonts/tree/main/ofl/instrumentserif"
+    },
+    {
+      "paths": [
+        "public/audio/master.m4a",
+        "preview/reference.mp4"
+      ],
+      "origin": "Approved Companion v0.12 mixed audio: newly generated Lyria 3 Pro music with a 0.92-second pickup removed, existing original Seed Audio narration and generated/project-authored action SFX. Same audio appears in the approved full preview.",
+      "releaseStatus": "Contains model-generated music; same redistribution review remains.",
+      "components": [
+        "Lyria 3 Pro instrumental",
+        "Seed Audio original English narration",
+        "Seed Audio foley and project-authored impact tones"
+      ]
+    }
+  ],
+  "dependencies": {
+    "Remotion": "4.0.332; separate Remotion license applies, including company-license eligibility.",
+    "licenseSource": "https://github.com/remotion-dev/remotion/blob/main/LICENSE.md"
+  },
+  "excluded": [
+    "Reference-film video and extracted frames",
+    "Reference-film audio or cloned narrator identity",
+    "Reference character artwork and logos",
+    "Real product screenshots and trademarks in the default film",
+    "API keys, service credentials, external media URLs and absolute machine paths",
+    "Independent audio stems",
+    "Version comparison pages",
+    "Historical builds, job logs and generation download URLs",
+    "Installed dependencies and rendered working files"
+  ],
+  "approvedFilmVersion": "0.12",
+  "packageEdition": "Lite 1.0.0; master audio only"
+}

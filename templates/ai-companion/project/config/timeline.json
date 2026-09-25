@@ -1,0 +1,263 @@
+{
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "durationInFrames": 900,
+  "scenes": [
+    {
+      "id": "discover",
+      "from": 0,
+      "to": 47,
+      "meaning": "Discover and focus on one character."
+    },
+    {
+      "id": "crowd",
+      "from": 47,
+      "to": 138,
+      "meaning": "The same character anchors a camera pullback into a layered crowd."
+    },
+    {
+      "id": "identity",
+      "from": 138,
+      "to": 185,
+      "meaning": "A depth field of conversations resolves into one named identity."
+    },
+    {
+      "id": "connect",
+      "from": 170,
+      "to": 254,
+      "meaning": "Same Pip conversation: yesterday, the user worried about sharing a song; Pip encouraged them."
+    },
+    {
+      "id": "remember",
+      "from": 254,
+      "to": 362,
+      "meaning": "Stay in the same conversation: retain yesterday\u2019s user message, show today\u2019s question from Pip, then the user\u2019s You remembered reaction."
+    },
+    {
+      "id": "personalize",
+      "from": 362,
+      "to": 449,
+      "meaning": "Choosing a personality changes the same character and its reply."
+    },
+    {
+      "id": "voice",
+      "from": 449,
+      "to": 504,
+      "meaning": "Voice selection changes the surrounding waveform."
+    },
+    {
+      "id": "co-create",
+      "from": 504,
+      "to": 650,
+      "meaning": "An isolated prompt survives a device closeup, submit action, progress and result reveal."
+    },
+    {
+      "id": "share",
+      "from": 650,
+      "to": 751,
+      "meaning": "The character anchors a moving background statement, then resolves into a glass story card ready to share."
+    },
+    {
+      "id": "community",
+      "from": 751,
+      "to": 820,
+      "meaning": "The same story expands into a field of shared worlds."
+    },
+    {
+      "id": "close",
+      "from": 820,
+      "to": 900,
+      "meaning": "Resolve on the product signature."
+    }
+  ],
+  "curves": {
+    "arrive": [
+      0.12,
+      0.84,
+      0.2,
+      1
+    ],
+    "travel": [
+      0.5,
+      0.02,
+      0.16,
+      1
+    ],
+    "depart": [
+      0.55,
+      0,
+      0.85,
+      0.34
+    ],
+    "focus": [
+      0.18,
+      0.68,
+      0.24,
+      1
+    ]
+  },
+  "primaryLandings": [
+    16,
+    51,
+    90,
+    149,
+    184,
+    264,
+    297,
+    332,
+    375,
+    398,
+    420,
+    465,
+    493,
+    517,
+    556,
+    575,
+    605,
+    622,
+    656,
+    691,
+    709,
+    729,
+    767,
+    824,
+    839
+  ],
+  "voiceWindows": [
+    {
+      "start": 0.08,
+      "end": 1.61,
+      "text": "Find your kind."
+    },
+    {
+      "start": 4.91,
+      "end": 5.57,
+      "text": "Meet Pip."
+    },
+    {
+      "start": 6.82,
+      "end": 8.05,
+      "text": "Say what's on your mind."
+    },
+    {
+      "start": 8.96,
+      "end": 10.9,
+      "text": "Someone who actually remembers."
+    },
+    {
+      "start": 12.22,
+      "end": 13.03,
+      "text": "Curious."
+    },
+    {
+      "start": 13.09,
+      "end": 13.74,
+      "text": "Playful."
+    },
+    {
+      "start": 13.83,
+      "end": 14.76,
+      "text": "Totally you."
+    },
+    {
+      "start": 15.27,
+      "end": 16.32,
+      "text": "Give them a voice."
+    },
+    {
+      "start": 17.09,
+      "end": 18.13,
+      "text": "Got a little idea?"
+    },
+    {
+      "start": 20.25,
+      "end": 22.03,
+      "text": "Make a whole new world."
+    },
+    {
+      "start": 22.14,
+      "end": 22.88,
+      "text": "Make it."
+    },
+    {
+      "start": 23.43,
+      "end": 24.16,
+      "text": "Share it."
+    },
+    {
+      "start": 25.11,
+      "end": 26.14,
+      "text": "See who joins."
+    },
+    {
+      "start": 27.36,
+      "end": 28.13,
+      "text": "Companion."
+    },
+    {
+      "start": 28.3,
+      "end": 29.665,
+      "text": "Your kind of connection."
+    }
+  ],
+  "version": "0.10.0",
+  "motionNotes": {
+    "arrivals": "10\u201316 frames; short optical settling, no bounce.",
+    "travel": "Major cuts use 8\u201314 frame motion windows with overlapping departures and arrivals. Reading intervals and the 32-second score remain locked.",
+    "reading": "The complete prompt remains readable for at least 1.2 seconds; messages persist while replies arrive.",
+    "continuity": "Reuses the approved crowd pullback, depth-field identity pill, inclined conversation phone, extruded messages, macro submission, status/result reveal and portrait-to-card mechanisms. One character and one created story bridge those forms.",
+    "blur": "Per-letter focus reveal plus velocity-derived object blur. Zero blur on readable holds. Exit defocus follows departing content, never the entire film.",
+    "type": "Selective environmental type in the opening, talk beat, chosen personality, sharing accent and closing. No title for each feature. The share phrase travels behind the character.",
+    "composition": "One visual anchor per beat: selected character, active conversation, recalled message, changed personality, voice source, typed input, created world, shared result. Supporting UI belongs to that object. No heading-plus-panel layouts.",
+    "crowdHandoff": "Frames 72\u2013104 overlap the shared pullback and ordered depth-field expansion. The hero and neighbouring avatars use the same camera.",
+    "conversation": "One continuous thread, with old context followed by a specific remembered question and only then the reaction. User stays right, Pip left; the Pip avatar carries into personalization.",
+    "opening": "Earlier statement exit at 1.37\u20131.70s, quick pullback lands at 2.60s, ordered depth field at 3.47s, Pip at 4.97s and phone at 6.13s. 8\u201314 frame transitions; musical accents sampled from the new score. Same user/Pip message timings and all scene timing after 7.10s.",
+    "rhythm": "Four different rhythmic roles: short held setup then fast shared pullback; an exposed quiet memory reply; a compressed result reveal; and a delayed grouped community burst. Major actions get stronger accents than secondary UI.",
+    "duration": "30 seconds / 900 frames. Recover 0.8s from personalization, 0.6s from voice selection, and 0.6s from the result hold. Dialogue reading and speech speed are preserved."
+  },
+  "sourceDurationInFrames": 960,
+  "timeMap": [
+    [
+      0,
+      0
+    ],
+    [
+      395,
+      395
+    ],
+    [
+      410,
+      434
+    ],
+    [
+      471,
+      495
+    ],
+    [
+      477,
+      511
+    ],
+    [
+      496,
+      530
+    ],
+    [
+      504,
+      546
+    ],
+    [
+      632,
+      674
+    ],
+    [
+      645,
+      705
+    ],
+    [
+      900,
+      960
+    ]
+  ],
+  "sourceCoordinateNote": "Source TSX uses authored-frame coordinates; timeMap converts output frames to these coordinates. Scene metadata below uses output frames."
+}

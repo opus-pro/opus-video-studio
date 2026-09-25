@@ -1,0 +1,215 @@
+{
+  "name": "numo-motion-template-lite-1.0.0",
+  "edition": "Lite",
+  "version": "1.0.0",
+  "approvedFilmVersion": "NUMO 4d · Graphic Funk",
+  "composition": "NUMO",
+  "durationSeconds": 15,
+  "durationInFrames": 900,
+  "fps": 60,
+  "bpm": 144,
+  "renderSize": [
+    1920,
+    1080
+  ],
+  "previewSize": [
+    1280,
+    720
+  ],
+  "entry": "src/index.tsx",
+  "configuration": [
+    "config/brand.json",
+    "config/timeline.json",
+    "config/audio-cues.json"
+  ],
+  "sourceRenderDoesNotUseReference": true,
+  "audioModes": [
+    "master",
+    "music",
+    "sfx",
+    "mute"
+  ],
+  "voiceover": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 42,
+      "sha256": "ac10ba0a2406ffe23bad69423dd453e81a34226860549d55b16895015902ed7b"
+    },
+    {
+      "path": "ASSETS.md",
+      "bytes": 1771,
+      "sha256": "38edfde8fd110bd42487a8e6ee15b36ee9f496b9b5c01402fd39421d41a85160"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4602,
+      "sha256": "de9d36591f2d909875bb9ee21d9ca7a55b6a791fb63d44522995e4345183e036"
+    },
+    {
+      "path": "VERIFICATION.json",
+      "bytes": 3682,
+      "sha256": "eb65966d1891dca2ffb35ef71049a3cbf642ae27019cc00cbf7e526877f258f7"
+    },
+    {
+      "path": "config/audio-cues.json",
+      "bytes": 8062,
+      "sha256": "188f53ce1b30cb268abcf772588255e8307fa2274cd63ceea897d487b93ea310"
+    },
+    {
+      "path": "config/audio-provenance.json",
+      "bytes": 1073,
+      "sha256": "aa23de9c142a8123171bac448c8d54c3fb3db8d554880656950d755c0a3cbcfa"
+    },
+    {
+      "path": "config/brand.json",
+      "bytes": 939,
+      "sha256": "4cc012b29345f5c7f9b6e0055ac24d63500a9e5e8a49625c3c55e3936cee80e3"
+    },
+    {
+      "path": "config/timeline.json",
+      "bytes": 496,
+      "sha256": "e4608593e0f2abf6b25a227e71029bb56aa3756213948e74844852a26d42d008"
+    },
+    {
+      "path": "licenses/GeneralUser-GS.txt",
+      "bytes": 2317,
+      "sha256": "7b32efefdf95ce38a043799f0659853ddc00fbaa14d8c50f0aca16b9b8b405be"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 94610,
+      "sha256": "4103bdab0fc59d1a9ad707f0aab4383c838c6fb52a6a7d0676063f8a582c4253"
+    },
+    {
+      "path": "package.json",
+      "bytes": 720,
+      "sha256": "55bea92ac80d945aff7e1fa1b26326b07310240580686063e55fbf1bba549128"
+    },
+    {
+      "path": "preview/reference.mp4",
+      "bytes": 2590551,
+      "sha256": "3d168405b592bda551747dfd202e7bf7fc41dc8b8b16057d1a713ae0f6ad0c57"
+    },
+    {
+      "path": "public/audio/master.m4a",
+      "bytes": 362725,
+      "sha256": "78856e059620805ffdb7f3b3d6ef1e984a217a129fb5fcc7d67650d0b877943a"
+    },
+    {
+      "path": "public/audio/music.m4a",
+      "bytes": 326576,
+      "sha256": "c8dd5f68fb69cdeadbd0ea05380d6bd80f69dd1891c64c6dc0395636a39c0cc2"
+    },
+    {
+      "path": "public/audio/sfx.m4a",
+      "bytes": 190888,
+      "sha256": "b3021fa0a78bd899af8bba3329ee043b6725a5dc84541d2f928bc78230cfacf5"
+    },
+    {
+      "path": "public/fonts/Geist-OFL.txt",
+      "bytes": 4387,
+      "sha256": "1781d2806a07d91c4edf4740b88449fab7d0eadad53f7c351b94cd4d4eb8c00f"
+    },
+    {
+      "path": "public/fonts/GeistVF.woff2",
+      "bytes": 56800,
+      "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630"
+    },
+    {
+      "path": "public/fonts/InstrumentSerif-OFL.txt",
+      "bytes": 4405,
+      "sha256": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521"
+    },
+    {
+      "path": "public/fonts/InstrumentSerif-Regular.ttf",
+      "bytes": 70012,
+      "sha256": "498efd461f6ddfcb7a111bf9a565709d2085d48201d501ead960d93e84ffbb88"
+    },
+    {
+      "path": "public/grain.png",
+      "bytes": 1388573,
+      "sha256": "afce6a8fdc059e715c091b01b4a2ec216a5d75050ddc10f80198e4a5ef831b85"
+    },
+    {
+      "path": "scripts/check.mjs",
+      "bytes": 1907,
+      "sha256": "2c9177702dfacd0d66ed5a3e90fd34ac0945d58db18f9d77b4bba42df472bbb3"
+    },
+    {
+      "path": "scripts/finalize-audio.mjs",
+      "bytes": 1652,
+      "sha256": "c352d39a77a089c1d83643d107451301a60b6547fc199bfb16020fdf57786cf5"
+    },
+    {
+      "path": "scripts/render.mjs",
+      "bytes": 3077,
+      "sha256": "a5c4ff63d0077064a0e4865b687b566a4c574d246264621b2a4c45465203629c"
+    },
+    {
+      "path": "src/design.ts",
+      "bytes": 557,
+      "sha256": "7d7a5959f04c52833921d795a331e90b5d586ff214bbdfbe0b14e3e77736f810"
+    },
+    {
+      "path": "src/index.tsx",
+      "bytes": 1085,
+      "sha256": "ef44af95fbdaa755c91d69ebf1dc689ebac0aeb9262bbdf63b01a0a070332c31"
+    },
+    {
+      "path": "src/numo/MotionType.tsx",
+      "bytes": 782,
+      "sha256": "1d6c71af150d55738d06bbf056761b986454149f005f81c20721c1d6ed4165c0"
+    },
+    {
+      "path": "src/numo/OpticField.tsx",
+      "bytes": 1193,
+      "sha256": "8d898c4fe0e99c4c7fc94c27bb0c9d609b6855fc067b8abd7181b5c5c0a74627"
+    },
+    {
+      "path": "src/numo/Optical.tsx",
+      "bytes": 4591,
+      "sha256": "05a70f77b056e504c3c118699f55191241bf3db6cb6be6179fd58dc50190f0cb"
+    },
+    {
+      "path": "src/numo/PrintGrain.tsx",
+      "bytes": 522,
+      "sha256": "f42b9e4c47d767e4ef3a4151ffcbbb7743da61aac50dde80cafdff43e41d648b"
+    },
+    {
+      "path": "src/numo/story.ts",
+      "bytes": 329,
+      "sha256": "1d66faa4ee9a8d2a77eca6b81c8cb43cad44b1a000ab72de649568e796258e67"
+    },
+    {
+      "path": "src/shared.tsx",
+      "bytes": 4722,
+      "sha256": "68586d5a23b4bf1dd8160d3cc0423f10f9795de9008115e016ef281dddc21baa"
+    },
+    {
+      "path": "src/style.css",
+      "bytes": 295,
+      "sha256": "8a6a51595053051ba59f21f526227d1c5cfbcc6f2d699ddfcd39ec6c9d95f811"
+    },
+    {
+      "path": "src/web/NumoWeb.tsx",
+      "bytes": 8540,
+      "sha256": "7c3184fb79b4304f5480a899bfd91260ddebc829b585cf894ddfaef495604537"
+    },
+    {
+      "path": "src/web/index.tsx",
+      "bytes": 418,
+      "sha256": "104206bb02b0d4496cf74550123e00bfb0eb7f78fcd158c765d362b7c8d570a7"
+    },
+    {
+      "path": "src/web/ui.tsx",
+      "bytes": 6737,
+      "sha256": "3b3238d84d2be942f649d4a08b05bac1ea75514a3fd0ed82ec4a0796dffec19d"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 239,
+      "sha256": "d4b9852dc6797c48f1ba53266b6ff434d48d85d101e090681227a113fb9c3fce"
+    }
+  ]
+}

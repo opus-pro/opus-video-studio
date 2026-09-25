@@ -1,0 +1,36 @@
+{
+  "id": "pf-carousel-diagonal",
+  "title": "3D Diagonal Portfolio Relay",
+  "version": "1.1.0",
+  "compositionId": "pf-carousel-diagonal",
+  "width": 1200,
+  "height": 1200,
+  "fps": 60,
+  "frames": 288,
+  "preview": {
+    "width": 720,
+    "height": 720
+  },
+  "audioMode": "mute",
+  "sourceEntry": "src/index.tsx",
+  "readingOrder": [
+    "README.md",
+    "template.json",
+    "ASSETS.md",
+    "MOTION-NOTES.md",
+    "src/index.tsx",
+    "scripts/render.mjs"
+  ],
+  "sourceFiles": [
+    "src/index.tsx"
+  ],
+  "provenance": {
+    "originalCodeArchiveSha256": "eb1047fc989e816a106bc554895f1556ea4d027578d052d94686c9406c13b114",
+    "originalBatch": "batch-spatial-v2",
+    "originalSourceFiles": {
+      "src/index.tsx": "ae340df401f1888a7f623b75161a52599f030eb233883ff64944115673355f49"
+    },
+    "publishedPreviewSha256": "0c068f3799a1fcb6611d3e5792afeb1b51529285d88def0161a3d9c4195172e0",
+    "animationSourceUnchanged": true
+  }
+}

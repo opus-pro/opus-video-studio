@@ -1,0 +1,42 @@
+{
+  "id": "template-case-website",
+  "title": "Live Website Restyle",
+  "version": "1.1.0",
+  "compositionId": "template-case-website",
+  "width": 960,
+  "height": 540,
+  "fps": 30,
+  "frames": 195,
+  "preview": {
+    "width": 960,
+    "height": 540
+  },
+  "audioMode": "mute",
+  "sourceEntry": "src/index.tsx",
+  "readingOrder": [
+    "README.md",
+    "template.json",
+    "ASSETS.md",
+    "MOTION-NOTES.md",
+    "src/index.tsx",
+    "scripts/render.mjs"
+  ],
+  "sourceFiles": [
+    "src/Research.tsx",
+    "src/Website.tsx",
+    "src/index.tsx",
+    "src/primitives.tsx"
+  ],
+  "provenance": {
+    "originalCodeArchiveSha256": "ebe7a0f5c7dda7542e86f16c9ac01480d0bbc32f1897e8bc8a55946e46fa2c40",
+    "originalBatch": "batch-media",
+    "originalSourceFiles": {
+      "src/Website.tsx": "55c399108400556dd3aadfdd2f66348ac490efcd2e44abda4644d3be77d67c55",
+      "src/index.tsx": "b2491a18b551181efd31b53a8fbf3ea9b11b3ed83586018782f4317610faa749",
+      "src/primitives.tsx": "ba59e8e974f90e915d35488f5c9077da4ff2bd492d1858e218acb70f85c5bd6a",
+      "src/Research.tsx": "99edcecf1989ab012c06b34e633f3c54605941dc82bef0e5b292f8e667447182"
+    },
+    "publishedPreviewSha256": "04d84b4ba12ef3ca60744a2cc7456a432071fffd50bebd9df0b2a389d9b7d08e",
+    "animationSourceUnchanged": true
+  }
+}

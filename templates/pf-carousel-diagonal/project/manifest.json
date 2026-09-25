@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "id": "pf-carousel-diagonal",
+  "title": "3D Diagonal Portfolio Relay",
+  "version": "1.1.0",
+  "compositionId": "pf-carousel-diagonal",
+  "width": 1200,
+  "height": 1200,
+  "fps": 60,
+  "frames": 288,
+  "preview": {
+    "width": 720,
+    "height": 720
+  },
+  "audioMode": "mute",
+  "sourceEntry": "src/index.tsx",
+  "provenance": {
+    "originalCodeArchiveSha256": "eb1047fc989e816a106bc554895f1556ea4d027578d052d94686c9406c13b114",
+    "originalBatch": "batch-spatial-v2",
+    "originalSourceFiles": {
+      "src/index.tsx": "ae340df401f1888a7f623b75161a52599f030eb233883ff64944115673355f49"
+    },
+    "publishedPreviewSha256": "0c068f3799a1fcb6611d3e5792afeb1b51529285d88def0161a3d9c4195172e0",
+    "animationSourceUnchanged": true
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "f686bac54cb88e6ac757636e4a574c35f06c05f08a39c869b4b2a6ede75de2c1",
+      "bytes": 44
+    },
+    {
+      "path": "ASSETS.md",
+      "sha256": "725a7903a071eedc829b6976dd650523c7a54d796d6d8f4e552d1d32ebb02346",
+      "bytes": 433
+    },
+    {
+      "path": "Geist-OFL.txt",
+      "sha256": "1781d2806a07d91c4edf4740b88449fab7d0eadad53f7c351b94cd4d4eb8c00f",
+      "bytes": 4387
+    },
+    {
+      "path": "MOTION-NOTES.md",
+      "sha256": "0e0305f20ef581cf6bf559e70bbb6d99c11874a43bb18eeadad73b6a8f7cdc2f",
+      "bytes": 1229
+    },
+    {
+      "path": "PHOTO-SOURCES.json",
+      "sha256": "ce7054c124aaab8e236ca22920ce907fcaa7dcb3f0ec9fdaec41c0395276d221",
+      "bytes": 1380
+    },
+    {
+      "path": "README.md",
+      "sha256": "54c7ff633c0cc9ddc8722527304b73546b3568db248ed9c075abf0f8cc35af2e",
+      "bytes": 2477
+    },
+    {
+      "path": "captions.vtt",
+      "sha256": "7c6acb5a8cf436b11c3ea003690cb53daf7ab2767fabf8cf39adb2fe22706fef",
+      "bytes": 61
+    },
+    {
+      "path": "context.json",
+      "sha256": "d13c2a7b1c2b716f7ba1e4049cab55b25fa4b7009711170d5e59380bfc0c1f41",
+      "bytes": 939
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "78e985814de771419c66af6eaf84e65f1d56c13612f9e84c8fa66662a050c059",
+      "bytes": 118193
+    },
+    {
+      "path": "package.json",
+      "sha256": "64023b10e82ebbee0728f88a867cba74815bd320ad5bd867b141178a837f99fa",
+      "bytes": 826
+    },
+    {
+      "path": "poster.jpg",
+      "sha256": "e82a655bf191f1de4ce59ded44346b35d94f85106f9840112db25e457e22ccd2",
+      "bytes": 100307
+    },
+    {
+      "path": "preview.mp4",
+      "sha256": "0c068f3799a1fcb6611d3e5792afeb1b51529285d88def0161a3d9c4195172e0",
+      "bytes": 2156726
+    },
+    {
+      "path": "public/assets/GeistVF.woff2",
+      "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
+      "bytes": 56800
+    },
+    {
+      "path": "public/assets/coast.jpg",
+      "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
+      "bytes": 251741
+    },
+    {
+      "path": "public/assets/desert.jpg",
+      "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
+      "bytes": 205527
+    },
+    {
+      "path": "public/assets/forest.jpg",
+      "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
+      "bytes": 229748
+    },
+    {
+      "path": "public/assets/mountains.jpg",
+      "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
+      "bytes": 269763
+    },
+    {
+      "path": "scripts/render.mjs",
+      "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
+      "bytes": 2937
+    },
+    {
+      "path": "scripts/verify.mjs",
+      "sha256": "d89b41b3a2d664b17d90a20e2b8881cabd75d121947eb66ad87459a21953781a",
+      "bytes": 513
+    },
+    {
+      "path": "src/index.tsx",
+      "sha256": "ae340df401f1888a7f623b75161a52599f030eb233883ff64944115673355f49",
+      "bytes": 19255
+    },
+    {
+      "path": "template.json",
+      "sha256": "a924258ae190a0f4f73103032817622acba6fc8a3becd0ef138e27576aabba7d",
+      "bytes": 320
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "752980ca8327d289102ab07c8cda14eca8e28c07d5584b20e987bb1273a3c0da",
+      "bytes": 260
+    }
+  ]
+}

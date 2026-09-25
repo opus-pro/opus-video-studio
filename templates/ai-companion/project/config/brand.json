@@ -1,0 +1,51 @@
+{
+  "name": "Companion",
+  "url": "yourbrand.example",
+  "accent": "#278d83",
+  "heroName": "Pip",
+  "headlines": {
+    "opening": [
+      "Find your",
+      "kind."
+    ],
+    "closing": "Your kind of connection."
+  },
+  "conversation": [
+    "I'm nervous about sharing my song.",
+    "You've got this.",
+    "How did your song go?",
+    "You remembered."
+  ],
+  "traits": [
+    "Curious",
+    "Playful",
+    "Thoughtful"
+  ],
+  "shareMessage": "You two would get along.",
+  "audio": {
+    "enabled": true,
+    "master": "audio/master.m4a"
+  },
+  "portraits": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "memory": {
+    "label": "Yesterday",
+    "quote": "I'm nervous about sharing my song.",
+    "reply": "You remembered."
+  },
+  "creationResponse": [
+    "Let’s try something new.",
+    "Let’s go to the moon."
+  ],
+  "story": {
+    "prompt": "A train to the moon.",
+    "shareMessage": "Made this with Pip.",
+    "reply": "Can I join?"
+  }
+}

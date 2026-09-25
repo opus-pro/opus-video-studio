@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const brand=JSON.parse(fs.readFileSync(path.join(root,'config/brand.json'),'utf8'));
+const timing=JSON.parse(fs.readFileSync(path.join(root,'config/timeline.json'),'utf8'));
+for(const k of ['name','url','heroName']) if(typeof brand[k]!=='string'||!brand[k].trim()) throw Error(k+' is required.');
+if(!/^#[a-f0-9]{6}$/i.test(brand.accent))throw Error('accent must be a six-digit hex color');
+if(brand.conversation.length!==4||brand.traits.length!==3)throw Error('Use four dialogue lines and three traits, or edit the source layout.');
+if(timing.durationInFrames!==900||timing.fps!==30)throw Error('This edition is timed to 900 frames at 30fps. Edit motion and audio together to change duration.');
+if(brand.audio.enabled&&!fs.existsSync(path.join(root,'public',brand.audio.master)))throw Error('Audio file not found.');
+for(const name of ['GeistVF.woff2','Geist-OFL.txt','InstrumentSerif-Regular.ttf','InstrumentSerif-OFL.txt'])if(!fs.existsSync(path.join(root,'public/fonts',name)))throw Error('Missing font/license '+name);
+console.log('Configuration, duration and required assets passed.');

@@ -1,0 +1,18 @@
+{
+  "edition": "NUMO 4d Graphic Funk",
+  "approvedVideoSha256": "79c0669b5d651a2ed454eb0dcbcbb3d2c5187cbc4e82d3a269284329cce2f5d2",
+  "master": "AAC stream copied from the approved video; no re-encoding.",
+  "music": "AAC derivative of the final 4d music.wav. Original local code composition; procedural drums/chords and GeneralUser GS fingered electric bass.",
+  "sfx": "AAC stream copied from the approved material SFX-only preview. 27 editorial and interaction cues.",
+  "acceptedSfxPcmSha256": "d8c185ca6ba27d9601e8b12cf302af88cffb04aeaa1a050cb0531008ce4b4b8e",
+  "instrument": {
+    "name": "GeneralUser GS",
+    "author": "S. Christian Collins",
+    "programZeroBased": 33,
+    "engine": "FluidSynth",
+    "source": "https://github.com/mrbumpy409/GeneralUser-GS",
+    "license": "licenses/GeneralUser-GS.txt"
+  },
+  "referenceUse": "Broad timbre and arrangement study only. No reference audio samples or source melody used.",
+  "liteScope": "Approved rendered tracks are included; synthesis scripts, sample bank and raw recording stems remain in the full project."
+}

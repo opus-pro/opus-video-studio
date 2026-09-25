@@ -1,0 +1,17 @@
+{
+  "name": "Margin · fast ending",
+  "edition": "Lite",
+  "version": "1.0.0",
+  "approvedFilm": "Fast20",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "durationInFrames": 1200
+  },
+  "audio": {
+    "mode": "master",
+    "master": "audio/master.m4a",
+    "sfx": "audio/sfx.m4a"
+  }
+}

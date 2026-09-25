@@ -1,0 +1,22 @@
+@font-face {
+  font-family: Geist;
+  src: url("../public/assets/GeistVF.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: block;
+}
+@font-face {
+  font-family: Instrument;
+  src: url("../public/assets/InstrumentSerif-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: block;
+}
+@font-face {
+  font-family: Fraunces;
+  src: url("../public/assets/FrauncesVF.ttf");
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}

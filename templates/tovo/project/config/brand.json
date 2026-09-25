@@ -1,0 +1,22 @@
+{
+  "product": {
+    "name": "TOVO",
+    "tagline": "Talk into action."
+  },
+  "palette": {
+    "background": "#ED80B5",
+    "ink": "#381F25",
+    "accent": "#F14A35",
+    "paper": "#FAE1E6"
+  },
+  "task": {
+    "title": "Send deck",
+    "action": "send the deck",
+    "owner": "Maya",
+    "due": "Friday"
+  },
+  "audio": {
+    "mode": "master",
+    "master": "audio/master.m4a"
+  }
+}

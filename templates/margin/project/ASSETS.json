@@ -1,0 +1,49 @@
+{
+  "artwork": {
+    "description": "Original fictional Margin UI and Elsewhere editorial layouts, rendered from React/CSS/SVG. No third-party video footage is embedded."
+  },
+  "photograph": {
+    "path": "public/ocean.jpg",
+    "author": "Jeffrey Brandjes",
+    "source": "https://unsplash.com/photos/a-black-and-white-photo-of-the-ocean-waves-gB7F3ZdPQpo",
+    "license_record": "Source project records Unsplash License; unchanged static image used in the approved film."
+  },
+  "fonts": [
+    {
+      "family": "Geist",
+      "path": "public/GeistVF.woff2",
+      "source": "https://cdn.prod.website-files.com/6388604483b03a9ecb34d695/66ab2e52177d7cf5a6d14000_GeistVF.woff2",
+      "license": "SIL Open Font License 1.1",
+      "license_file": "licenses/Geist-OFL.txt",
+      "license_source": "https://github.com/vercel/geist-font/blob/main/OFL.txt",
+      "notes": "Unmodified font inherited from the source workspace."
+    },
+    {
+      "family": "Georgia",
+      "bundled": false,
+      "source": "System font",
+      "notes": "A legally available local Georgia installation or reviewed replacement is needed to match the serif frames across platforms."
+    }
+  ],
+  "audio": {
+    "master": {
+      "path": "public/audio/master.m4a",
+      "source": "Exact AAC packets extracted from the user-approved Margin Fast20 film; generated instrumental plus bounded SFX."
+    },
+    "sfx": {
+      "path": "public/audio/sfx.m4a",
+      "source": "Exact AAC packets extracted from the same-timeline SFX-only edition."
+    },
+    "music": {
+      "origin": "Generated for this project with Lyria 3 Pro Preview",
+      "tempo_bpm": 120,
+      "direction": "Restrained editorial electronica, rounded dry kick, warm bass, sparse plucks, no vocals."
+    },
+    "sample_provenance": "Keyboard, click, gather and swoosh inherited from the existing workspace audio library. Individual sample origins are not fully documented in the source project; the approved mixes inherit that provenance status. No isolated third-party SFX files are redistributed in Lite."
+  },
+  "preview": {
+    "path": "preview/reference.mp4",
+    "source": "720p derivative of this project’s own approved Fast20 MP4. It is not a dependency of the renderer."
+  },
+  "reference_method": "The user-supplied Creative Search V8 case informed typography cadence and the card-to-band ending. No reference footage, music or brand assets are included."
+}

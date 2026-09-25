@@ -1,0 +1,16 @@
+{
+  "id": "pf-orbit-fan",
+  "title": "Fan Deck Showcase",
+  "version": "1.1.0",
+  "compositionId": "pf-orbit-fan",
+  "width": 1440,
+  "height": 1080,
+  "fps": 60,
+  "frames": 288,
+  "preview": {
+    "width": 720,
+    "height": 540
+  },
+  "audioMode": "mute",
+  "sourceEntry": "src/index.tsx"
+}

@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "pf-phone-hand",
+  "title": "In-Hand App Scroll",
+  "version": "1.1.0",
+  "compositionId": "pf-phone-hand",
+  "width": 1200,
+  "height": 1200,
+  "fps": 60,
+  "frames": 276,
+  "preview": {
+    "width": 720,
+    "height": 720
+  },
+  "audioMode": "mute",
+  "sourceEntry": "src/index.tsx",
+  "provenance": {
+    "originalCodeArchiveSha256": "7b34bec06d92a5e458ea6170d1397489e6f53287168aef1f0fa4ab7a6f78fddc",
+    "originalBatch": "batch-c",
+    "originalSourceFiles": {
+      "src/index.tsx": "5713f80c0179d2d61916959be476cfc251e656b940989902cee0f81c041fa81a"
+    },
+    "publishedPreviewSha256": "c67d7b8ff62cfb4468cdee41afdb666df3a8b61ca04888ee324001d62340c615",
+    "animationSourceUnchanged": true
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "f686bac54cb88e6ac757636e4a574c35f06c05f08a39c869b4b2a6ede75de2c1",
+      "bytes": 44
+    },
+    {
+      "path": "ASSETS.md",
+      "sha256": "49652a30db58760c8a2ad966d9b3d9f8050044669c4d4fd0d0f11644cb983cb3",
+      "bytes": 568
+    },
+    {
+      "path": "Geist-OFL.txt",
+      "sha256": "1781d2806a07d91c4edf4740b88449fab7d0eadad53f7c351b94cd4d4eb8c00f",
+      "bytes": 4387
+    },
+    {
+      "path": "MOTION-NOTES.md",
+      "sha256": "70026e9ab43c24ed1ea456ef94d76815cad554d4af75065e488e1c94e66768e3",
+      "bytes": 1133
+    },
+    {
+      "path": "PHOTO-SOURCES.json",
+      "sha256": "ce7054c124aaab8e236ca22920ce907fcaa7dcb3f0ec9fdaec41c0395276d221",
+      "bytes": 1380
+    },
+    {
+      "path": "README.md",
+      "sha256": "55eca2aa94a38647a5820f2faf28b76aa12c72d7ea82d1c4ed2cf2ee3736993c",
+      "bytes": 2447
+    },
+    {
+      "path": "captions.vtt",
+      "sha256": "7c6acb5a8cf436b11c3ea003690cb53daf7ab2767fabf8cf39adb2fe22706fef",
+      "bytes": 61
+    },
+    {
+      "path": "context.json",
+      "sha256": "71b2e7df226b6d26e55a83c5d1af9acf31a4a51ef848ef91624abc584bf1d823",
+      "bytes": 907
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+      "bytes": 106599
+    },
+    {
+      "path": "package.json",
+      "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+      "bytes": 702
+    },
+    {
+      "path": "poster.jpg",
+      "sha256": "4ae23bba65d9b05a75ed32d06e6ec0a40adaab7b499f2bd08883ce4c5c803bc0",
+      "bytes": 113794
+    },
+    {
+      "path": "preview.mp4",
+      "sha256": "c67d7b8ff62cfb4468cdee41afdb666df3a8b61ca04888ee324001d62340c615",
+      "bytes": 448823
+    },
+    {
+      "path": "public/assets/GeistVF.woff2",
+      "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
+      "bytes": 56800
+    },
+    {
+      "path": "public/assets/coast.jpg",
+      "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
+      "bytes": 251741
+    },
+    {
+      "path": "public/assets/desert.jpg",
+      "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
+      "bytes": 205527
+    },
+    {
+      "path": "public/assets/forest.jpg",
+      "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
+      "bytes": 229748
+    },
+    {
+      "path": "public/assets/hand-phone.png",
+      "sha256": "3ac26069bbaab1225cc4f8016f2af74141397bc5ccbe0c81a35d374dea873230",
+      "bytes": 1835525
+    },
+    {
+      "path": "public/assets/mountains.jpg",
+      "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
+      "bytes": 269763
+    },
+    {
+      "path": "public/assets/portrait-front.png",
+      "sha256": "ff587900014fc340a07f8e351e5d2a4a597e34d09de2372fadb7e54722cc8d77",
+      "bytes": 2172904
+    },
+    {
+      "path": "public/assets/portrait-smile.png",
+      "sha256": "d01da7ecdd9329691c762995168f3ef7b0b3d395cb674b3f4862791fecda966c",
+      "bytes": 2038079
+    },
+    {
+      "path": "public/assets/portrait-turn.png",
+      "sha256": "b8cf52e5f20d729de97dee6d78249aff691189e983494e2f138a854ab1c146dd",
+      "bytes": 2095588
+    },
+    {
+      "path": "scripts/render.mjs",
+      "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
+      "bytes": 2937
+    },
+    {
+      "path": "scripts/verify.mjs",
+      "sha256": "d89b41b3a2d664b17d90a20e2b8881cabd75d121947eb66ad87459a21953781a",
+      "bytes": 513
+    },
+    {
+      "path": "src/index.tsx",
+      "sha256": "5713f80c0179d2d61916959be476cfc251e656b940989902cee0f81c041fa81a",
+      "bytes": 21705
+    },
+    {
+      "path": "template.json",
+      "sha256": "0707b189d768cbc5bb9afa601d4e87681bf235db821f81d5b11f4ead28f8d437",
+      "bytes": 297
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "277a12362d46208423937a3d8f47ba75548786b647c8f293e344ddcaa1c73b3b",
+      "bytes": 284
+    }
+  ]
+}

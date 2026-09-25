@@ -1,0 +1,179 @@
+{
+  "name": "tovo-motion-template-lite-1.0.0",
+  "edition": "Lite",
+  "version": "1.0.0",
+  "approvedFilmVersion": "TOVO-final-2026-09-07",
+  "durationSeconds": 15,
+  "frames": 900,
+  "fps": 60,
+  "bpm": 144,
+  "renderSize": [
+    1920,
+    1080
+  ],
+  "previewSize": [
+    1280,
+    720
+  ],
+  "composition": "TOVO",
+  "entry": "src/index.tsx",
+  "configuration": "config/brand.json",
+  "sourceRenderDoesNotUseReference": true,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 30,
+      "sha256": "3a3bcf768c25d0483b1e4b81f5a2879def4f8160c994929ae3a997511dbd84ae"
+    },
+    {
+      "path": "ASSETS.md",
+      "bytes": 1007,
+      "sha256": "614133bc1e6072d869eb76fc4fb650cf1646e9dcc77176b70004bf2e69a95d58"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4618,
+      "sha256": "38274869435a7dd45589382c8d5ce7b84dd5880f9ab43dda28e9e94b297413a6"
+    },
+    {
+      "path": "VERIFICATION.json",
+      "bytes": 771,
+      "sha256": "19ee3f4360c1aa377daa5ab6abb53923fa1c31f6494d2f47a7a6154a38e42631"
+    },
+    {
+      "path": "config/audio-cues.json",
+      "bytes": 1278,
+      "sha256": "f945e0d6e94bb897f09e8b81dae4895556b9390eba9d91e92ba0784f48d0ae66"
+    },
+    {
+      "path": "config/brand.json",
+      "bytes": 385,
+      "sha256": "429521e82afb45975698bfbfb4800ca3297b1dd7a5dbfafb06692b7724774916"
+    },
+    {
+      "path": "config/timeline.json",
+      "bytes": 496,
+      "sha256": "e4608593e0f2abf6b25a227e71029bb56aa3756213948e74844852a26d42d008"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 94610,
+      "sha256": "7a1af29c776083af98eff46e7e4ac3f9a32e6fbfb544c5e6de1d380a0e46bd49"
+    },
+    {
+      "path": "package.json",
+      "bytes": 720,
+      "sha256": "5fbfc130cc7ef02cc89a64b358389128fef789ea302274d622b282a8cde571d2"
+    },
+    {
+      "path": "preview/reference.mp4",
+      "bytes": 1419958,
+      "sha256": "4203350902f72b9bb9126db71bc41a07ee47083e78311858204bba688c061c2b"
+    },
+    {
+      "path": "public/audio/master.m4a",
+      "bytes": 503584,
+      "sha256": "dbd15107c407fcb28714ca73018ee594c1ade772554d9b4b7fd885aadb8700b0"
+    },
+    {
+      "path": "public/fonts/Geist-OFL.txt",
+      "bytes": 4387,
+      "sha256": "1781d2806a07d91c4edf4740b88449fab7d0eadad53f7c351b94cd4d4eb8c00f"
+    },
+    {
+      "path": "public/fonts/GeistVF.woff2",
+      "bytes": 56800,
+      "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630"
+    },
+    {
+      "path": "public/fonts/InstrumentSerif-OFL.txt",
+      "bytes": 4405,
+      "sha256": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521"
+    },
+    {
+      "path": "public/fonts/InstrumentSerif-Regular.ttf",
+      "bytes": 70012,
+      "sha256": "498efd461f6ddfcb7a111bf9a565709d2085d48201d501ead960d93e84ffbb88"
+    },
+    {
+      "path": "public/grain.png",
+      "bytes": 1388573,
+      "sha256": "afce6a8fdc059e715c091b01b4a2ec216a5d75050ddc10f80198e4a5ef831b85"
+    },
+    {
+      "path": "scripts/check.mjs",
+      "bytes": 1191,
+      "sha256": "0f04c0ce28ed10bc7e08107aae5a63bf2a07edfe7e6f831aeec2140e3d32b6e2"
+    },
+    {
+      "path": "scripts/finalize-audio.mjs",
+      "bytes": 1645,
+      "sha256": "8254353a48271e8c7a3db99ccca6f4fa5b61357d15fc2340a2ca75dfa73a5232"
+    },
+    {
+      "path": "scripts/render.mjs",
+      "bytes": 3059,
+      "sha256": "31f13c0db8ac5231d11e3dc4632c1715dbc7dfd3d566beb3a424574bf3d36b6f"
+    },
+    {
+      "path": "src/design.ts",
+      "bytes": 523,
+      "sha256": "305081ea3d297be52b09398547acd50af389ddb70b1bd263197caf0920d85a88"
+    },
+    {
+      "path": "src/index.tsx",
+      "bytes": 988,
+      "sha256": "04b95d552728616da2692722eb1fb4acdd22056467347a46672741e9c68c65c1"
+    },
+    {
+      "path": "src/shared.tsx",
+      "bytes": 4722,
+      "sha256": "68586d5a23b4bf1dd8160d3cc0423f10f9795de9008115e016ef281dddc21baa"
+    },
+    {
+      "path": "src/style.css",
+      "bytes": 295,
+      "sha256": "8a6a51595053051ba59f21f526227d1c5cfbcc6f2d699ddfcd39ec6c9d95f811"
+    },
+    {
+      "path": "src/tovo/Extraction.tsx",
+      "bytes": 3398,
+      "sha256": "ca59a199cdf567623061d476f785de62927f710a05f56ee6f094c32b7b3bbda2"
+    },
+    {
+      "path": "src/tovo/Opening.tsx",
+      "bytes": 2903,
+      "sha256": "0542e252193f7d3e031a1df17b1dcba862040a807a2513981049ed03044f41ac"
+    },
+    {
+      "path": "src/tovo/Result.tsx",
+      "bytes": 2302,
+      "sha256": "577e18e1321a10019f1d55c20d755161cd9b6f75098a38a02f27cb67fb50d512"
+    },
+    {
+      "path": "src/tovo/Tovo.tsx",
+      "bytes": 549,
+      "sha256": "4e57861a4dbafa2b5984744a7bc6050604fb6356f9691740b15f2605227b31e8"
+    },
+    {
+      "path": "src/web/TovoWeb.tsx",
+      "bytes": 8051,
+      "sha256": "87a8dd13e4a13fe5f2a49676baca2ce2bdd6409d4bc9a211351dd838eaaf2197"
+    },
+    {
+      "path": "src/web/index.tsx",
+      "bytes": 407,
+      "sha256": "2f4f1a903ad5163315c722b5faa93be8aa575e3caba836b5262dc7a9888f0aed"
+    },
+    {
+      "path": "src/web/ui.tsx",
+      "bytes": 6116,
+      "sha256": "f1cb04581a66a64b328d12e9c13645600625edac3861ab013c50aa9be28cbfc9"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 239,
+      "sha256": "d4b9852dc6797c48f1ba53266b6ff434d48d85d101e090681227a113fb9c3fce"
+    }
+  ]
+}

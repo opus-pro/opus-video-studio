@@ -1,0 +1,69 @@
+{
+  "fps": 60,
+  "bpm": 120,
+  "half_beat_seconds": 0.25,
+  "source_start_frame": 90,
+  "scope": "Source timeline grid, not a new acoustic transient analysis",
+  "anchors": [
+    {
+      "seconds": 13.5,
+      "frame": 810,
+      "half_beat_error_frames": 0
+    },
+    {
+      "seconds": 14,
+      "frame": 840,
+      "half_beat_error_frames": 0
+    },
+    {
+      "seconds": 14.5,
+      "frame": 870,
+      "half_beat_error_frames": 0
+    },
+    {
+      "seconds": 15,
+      "frame": 900,
+      "half_beat_error_frames": 0
+    },
+    {
+      "seconds": 15.5,
+      "frame": 930,
+      "half_beat_error_frames": 0
+    },
+    {
+      "seconds": 16,
+      "frame": 960,
+      "half_beat_error_frames": 0
+    },
+    {
+      "seconds": 16.25,
+      "frame": 975,
+      "half_beat_error_frames": 0
+    },
+    {
+      "seconds": 16.5,
+      "frame": 990,
+      "half_beat_error_frames": 0
+    },
+    {
+      "seconds": 16.75,
+      "frame": 1005,
+      "half_beat_error_frames": 0
+    },
+    {
+      "seconds": 17,
+      "frame": 1020,
+      "half_beat_error_frames": 0
+    },
+    {
+      "seconds": 18,
+      "frame": 1080,
+      "half_beat_error_frames": 0
+    },
+    {
+      "seconds": 18.5,
+      "frame": 1110,
+      "half_beat_error_frames": 0
+    }
+  ]
+}

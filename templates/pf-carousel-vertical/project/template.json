@@ -1,0 +1,16 @@
+{
+  "id": "pf-carousel-vertical",
+  "title": "Vertical Portfolio Relay",
+  "version": "1.1.0",
+  "compositionId": "pf-carousel-vertical",
+  "width": 1200,
+  "height": 1200,
+  "fps": 60,
+  "frames": 288,
+  "preview": {
+    "width": 720,
+    "height": 720
+  },
+  "audioMode": "mute",
+  "sourceEntry": "src/index.tsx"
+}

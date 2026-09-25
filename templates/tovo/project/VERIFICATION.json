@@ -1,0 +1,33 @@
+{
+  "render": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "frames": 900,
+    "durationSeconds": 15,
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "channels": 2,
+    "sampleRate": 48000
+  },
+  "preview": {
+    "width": 1280,
+    "height": 720,
+    "fps": 60,
+    "frames": 900,
+    "durationSeconds": 15,
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "channels": 2,
+    "sampleRate": 48000
+  },
+  "cleanNpmCi": "passed",
+  "typecheck": "passed",
+  "fullRender": "passed",
+  "approvedFilmComparison": {
+    "ssim": 0.998759,
+    "note": "Full 900-frame picture comparison; independent H.264 encoding."
+  },
+  "approvedAudioStreamPreserved": true,
+  "audioPacketSha256": "9d3b5b2f457713f1d287505558dc406bede66f0308c930d8e71beaa8307bbc38"
+}

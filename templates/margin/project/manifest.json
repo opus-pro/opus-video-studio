@@ -1,0 +1,149 @@
+{
+  "name": "margin-motion-template-lite-fast20-1.0.0",
+  "edition": "Lite",
+  "version": "1.0.0",
+  "approvedFilmVersion": "Fast20",
+  "durationSeconds": 20,
+  "frames": 1200,
+  "fps": 60,
+  "renderSize": [
+    1920,
+    1080
+  ],
+  "previewSize": [
+    1280,
+    720
+  ],
+  "audioModes": [
+    "master",
+    "sfx",
+    "mute"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 30,
+      "sha256": "3a3bcf768c25d0483b1e4b81f5a2879def4f8160c994929ae3a997511dbd84ae"
+    },
+    {
+      "path": "ASSETS.json",
+      "bytes": 2416,
+      "sha256": "4609b6f5b15f887b5e19252baeb26b2afbc23d009d9d1e0d2a099e44c09da296"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4901,
+      "sha256": "4a4f2b98fc847c3e622b4c7340835c1b909ce02613875c89b08cf988a5f71fd2"
+    },
+    {
+      "path": "VERIFICATION.json",
+      "bytes": 1931,
+      "sha256": "2ac913cae109b12205c51f9e22bc47455388194e78c31b5096de5938420050ac"
+    },
+    {
+      "path": "config/beat-grid.json",
+      "bytes": 1256,
+      "sha256": "c9d84d9c6bc2463665fa8e27acc2f92c29b109635b551b3843a66d4aa86ad634"
+    },
+    {
+      "path": "config/template.json",
+      "bytes": 312,
+      "sha256": "6ad84988cc1b3af1e48f84b779e9f0771cb28d371c229dd25e1712c064946319"
+    },
+    {
+      "path": "licenses/Geist-OFL.txt",
+      "bytes": 4383,
+      "sha256": "c683bfbcc7e087f5d37a54ef628f10387c451a83ddc459b151403a164ac46c90"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 94593,
+      "sha256": "0494bff9a996720acc89aa9951e9fb4aae079826b97f1b860721d6f0fa721e94"
+    },
+    {
+      "path": "package.json",
+      "bytes": 788,
+      "sha256": "910f2188ece0a16a92cbe25e6fee15c9ab1e248808f906b2b9991ca5f193e8cd"
+    },
+    {
+      "path": "preview/index.html",
+      "bytes": 732,
+      "sha256": "6e650109cf8c99a314578b7b28e441dc7932c4c9af103997d78beee7ff59d06a"
+    },
+    {
+      "path": "preview/reference.mp4",
+      "bytes": 4464468,
+      "sha256": "b8886332ff7e9553c93eac0191d99dae3840321a8ab15a73124a4bdb9e84a700"
+    },
+    {
+      "path": "public/GeistVF.woff2",
+      "bytes": 56800,
+      "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630"
+    },
+    {
+      "path": "public/audio/master.m4a",
+      "bytes": 800160,
+      "sha256": "392aa98cc750432232047dfe5ad2cd887782e9bdaf22ceab8a627bb74a275898"
+    },
+    {
+      "path": "public/audio/sfx.m4a",
+      "bytes": 258411,
+      "sha256": "545dd465dbe550c6a4c04eae80f7a6d233a06b55d31b789ed680f9b4c4f31194"
+    },
+    {
+      "path": "public/ocean.jpg",
+      "bytes": 1017311,
+      "sha256": "f2c8f6f1c6c35e4ca36063a9e0b01dd6f6dc58ace91811f1f1e92aeed3b75080"
+    },
+    {
+      "path": "scripts/check.mjs",
+      "bytes": 1235,
+      "sha256": "b300dd85d942961c453e0ecb6c7fa53e88b37c637b764ad320a7c9493e0fee56"
+    },
+    {
+      "path": "scripts/finalize-audio.mjs",
+      "bytes": 742,
+      "sha256": "869d0d117004e7ae27ed55f041035a15ebbfd80c0cf2b47b5fc80e34d13b56bd"
+    },
+    {
+      "path": "scripts/render.mjs",
+      "bytes": 2321,
+      "sha256": "841d79bb3550813d87701163264bca490395b4424c5908280d31b9149a408a6d"
+    },
+    {
+      "path": "src/Brand.tsx",
+      "bytes": 263,
+      "sha256": "b17c47b83287e48879172068c76c5cea58e716ac517501ef663e086d5d9f4ad8"
+    },
+    {
+      "path": "src/CompletedFilm.tsx",
+      "bytes": 6146,
+      "sha256": "7387763b5424999f0ee3dbfe17db4c07fe7be18ff67f91887668571546ee44f3"
+    },
+    {
+      "path": "src/ContinuityStudy.tsx",
+      "bytes": 5270,
+      "sha256": "24c2f39d03a34dc6977422e3c5423ab12bf8ff9d8e04146420295e66411d92bd"
+    },
+    {
+      "path": "src/FastFinale.tsx",
+      "bytes": 7160,
+      "sha256": "157a8dde3a9556a18976ce5849a1e204c250dd34308f4d8b7738d9ca1dece1b9"
+    },
+    {
+      "path": "src/TypePrelude.tsx",
+      "bytes": 7126,
+      "sha256": "5f6129e8b738d33c16ce22f51c9513d6844668f043e0c4932d46e7aa3ba83155"
+    },
+    {
+      "path": "src/index.tsx",
+      "bytes": 696,
+      "sha256": "bfe1210b99af79c54868cfd10bbc5ecf3af835f4146e09e3b690b55d6f5cd32c"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 397,
+      "sha256": "5beabc9184dce5ee855fc9b34796c65d1de442f5c5237f9694fe4fab6eae491c"
+    }
+  ]
+}

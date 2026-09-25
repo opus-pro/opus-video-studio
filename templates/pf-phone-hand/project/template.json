@@ -1,0 +1,16 @@
+{
+  "id": "pf-phone-hand",
+  "title": "In-Hand App Scroll",
+  "version": "1.1.0",
+  "compositionId": "pf-phone-hand",
+  "width": 1200,
+  "height": 1200,
+  "fps": 60,
+  "frames": 276,
+  "preview": {
+    "width": 720,
+    "height": 720
+  },
+  "audioMode": "mute",
+  "sourceEntry": "src/index.tsx"
+}

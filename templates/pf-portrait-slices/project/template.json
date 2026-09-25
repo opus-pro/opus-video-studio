@@ -1,0 +1,16 @@
+{
+  "id": "pf-portrait-slices",
+  "title": "Portrait Slice Assembly",
+  "version": "1.1.0",
+  "compositionId": "pf-portrait-slices",
+  "width": 1080,
+  "height": 1920,
+  "fps": 60,
+  "frames": 252,
+  "preview": {
+    "width": 1080,
+    "height": 1920
+  },
+  "audioMode": "mute",
+  "sourceEntry": "src/index.tsx"
+}

@@ -1,0 +1,208 @@
+{
+  "fps": 30,
+  "duration": 40.8,
+  "voicePhrases": [
+    {
+      "text": "An idea. A whole new story.",
+      "start": 0.08,
+      "end": 2.545,
+      "rate": 1
+    },
+    {
+      "text": "Meet Agent Opus.",
+      "start": 2.7,
+      "end": 4.515000000000001,
+      "rate": 1
+    },
+    {
+      "text": "Tell it what you want to make.",
+      "start": 4.85,
+      "end": 6.239999999999999,
+      "rate": 1
+    },
+    {
+      "text": "Add your script, your images, or your voice.",
+      "start": 6.98,
+      "end": 9.675791666666667,
+      "rate": 1.2
+    },
+    {
+      "text": "Shape the story together.",
+      "start": 9.88,
+      "end": 11.625,
+      "rate": 1
+    },
+    {
+      "text": "From conversation to creation.",
+      "start": 20.34,
+      "end": 22.52,
+      "rate": 1
+    },
+    {
+      "text": "A product ad.",
+      "start": 25.766666666666666,
+      "end": 26.771666666666665,
+      "rate": 1
+    },
+    {
+      "text": "A story worth telling.",
+      "start": 30.1,
+      "end": 31.41,
+      "rate": 1
+    },
+    {
+      "text": "An explainer that makes it click.",
+      "start": 34.666666666666664,
+      "end": 36.70666666666666,
+      "rate": 1
+    },
+    {
+      "text": "Your idea. In motion.",
+      "start": 22.7,
+      "end": 24.595,
+      "rate": 1
+    },
+    {
+      "text": "Start creating with Agent Opus.",
+      "start": 37.5,
+      "end": 39.65,
+      "rate": 1
+    }
+  ],
+  "scoreTransients": [808, 942, 1077],
+  "sfxCues": [
+    {
+      "frame": 211,
+      "time": 7.033333333333333,
+      "action": "script travel",
+      "level": 0.055
+    },
+    {
+      "frame": 239,
+      "time": 7.966666666666667,
+      "action": "images travel",
+      "level": 0.06
+    },
+    {
+      "frame": 268,
+      "time": 8.933333333333334,
+      "action": "voice travel",
+      "level": 0.06
+    },
+    {
+      "frame": 768,
+      "time": 25.6,
+      "action": "ad enters",
+      "peakLevel": 0.072
+    },
+    {
+      "frame": 898,
+      "time": 29.933333333333334,
+      "action": "story enters",
+      "peakLevel": 0.068
+    },
+    {
+      "frame": 1035,
+      "time": 34.5,
+      "action": "explainer enters",
+      "peakLevel": 0.068
+    },
+    {
+      "frame": 844,
+      "time": 28.133333333333333,
+      "action": "ad wall portal",
+      "peakLevel": 0.06
+    },
+    {
+      "frame": 977,
+      "time": 32.56666666666667,
+      "action": "story wall portal",
+      "peakLevel": 0.06
+    },
+    {
+      "frame": 1119,
+      "time": 37.3,
+      "action": "explainer wall portal",
+      "peakLevel": 0.066
+    },
+    {
+      "frame": 1193,
+      "time": 39.766666666666666,
+      "action": "brand signature",
+      "peakLevel": 0.07
+    },
+    {
+      "frame": 808,
+      "time": 26.933333333333334,
+      "action": "one to many expansion, score transient",
+      "peakLevel": 0.064
+    },
+    {
+      "frame": 942,
+      "time": 31.4,
+      "action": "one to many expansion, score transient",
+      "peakLevel": 0.064
+    },
+    {
+      "frame": 1077,
+      "time": 35.9,
+      "action": "one to many expansion, score transient",
+      "peakLevel": 0.064
+    },
+    {
+      "frame": 773,
+      "time": 25.766666666666666,
+      "action": "ad lands",
+      "peakLevel": 0.06
+    },
+    {
+      "frame": 903,
+      "time": 30.1,
+      "action": "story lands",
+      "peakLevel": 0.06
+    },
+    {
+      "frame": 1040,
+      "time": 34.666666666666664,
+      "action": "explainer lands",
+      "peakLevel": 0.065
+    },
+    {
+      "frame": 819,
+      "time": 27.3,
+      "action": "ad wall settles",
+      "peakLevel": 0.026
+    },
+    {
+      "frame": 956,
+      "time": 31.866666666666667,
+      "action": "story wall settles",
+      "peakLevel": 0.026
+    },
+    {
+      "frame": 1091,
+      "time": 36.36666666666667,
+      "action": "explainer wall settles",
+      "peakLevel": 0.026
+    },
+    {
+      "frame": 1133,
+      "time": 37.766666666666666,
+      "action": "closing line",
+      "peakLevel": 0.055
+    },
+    {
+      "frame": 1161,
+      "time": 38.7,
+      "action": "address",
+      "peakLevel": 0.055
+    },
+    {
+      "frame": 1195,
+      "time": 39.833333333333336,
+      "action": "brand resolve",
+      "peakLevel": 0.1
+    }
+  ],
+  "note": "Cue peaks, not always the start of a sound. The supplied SFX stem also contains earlier workflow accents; these cue lists do not regenerate the entire stem."
+}

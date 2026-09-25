@@ -1,0 +1,47 @@
+{
+  "approvedFilmVersion": "0.3.0",
+  "edition": "Lite 1.0.0",
+  "demoIdentity": "Page Studio and the sample sites are fictional demonstrations.",
+  "sources": [
+    {
+      "paths": [
+        "src/"
+      ],
+      "origin": "Project-authored code UI, camera motion, graphic mark and six demonstration website layouts."
+    },
+    {
+      "paths": [
+        "public/photos/"
+      ],
+      "origin": "Six Unsplash photographs; exact download URLs retained in public/photos/sources.json."
+    },
+    {
+      "paths": [
+        "public/fonts/GeistVF.woff2"
+      ],
+      "origin": "Geist variable font",
+      "licenseFile": "public/fonts/Geist-OFL.txt"
+    },
+    {
+      "paths": [
+        "public/audio/master.m4a"
+      ],
+      "origin": "Compressed audio stream extracted from the approved v0.3 film. Generated Lyria 3 Pro instrumental and generated Seed Audio action accents, no voiceover."
+    },
+    {
+      "paths": [
+        "preview/reference.mp4"
+      ],
+      "origin": "720p copy of this project’s approved complete v0.3 film; not the third-party research reference."
+    }
+  ],
+  "systemFont": "Georgia is used in selected serif layouts and is not bundled.",
+  "excluded": [
+    "Original reference video and extracted frames",
+    "Separate music/SFX stems",
+    "Historical versions and comparison pages",
+    "Installed node_modules",
+    "Render working files",
+    "Service credentials and generation URLs"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "pf-trail-recap",
+  "title": "Trail Recap Data Reveal",
+  "version": "1.1.0",
+  "compositionId": "pf-trail-recap",
+  "width": 1080,
+  "height": 1350,
+  "fps": 60,
+  "frames": 324,
+  "preview": {
+    "width": 648,
+    "height": 810
+  },
+  "audioMode": "mute",
+  "sourceEntry": "src/index.tsx",
+  "readingOrder": [
+    "README.md",
+    "template.json",
+    "ASSETS.md",
+    "MOTION-NOTES.md",
+    "src/index.tsx",
+    "scripts/render.mjs"
+  ],
+  "sourceFiles": [
+    "src/index.tsx"
+  ],
+  "provenance": {
+    "originalCodeArchiveSha256": "7b34bec06d92a5e458ea6170d1397489e6f53287168aef1f0fa4ab7a6f78fddc",
+    "originalBatch": "batch-c",
+    "originalSourceFiles": {
+      "src/index.tsx": "5713f80c0179d2d61916959be476cfc251e656b940989902cee0f81c041fa81a"
+    },
+    "publishedPreviewSha256": "43798a3f8e1cdcf621216d2a2ecb1e6704cdb36b3fba1a2262233f033692f933",
+    "animationSourceUnchanged": true
+  }
+}

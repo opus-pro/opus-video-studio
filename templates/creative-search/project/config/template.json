@@ -1,0 +1,17 @@
+{
+  "name": "Creative Search",
+  "approvedVersion": "V8",
+  "composition": "CreativeSearch",
+  "background": "#f1f1f1",
+  "ink": "#242629",
+  "audio": {
+    "mode": "master",
+    "master": "audio/master.m4a"
+  },
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "durationInFrames": 1357
+  }
+}

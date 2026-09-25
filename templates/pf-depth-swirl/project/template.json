@@ -1,0 +1,16 @@
+{
+  "id": "pf-depth-swirl",
+  "title": "3D Depth Spiral",
+  "version": "1.1.0",
+  "compositionId": "pf-depth-swirl",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "frames": 348,
+  "preview": {
+    "width": 1152,
+    "height": 648
+  },
+  "audioMode": "mute",
+  "sourceEntry": "src/index.tsx"
+}

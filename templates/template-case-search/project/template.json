@@ -1,0 +1,16 @@
+{
+  "id": "template-case-search",
+  "title": "Creative Search Selection",
+  "version": "1.1.0",
+  "compositionId": "template-case-search",
+  "width": 960,
+  "height": 540,
+  "fps": 60,
+  "frames": 590,
+  "preview": {
+    "width": 960,
+    "height": 540
+  },
+  "audioMode": "mute",
+  "sourceEntry": "src/index.tsx"
+}

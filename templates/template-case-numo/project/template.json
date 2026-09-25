@@ -1,0 +1,16 @@
+{
+  "id": "template-case-numo",
+  "title": "Anomaly to Action",
+  "version": "1.1.0",
+  "compositionId": "template-case-numo",
+  "width": 960,
+  "height": 540,
+  "fps": 60,
+  "frames": 612,
+  "preview": {
+    "width": 960,
+    "height": 540
+  },
+  "audioMode": "mute",
+  "sourceEntry": "src/index.tsx"
+}

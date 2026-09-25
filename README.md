@@ -3,6 +3,36 @@
 Create videos, images, voiceovers, and music with Opus tools in Codex and Claude Code.
 Use a local Remotion Studio project to preview and assemble your results.
 
+## Open-source video templates
+
+**9 full video templates and 34 motion components** from Product Videos are now
+available as [editable source in this repository](templates/), under the
+[MIT License](templates/LICENSE).
+
+[Browse the gallery](https://product-videos.labs.opus.pro/) ·
+[Explore all templates and video demos](templates/README.md) ·
+[Watch the AI Coding Agent demo](https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/aiagent-motion-template-lite-1.0.0/preview.mp4)
+
+[![Watch the AI Coding Agent video demo](https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/aiagent-motion-template-lite-1.0.0/poster.jpg)](https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/aiagent-motion-template-lite-1.0.0/preview.mp4)
+
+Each template includes its original animation source, configuration, locked
+dependencies, and asset notes. Download only the selected template's media:
+
+```sh
+git clone https://github.com/opus-pro/opus-video-studio.git
+cd opus-video-studio
+npm run templates:prepare -- ai-research
+cd templates/ai-research/project
+npm ci
+npm run studio
+# Export the video:
+npm run render
+```
+
+See the [template guide](templates/README.md) for prerequisites and all 43 examples.
+Local template editing and rendering need no Opus account or paid generation.
+The hosted gallery may require sign-in; source and video demo links are public.
+
 ## Install
 
 - [Codex installation guide](docs/codex-install-protocol.md)
@@ -18,7 +48,7 @@ Local Remotion setup and preview do not spend Opus generation credits.
 
 ## Included
 
-- [Get started](plugins/opus-video-studio/skills/get-started/SKILL.md): choose a template or generated media. Paste a [template library](https://labs.opus.pro/product-videos) link to download its verified original source.
+- [Get started](plugins/opus-video-studio/skills/get-started/SKILL.md): choose a template or generated media. Browse the [template library](https://product-videos.labs.opus.pro/) or start from the [open-source templates](templates/).
 
 - [Motion UI](plugins/opus-video-studio/skills/motion-ui/SKILL.md): editable UI animation and code-driven product videos, with real-UI fidelity, kinetic typography, deliberate easing, and optional Opus audio.
 - [Media Tools](plugins/opus-video-studio/skills/media-tools/SKILL.md): standalone audio, images/keyframes, transcription, asset import, and job status/recovery.
@@ -50,5 +80,9 @@ display names, and OAuth resource addresses are separate settings.
 Run `npm test` with Node.js 22 or newer. These local checks do not prove live OAuth, generation,
 or billing availability. The installation guides include connection checks.
 
-Public availability does not change the existing proprietary license designation. Dependencies
-retain their own licenses; Remotion's license terms apply separately.
+## License
+
+Opus-authored template source and tooling in [`templates/`](templates/) are
+[MIT licensed](templates/LICENSE). Media, fonts, trademarks, and dependencies
+retain their own terms; see the [asset notices](templates/THIRD_PARTY_NOTICES.md).
+The plugin outside `templates/` retains its existing proprietary license designation.

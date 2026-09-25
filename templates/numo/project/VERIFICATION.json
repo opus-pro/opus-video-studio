@@ -1,0 +1,122 @@
+{
+  "package": "numo-motion-template-lite-1.0.0",
+  "approvedVersion": "NUMO 4d Graphic Funk",
+  "checks": {
+    "cleanNpmCi": "passed (179 packages)",
+    "npmRunCheck": "passed (local asset/config validation and TypeScript)",
+    "fullStandaloneRender": "passed (all 900 frames)",
+    "originalProjectRequired": false,
+    "runtimeExternalMediaReferences": false,
+    "packageFilesMatchCleanTestDirectory": true
+  },
+  "environment": {
+    "node": "v24.14.0",
+    "npm": "11.9.0",
+    "remotion": "4.0.332",
+    "system": "macOS arm64"
+  },
+  "picture": {
+    "comparedFrames": 900,
+    "meanSsim": 0.9938277077777777,
+    "minimumFrameSsim": 0.963623,
+    "worstFrame": 751,
+    "note": "All full-resolution decoded frames compared. Source CRF 17 vs standalone CRF 16 can introduce compression differences."
+  },
+  "visualComponentsAndAssetsCopiedByteExactly": [
+    "src/shared.tsx",
+    "src/web/ui.tsx",
+    "src/web/NumoWeb.tsx",
+    "src/numo/Optical.tsx",
+    "src/numo/MotionType.tsx",
+    "src/numo/OpticField.tsx",
+    "src/numo/PrintGrain.tsx",
+    "public/grain.png",
+    "public/fonts/GeistVF.woff2",
+    "public/fonts/InstrumentSerif-Regular.ttf"
+  ],
+  "audio": {
+    "approvedAacPacketsIdenticalInMasterPreviewAndRender": true,
+    "approvedDecodedPcmIdenticalInMasterPreviewAndRender": true,
+    "aacSha256": "e48b94135f36bcbd295f3e060e608fabeac3bcce320aac1e400f3c186229001d",
+    "decodedPcmS16leSha256": "110058ecf8379de254d58f3d9c14da9d3e0a9280b505ba516e1eb3bfa5c20a76",
+    "voiceover": false
+  },
+  "media": {
+    "standaloneRender": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "60/1",
+          "duration": "15.000000",
+          "nb_frames": "900",
+          "side_data_list": [
+            {}
+          ]
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "15.000000",
+          "nb_frames": "705"
+        }
+      ],
+      "format": {
+        "duration": "15.000000"
+      }
+    },
+    "preview": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "60/1",
+          "duration": "15.000000",
+          "nb_frames": "900",
+          "side_data_list": [
+            {}
+          ]
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "15.000000",
+          "nb_frames": "705"
+        }
+      ],
+      "format": {
+        "duration": "15.000000"
+      }
+    }
+  },
+  "approvedOriginalSha256": "79c0669b5d651a2ed454eb0dcbcbb3d2c5187cbc4e82d3a269284329cce2f5d2",
+  "standaloneRenderSha256": "46b28d8d4fbfdcd7326532a978bb549b1fe1cf12b2e84991b0ab173543114456",
+  "previewSha256": "3d168405b592bda551747dfd202e7bf7fc41dc8b8b16057d1a713ae0f6ad0c57",
+  "scope": "Default approved package checked. Customized brands and alternate timings require their own layout/audio review. Reference video is not used by the renderer.",
+  "verifiedAt": "2026-09-08T05:52:53.887190+00:00",
+  "contactSheetReview": {
+    "frames": [
+      8,
+      180,
+      361,
+      550,
+      730,
+      860
+    ],
+    "result": "Passed: number field, question UI, device diagnosis, payment headline, sharing result and brand end card retained."
+  }
+}

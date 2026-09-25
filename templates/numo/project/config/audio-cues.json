@@ -1,0 +1,331 @@
+{
+  "edition": "NUMO approved 4d · Graphic Funk",
+  "durationSeconds": 15,
+  "fps": 60,
+  "bpm": 144,
+  "voiceover": false,
+  "cutFrames": [
+    0,
+    25,
+    50,
+    88,
+    150,
+    213,
+    250,
+    288,
+    338,
+    388,
+    425,
+    475,
+    525,
+    575,
+    650,
+    700,
+    750,
+    825,
+    900
+  ],
+  "music": {
+    "quarterNoteFrames": 25,
+    "cutContactFrames": [
+      0,
+      25,
+      50,
+      88,
+      150,
+      213,
+      250,
+      288,
+      338,
+      388,
+      425,
+      475,
+      525,
+      575,
+      650,
+      700,
+      750,
+      825
+    ],
+    "contractionFrames": [
+      475,
+      525
+    ],
+    "returnFrame": 525,
+    "finalStingFrame": 825,
+    "description": "Straight pulse, fingered electric bass, procedural drums and short synthesizer chords. No piano."
+  },
+  "sfx": [
+    {
+      "id": "matrix-scan",
+      "layer": "data",
+      "shot": 0,
+      "frame": 0,
+      "timeSec": 0.0,
+      "durationSec": 0.365,
+      "keyAction": false,
+      "pictureAction": "Opposed rows of numbers crossing the opening frame"
+    },
+    {
+      "id": "row-count-print",
+      "layer": "paper",
+      "shot": 1,
+      "frame": 25,
+      "timeSec": 0.4166666666666667,
+      "durationSec": 0.2,
+      "keyAction": false,
+      "pictureAction": "Citron cut and oversized 12,480 number arrival"
+    },
+    {
+      "id": "source-bands",
+      "layer": "motion",
+      "shot": 2,
+      "frame": 50,
+      "timeSec": 0.8333333333333334,
+      "durationSec": 0.27,
+      "keyAction": false,
+      "pictureAction": "Sales / Traffic / Checkout bands slide from alternating edges"
+    },
+    {
+      "id": "why-focus",
+      "layer": "motion",
+      "shot": 3,
+      "frame": 88,
+      "timeSec": 1.4666666666666666,
+      "durationSec": 0.36,
+      "keyAction": false,
+      "pictureAction": "WHY / THE DROP type and colored shadows settle into focus"
+    },
+    {
+      "id": "ask-panel",
+      "layer": "paper",
+      "shot": 4,
+      "frame": 150,
+      "timeSec": 2.5,
+      "durationSec": 0.18,
+      "keyAction": false,
+      "pictureAction": "Question UI frame arrives"
+    },
+    {
+      "id": "ask-press",
+      "layer": "interaction",
+      "shot": 5,
+      "frame": 225,
+      "timeSec": 3.75,
+      "durationSec": 0.095,
+      "keyAction": true,
+      "pictureAction": "Ask cursor click ring starts at local frame 12"
+    },
+    {
+      "id": "analyze-scan",
+      "layer": "data",
+      "shot": 6,
+      "frame": 250,
+      "timeSec": 4.166666666666667,
+      "durationSec": 0.575,
+      "keyAction": false,
+      "pictureAction": "Data rows step every 2 frames until the sales result cut"
+    },
+    {
+      "id": "sales-drop",
+      "layer": "paper",
+      "shot": 7,
+      "frame": 288,
+      "timeSec": 4.8,
+      "durationSec": 0.2,
+      "keyAction": false,
+      "pictureAction": "Large -18% arrives over the citron optical field"
+    },
+    {
+      "id": "device-trace",
+      "layer": "motion",
+      "shot": 8,
+      "frame": 338,
+      "timeSec": 5.633333333333334,
+      "durationSec": 0.285,
+      "keyAction": false,
+      "pictureAction": "Desktop and Mobile chart lines draw over 18 frames"
+    },
+    {
+      "id": "mobile-select",
+      "layer": "interaction",
+      "shot": 8,
+      "frame": 361,
+      "timeSec": 6.016666666666667,
+      "durationSec": 0.095,
+      "keyAction": true,
+      "pictureAction": "Mobile card selected by the cursor at local frame 23"
+    },
+    {
+      "id": "mobile-expand",
+      "layer": "motion",
+      "shot": 9,
+      "frame": 388,
+      "timeSec": 6.466666666666667,
+      "durationSec": 0.265,
+      "keyAction": false,
+      "pictureAction": "Mobile panel expands and moves left over 16 frames"
+    },
+    {
+      "id": "cart-check",
+      "layer": "interaction",
+      "shot": 10,
+      "frame": 428,
+      "timeSec": 7.133333333333334,
+      "durationSec": 0.065,
+      "keyAction": false,
+      "pictureAction": "Cart check mark starts spring at local frame 3"
+    },
+    {
+      "id": "details-check",
+      "layer": "interaction",
+      "shot": 10,
+      "frame": 431,
+      "timeSec": 7.183333333333334,
+      "durationSec": 0.065,
+      "keyAction": false,
+      "pictureAction": "Details check mark starts spring at local frame 6"
+    },
+    {
+      "id": "payment-stop",
+      "layer": "interaction",
+      "shot": 10,
+      "frame": 434,
+      "timeSec": 7.233333333333333,
+      "durationSec": 0.11,
+      "keyAction": true,
+      "pictureAction": "Payment X starts spring at local frame 9; dry damped stop"
+    },
+    {
+      "id": "source-file",
+      "layer": "paper",
+      "shot": 11,
+      "frame": 475,
+      "timeSec": 7.916666666666667,
+      "durationSec": 0.195,
+      "keyAction": false,
+      "pictureAction": "Stacked Checkout logs evidence sheet moves forward"
+    },
+    {
+      "id": "finding-print",
+      "layer": "brand",
+      "shot": 12,
+      "frame": 525,
+      "timeSec": 8.75,
+      "durationSec": 0.27,
+      "keyAction": true,
+      "pictureAction": "CHECK PAYMENTS finding starts at 8.75s with the music resolution"
+    },
+    {
+      "id": "finding-focus",
+      "layer": "motion",
+      "shot": 12,
+      "frame": 528,
+      "timeSec": 8.8,
+      "durationSec": 0.255,
+      "keyAction": false,
+      "pictureAction": "PAYMENTS line moves into focus after CHECK"
+    },
+    {
+      "id": "insight-card",
+      "layer": "paper",
+      "shot": 13,
+      "frame": 575,
+      "timeSec": 9.583333333333334,
+      "durationSec": 0.135,
+      "keyAction": false,
+      "pictureAction": "Next step card enters"
+    },
+    {
+      "id": "share-open-press",
+      "layer": "interaction",
+      "shot": 13,
+      "frame": 590,
+      "timeSec": 9.833333333333334,
+      "durationSec": 0.095,
+      "keyAction": true,
+      "pictureAction": "Share insight cursor ring starts at local frame 15"
+    },
+    {
+      "id": "share-modal",
+      "layer": "motion",
+      "shot": 14,
+      "frame": 650,
+      "timeSec": 10.833333333333334,
+      "durationSec": 0.22,
+      "keyAction": false,
+      "pictureAction": "Growth share modal slides upward for 14 frames"
+    },
+    {
+      "id": "share-send-press",
+      "layer": "interaction",
+      "shot": 14,
+      "frame": 666,
+      "timeSec": 11.1,
+      "durationSec": 0.095,
+      "keyAction": true,
+      "pictureAction": "Send to Growth cursor ring starts at local frame 16"
+    },
+    {
+      "id": "shared-lock",
+      "layer": "interaction",
+      "shot": 15,
+      "frame": 702,
+      "timeSec": 11.7,
+      "durationSec": 0.13,
+      "keyAction": true,
+      "pictureAction": "Shared with Growth check starts spring at local frame 2"
+    },
+    {
+      "id": "shared-release",
+      "layer": "motion",
+      "shot": 15,
+      "frame": 704,
+      "timeSec": 11.733333333333333,
+      "durationSec": 0.2,
+      "keyAction": false,
+      "pictureAction": "Shared text moves into place over 16 frames"
+    },
+    {
+      "id": "know-why-band",
+      "layer": "motion",
+      "shot": 16,
+      "frame": 750,
+      "timeSec": 12.5,
+      "durationSec": 0.36,
+      "keyAction": false,
+      "pictureAction": "KNOW WHY / ACT FAST bands slide in opposite directions"
+    },
+    {
+      "id": "logo-pressure",
+      "layer": "brand",
+      "shot": 17,
+      "frame": 825,
+      "timeSec": 13.75,
+      "durationSec": 0.39,
+      "keyAction": true,
+      "pictureAction": "NUMO hero word begins its arrival at 13.75s"
+    },
+    {
+      "id": "logo-focus",
+      "layer": "motion",
+      "shot": 17,
+      "frame": 827,
+      "timeSec": 13.783333333333333,
+      "durationSec": 0.34,
+      "keyAction": false,
+      "pictureAction": "Logo blur and registration shadows settle over 25 frames"
+    },
+    {
+      "id": "tagline-strip",
+      "layer": "paper",
+      "shot": 17,
+      "frame": 831,
+      "timeSec": 13.85,
+      "durationSec": 0.15,
+      "keyAction": false,
+      "pictureAction": "Tagline strip begins revealing at local frame 6"
+    }
+  ],
+  "note": "Timing documentation; rendering plays the approved audio assets. Moving a cut does not retime the stems automatically."
+}

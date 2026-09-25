@@ -1,0 +1,27 @@
+{
+  "name": "creative-search-motion-template-lite-v8-1.0.0",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio src/index.tsx --no-open",
+    "check": "tsc --noEmit && node scripts/check.mjs",
+    "render": "node scripts/render.mjs",
+    "stills": "node scripts/render.mjs --stills"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.332",
+    "@remotion/renderer": "4.0.332",
+    "@remotion/bundler": "4.0.332",
+    "remotion": "4.0.332",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "typescript": "5.8.3"
+  },
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.10",
+    "@types/react-dom": "19.1.9"
+  }
+}

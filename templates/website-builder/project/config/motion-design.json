@@ -1,0 +1,212 @@
+{
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationSeconds": 52
+  },
+  "visualSystem": {
+    "background": "high-key white with restrained lavender edge light; black only for brand punctuation",
+    "typography": "Geist 850\u2013900, tight tracking, editorial all-caps at selected accents",
+    "camera": "perspective macro inspection of one persistent product surface",
+    "hierarchy": "the selected component is the subject; no recurring title/header system"
+  },
+  "timingCurves": {
+    "arrive": [
+      0.16,
+      1,
+      0.3,
+      1
+    ],
+    "travel": [
+      0.76,
+      0,
+      0.24,
+      1
+    ],
+    "depart": [
+      0.65,
+      0,
+      0.9,
+      0.35
+    ],
+    "focus": [
+      0.22,
+      0.7,
+      0.14,
+      1
+    ]
+  },
+  "motionRules": [
+    "Large camera translations: 0.45\u20130.8s; begin fast, settle briefly, hold only for reading.",
+    "Component arrivals: 0.3\u20130.55s with 0.07\u20130.12s overlap; preserve a shared destination.",
+    "Letters focus over 0.31s, stagger 14ms, blur clears as displacement decelerates.",
+    "Velocity-linked motion blur sampled across a 144-degree shutter; no constant blur during holds.",
+    "Cursor arrives before its consequence; control changes before the visible result.",
+    "Use the same page and component data at overview and macro scale.",
+    "No autonomous idle drift; movement must direct attention, manipulate content or hand off a scene.",
+    "Retain the actual DOM object from motion to final layout, with identity transform at its destination.",
+    "Nest cursors and controls under the same camera transform; use config/interactions.json for down, up and result ordering.",
+    "Demonstrate one property on one persistent subject; surrounding photographs do not change during a background-color edit.",
+    "Keep the layout control and affected form visible together until the transformation is readable."
+  ],
+  "shots": [
+    [
+      0,
+      1.1,
+      "Empty editor pulls back"
+    ],
+    [
+      1.1,
+      2.38,
+      "Six unique websites: travel, architecture, music, portfolio, outdoors, editorial"
+    ],
+    [
+      2.38,
+      5,
+      "Actual page columns settle into their final layout"
+    ],
+    [
+      5,
+      6.2,
+      "Introducing: per-letter focus"
+    ],
+    [
+      6.2,
+      7.5,
+      "Prismatic star turn"
+    ],
+    [
+      7.5,
+      10.03,
+      "Glowing product reveal"
+    ],
+    [
+      10.03,
+      11.12,
+      "Continuous editor: brand-control macro to overview"
+    ],
+    [
+      11.12,
+      13.36,
+      "Approach Insert, cursor lands, press and release"
+    ],
+    [
+      13.36,
+      15.28,
+      "Anchored palette; cursor selects Gallery"
+    ],
+    [
+      15.28,
+      17.4,
+      "Palette closes; content enters the same page"
+    ],
+    [
+      17.4,
+      18.82,
+      "Selected section and its Background control"
+    ],
+    [
+      18.82,
+      21.87,
+      "Same section changes white \u2192 lavender \u2192 charcoal"
+    ],
+    [
+      21.87,
+      23.75,
+      "Camera focuses the changed section"
+    ],
+    [
+      23.75,
+      26.76,
+      "Inline to Stacked: layout setting and form visible together"
+    ],
+    [
+      26.76,
+      29.55,
+      "Focus the changed form; open its animation control"
+    ],
+    [
+      29.55,
+      32.3,
+      "Animation controls"
+    ],
+    [
+      32.3,
+      33.65,
+      "Cards enter as a result"
+    ],
+    [
+      33.65,
+      35.02,
+      "Large type punctuation"
+    ],
+    [
+      35.02,
+      37.18,
+      "Type over photographic canvas"
+    ],
+    [
+      37.18,
+      39.12,
+      "All-in-one to editor"
+    ],
+    [
+      39.12,
+      42.65,
+      "No-code control and typography"
+    ],
+    [
+      42.65,
+      44.9,
+      "Cursor lands; Publish depresses, releases, then turns Published"
+    ],
+    [
+      44.9,
+      47.1,
+      "Final claim"
+    ],
+    [
+      47.1,
+      48.45,
+      "Prismatic transition"
+    ],
+    [
+      48.45,
+      52,
+      "Resolved logo end"
+    ]
+  ],
+  "openingWebsites": [
+    {
+      "designStart": 1.1,
+      "name": "Wayfarer",
+      "category": "Travel journal"
+    },
+    {
+      "designStart": 1.32,
+      "name": "Form",
+      "category": "Architecture studio"
+    },
+    {
+      "designStart": 1.54,
+      "name": "Nightshift",
+      "category": "Music publication"
+    },
+    {
+      "designStart": 1.76,
+      "name": "Orbit",
+      "category": "Creative portfolio"
+    },
+    {
+      "designStart": 1.98,
+      "name": "Slow Days",
+      "category": "Outdoor community"
+    },
+    {
+      "designStart": 2.18,
+      "name": "Fieldnotes",
+      "category": "Editorial newsletter"
+    }
+  ]
+}

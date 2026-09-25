@@ -1,0 +1,36 @@
+{
+  "id": "pf-carousel-horizontal",
+  "title": "Horizontal Portfolio Relay",
+  "version": "1.1.0",
+  "compositionId": "pf-carousel-horizontal",
+  "width": 1200,
+  "height": 1200,
+  "fps": 60,
+  "frames": 288,
+  "preview": {
+    "width": 720,
+    "height": 720
+  },
+  "audioMode": "mute",
+  "sourceEntry": "src/index.tsx",
+  "readingOrder": [
+    "README.md",
+    "template.json",
+    "ASSETS.md",
+    "MOTION-NOTES.md",
+    "src/index.tsx",
+    "scripts/render.mjs"
+  ],
+  "sourceFiles": [
+    "src/index.tsx"
+  ],
+  "provenance": {
+    "originalCodeArchiveSha256": "793f53bfa04705496a0e3dc290698c7b846d2444ec82d82c8404a0b9ba90e4cb",
+    "originalBatch": "batch-a",
+    "originalSourceFiles": {
+      "src/index.tsx": "c3aef36f7ea9a9eed2b422c42628f512a01edfc37848bfb2af8adccd32a089d5"
+    },
+    "publishedPreviewSha256": "e317883ba1377b86cecce6668194e0f394cc181097c93633dbd9e5178b92673d",
+    "animationSourceUnchanged": true
+  }
+}

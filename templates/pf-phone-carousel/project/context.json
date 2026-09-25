@@ -1,0 +1,36 @@
+{
+  "id": "pf-phone-carousel",
+  "title": "Three-Phone Carousel",
+  "version": "1.1.0",
+  "compositionId": "pf-phone-carousel",
+  "width": 1440,
+  "height": 1080,
+  "fps": 60,
+  "frames": 288,
+  "preview": {
+    "width": 864,
+    "height": 648
+  },
+  "audioMode": "mute",
+  "sourceEntry": "src/index.tsx",
+  "readingOrder": [
+    "README.md",
+    "template.json",
+    "ASSETS.md",
+    "MOTION-NOTES.md",
+    "src/index.tsx",
+    "scripts/render.mjs"
+  ],
+  "sourceFiles": [
+    "src/index.tsx"
+  ],
+  "provenance": {
+    "originalCodeArchiveSha256": "7b34bec06d92a5e458ea6170d1397489e6f53287168aef1f0fa4ab7a6f78fddc",
+    "originalBatch": "batch-c",
+    "originalSourceFiles": {
+      "src/index.tsx": "5713f80c0179d2d61916959be476cfc251e656b940989902cee0f81c041fa81a"
+    },
+    "publishedPreviewSha256": "103c3cb0e49eb6c795e8ac590c66cd8cb52f919c5f8385e126496bd9805ac293",
+    "animationSourceUnchanged": true
+  }
+}

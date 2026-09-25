@@ -1,0 +1,15 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import ts from 'typescript';
+import {createRequire} from 'node:module';
+const root=path.resolve(import.meta.dirname,'..');
+const cfg=JSON.parse(fs.readFileSync(path.join(root,'config/template.json')));
+if(!['master','mute'].includes(cfg.audio.mode))throw Error('Invalid audio mode');
+const asset=cfg.audio.master;
+if(path.isAbsolute(asset)||asset.split(/[\\/]/).includes('..')||!fs.existsSync(path.join(root,'public',asset)))throw Error('Missing local master');
+const code=ts.transpileModule(fs.readFileSync(path.join(root,'src/BeatTiming.ts'),'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS}}).outputText;
+const module={exports:{}};new Function('exports','module',code)(module.exports,module);
+const {clocks,SHOTS}=module.exports;
+for(const [name,knots] of Object.entries(clocks))for(let i=1;i<knots.length;i++)if(!(knots[i][0]>knots[i-1][0]&&knots[i][1]>knots[i-1][1]))throw Error('Nonmonotonic clock: '+name);
+if(SHOTS.end!==cfg.canvas.durationInFrames)throw Error('Timeline differs from configuration; retime audio too');
+console.log('Lite checks passed: local master, monotonic clocks,1357-frame baseline.');

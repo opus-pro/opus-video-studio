@@ -1,0 +1,16 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
+const brand=read('config/brand.json'),design=read('config/motion-design.json'),map=read('config/beat-alignment.json').knots,events=read('config/interactions.json');
+for(const k of ['name','product','publication','cta'])if(typeof brand[k]!=='string'||!brand[k].trim())throw Error('Missing brand.'+k);
+for(const k of ['accent','ink'])if(!/^#[0-9a-f]{6}$/i.test(brand[k]))throw Error('Use a six-digit hex color for '+k);
+if(design.canvas.fps!==30||design.canvas.durationSeconds!==52)throw Error('Baseline uses 52 seconds at 30 fps; retime scene code and audio together.');
+if(map[0][0]!==0||map[0][1]!==0||map.at(-1)[0]!==52||map.at(-1)[1]!==52||map.some((p,i)=>p.length!==2||p.some(v=>!Number.isFinite(v))||(i>0&&(p[0]<=map[i-1][0]||p[1]<=map[i-1][1]))))throw Error('Invalid output/design time map.');
+for(const [name,e] of Object.entries(events))if(!(e.down<e.up&&e.up<e.result)||e.point.length!==2)throw Error('Invalid interaction ordering: '+name);
+if(!['master','mute'].includes(brand.audio.mode))throw Error('audio.mode must be master or mute.');
+const assets=['fonts/GeistVF.woff2','fonts/Geist-OFL.txt',...read('public/photos/sources.json').map(p=>'photos/'+p.file)];
+if(brand.audio.mode==='master')assets.push(brand.audio.master);
+for(const p of assets)if(path.isAbsolute(p)||p.split(/[\\/]/).includes('..')||!fs.existsSync(path.join(root,'public',p)))throw Error('Missing local asset: '+p);
+console.log('Website Builder Lite: local assets, 52-second timeline and click ordering verified.');

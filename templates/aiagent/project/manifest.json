@@ -1,0 +1,153 @@
+{
+  "name": "aiagent-motion-template-lite",
+  "version": "1.0.0",
+  "composition": {
+    "id": "AIAgentRecreation",
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "durationInFrames": 1688
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 41,
+      "sha256": "ad76ddb2501bc25d4cdc44742fe320c2ce45320a9889afd256d7cec3481f2104"
+    },
+    {
+      "path": "ASSETS.md",
+      "bytes": 1680,
+      "sha256": "f0ac54f969ed20ee69ca4ae0f7c9bebdf59aabeeb16bbcbf95bc6fc85a1c8509"
+    },
+    {
+      "path": "MOTION-NOTES.md",
+      "bytes": 3701,
+      "sha256": "228b6450b55dcbc1f7baf431dd20259b8e5eeedab1ba59a5179b3c7e4ad3480d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4085,
+      "sha256": "a5b4da5c1bc6cf13a4e432de7b502bcc4062f2a30c33747c17dcb91119513611"
+    },
+    {
+      "path": "VERIFICATION.json",
+      "bytes": 2213,
+      "sha256": "d8a6a1016b82f562dabeec29a800faf85d34a5bdc29db52a625d4b8a9280499a"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 94592,
+      "sha256": "a85a8c8bfd8313ad0df0693378149fd66e04bc5b067cee8c665e1bd84240344e"
+    },
+    {
+      "path": "package.json",
+      "bytes": 803,
+      "sha256": "0a4551f6f4cd4a3f801970b8f95cb541e0c903b4c551408800aaece02763db93"
+    },
+    {
+      "path": "preview/reference.mp4",
+      "bytes": 9014925,
+      "sha256": "b1836e906be1583d261b747b6ba82436acd2c746f02321597cd8cf4aae4d75a9"
+    },
+    {
+      "path": "public/fonts/Geist-OFL.txt",
+      "bytes": 4387,
+      "sha256": "1781d2806a07d91c4edf4740b88449fab7d0eadad53f7c351b94cd4d4eb8c00f"
+    },
+    {
+      "path": "public/fonts/GeistVF.woff2",
+      "bytes": 56800,
+      "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630"
+    },
+    {
+      "path": "public/images/meadow-input.png",
+      "bytes": 1779831,
+      "sha256": "4339fed877f84d69f87802ca641d7f8f937766a2bf61e591563d696213ad5524"
+    },
+    {
+      "path": "public/images/meadow-outro.png",
+      "bytes": 1767693,
+      "sha256": "c80580b67c901a261e84c37f559f98c2c17fd39c0e697b18528233a472f18035"
+    },
+    {
+      "path": "public/reference-audio.m4a",
+      "bytes": 341367,
+      "sha256": "e1666a3205b5afbe00105525f03a5be4a9adf5a7491c5102c778b30a8e950e31"
+    },
+    {
+      "path": "scripts/check.mjs",
+      "bytes": 1169,
+      "sha256": "ce1fa1d1d2207c8823f83b8ed8256b31efdfc21078b7ab9dba32dea3378933a1"
+    },
+    {
+      "path": "scripts/render.mjs",
+      "bytes": 3135,
+      "sha256": "eee9f24d07d5f8f0bda80f6ee38583ded38477ff8f7ea9a5299213f0f78968d1"
+    },
+    {
+      "path": "scripts/verify.mjs",
+      "bytes": 995,
+      "sha256": "57b32a21e6aa3e157d132c42a38620a8b5a5d089bc97ff0b00da30d0215febf7"
+    },
+    {
+      "path": "src/common.tsx",
+      "bytes": 6494,
+      "sha256": "0972d5cf098a96f29d6f7acca9a88ce3a69a350b3d2f37bf2d18f25713457d15"
+    },
+    {
+      "path": "src/components/ProductBoard.tsx",
+      "bytes": 30362,
+      "sha256": "d217a1cefddfe9657ff23bfce1be36e3443447b9ccefac171cc49abbb4c26de2"
+    },
+    {
+      "path": "src/config.ts",
+      "bytes": 252,
+      "sha256": "a55a2058a417a928067e0a08f857745d7ed8fb56275055acc6536286fc9fced2"
+    },
+    {
+      "path": "src/index.tsx",
+      "bytes": 1512,
+      "sha256": "0fc8724e90855b3096123de819b665c36a7b9de8c683aad12ad5f4e2626e8a4b"
+    },
+    {
+      "path": "src/scenes/Claims.tsx",
+      "bytes": 3012,
+      "sha256": "a665d0c78b8ef8a7b288685ad5c7542413ea36f66c211f17306f0cada307d8ac"
+    },
+    {
+      "path": "src/scenes/Montage.tsx",
+      "bytes": 1948,
+      "sha256": "9098588ee1554686b0974b1f92b82029cf230d3dfe63d04ddaa567e3da954d75"
+    },
+    {
+      "path": "src/scenes/Opening.tsx",
+      "bytes": 6138,
+      "sha256": "4ef023377ead425af16e3a060f84c2229daedd8efcfd3ea8a992c1a62a07ca6d"
+    },
+    {
+      "path": "src/scenes/Outro.tsx",
+      "bytes": 2972,
+      "sha256": "b67773782441e61db0be24dd935d35d9fd84e54c8e0680a68b6e34c86a276f42"
+    },
+    {
+      "path": "src/scenes/PromptDemo.tsx",
+      "bytes": 6681,
+      "sha256": "3cee1bd5c183222e0a3ecf00c3c2df9844761684eca775792d6352d498d533be"
+    },
+    {
+      "path": "src/scenes/TypeSequence.tsx",
+      "bytes": 4398,
+      "sha256": "a7f62469b8b5504ee593517762df1d612404059bc2989046e856e4c554687927"
+    },
+    {
+      "path": "src/scenes/Voice.tsx",
+      "bytes": 5712,
+      "sha256": "2edd744fe3fa265b81d3e567c2fbae8005471dd51337be288500c9240a4b33fd"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 239,
+      "sha256": "d4b9852dc6797c48f1ba53266b6ff434d48d85d101e090681227a113fb9c3fce"
+    }
+  ]
+}

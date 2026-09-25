@@ -1,0 +1,48 @@
+{
+  "id": "pf-pixel-poster",
+  "title": "Dithered Event Poster",
+  "version": "1.1.0",
+  "compositionId": "pf-pixel-poster",
+  "width": 1350,
+  "height": 1350,
+  "fps": 60,
+  "frames": 288,
+  "preview": {
+    "width": 810,
+    "height": 810
+  },
+  "audioMode": "mute",
+  "sourceEntry": "src/index.tsx",
+  "readingOrder": [
+    "README.md",
+    "template.json",
+    "ASSETS.md",
+    "MOTION-NOTES.md",
+    "src/index.tsx",
+    "scripts/render.mjs"
+  ],
+  "sourceFiles": [
+    "src/cart-checkout.tsx",
+    "src/color-field.tsx",
+    "src/depth-swirl.tsx",
+    "src/index.tsx",
+    "src/pixel-poster.tsx",
+    "src/shared.tsx",
+    "src/type-snap.tsx"
+  ],
+  "provenance": {
+    "originalCodeArchiveSha256": "c4d440746d29d14b6b74c068292c9d90b3c7e6ec4dd0637153ea7f667903643a",
+    "originalBatch": "batch-d",
+    "originalSourceFiles": {
+      "src/index.tsx": "e8c79524d8cf746f2e9bd6c9976bd8bcaa4b3ae4ff9d3c7da044f08bdf5b67fb",
+      "src/pixel-poster.tsx": "a47023c22275d1223ec2690550144b37a44decece66b116c065bb316a85d35b9",
+      "src/shared.tsx": "1889fe80e31b9284a5f21a3cfe5621d2d2ffa6e6d1ba500e750dacb203c4307a",
+      "src/cart-checkout.tsx": "287993ef28b5a8a2a0a99f61cf2a8add2ec68394380b07986d52eadbd1705341",
+      "src/depth-swirl.tsx": "d706b52133b8b6abebfcc511131646f3d2929b5bdee99015ffe52ef61214729b",
+      "src/type-snap.tsx": "a9d35a24ba2ef5673a7aa62af61bbb89a30ead37113a144a6f68aeff96eb91e6",
+      "src/color-field.tsx": "b35d7318d1994d689ffa2638053735c59171fa097d13ada2512858ee24f4978d"
+    },
+    "publishedPreviewSha256": "4a38a1c065d540e9ff6c4e830d662e9a1f447aadf1f9e98e007fbc2189445576",
+    "animationSourceUnchanged": true
+  }
+}

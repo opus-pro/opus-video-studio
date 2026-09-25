@@ -1,0 +1,116 @@
+[
+  {
+    "id": "alpine-valley",
+    "prompt": "Create one original high-quality travel-editorial photograph in landscape3:2. Natural detailed photographic optics, clear midday or late-afternoon daylight, restrained color grading, realistic atmosphere, subtle film grain, balanced medium-wide composition and a sharply inspectable foreground and landscape. No people, faces, brands, signs, text, watermarks, UI, collage, borders, logos or recognizable copyrighted artwork. This is a new invented location, not an exact recreation of a named place. Leave no artificial empty title area; the entire image is a photograph.\nA wide alpine valley viewed from a green conifer overlook. Dark evergreen trees form the lower-left foreground, a blue lake threads through the middle distance, layered gray-blue mountains rise on both sides under blue sky with soft broken white clouds. Horizon around43% of frame height. Balanced, expansive and naturally crisp; greens occupy lower third, blue mountain haze recedes.",
+    "tool": "image_gen.imagegen",
+    "model": null,
+    "requestId": null,
+    "outputArtifactId": "exec-93344cdd-0874-4c70-a8bd-3456b53f8a4c",
+    "timestamp": "2026-09-08T18:51:38.710Z",
+    "timestampKind": "completion-recorded",
+    "outputPath": "public/generated-assets/alpine-valley.png",
+    "sha256": "24dbbb753cdda79be9d09ad16f1bf42c3fc60a6d587c7d2aa0581623e0867b66",
+    "originalDimensions": {
+      "width": 1536,
+      "height": 1024
+    },
+    "visuallyInspected": true,
+    "selected": true,
+    "notes": "Original photograph matches scene direction; no visible people, signs or watermarks."
+  },
+  {
+    "id": "sandstone-desert",
+    "prompt": "Create one original high-quality travel-editorial photograph in landscape3:2. Natural detailed photographic optics, clear midday or late-afternoon daylight, restrained color grading, realistic atmosphere, subtle film grain, balanced medium-wide composition and a sharply inspectable foreground and landscape. No people, faces, brands, signs, text, watermarks, UI, collage, borders, logos or recognizable copyrighted artwork. This is a new invented location, not an exact recreation of a named place. Leave no artificial empty title area; the entire image is a photograph.\nA sunlit red sandstone desert plain with two isolated rock towers at the left third and right third, low scrub and warm terracotta ground in the foreground, a distant low mesa along the horizon at45% height. Bright cyan-blue sky occupies the upper half. Rust-red rock strata are finely detailed. No road or vehicles.",
+    "tool": "image_gen.imagegen",
+    "model": null,
+    "requestId": null,
+    "outputArtifactId": "exec-efa60173-e643-4b60-8377-40e81f77ae33",
+    "timestamp": "2026-09-08T18:51:43.655Z",
+    "timestampKind": "request-started",
+    "outputPath": "public/generated-assets/sandstone-desert.png",
+    "sha256": "ee978b7b00f2ca246512b670cad4533f0afa1afa290eedb552dbd087bd4e8a66",
+    "originalDimensions": {
+      "width": 1536,
+      "height": 1024
+    },
+    "visuallyInspected": true,
+    "selected": true,
+    "notes": "Original photograph matches scene direction; no visible people, signs or watermarks."
+  },
+  {
+    "id": "rowboat-lake",
+    "prompt": "Create one original high-quality travel-editorial photograph in landscape3:2. Natural detailed photographic optics, clear midday or late-afternoon daylight, restrained color grading, realistic atmosphere, subtle film grain, balanced medium-wide composition and a sharply inspectable foreground and landscape. No people, faces, brands, signs, text, watermarks, UI, collage, borders, logos or recognizable copyrighted artwork. This is a new invented location, not an exact recreation of a named place. Leave no artificial empty title area; the entire image is a photograph.\nThe warm honey-colored wooden bow of a small empty rowboat occupies the central lower third and points toward a still turquoise alpine lake. Forested shores converge into gray limestone peaks behind the lake under pale sky. Viewpoint is from inside the boat, symmetric but organic, with wood grain and mountain reflections clearly visible. No person, labels or flags.",
+    "tool": "image_gen.imagegen",
+    "model": null,
+    "requestId": null,
+    "outputArtifactId": "exec-64ccc1e6-7333-4941-927f-69a11dd54f97",
+    "timestamp": "2026-09-08T18:52:17.343Z",
+    "timestampKind": "request-started",
+    "outputPath": "public/generated-assets/rowboat-lake.png",
+    "sha256": "fb1af199046f5cd2e0c85037f5c008a0e144ef9659cba3d61bc9c2e3d41c3f0f",
+    "originalDimensions": {
+      "width": 1536,
+      "height": 1024
+    },
+    "visuallyInspected": true,
+    "selected": true,
+    "notes": "Original photograph matches scene direction; no visible people, signs or watermarks."
+  },
+  {
+    "id": "ridge-meadow",
+    "prompt": "Create one original high-quality travel-editorial photograph in landscape3:2. Natural detailed photographic optics, clear midday or late-afternoon daylight, restrained color grading, realistic atmosphere, subtle film grain, balanced medium-wide composition and a sharply inspectable foreground and landscape. No people, faces, brands, signs, text, watermarks, UI, collage, borders, logos or recognizable copyrighted artwork. This is a new invented location, not an exact recreation of a named place. Leave no artificial empty title area; the entire image is a photograph.\nAn open alpine meadow viewed from a ridge trail without showing a road or people. Dark spruce at the right edge, wild grasses and scattered stones at bottom, an open glacial valley and a pale blue lake in the middle distance, distant jagged mountains under white cumulus clouds. The composition is different from image1: foreground ridge runs diagonally lower-left to center, lake is on the right third.",
+    "tool": "image_gen.imagegen",
+    "model": null,
+    "requestId": null,
+    "outputArtifactId": "exec-e44db238-590d-4e46-b247-4e16ca4e84c1",
+    "timestamp": "2026-09-08T18:58:05.741Z",
+    "timestampKind": "request-started",
+    "outputPath": "public/generated-assets/ridge-meadow.png",
+    "sha256": "bdce07b4cf9ad958aefa21fa1745e6bec2ef052de7e3e6d5a0b34ba195db3223",
+    "originalDimensions": {
+      "width": 1536,
+      "height": 1024
+    },
+    "visuallyInspected": true,
+    "selected": true,
+    "notes": "Original photograph matches scene direction; no visible people, signs or watermarks."
+  },
+  {
+    "id": "evidence-room-attempt-1",
+    "prompt": "Original cinematic editorial photograph of an invented qualitative-research evidence studio, landscape16:9. A warm dark bronze-brown wall fills the room. Left and right edges each hold three rows of off-white interview-note sheets, document printouts and tiny abstract charts clipped to slim horizontal rails. Papers have plausible fine gray paragraph marks, a few yellow highlighted passages and small tan diagram circles, but no readable words, logos, brands, identifying records or real personal data. Both edges are rich in tangible paper texture and brass clip detail. Keep the central middle60% of the wall mostly clear and dark, unobstructed, for later typography. A polished warm walnut tabletop occupies the bottom22% of the image; uneven piles of cream paper and closed unbranded notebooks sit in the bottom left and bottom right, leaving the center desk free. Camera eye-level, frontal, natural70mm lens feel with shallow optical depth of field: edge documents and nearest paper stacks mildly out of focus, central wall remains calm. Broad soft amber illumination grazes the wall diagonally from upper-right; practical realistic shadows, subtle airborne light haze, gentle natural film grain. Photographic realism and rich dimensional materials, no people, no screens, no on-screen interface, no glowing orbs, no decorative bokeh circles, no text, no watermark, no frame. Do not reproduce any existing room or published photograph.",
+    "tool": "image_gen.imagegen",
+    "model": null,
+    "requestId": null,
+    "outputArtifactId": "exec-a6fc9c30-c2df-4f74-8e00-4e2e08b1d7ae",
+    "timestamp": "2026-09-08T18:58:41.419Z",
+    "timestampKind": "request-started",
+    "outputPath": "public/generated-assets/evidence-room-attempt-1.png",
+    "sha256": "681821877767a13eaef580114c2c6b06508a3c323ebd4344f4530ccbacc64d4a",
+    "originalDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "visuallyInspected": true,
+    "selected": false,
+    "notes": "Superseded sizing attempt: visually usable but 1672x941 is below the prompt's original 1920x1080 request."
+  },
+  {
+    "id": "evidence-room",
+    "prompt": "Original cinematic editorial photograph of an invented qualitative-research evidence studio, landscape16:9. A warm dark bronze-brown wall fills the room. Left and right edges each hold three rows of off-white interview-note sheets, document printouts and tiny abstract charts clipped to slim horizontal rails. Papers have plausible fine gray paragraph marks, a few yellow highlighted passages and small tan diagram circles, but no readable words, logos, brands, identifying records or real personal data. Both edges are rich in tangible paper texture and brass clip detail. Keep the central middle60% of the wall mostly clear and dark, unobstructed, for later typography. A polished warm walnut tabletop occupies the bottom22% of the image; uneven piles of cream paper and closed unbranded notebooks sit in the bottom left and bottom right, leaving the center desk free. Camera eye-level, frontal, natural70mm lens feel with shallow optical depth of field: edge documents and nearest paper stacks mildly out of focus, central wall remains calm. Broad soft amber illumination grazes the wall diagonally from upper-right; practical realistic shadows, subtle airborne light haze, gentle natural film grain. Photographic realism and rich dimensional materials, no people, no screens, no on-screen interface, no glowing orbs, no decorative bokeh circles, no text, no watermark, no frame. Do not reproduce any existing room or published photograph.\n\nTechnical output requirement: render the original PNG at 2048x1152 pixels (landscape16:9), not a smaller preview. This file must be at least 1920x1080 pixels.",
+    "tool": "image_gen.imagegen",
+    "model": null,
+    "requestId": null,
+    "outputArtifactId": "exec-f34c86be-cd98-4923-a27a-549673854c07",
+    "timestamp": "2026-09-08T18:59:35.492Z",
+    "timestampKind": "request-started",
+    "outputPath": "public/generated-assets/evidence-room.png",
+    "sha256": "3c48d6503b3c7293fbbbe54db74ae015c0f28eb8b84e4c34efac200c07543427",
+    "originalDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "visuallyInspected": true,
+    "selected": true,
+    "notes": "Identical visual brief retried with explicit 2048x1152 output instruction; tool again returned 1672x941. Original resolution preserved; not upscaled. The final frozen prompt explicitly permits native images at least 1440x810, so this original meets the delivered prompt requirement."
+  }
+]
