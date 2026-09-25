@@ -27,13 +27,13 @@ to your product and renders it for every feed.
 </table>
 
 <p align="center">
-  <img src=".github/assets/demo.gif" alt="A Claude Code session with Opus Video Studio: one sentence asks for an Opus Labs logo reveal in three formats, the agent downloads and verifies the template, adapts it, and renders 16:9, 1:1 and 9:16 versions" width="100%"><br>
-  <sub>A real Claude Code session with the plugin, sped up. One sentence in, every feed out: 11 minutes, rendered locally, no paid media.</sub>
+  <a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/launch-film/r5/launch-film-16x9.mp4"><img src="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/readme/v1/film-teaser-r5.gif" alt="Launch film preview: You shipped something. Everyone says: post it. But where's the video? Then the templates, one sentence to Claude Code, and every feed" width="100%"></a><br>
+  <sub><b>Watch the 30-second launch film.</b> Coding agents made it with this repository, led by Claude Opus 5.5: every clip comes from the templates. · <a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/launch-film/r5/launch-film-9x16.mp4">Vertical cut</a></sub>
 </p>
 
 <p align="center">
-  <a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/launch-film/r3/launch-film-16x9.mp4"><img src=".github/assets/launch-film-poster.jpg" alt="Watch the 45-second launch film" width="72%"></a><br>
-  <sub><b>Watch the launch film</b> (45 s). Claude Opus 5.5 made it with this plugin, and every clip in it comes from this repository. · <a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/launch-film/r3/launch-film-9x16.mp4">Vertical cut</a></sub>
+  <img src=".github/assets/demo.gif" alt="A Claude Code session with Opus Video Studio: one sentence asks for an Opus Labs logo reveal in three formats, the agent downloads and verifies the template, adapts it, and renders 16:9, 1:1 and 9:16 versions" width="100%"><br>
+  <sub>A real Claude Code session with the plugin, sped up. One sentence in, every feed out: 11 minutes, rendered locally, no paid media.</sub>
 </p>
 
 ## Quick start
@@ -109,7 +109,7 @@ For Codex, swap in `codex-install-protocol.md`.
 ## Pick a template for your launch
 
 Every template is editable source under the [MIT License](templates/LICENSE), with its original animation code,
-locked dependencies and asset notes. Click a poster to watch it.
+locked dependencies and asset notes. Each preview plays inline; click it for the full video.
 
 ### Full launch films
 
@@ -117,19 +117,19 @@ Nine complete launch videos, each designed around a kind of product. Swap in you
 
 <table>
 <tr>
-<td width="33%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/ai-research-motion-template-lite-v5-1.0.0/preview.mp4"><img src=".github/assets/templates/ai-research.jpg" alt="AI Research Assistant video demo" width="100%"></a><br><b><a href="templates/ai-research/">AI Research Assistant</a></b><br><sub>Research and evidence workflows · 19 s</sub></td>
-<td width="33%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/margin-motion-template-lite-fast20-1.0.0/preview.mp4"><img src=".github/assets/templates/margin.jpg" alt="AI Writing Assistant video demo" width="100%"></a><br><b><a href="templates/margin/">AI Writing Assistant</a></b><br><sub>Writing and document workflows · 20 s</sub></td>
-<td width="33%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/aiagent-motion-template-lite-1.0.0/preview.mp4"><img src=".github/assets/templates/aiagent.jpg" alt="AI Coding Agent video demo" width="100%"></a><br><b><a href="templates/aiagent/">AI Coding Agent</a></b><br><sub>AI coding agents and software creation workflows · 28 s</sub></td>
+<td width="33%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/ai-research-motion-template-lite-v5-1.0.0/preview.mp4"><img src="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/readme/v1/templates/ai-research.gif" alt="AI Research Assistant video demo" width="100%"></a><br><b><a href="templates/ai-research/">AI Research Assistant</a></b><br><sub>Research and evidence workflows · 19 s</sub></td>
+<td width="33%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/margin-motion-template-lite-fast20-1.0.0/preview.mp4"><img src="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/readme/v1/templates/margin.gif" alt="AI Writing Assistant video demo" width="100%"></a><br><b><a href="templates/margin/">AI Writing Assistant</a></b><br><sub>Writing and document workflows · 20 s</sub></td>
+<td width="33%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/aiagent-motion-template-lite-1.0.0/preview.mp4"><img src="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/readme/v1/templates/aiagent.gif" alt="AI Coding Agent video demo" width="100%"></a><br><b><a href="templates/aiagent/">AI Coding Agent</a></b><br><sub>AI coding agents and software creation workflows · 28 s</sub></td>
 </tr>
 <tr>
-<td width="33%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/agent-opus-motion-template-lite-v19.10-1.1.0/preview.mp4"><img src=".github/assets/templates/agent-opus.jpg" alt="AI Video Generator video demo" width="100%"></a><br><b><a href="templates/agent-opus/">AI Video Generator</a></b><br><sub>AI video creation · 41 s</sub></td>
-<td width="33%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/ai-companion-motion-template-lite-v12-1.0.0/preview.mp4"><img src=".github/assets/templates/ai-companion.jpg" alt="AI Companion video demo" width="100%"></a><br><b><a href="templates/ai-companion/">AI Companion</a></b><br><sub>Character chat and personal assistants · 30 s</sub></td>
-<td width="33%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/creative-search-motion-template-lite-v8-1.0.0/preview.mp4"><img src=".github/assets/templates/creative-search.jpg" alt="Creative Search video demo" width="100%"></a><br><b><a href="templates/creative-search/">Creative Search</a></b><br><sub>Creative file search · 23 s</sub></td>
+<td width="33%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/agent-opus-motion-template-lite-v19.10-1.1.0/preview.mp4"><img src="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/readme/v1/templates/agent-opus.gif" alt="AI Video Generator video demo" width="100%"></a><br><b><a href="templates/agent-opus/">AI Video Generator</a></b><br><sub>AI video creation · 41 s</sub></td>
+<td width="33%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/ai-companion-motion-template-lite-v12-1.0.0/preview.mp4"><img src="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/readme/v1/templates/ai-companion.gif" alt="AI Companion video demo" width="100%"></a><br><b><a href="templates/ai-companion/">AI Companion</a></b><br><sub>Character chat and personal assistants · 30 s</sub></td>
+<td width="33%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/creative-search-motion-template-lite-v8-1.0.0/preview.mp4"><img src="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/readme/v1/templates/creative-search.gif" alt="Creative Search video demo" width="100%"></a><br><b><a href="templates/creative-search/">Creative Search</a></b><br><sub>Creative file search · 23 s</sub></td>
 </tr>
 <tr>
-<td width="33%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/website-builder-motion-template-lite-v3-1.0.0/preview.mp4"><img src=".github/assets/templates/website-builder.jpg" alt="Website Builder video demo" width="100%"></a><br><b><a href="templates/website-builder/">Website Builder</a></b><br><sub>Website and visual editors · 52 s</sub></td>
-<td width="33%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/tovo-motion-template-lite-1.0.0/preview.mp4"><img src=".github/assets/templates/tovo.jpg" alt="AI Meeting Assistant video demo" width="100%"></a><br><b><a href="templates/tovo/">AI Meeting Assistant</a></b><br><sub>Meeting notes and action items · 15 s</sub></td>
-<td width="33%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/numo-motion-template-lite-1.0.0/preview.mp4"><img src=".github/assets/templates/numo.jpg" alt="Analytics Dashboard video demo" width="100%"></a><br><b><a href="templates/numo/">Analytics Dashboard</a></b><br><sub>Data analytics · 15 s</sub></td>
+<td width="33%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/website-builder-motion-template-lite-v3-1.0.0/preview.mp4"><img src="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/readme/v1/templates/website-builder.gif" alt="Website Builder video demo" width="100%"></a><br><b><a href="templates/website-builder/">Website Builder</a></b><br><sub>Website and visual editors · 52 s</sub></td>
+<td width="33%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/tovo-motion-template-lite-1.0.0/preview.mp4"><img src="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/readme/v1/templates/tovo.gif" alt="AI Meeting Assistant video demo" width="100%"></a><br><b><a href="templates/tovo/">AI Meeting Assistant</a></b><br><sub>Meeting notes and action items · 15 s</sub></td>
+<td width="33%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/numo-motion-template-lite-1.0.0/preview.mp4"><img src="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/readme/v1/templates/numo.gif" alt="Analytics Dashboard video demo" width="100%"></a><br><b><a href="templates/numo/">Analytics Dashboard</a></b><br><sub>Data analytics · 15 s</sub></td>
 </tr>
 </table>
 
@@ -140,11 +140,11 @@ or string a few together into a new one.
 
 <table>
 <tr>
-<td width="20%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-brand-clover-v1.0.0/preview.mp4"><img src=".github/assets/components/pf-brand-clover.jpg" alt="Logo Unfold Brand System component" width="100%"></a><br><b><a href="templates/README.md#brand-intros">Logo reveals</a></b><br><sub>9 brand intros</sub></td>
-<td width="20%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-ribbon-manifesto-v1.0.0/preview.mp4"><img src=".github/assets/components/template-ribbon-manifesto.jpg" alt="Three-Ribbon Campaign component" width="100%"></a><br><b><a href="templates/README.md#titles-and-announcements">Headlines</a></b><br><sub>6 titles and announcements</sub></td>
-<td width="20%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-depth-swirl-v1.0.0/preview.mp4"><img src=".github/assets/components/pf-depth-swirl.jpg" alt="3D Depth Spiral component" width="100%"></a><br><b><a href="templates/README.md#showcase-and-portfolio">Showcases</a></b><br><sub>9 galleries, 3D and portfolios</sub></td>
-<td width="20%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-phone-carousel-v1.0.0/preview.mp4"><img src=".github/assets/components/pf-phone-carousel.jpg" alt="Three-Phone Carousel component" width="100%"></a><br><b><a href="templates/README.md#product-and-ui-demos">Product UI</a></b><br><sub>6 app and UI demos</sub></td>
-<td width="20%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-case-numo-v1.0.0/preview.mp4"><img src=".github/assets/components/template-case-numo.jpg" alt="Anomaly to Action component" width="100%"></a><br><b><a href="templates/README.md#data-and-results">Data stories</a></b><br><sub>4 charts and results</sub></td>
+<td width="20%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-brand-clover-v1.0.0/preview.mp4"><img src="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/readme/v1/components/pf-brand-clover.gif" alt="Logo Unfold Brand System component" width="100%"></a><br><b><a href="templates/README.md#brand-intros">Logo reveals</a></b><br><sub>9 brand intros</sub></td>
+<td width="20%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-ribbon-manifesto-v1.0.0/preview.mp4"><img src="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/readme/v1/components/template-ribbon-manifesto.gif" alt="Three-Ribbon Campaign component" width="100%"></a><br><b><a href="templates/README.md#titles-and-announcements">Headlines</a></b><br><sub>6 titles and announcements</sub></td>
+<td width="20%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-depth-swirl-v1.0.0/preview.mp4"><img src="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/readme/v1/components/pf-depth-swirl.gif" alt="3D Depth Spiral component" width="100%"></a><br><b><a href="templates/README.md#showcase-and-portfolio">Showcases</a></b><br><sub>9 galleries, 3D and portfolios</sub></td>
+<td width="20%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-phone-carousel-v1.0.0/preview.mp4"><img src="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/readme/v1/components/pf-phone-carousel-16x9.gif" alt="Three-Phone Carousel component" width="100%"></a><br><b><a href="templates/README.md#product-and-ui-demos">Product UI</a></b><br><sub>6 app and UI demos</sub></td>
+<td width="20%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-case-numo-v1.0.0/preview.mp4"><img src="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/readme/v1/components/template-case-numo.gif" alt="Anomaly to Action component" width="100%"></a><br><b><a href="templates/README.md#data-and-results">Data stories</a></b><br><sub>4 charts and results</sub></td>
 </tr>
 </table>
 
@@ -155,16 +155,16 @@ or string a few together into a new one.
 The 34 motion components were originally built with GPT-6 and refined through human review. **Claude Opus 5.5 remade
 every one of them blind.** It got only the written spec, the same assets and an empty Remotion project, and it worked in one pass
 without seeing the original or getting any feedback. Each remake keeps its prompt (`TASK.md`) and the model's own
-`BUILD-LOG.md`. Click a pair to play it side by side.
+`BUILD-LOG.md`. Each pair plays inline; click it for the full side-by-side video.
 
 <table>
 <tr>
-<td width="50%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-brand-clover/compare.mp4"><img src="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-brand-clover/compare.jpg" alt="Logo Unfold Brand System: GPT-6 original vs Claude Opus 5.5 remake" width="100%"></a><br><b><a href="remakes/opus-5.5/pf-brand-clover/">Logo Unfold Brand System</a></b><br><sub>GPT-6 original · Claude Opus 5.5 remake · precise spec</sub></td>
-<td width="50%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/template-manifesto/compare.mp4"><img src="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/template-manifesto/compare.jpg" alt="Glossy Serif Manifesto: GPT-6 original vs Claude Opus 5.5 remake" width="100%"></a><br><b><a href="remakes/opus-5.5/template-manifesto/">Glossy Serif Manifesto</a></b><br><sub>GPT-6 original · Claude Opus 5.5 remake · one-paragraph brief</sub></td>
+<td width="50%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-brand-clover/compare.mp4"><img src="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/readme/v1/compare/pf-brand-clover.gif" alt="Logo Unfold Brand System: GPT-6 original vs Claude Opus 5.5 remake" width="100%"></a><br><b><a href="remakes/opus-5.5/pf-brand-clover/">Logo Unfold Brand System</a></b><br><sub>GPT-6 original · Claude Opus 5.5 remake · precise spec</sub></td>
+<td width="50%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/template-manifesto/compare.mp4"><img src="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/readme/v1/compare/template-manifesto.gif" alt="Glossy Serif Manifesto: GPT-6 original vs Claude Opus 5.5 remake" width="100%"></a><br><b><a href="remakes/opus-5.5/template-manifesto/">Glossy Serif Manifesto</a></b><br><sub>GPT-6 original · Claude Opus 5.5 remake · one-paragraph brief</sub></td>
 </tr>
 <tr>
-<td width="50%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-carousel-vertical/compare.mp4"><img src="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-carousel-vertical/compare.jpg" alt="Vertical Portfolio Relay: GPT-6 original vs Claude Opus 5.5 remake" width="100%"></a><br><b><a href="remakes/opus-5.5/pf-carousel-vertical/">Vertical Portfolio Relay</a></b><br><sub>GPT-6 original · Claude Opus 5.5 remake · precise spec</sub></td>
-<td width="50%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-orbit-focus/compare.mp4"><img src="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-orbit-focus/compare.jpg" alt="3D Orbit to Hero: GPT-6 original vs Claude Opus 5.5 remake" width="100%"></a><br><b><a href="remakes/opus-5.5/pf-orbit-focus/">3D Orbit to Hero</a></b><br><sub>GPT-6 original · Claude Opus 5.5 remake · precise spec</sub></td>
+<td width="50%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-carousel-vertical/compare.mp4"><img src="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/readme/v1/compare/pf-carousel-vertical.gif" alt="Vertical Portfolio Relay: GPT-6 original vs Claude Opus 5.5 remake" width="100%"></a><br><b><a href="remakes/opus-5.5/pf-carousel-vertical/">Vertical Portfolio Relay</a></b><br><sub>GPT-6 original · Claude Opus 5.5 remake · precise spec</sub></td>
+<td width="50%" valign="top"><a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/pf-orbit-focus/compare.mp4"><img src="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/readme/v1/compare/pf-orbit-focus.gif" alt="3D Orbit to Hero: GPT-6 original vs Claude Opus 5.5 remake" width="100%"></a><br><b><a href="remakes/opus-5.5/pf-orbit-focus/">3D Orbit to Hero</a></b><br><sub>GPT-6 original · Claude Opus 5.5 remake · precise spec</sub></td>
 </tr>
 </table>
 
