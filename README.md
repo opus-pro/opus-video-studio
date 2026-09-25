@@ -20,8 +20,13 @@ and renders it on your machine. Voiceover, music, images and AI video clips come
 Opus Video Tools connection.
 
 <p align="center">
-  <a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/launch-film/r2/launch-film-16x9.mp4"><img src=".github/assets/launch-film-poster.jpg" alt="Watch the 45-second launch film" width="100%"></a><br>
-  <sub><b>The launch film</b>, 45 seconds. Claude Opus 5.5 made it with this plugin: every clip comes from this repository. · <a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/launch-film/r2/launch-film-9x16.mp4">Vertical cut</a></sub>
+  <img src=".github/assets/demo.gif" alt="A Claude Code session with Opus Video Studio: one sentence asks for an Opus Labs logo reveal in three formats, the agent downloads and verifies the template, adapts it, and renders 16:9, 1:1 and 9:16 versions" width="100%"><br>
+  <sub>A real Claude Code session with the plugin, sped up. One sentence in, three formats out: 11 minutes, rendered locally, no paid media.</sub>
+</p>
+
+<p align="center">
+  <a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/launch-film/r3/launch-film-16x9.mp4"><img src=".github/assets/launch-film-poster.jpg" alt="Watch the 45-second launch film" width="72%"></a><br>
+  <sub><b>Watch the launch film</b> (45 s). Claude Opus 5.5 made it with this plugin, and every clip in it comes from this repository. · <a href="https://opus-lab.cdn.opuslab.ai/labs/launch-videos/opus-5.5/v1/launch-film/r3/launch-film-9x16.mp4">Vertical cut</a></sub>
 </p>
 
 ## Quick start
@@ -155,28 +160,13 @@ cd remakes/opus-5.5/pf-brand-clover/project && npm ci && npm run studio
 | **Opus Video Tools MCP** | The managed `opus-video-tools` connection at `https://labs.opus.pro/opus-video-tools/mcp`. |
 | **Local Remotion** | Pinned local Remotion dependencies, a setup helper, and an editable starter composition. |
 
-Video Director planning and the complete timed script apply to managed video clips. Local
-animation and code-generated video use the chosen framework; standalone media calls review the
-requested text, audio brief, or image prompt without a video storyboard. Paid generation still
-requires approval of the exact request. The plugin
-tracks asynchronous jobs and reuses request keys for identical retries. It contains no provider
-credentials or backend service implementation.
-
-The repository is public; managed generation still requires an authorized Opus account,
-product access, and sufficient credits. Installing the plugin does not grant service access.
-Local Remotion setup and preview do not spend Opus generation credits.
-
-## Install guides
-
-- [Codex installation guide](docs/codex-install-protocol.md)
-- [Claude Code installation guide](docs/claude-code-install-protocol.md)
-- [Publishing and verifying the shared website guides](docs/guide-publication.md)
-
-The Product Videos website currently offers Codex onboarding. The plugin keeps
-both client distributions and shares its source-template and media workflows.
+**What it costs.** Templates, local rendering and preview are free and need no Opus account. Generated voiceover,
+music, images and AI video need an authorized Opus account, product access and credits; installing the plugin does
+not grant service access. Your agent shows you the exact request before it spends anything, tracks asynchronous jobs,
+and reuses request keys for identical retries. The plugin contains no provider credentials or backend code.
 
 <details>
-<summary><b>For maintainers</b>: names and validation</summary>
+<summary><b>For maintainers</b>: names, website guides and validation</summary>
 
 ### Names
 
@@ -189,6 +179,11 @@ both client distributions and shares its source-template and media workflows.
 
 The installation ID is stable so existing clients can upgrade. Repository names, plugin IDs,
 display names, and OAuth resource addresses are separate settings.
+
+### Website guides
+
+The Product Videos website currently offers Codex onboarding. Both client distributions share one set of
+template-source and media workflows; see [publishing and verifying the shared website guides](docs/guide-publication.md).
 
 ### Validate
 
