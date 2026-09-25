@@ -19,7 +19,7 @@
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "interface": {
-    "displayName": "Opus Video Tools",
+    "displayName": "Opus Video Studio",
     "shortDescription": "Create UI motion, video, and audio with Opus.",
     "longDescription": "Edit an original motion template or generate video, voiceover, music and images with Opus. Paste a Product Videos link to download its verified source and customize it in Codex.",
     "developerName": "Opus Labs",
@@ -30,7 +30,7 @@
     ],
     "websiteURL": "https://labs.opus.pro/product-videos/opus-video-tools",
     "defaultPrompt": [
-      "I'd like to create with Opus Video Tools. Briefly ask whether I want to edit a motion template or generate video, voiceover, music or images. Include the template library link."
+      "I'd like to create with Opus Video Studio. Briefly ask whether I want to edit a motion template or generate video, voiceover, music or images. Include the template library link."
     ],
     "brandColor": "#0B0C12",
     "composerIcon": "./assets/opus-video-studio-logo.png",
