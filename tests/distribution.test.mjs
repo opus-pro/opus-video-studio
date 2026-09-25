@@ -83,8 +83,18 @@ test("Claude setup supports Desktop Code and upgrades stale installations before
   assert.match(guide, /claude plugin list --json/);
   assert.match(guide, /installPath/);
   assert.match(guide, /slash command/);
-  assert.doesNotMatch(guide, /\nclaude plugin details|claude mcp login plugin:|claude mcp get opus-video-tools/);
+  assert.doesNotMatch(guide, /\nclaude plugin details|claude mcp get opus-video-tools/);
   assert.match(guide, /No MCP servers\s+configured/);
+});
+
+test("Claude setup starts sign-in from the agent before falling back to /mcp", () => {
+  const guide = read("docs/claude-code-install-protocol.md");
+  assert.match(guide, /mcp__plugin_opus-video-studio_opus-video-tools__authenticate/);
+  assert.match(guide, /script -q \/dev\/null claude mcp login plugin:opus-video-studio:opus-video-tools/);
+  assert.match(guide, /--no-browser/);
+  assert.match(guide, /`\/reload-plugins`/);
+  assert.match(guide, /send the user to `\/mcp` only as a fallback/);
+  assert.doesNotMatch(guide, /Do not use `claude mcp login`/);
 });
 
 test("setup does not require an unshipped button or automatic session handoff", () => {
@@ -97,4 +107,11 @@ test("setup does not require an unshipped button or automatic session handoff", 
     assert.match(text, /pending/);
     assert.doesNotMatch(text, /click Start creating|After installing\/updating, use a fresh|start a new Codex task/);
   }
+});
+
+test("Claude setup waits for sign-in itself instead of asking the user to reply", () => {
+  const guide = read("docs/claude-code-install-protocol.md");
+  assert.match(guide, /Do not end the turn asking the user to reply/);
+  assert.match(guide, /grep -q 'Connected'/);
+  assert.match(guide, /do not list account identity as\s+pending because it returns only IDs/);
 });
