@@ -1,0 +1,253 @@
+{
+  "product": {
+    "name": "Agent Opus",
+    "website": "agent.opus.pro"
+  },
+  "copy": {
+    "openingLines": [
+      "One idea.",
+      "New stories."
+    ],
+    "secondClaimLines": [
+      "Made for",
+      "every idea."
+    ],
+    "ideaLabel": "Your idea",
+    "ideaPlaceholder": "Describe your idea…",
+    "ideaPrompt": "Create a video",
+    "inputLabels": [
+      "Your script.",
+      "Your images.",
+      "Your voice."
+    ],
+    "scriptLines": [
+      "One idea.",
+      "New stories.",
+      "Made for",
+      "every idea."
+    ],
+    "workflowBrief": "Create a 30-second product ad.",
+    "agentReply": "Let’s write the screenplay.",
+    "storyboardCaptions": [
+      "Start close.",
+      "Then go big.",
+      "Keep it playful."
+    ],
+    "searchQuery": "Playful product close-up",
+    "revision": "Make the opening faster.",
+    "categoryQuestion": "What story will you create?",
+    "categoryPrompts": [
+      "Create a cinematic product ad",
+      "Tell a story set in space",
+      "Explain how the Earth formed"
+    ],
+    "closingAction": "Try today",
+    "openingCardLines": [
+      "One idea.",
+      "Whole new",
+      "stories."
+    ],
+    "openingCardStory": [
+      "A story worth",
+      "sharing."
+    ],
+    "openingCardCTA": [
+      "IMAGINE IT.",
+      "CREATE IT."
+    ],
+    "openingCardFootnote": "Your next story starts here.",
+    "workflowTone": "Bold. Playful.",
+    "screenplay": [
+      "Close-up: a chilled can, catching the light.",
+      "Pull back into a larger-than-life, playful world.",
+      "A character grabs it. Finish on the hero."
+    ],
+    "approval": "Approve",
+    "storyboardReply": "Let’s create the storyboard.",
+    "revisionReply": "On it. Trimming Scene 1.",
+    "userLabel": "You",
+    "screenplayHeading": "SCREENPLAY",
+    "screenplayDuration": "30 seconds"
+  },
+  "brand": {
+    "wordmark": "agent-opus/AO_Black.svg",
+    "markViewBox": "-16 -16 350 350",
+    "markTransform": "translate(-72 -50)",
+    "markPaths": [
+      "M222 50c82.841 0 149.999 67.145 149.999 149.972-.001 82.827-67.158 149.97-149.999 149.971-6.905 0-13.703-.469-20.36-1.372l-2.354-.319v-50.808l3.246.641A100.599 100.599 0 0 0 222 299.979c55.243-.001 100.026-44.776 100.027-100.007 0-55.232-44.784-100.006-100.027-100.007-55.094 0-99.785 44.533-100.027 99.558v7.881l-.001 91.703V350H72V199.972C72 117.145 139.158 50 222 50Z",
+      "M222 113.63c47.667.001 86.355 38.602 86.355 86.276 0 47.673-38.688 86.276-86.355 86.276a86.646 86.646 0 0 1-20.642-2.482l-2.072-.509v-54.52l4.111 2.447a36.257 36.257 0 0 0 18.603 5.1c20.119 0 36.383-16.284 36.383-36.312-.001-20.029-16.264-36.31-36.383-36.31-19.984 0-36.166 16.064-36.383 35.907l-.001 150.44h-49.974V199.906c.001-47.674 38.691-86.276 86.358-86.276Z"
+    ],
+    "titleColors": [
+      "#17171a",
+      "#351738",
+      "#9b25b8",
+      "#dd32ea",
+      "#ef79f4"
+    ],
+    "markFaceColors": [
+      "#fff",
+      "#ece0ff",
+      "#c5a2f1",
+      "#9e6bd8",
+      "#ead7ff"
+    ],
+    "markSideColors": [
+      "#c09ae5",
+      "#7040a2",
+      "#a875d0"
+    ]
+  },
+  "media": {
+    "openingVideos": [
+      {
+        "file": "agent-opus/hero-1-video.mp4",
+        "startSeconds": 0.8,
+        "playbackRate": 1.15,
+        "objectPosition": "50% 50%"
+      },
+      {
+        "file": "agent-opus/multiples/proxies/stories-4.mp4",
+        "startSeconds": 0.6,
+        "playbackRate": 1.1,
+        "objectPosition": "50% 50%"
+      },
+      {
+        "file": "agent-opus/hero-3-video.mp4",
+        "startSeconds": 0.15,
+        "playbackRate": 1.2,
+        "objectPosition": "50% 48%"
+      }
+    ],
+    "workflowPreviewClips": [
+      {
+        "file": "agent-opus/hero-1-video.mp4",
+        "startSeconds": 0.7,
+        "endSeconds": 3.2,
+        "playbackRate": 1.3
+      },
+      {
+        "file": "agent-opus/hero-1-video.mp4",
+        "startSeconds": 4.0,
+        "endSeconds": 6.2,
+        "playbackRate": 1.25
+      },
+      {
+        "file": "agent-opus/hero-1-video.mp4",
+        "startSeconds": 6.8,
+        "endSeconds": 9.2,
+        "playbackRate": 1.2
+      }
+    ],
+    "inputImages": [
+      "agent-opus/hero-2-video-2.jpg",
+      "agent-opus/hero-1-video.jpg",
+      "agent-opus/hero-4-video-3.jpg",
+      "agent-opus/hero-3-video.jpg"
+    ],
+    "openingImages": [
+      "agent-opus/hero-1-video.jpg",
+      "agent-opus/hero-2-video-2.jpg",
+      "agent-opus/hero-3-video.jpg",
+      "agent-opus/hero-4-video-3.jpg"
+    ],
+    "workflowImages": [
+      "agent-opus/workflow-v10/shot-0.jpg",
+      "agent-opus/workflow-v10/shot-1.jpg",
+      "agent-opus/workflow-v10/shot-2.jpg",
+      "agent-opus/workflow-v10/shot-3.jpg",
+      "agent-opus/workflow-v10/shot-4.jpg",
+      "agent-opus/workflow-v10/shot-5.jpg"
+    ],
+    "heroVideos": [
+      "agent-opus/hero-1-video.mp4",
+      "agent-opus/story-landscape.mp4",
+      "agent-opus/hero-3-video.mp4"
+    ],
+    "heroStartSeconds": [
+      0.75,
+      20,
+      0.15
+    ],
+    "heroPlaybackRates": [
+      1.2,
+      1.14,
+      1.13
+    ],
+    "wallVideos": [
+      {
+        "category": "ads",
+        "file": "agent-opus/multiples/proxies/ads-0.mp4",
+        "duration": 9.333333
+      },
+      {
+        "category": "ads",
+        "file": "agent-opus/multiples/proxies/ads-1.mp4",
+        "duration": 8.633008
+      },
+      {
+        "category": "ads",
+        "file": "agent-opus/multiples/proxies/ads-2.mp4",
+        "duration": 12.0
+      },
+      {
+        "category": "ads",
+        "file": "agent-opus/multiples/proxies/ads-3.mp4",
+        "duration": 5.0
+      },
+      {
+        "category": "stories",
+        "file": "agent-opus/multiples/proxies/stories-0.mp4",
+        "duration": 12.0
+      },
+      {
+        "category": "stories",
+        "file": "agent-opus/multiples/proxies/stories-1.mp4",
+        "duration": 6.933008
+      },
+      {
+        "category": "stories",
+        "file": "agent-opus/multiples/proxies/stories-2.mp4",
+        "duration": 5.0
+      },
+      {
+        "category": "stories",
+        "file": "agent-opus/multiples/proxies/stories-3.mp4",
+        "duration": 10.0
+      },
+      {
+        "category": "stories",
+        "file": "agent-opus/multiples/proxies/stories-4.mp4",
+        "duration": 6.8
+      },
+      {
+        "category": "explainers",
+        "file": "agent-opus/multiples/proxies/explainers-0.mp4",
+        "duration": 8.866016
+      },
+      {
+        "category": "explainers",
+        "file": "agent-opus/multiples/proxies/explainers-1.mp4",
+        "duration": 10.0
+      },
+      {
+        "category": "explainers",
+        "file": "agent-opus/multiples/proxies/explainers-2.mp4",
+        "duration": 10.0
+      },
+      {
+        "category": "explainers",
+        "file": "agent-opus/multiples/proxies/explainers-3.mp4",
+        "duration": 10.0
+      },
+      {
+        "category": "explainers",
+        "file": "agent-opus/multiples/proxies/explainers-4.mp4",
+        "duration": 12.0
+      }
+    ]
+  },
+  "audio": {
+    "mode": "master",
+    "master": "audio/approved-master.m4a"
+  }
+}

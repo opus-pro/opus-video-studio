@@ -1,0 +1,29 @@
+{
+  "name": "tovo-motion-template-lite",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "studio": "remotion studio src/index.tsx --no-open",
+    "check": "node scripts/check.mjs && tsc --noEmit",
+    "render": "node scripts/render.mjs",
+    "stills": "node scripts/render.mjs --stills-only"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.332",
+    "@remotion/cli": "4.0.332",
+    "@remotion/renderer": "4.0.332",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.332"
+  },
+  "devDependencies": {
+    "typescript": "5.8.3",
+    "@types/react": "19.1.9",
+    "@types/react-dom": "19.1.9"
+  }
+}

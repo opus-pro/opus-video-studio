@@ -1,0 +1,14 @@
+{
+  "name": "Page Studio",
+  "product": "Website Builder",
+  "accent": "#8650ed",
+  "ink": "#100f21",
+  "publication": "FIELDNOTES",
+  "tagline": "Your ideas. A place to live.",
+  "cta": "Make it yours.",
+  "description": "Fictional no-code website builder for creators and publications.",
+  "audio": {
+    "mode": "master",
+    "master": "audio/master.m4a"
+  }
+}

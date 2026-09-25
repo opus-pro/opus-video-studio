@@ -1,0 +1,16 @@
+{
+  "id": "template-analytics-glow",
+  "title": "Growing Analytics Capsules",
+  "version": "1.1.0",
+  "compositionId": "template-analytics-glow",
+  "width": 960,
+  "height": 540,
+  "fps": 60,
+  "frames": 180,
+  "preview": {
+    "width": 960,
+    "height": 540
+  },
+  "audioMode": "mute",
+  "sourceEntry": "src/index.tsx"
+}

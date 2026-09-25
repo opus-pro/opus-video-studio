@@ -1,0 +1,53 @@
+{
+  "product": {
+    "name": "NUMO",
+    "tagline": "Ask. See. Understand."
+  },
+  "palette": {
+    "background": "#30134B",
+    "ink": "#F5F0E8",
+    "accent": "#D6F53C",
+    "paper": "#F5F0E8"
+  },
+  "story": {
+    "rows": 12480,
+    "sources": [
+      "Sales",
+      "Traffic",
+      "Checkout"
+    ],
+    "question": [
+      "Why did",
+      "sales fall?"
+    ],
+    "revenue": {
+      "before": 100000,
+      "after": 82000
+    },
+    "devices": [
+      {
+        "name": "Desktop",
+        "before": 55000,
+        "after": 55000
+      },
+      {
+        "name": "Mobile",
+        "before": 45000,
+        "after": 27000
+      }
+    ],
+    "conversion": {
+      "before": 3,
+      "after": 1.8
+    },
+    "evidence": "Payment timeout",
+    "action": "Review payment flow",
+    "team": "Growth"
+  },
+  "audio": {
+    "mode": "master",
+    "master": "audio/master.m4a",
+    "music": "audio/music.m4a",
+    "sfx": "audio/sfx.m4a"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "pf-phone-hand",
+  "title": "In-Hand App Scroll",
+  "version": "1.1.0",
+  "compositionId": "pf-phone-hand",
+  "width": 1200,
+  "height": 1200,
+  "fps": 60,
+  "frames": 276,
+  "preview": {
+    "width": 720,
+    "height": 720
+  },
+  "audioMode": "mute",
+  "sourceEntry": "src/index.tsx",
+  "readingOrder": [
+    "README.md",
+    "template.json",
+    "ASSETS.md",
+    "MOTION-NOTES.md",
+    "src/index.tsx",
+    "scripts/render.mjs"
+  ],
+  "sourceFiles": [
+    "src/index.tsx"
+  ],
+  "provenance": {
+    "originalCodeArchiveSha256": "7b34bec06d92a5e458ea6170d1397489e6f53287168aef1f0fa4ab7a6f78fddc",
+    "originalBatch": "batch-c",
+    "originalSourceFiles": {
+      "src/index.tsx": "5713f80c0179d2d61916959be476cfc251e656b940989902cee0f81c041fa81a"
+    },
+    "publishedPreviewSha256": "c67d7b8ff62cfb4468cdee41afdb666df3a8b61ca04888ee324001d62340c615",
+    "animationSourceUnchanged": true
+  }
+}

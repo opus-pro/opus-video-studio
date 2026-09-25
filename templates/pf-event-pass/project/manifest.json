@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "id": "pf-event-pass",
+  "title": "Headline to Event Pass",
+  "version": "1.1.0",
+  "compositionId": "pf-event-pass",
+  "width": 1080,
+  "height": 1350,
+  "fps": 60,
+  "frames": 288,
+  "preview": {
+    "width": 648,
+    "height": 810
+  },
+  "audioMode": "mute",
+  "sourceEntry": "src/index.tsx",
+  "provenance": {
+    "originalCodeArchiveSha256": "5c9f14fc2c5bfe3217e60feb63909ec852536f3dbe66753d1780f56fa0df1e2c",
+    "originalBatch": "batch-b",
+    "originalSourceFiles": {
+      "src/index.tsx": "b112140d3d48f59f76d717f1bf2b491b23156395d20b1bcdc4d2013b98b65989"
+    },
+    "publishedPreviewSha256": "a2372ea966d669a3c9f89145ca64e7dc457b78b5e304ff2da06a936ce0a3c91a",
+    "animationSourceUnchanged": true
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "f686bac54cb88e6ac757636e4a574c35f06c05f08a39c869b4b2a6ede75de2c1",
+      "bytes": 44
+    },
+    {
+      "path": "ASSETS.md",
+      "sha256": "725a7903a071eedc829b6976dd650523c7a54d796d6d8f4e552d1d32ebb02346",
+      "bytes": 433
+    },
+    {
+      "path": "Geist-OFL.txt",
+      "sha256": "1781d2806a07d91c4edf4740b88449fab7d0eadad53f7c351b94cd4d4eb8c00f",
+      "bytes": 4387
+    },
+    {
+      "path": "MOTION-NOTES.md",
+      "sha256": "240b61b489c72a04640602b1c9f7b88048c518f8d7e94b6a220a4975bc173387",
+      "bytes": 1065
+    },
+    {
+      "path": "PHOTO-SOURCES.json",
+      "sha256": "ce7054c124aaab8e236ca22920ce907fcaa7dcb3f0ec9fdaec41c0395276d221",
+      "bytes": 1380
+    },
+    {
+      "path": "README.md",
+      "sha256": "8d0a33bb8ca9a7928b20c4e7f1ab30c8eea4afe336312855b1ce2f88c7b6a859",
+      "bytes": 2451
+    },
+    {
+      "path": "captions.vtt",
+      "sha256": "7c6acb5a8cf436b11c3ea003690cb53daf7ab2767fabf8cf39adb2fe22706fef",
+      "bytes": 61
+    },
+    {
+      "path": "context.json",
+      "sha256": "cf7fce8207b05f5d955bfd5ca8deaca965b86881dd0f9d7c356099963a09f892",
+      "bytes": 911
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+      "bytes": 106599
+    },
+    {
+      "path": "package.json",
+      "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+      "bytes": 702
+    },
+    {
+      "path": "poster.jpg",
+      "sha256": "5c394f7d806965f6152f72fb5cb7446e26f1c35aaab4b813be49bf5e2b33272a",
+      "bytes": 50767
+    },
+    {
+      "path": "preview.mp4",
+      "sha256": "a2372ea966d669a3c9f89145ca64e7dc457b78b5e304ff2da06a936ce0a3c91a",
+      "bytes": 262378
+    },
+    {
+      "path": "public/assets/GeistVF.woff2",
+      "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
+      "bytes": 56800
+    },
+    {
+      "path": "public/assets/coast.jpg",
+      "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
+      "bytes": 251741
+    },
+    {
+      "path": "public/assets/desert.jpg",
+      "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
+      "bytes": 205527
+    },
+    {
+      "path": "public/assets/forest.jpg",
+      "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
+      "bytes": 229748
+    },
+    {
+      "path": "public/assets/mountains.jpg",
+      "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
+      "bytes": 269763
+    },
+    {
+      "path": "scripts/render.mjs",
+      "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
+      "bytes": 2937
+    },
+    {
+      "path": "scripts/verify.mjs",
+      "sha256": "d89b41b3a2d664b17d90a20e2b8881cabd75d121947eb66ad87459a21953781a",
+      "bytes": 513
+    },
+    {
+      "path": "src/index.tsx",
+      "sha256": "b112140d3d48f59f76d717f1bf2b491b23156395d20b1bcdc4d2013b98b65989",
+      "bytes": 22494
+    },
+    {
+      "path": "template.json",
+      "sha256": "095ce521ca39612b9cc63ef1ef0856bc4224c8fb1cdebf7660c941ac847d2514",
+      "bytes": 301
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "cb118c22249b9af87126d199ae522e11ae6a105ccfd5003359f8c10e35f1eb41",
+      "bytes": 300
+    }
+  ]
+}

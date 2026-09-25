@@ -1,0 +1,16 @@
+{
+  "id": "pf-type-snap",
+  "title": "Multi-Line Headline Snap",
+  "version": "1.1.0",
+  "compositionId": "pf-type-snap",
+  "width": 1080,
+  "height": 1350,
+  "fps": 60,
+  "frames": 288,
+  "preview": {
+    "width": 648,
+    "height": 810
+  },
+  "audioMode": "mute",
+  "sourceEntry": "src/index.tsx"
+}

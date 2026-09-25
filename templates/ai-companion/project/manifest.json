@@ -1,0 +1,174 @@
+{
+  "name": "ai-companion-motion-template-lite-v12-1.0.0",
+  "edition": "Lite",
+  "version": "1.0.0",
+  "approvedFilmVersion": "0.12",
+  "durationSeconds": 30,
+  "frames": 900,
+  "fps": 30,
+  "renderSize": [
+    1920,
+    1080
+  ],
+  "previewSize": [
+    1280,
+    720
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 36,
+      "sha256": "bfa5f8365a7772ac194672c136ef9187d729bc5008ae858106307be49d390578"
+    },
+    {
+      "path": "ASSETS.json",
+      "bytes": 2939,
+      "sha256": "0b3cee4a8f8ba9674285d1c43e054ad2ba6e3e44c7c2fc0ccfbb5ce5d857c393"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9215,
+      "sha256": "0b89edad289bd24f4a036332745ac8afce2f468f8517431190d7ccb8c4b8ca00"
+    },
+    {
+      "path": "config/audio-cues.json",
+      "bytes": 14363,
+      "sha256": "7e5b3ae99ab758406aac2c8906076e923529c700dbea37c87de1a075657eff66"
+    },
+    {
+      "path": "config/brand.json",
+      "bytes": 962,
+      "sha256": "b9e73c76dfdb08b82ea0acfb6b7c756f6a2479a760c7a60b92404dff5fcccf90"
+    },
+    {
+      "path": "config/music-prompt.txt",
+      "bytes": 1549,
+      "sha256": "1f10c631ed1886c200601e548958a9d28b7950fed07d9e4a1c41b3975d03241d"
+    },
+    {
+      "path": "config/timeline.json",
+      "bytes": 6689,
+      "sha256": "2beeb7a3e9aea2a8f393c44b2fc25323f7f8ef7bafd0a211b5c8b31d423af2bd"
+    },
+    {
+      "path": "config/voice-prompt.txt",
+      "bytes": 583,
+      "sha256": "880f4ebfffa9806caee10cc25a2bc1f0b15b64677c2c4d5f2d70a6d2f77907ac"
+    },
+    {
+      "path": "config/voiceover.json",
+      "bytes": 2978,
+      "sha256": "2d239d64b0dfe74751f20c7514978766521cc77ae2469e848c1721dc7fd4fe91"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 94626,
+      "sha256": "25df367a83e90ae20000b51400ea2a56c1aa0092495f757ba31089ba53004a7e"
+    },
+    {
+      "path": "package.json",
+      "bytes": 713,
+      "sha256": "339dea08f3094a8032c8e45d23da57d96d5e3cea09c617043db400ed3ffdec2a"
+    },
+    {
+      "path": "preview/reference.mp4",
+      "bytes": 3141559,
+      "sha256": "060ec3bd0d25e8038be5f680621e9c919601dfb6ab173d37f813d4d97cd79bee"
+    },
+    {
+      "path": "public/audio/master.m4a",
+      "bytes": 996425,
+      "sha256": "7fefaf89ed5fa9e82f2d45055fff8ce14b7dfdf6a158744f2ad2ede008d98864"
+    },
+    {
+      "path": "public/fonts/Geist-OFL.txt",
+      "bytes": 4387,
+      "sha256": "1781d2806a07d91c4edf4740b88449fab7d0eadad53f7c351b94cd4d4eb8c00f"
+    },
+    {
+      "path": "public/fonts/GeistVF.woff2",
+      "bytes": 56800,
+      "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630"
+    },
+    {
+      "path": "public/fonts/InstrumentSerif-OFL.txt",
+      "bytes": 4405,
+      "sha256": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521"
+    },
+    {
+      "path": "public/fonts/InstrumentSerif-Regular.ttf",
+      "bytes": 70012,
+      "sha256": "498efd461f6ddfcb7a111bf9a565709d2085d48201d501ead960d93e84ffbb88"
+    },
+    {
+      "path": "scripts/check.mjs",
+      "bytes": 1265,
+      "sha256": "6013c17059b3109b3a0da724a9168c241f4c740069ef6b60a7bf72a765191c26"
+    },
+    {
+      "path": "scripts/finalize-audio.mjs",
+      "bytes": 1646,
+      "sha256": "0fcdf951582044543709e0e119fd3178d9c2f70b1a642899b584acda06c86ab9"
+    },
+    {
+      "path": "scripts/render.mjs",
+      "bytes": 1906,
+      "sha256": "dcb3aa4d8446e5d36cbde5deda7950a836d04c0bf7eced90547f298930f5d7f3"
+    },
+    {
+      "path": "src/Character.tsx",
+      "bytes": 3966,
+      "sha256": "c10bdf8bcfd6a99d140dcdd0adc273e1937b3abe38ce15a7c2d6485c03915533"
+    },
+    {
+      "path": "src/Film.tsx",
+      "bytes": 13222,
+      "sha256": "b161591d565454eab583821d99be5609ee90980815690a803639fd0afe821e50"
+    },
+    {
+      "path": "src/Optics.tsx",
+      "bytes": 2100,
+      "sha256": "e4d88b5e9cb44bf1248ff547b53ccd2df7f3ac8bf61b9ea333f671ef89a4f905"
+    },
+    {
+      "path": "src/Phone.tsx",
+      "bytes": 1127,
+      "sha256": "b0185d3a38ff63ce95f81f1577a7ae6cae3e4dae152de14cb5868981b3b44ff6"
+    },
+    {
+      "path": "src/ReferenceMoves.tsx",
+      "bytes": 11927,
+      "sha256": "d476c26c69d3f662df3dae6eef392bd2cbdc66a9b348f04e058fef86825ac00b"
+    },
+    {
+      "path": "src/Stage.tsx",
+      "bytes": 2146,
+      "sha256": "10787d4ea9cb0fe8635561b679fece1b988e5cd6ae14a09f4849b6389da33fbe"
+    },
+    {
+      "path": "src/StoryWorld.tsx",
+      "bytes": 3713,
+      "sha256": "f6885963a9a519df0e411b64ed311465e72fb5c2fe5a2f6b680f6676da57bc78"
+    },
+    {
+      "path": "src/clock.ts",
+      "bytes": 630,
+      "sha256": "21475323d73e1029325ca60a6e02e04eedc6d6d206fc7e4587d9c75c146bc5b4"
+    },
+    {
+      "path": "src/index.tsx",
+      "bytes": 333,
+      "sha256": "d045692fb246d124d5988d13cb64f6d106c38b33a412e0f5f8508f80f7f0f8db"
+    },
+    {
+      "path": "src/motion.ts",
+      "bytes": 3296,
+      "sha256": "51f4a055bfe0dd336d868d714328452ea14a2ff7ea8380891913d9c0afad0bf7"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 397,
+      "sha256": "5beabc9184dce5ee855fc9b34796c65d1de442f5c5237f9694fe4fab6eae491c"
+    }
+  ]
+}

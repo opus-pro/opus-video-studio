@@ -1,0 +1,83 @@
+{
+  "insert": {
+    "down": 13.1,
+    "up": 13.23,
+    "result": 13.28,
+    "point": [
+      215,
+      31
+    ]
+  },
+  "gallery": {
+    "down": 14.82,
+    "up": 14.96,
+    "result": 15.02,
+    "point": [
+      220,
+      239
+    ]
+  },
+  "background": {
+    "down": 18.35,
+    "up": 18.49,
+    "result": 18.56,
+    "point": [
+      1273,
+      311
+    ]
+  },
+  "lavender": {
+    "down": 19.67,
+    "up": 19.8,
+    "result": 19.83,
+    "point": [
+      1257,
+      601
+    ]
+  },
+  "charcoal": {
+    "down": 20.64,
+    "up": 20.78,
+    "result": 20.81,
+    "point": [
+      1215,
+      601
+    ]
+  },
+  "stacked": {
+    "down": 25.15,
+    "up": 25.3,
+    "result": 25.35,
+    "point": [
+      1390,
+      438
+    ]
+  },
+  "animation": {
+    "down": 28.94,
+    "up": 29.07,
+    "result": 29.12,
+    "point": [
+      838,
+      183
+    ]
+  },
+  "publish": {
+    "down": 43.51,
+    "up": 43.65,
+    "result": 43.86,
+    "point": [
+      723,
+      57
+    ]
+  },
+  "blurPreset": {
+    "down": 31.04,
+    "up": 31.18,
+    "result": 31.23,
+    "point": [
+      280,
+      491
+    ]
+  }
+}

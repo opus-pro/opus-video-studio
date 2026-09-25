@@ -1,0 +1,16 @@
+{
+  "id": "pf-camera-campaign",
+  "title": "Camera to Fashion Campaign",
+  "version": "1.1.0",
+  "compositionId": "pf-camera-campaign",
+  "width": 1080,
+  "height": 1920,
+  "fps": 60,
+  "frames": 252,
+  "preview": {
+    "width": 1080,
+    "height": 1920
+  },
+  "audioMode": "mute",
+  "sourceEntry": "src/index.tsx"
+}

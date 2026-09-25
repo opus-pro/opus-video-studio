@@ -1,0 +1,16 @@
+{
+  "id": "template-manifesto",
+  "title": "Glossy Serif Manifesto",
+  "version": "1.1.0",
+  "compositionId": "template-manifesto",
+  "width": 960,
+  "height": 540,
+  "fps": 30,
+  "frames": 270,
+  "preview": {
+    "width": 960,
+    "height": 540
+  },
+  "audioMode": "mute",
+  "sourceEntry": "src/index.tsx"
+}

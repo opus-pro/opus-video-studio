@@ -1,0 +1,52 @@
+{
+  "id": "study-brand-spin",
+  "title": "Logo Half Turn",
+  "version": "1.1.0",
+  "compositionId": "study-brand-spin",
+  "width": 960,
+  "height": 540,
+  "fps": 30,
+  "frames": 66,
+  "preview": {
+    "width": 960,
+    "height": 540
+  },
+  "audioMode": "mute",
+  "sourceEntry": "src/index.tsx",
+  "readingOrder": [
+    "README.md",
+    "template.json",
+    "ASSETS.md",
+    "MOTION-NOTES.md",
+    "src/index.tsx",
+    "scripts/render.mjs"
+  ],
+  "sourceFiles": [
+    "src/analytics.tsx",
+    "src/brand.tsx",
+    "src/companion-world.tsx",
+    "src/companion.tsx",
+    "src/index.tsx",
+    "src/numo.tsx",
+    "src/search.tsx",
+    "src/shared.tsx",
+    "src/typography.tsx"
+  ],
+  "provenance": {
+    "originalCodeArchiveSha256": "e16f070465c1de564f339d485019bb7e274bc11e0cd60111d664a8566b02f8bb",
+    "originalBatch": "batch-code",
+    "originalSourceFiles": {
+      "src/index.tsx": "e8194d5f3918d76f03ec5cf9b0f21536f622ae6ce7a8dbbe35dd29ca36494bcb",
+      "src/companion.tsx": "68aaff6ea71399b7ad3c621d17a5972a01499095c53e28f16154125c5e779308",
+      "src/shared.tsx": "eca6c0a8507fda966f5d1ad471c77b1510054f4019dcf282fe349855b3aa489c",
+      "src/search.tsx": "1f56d43e9a665b8d48a17ba19dea8f6ee88dce2ba679c349fb3b81d401b43def",
+      "src/typography.tsx": "09c8847a1f6e453472c381a818aae027cd5e76dc0384fde2335d0231192773f5",
+      "src/analytics.tsx": "e70e80094140890287fdeee30a6e2f54f84396eb1fa572d97c71c7c7679ffbe7",
+      "src/numo.tsx": "e50713fa21345f1ba6ae2710c77fc628c98a28db46f037f2fd18536d74c34834",
+      "src/companion-world.tsx": "9528a2e4bf4bba811c0629c6036c2bacc3fa2f90123e8be40118d98cfa2f3da1",
+      "src/brand.tsx": "12bced58270228bb69e79f40d820f82ccca6c3ee98c96e80f40d341e3866f35b"
+    },
+    "publishedPreviewSha256": "9f53044a87d80342fc45b0a96d67df0ef915ae0aeb091aed68913a5f142ccd34",
+    "animationSourceUnchanged": true
+  }
+}

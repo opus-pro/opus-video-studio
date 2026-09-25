@@ -1,0 +1,16 @@
+{
+  "id": "pf-orbit-focus",
+  "title": "3D Orbit to Hero",
+  "version": "1.1.0",
+  "compositionId": "pf-orbit-focus",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "frames": 360,
+  "preview": {
+    "width": 1152,
+    "height": 648
+  },
+  "audioMode": "mute",
+  "sourceEntry": "src/index.tsx"
+}

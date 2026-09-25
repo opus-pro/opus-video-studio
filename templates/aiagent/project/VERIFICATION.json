@@ -1,0 +1,58 @@
+{
+  "package": "aiagent-motion-template-lite",
+  "version": "1.0.0",
+  "verifiedAt": "2026-09-16T00:39:09.160130+00:00",
+  "platform": {
+    "os": "macOS",
+    "architecture": "arm64",
+    "node": "v24.14.0",
+    "remotion": "4.0.332"
+  },
+  "checks": {
+    "freshArchiveExtraction": true,
+    "freshNpmCi": true,
+    "typeScriptAndRequiredAssets": true,
+    "independentStudioHttpStatus": 200,
+    "fullRender": {
+      "command": "npm run render -- --scale=0.6666666667",
+      "status": "passed",
+      "width": 1280,
+      "height": 720,
+      "fps": 60,
+      "frames": 1688,
+      "videoDurationSeconds": 28.133333,
+      "audioAndContainerDurationSeconds": 28.139958,
+      "remotionBundledFfmpeg": true
+    },
+    "originalSourceFilesUnchanged": 11,
+    "requiredPublicAssetsUnchanged": true,
+    "approvedPreview": {
+      "path": "preview/reference.mp4",
+      "byteIdenticalToApproved": true,
+      "sha256": "b1836e906be1583d261b747b6ba82436acd2c746f02321597cd8cf4aae4d75a9"
+    },
+    "audio": {
+      "file": "public/reference-audio.m4a",
+      "sha256": "e1666a3205b5afbe00105525f03a5be4a9adf5a7491c5102c778b30a8e950e31",
+      "aacPacketsSha256": "c28aff649f545318b89d5db61ecb2ccc3b7bc4cb99878a4d30ee018f7f7c261f",
+      "identicalAcrossSourceApprovedPreviewAndFreshRender": true
+    },
+    "freshRenderComparison": {
+      "fullVideoSsim": 0.998587,
+      "pixelIdentical": false,
+      "reviewedVideoFrames": [
+        96,
+        1626
+      ],
+      "visualReview": "No content or timing change observed in inspected frames; minor pixel differences remain.",
+      "cause": "Not established. Decimal and exact 2/3 scale produced identical lossless stills at frame 1626.",
+      "freshRenderSha256": "6e1664a84434debb4595f54de20d3cd41bd0670afb6d9f14411ebfe81d87f68d"
+    }
+  },
+  "limitations": [
+    "Validated on macOS Apple Silicon; other operating systems have not been tested.",
+    "Opening uses Menlo, monospace; systems without Menlo use a local monospace fallback.",
+    "Approved preview is byte-identical; a fresh render is not guaranteed to be pixel-identical.",
+    "Full 720p render tested; default 1080p dimensions are configured but not fully rendered in this validation."
+  ]
+}

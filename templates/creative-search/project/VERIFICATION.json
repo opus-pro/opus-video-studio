@@ -1,0 +1,23 @@
+{
+  "approvedVersion": "V8",
+  "platform": "macOS arm64",
+  "cleanInstall": "npm ci succeeded,179 packages, no workspace dependency symlink",
+  "typecheck": "npm run check passed",
+  "fullRender": "npm run render succeeded using package sources, bundled renderer and bundled FFmpeg",
+  "video": {
+    "codec_type": "video",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "60/1",
+    "duration": "22.616667",
+    "nb_frames": "1357",
+    "side_data_list": [
+      {}
+    ]
+  },
+  "audio": "Exported AAC stream matches bundled approved master exactly",
+  "preview": "1280x720 derivative of original approved V8; not a rendering dependency",
+  "limitations": [
+    "System Helvetica Neue; other platforms or fonts require visual review."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "pf-event-pass",
+  "title": "Headline to Event Pass",
+  "version": "1.1.0",
+  "compositionId": "pf-event-pass",
+  "width": 1080,
+  "height": 1350,
+  "fps": 60,
+  "frames": 288,
+  "preview": {
+    "width": 648,
+    "height": 810
+  },
+  "audioMode": "mute",
+  "sourceEntry": "src/index.tsx",
+  "readingOrder": [
+    "README.md",
+    "template.json",
+    "ASSETS.md",
+    "MOTION-NOTES.md",
+    "src/index.tsx",
+    "scripts/render.mjs"
+  ],
+  "sourceFiles": [
+    "src/index.tsx"
+  ],
+  "provenance": {
+    "originalCodeArchiveSha256": "5c9f14fc2c5bfe3217e60feb63909ec852536f3dbe66753d1780f56fa0df1e2c",
+    "originalBatch": "batch-b",
+    "originalSourceFiles": {
+      "src/index.tsx": "b112140d3d48f59f76d717f1bf2b491b23156395d20b1bcdc4d2013b98b65989"
+    },
+    "publishedPreviewSha256": "a2372ea966d669a3c9f89145ca64e7dc457b78b5e304ff2da06a936ce0a3c91a",
+    "animationSourceUnchanged": true
+  }
+}

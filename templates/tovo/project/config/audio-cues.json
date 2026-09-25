@@ -1,0 +1,74 @@
+{
+  "bpm": 144,
+  "durationSeconds": 15,
+  "musicModel": "lyria-3-pro-preview",
+  "voiceModel": "seed-audio-1.0",
+  "voiceover": [
+    {
+      "text": "So much talk.",
+      "start": 0.07,
+      "end": 1.035
+    },
+    {
+      "text": "Who does what?",
+      "start": 1.5,
+      "end": 2.319875
+    },
+    {
+      "text": "Tovo pulls out the task.",
+      "start": 3.57,
+      "end": 5.395208333333334
+    },
+    {
+      "text": "Maya.",
+      "start": 5.648333333333333,
+      "end": 6.141854166666667
+    },
+    {
+      "text": "Friday.",
+      "start": 7.098333333333333,
+      "end": 7.615479166666667
+    },
+    {
+      "text": "Said.",
+      "start": 11.681666666666667,
+      "end": 12.059166666666666
+    },
+    {
+      "text": "Sorted.",
+      "start": 12.515,
+      "end": 13.065520833333334
+    },
+    {
+      "text": "Tovo.",
+      "start": 13.5,
+      "end": 13.965
+    },
+    {
+      "text": "Talk into action.",
+      "start": 13.99,
+      "end": 14.93
+    }
+  ],
+  "cutFrames": [
+    0,
+    25,
+    50,
+    88,
+    150,
+    213,
+    250,
+    288,
+    338,
+    388,
+    425,
+    475,
+    525,
+    575,
+    650,
+    700,
+    750,
+    825
+  ],
+  "notes": "Approved master includes music, English TOVO narration, and edit accents. Stems are not included in Lite."
+}

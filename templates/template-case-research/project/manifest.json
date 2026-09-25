@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "id": "template-case-research",
+  "title": "Evidence-Backed Answer",
+  "version": "1.1.0",
+  "compositionId": "template-case-research",
+  "width": 960,
+  "height": 540,
+  "fps": 30,
+  "frames": 252,
+  "preview": {
+    "width": 960,
+    "height": 540
+  },
+  "audioMode": "mute",
+  "sourceEntry": "src/index.tsx",
+  "provenance": {
+    "originalCodeArchiveSha256": "ebe7a0f5c7dda7542e86f16c9ac01480d0bbc32f1897e8bc8a55946e46fa2c40",
+    "originalBatch": "batch-media",
+    "originalSourceFiles": {
+      "src/Website.tsx": "55c399108400556dd3aadfdd2f66348ac490efcd2e44abda4644d3be77d67c55",
+      "src/index.tsx": "b2491a18b551181efd31b53a8fbf3ea9b11b3ed83586018782f4317610faa749",
+      "src/primitives.tsx": "ba59e8e974f90e915d35488f5c9077da4ff2bd492d1858e218acb70f85c5bd6a",
+      "src/Research.tsx": "99edcecf1989ab012c06b34e633f3c54605941dc82bef0e5b292f8e667447182"
+    },
+    "publishedPreviewSha256": "3af83b8ddb5a49069a3a98aeae072d2671b6b0cda2781cb3393990198fe499ec",
+    "animationSourceUnchanged": true
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "f686bac54cb88e6ac757636e4a574c35f06c05f08a39c869b4b2a6ede75de2c1",
+      "bytes": 44
+    },
+    {
+      "path": "ASSETS.md",
+      "sha256": "f0fa2a40fd1c703a82883212084799ef7d5623ab3a40b5bc9e850908153e9708",
+      "bytes": 568
+    },
+    {
+      "path": "MOTION-NOTES.md",
+      "sha256": "0542ed4a7530d031835c2cd1c6f5ef8239530f30dcdafcaba4c312bf18d2189d",
+      "bytes": 199
+    },
+    {
+      "path": "README.md",
+      "sha256": "ab3cfcc7b3a72227862c3309fa6c5034ca2332ff3b66eb0881044a8886da2e6c",
+      "bytes": 2476
+    },
+    {
+      "path": "asset-generation-log.json",
+      "sha256": "bf0613d758de0278fb41cb67edd6349d90b135e3ad2a7dc29be83be102bc14b6",
+      "bytes": 11009
+    },
+    {
+      "path": "captions.vtt",
+      "sha256": "7c6acb5a8cf436b11c3ea003690cb53daf7ab2767fabf8cf39adb2fe22706fef",
+      "bytes": 61
+    },
+    {
+      "path": "context.json",
+      "sha256": "fd414bab901905ab18e895eb1aae323ee3db2a7b32c8f361a3d7a430e6f842b8",
+      "bytes": 1287
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+      "bytes": 106599
+    },
+    {
+      "path": "package.json",
+      "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+      "bytes": 702
+    },
+    {
+      "path": "poster.jpg",
+      "sha256": "a54bfa23af1abfc47abf1697fa1d87466034cbc7e0d8ef5e3f0630ea0c4c3828",
+      "bytes": 107418
+    },
+    {
+      "path": "preview.mp4",
+      "sha256": "3af83b8ddb5a49069a3a98aeae072d2671b6b0cda2781cb3393990198fe499ec",
+      "bytes": 1033424
+    },
+    {
+      "path": "public/generated-assets/alpine-valley.png",
+      "sha256": "24dbbb753cdda79be9d09ad16f1bf42c3fc60a6d587c7d2aa0581623e0867b66",
+      "bytes": 2715591
+    },
+    {
+      "path": "public/generated-assets/evidence-room-attempt-1.png",
+      "sha256": "681821877767a13eaef580114c2c6b06508a3c323ebd4344f4530ccbacc64d4a",
+      "bytes": 1660216
+    },
+    {
+      "path": "public/generated-assets/evidence-room.png",
+      "sha256": "3c48d6503b3c7293fbbbe54db74ae015c0f28eb8b84e4c34efac200c07543427",
+      "bytes": 1896985
+    },
+    {
+      "path": "public/generated-assets/ridge-meadow.png",
+      "sha256": "bdce07b4cf9ad958aefa21fa1745e6bec2ef052de7e3e6d5a0b34ba195db3223",
+      "bytes": 3223941
+    },
+    {
+      "path": "public/generated-assets/rowboat-lake.png",
+      "sha256": "fb1af199046f5cd2e0c85037f5c008a0e144ef9659cba3d61bc9c2e3d41c3f0f",
+      "bytes": 3003479
+    },
+    {
+      "path": "public/generated-assets/sandstone-desert.png",
+      "sha256": "ee978b7b00f2ca246512b670cad4533f0afa1afa290eedb552dbd087bd4e8a66",
+      "bytes": 2978035
+    },
+    {
+      "path": "scripts/render.mjs",
+      "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
+      "bytes": 2937
+    },
+    {
+      "path": "scripts/verify.mjs",
+      "sha256": "d89b41b3a2d664b17d90a20e2b8881cabd75d121947eb66ad87459a21953781a",
+      "bytes": 513
+    },
+    {
+      "path": "src/Research.tsx",
+      "sha256": "99edcecf1989ab012c06b34e633f3c54605941dc82bef0e5b292f8e667447182",
+      "bytes": 12169
+    },
+    {
+      "path": "src/Website.tsx",
+      "sha256": "55c399108400556dd3aadfdd2f66348ac490efcd2e44abda4644d3be77d67c55",
+      "bytes": 8905
+    },
+    {
+      "path": "src/index.tsx",
+      "sha256": "b2491a18b551181efd31b53a8fbf3ea9b11b3ed83586018782f4317610faa749",
+      "bytes": 553
+    },
+    {
+      "path": "src/primitives.tsx",
+      "sha256": "ba59e8e974f90e915d35488f5c9077da4ff2bd492d1858e218acb70f85c5bd6a",
+      "bytes": 4783
+    },
+    {
+      "path": "template.json",
+      "sha256": "ca84cc7c9a2ec3adc873cb8dbff8484a4b6f5e028fce431cad91f6cac901476a",
+      "bytes": 317
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "1e1eb3d140cadf328145a3daaab2057660c65130ae4576617f6a3e97eb4cb675",
+      "bytes": 284
+    }
+  ]
+}

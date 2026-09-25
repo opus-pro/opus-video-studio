@@ -1,0 +1,20 @@
+{
+  "mode": "built-in image_gen",
+  "before": {
+    "file": "public/photos/research-before.png",
+    "generation": "exec-d16df23d-9cba-42e6-85ab-f344ca2c492e",
+    "prompt": "Use case: photorealistic-natural. Asset type: 16:9 photographic background plate for an AI research assistant motion film. Create a premium cinematic research workspace, eye-level wide shot, real tactile materials and soft optical depth. A warm walnut research desk enters along the bottom edge; at the far left and far right are loose interview transcripts, research printouts with ochre highlighted passages, cream index cards and paper tabs. Behind it, a softly focused charcoal-cork research wall has a few overlapping printouts and transcript sheets grouped toward the outer thirds. These details must read as source research and comparing evidence, not a generic empty office. Composition: reserve the central 55 percent as calm soft dark brown background with no large objects, because an orange-blazer researcher, large type and animated documents will be composited there. Keep background objects at the edges and bottom; no central desk legs or chair. Copper-orange, warm ivory, walnut, deep umber palette. Warm directional window light from upper right grazes the paper edges, with restrained natural highlight bloom, photographic grain, gentle foreground defocus. Editorial photography, realistic lens, dimensional shadows; elegant rather than grim, no flat graphic design. The documents should have natural small typeset line texture and a few muted charts, never a prominent readable word. No people, no logos, no screens with UI, no large text, no watermark, no scenic outdoors, no decorative plants. Wide 1920x1080 or larger. Single complete background image, not a collage or mockup."
+  },
+  "after": {
+    "file": "public/photos/research-after.png",
+    "generation": "exec-390db331-5914-4dc7-8434-e64c676d38c6",
+    "reference": "public/photos/research-before.png",
+    "prompt": "Use case: precise-object-edit. Asset type: 16:9 cinematic photographic closing background for the same AI research assistant film. Edit this input research workspace into its AFTER state: preserve the camera position, wide composition, walnut desk, central clear wall area, warm upper-right light direction, and source-research subject. Organize the scattered material into three compact orderly groups at the far left and far right. Use fresh warm-white modern interview transcript pages, clean user-research charts, orange index tabs and a few clearly highlighted evidence passages; remove the antique-library and building photographs. On the desk, replace sprawling piles with two neat slim bundles of annotated transcripts at the lower corners; clear the central desktop. Increase the natural daylight so the edges and white paper feel lighter, more contemporary and resolved, with soft warm bounce and realistic texture; keep the central 55 percent of the wall a calm medium-dark warm neutral so a large white brand word and animated focus mark remain readable. This is organized product/user research, not a crime investigation or historical archive. Maintain photographic realism and cinematic shallow depth of field. The transition from the input should read as the same research material made clear. No people, no central objects, no big readable text, no logo, no watermark, no scenic landscape, no plants. One complete wide background plate, 16:9."
+  },
+  "person": {
+    "file": "public/photos/creator-copper.png",
+    "alphaMatte": "public/photos/creator.png",
+    "generation": "exec-4d62fc1d-9215-4946-8bd2-6a8540625aa1",
+    "note": "Reused accepted orange-blazer cutout and its registered alpha; no new person generated."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "approvedVersion": "Fast20",
+  "packageVersion": "1.0.0",
+  "platform": "Darwin arm64",
+  "cleanInstall": "npm ci succeeded: 179 packages. Local package node_modules was a real directory, not a workspace dependency symlink.",
+  "typecheck": "npm run check passed: TypeScript and baseline asset/audio/timing checks.",
+  "fullRender": "npm run render succeeded independently from packaged sources with pinned Remotion and its bundled FFmpeg.",
+  "visualComparison": {
+    "method": "FFmpeg full-frame SSIM against the user-approved 20-second render",
+    "ssim": 1.0,
+    "frames": 1200,
+    "note": "Comparison measures rendered picture equivalence, not subjective aesthetic quality."
+  },
+  "video": {
+    "codec_type": "video",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "60/1",
+    "duration": "20.000000",
+    "nb_frames": "1200",
+    "side_data_list": [
+      {}
+    ]
+  },
+  "audio": {
+    "approvedMasterPacketsMatch": true,
+    "previewPacketsMatchMaster": true,
+    "sfxFinalizerPacketsMatch": true,
+    "masterPacketSha256": "7117f553429600e4e1343d9a19786e330a8331273948a7eaa826289424b216ce",
+    "sfxPacketSha256": "3dc68e31bc0814aba6ba02e07c5baba394aa77df2fada5da1c27f31fb7cc546c",
+    "sfxVerification": "The finalizer was exercised using a copy of the reproduced video. A second visual render was unnecessary because audioMode only selects the one root audio layer."
+  },
+  "preview": {
+    "codec_type": "video",
+    "width": 1280,
+    "height": 720,
+    "r_frame_rate": "60/1",
+    "duration": "20.000000",
+    "nb_frames": "1200",
+    "side_data_list": [
+      {}
+    ]
+  },
+  "limitations": [
+    "Georgia is a system font; different platforms or replacement fonts need visual review.",
+    "The mixes are finished tracks, not separate music/SFX stems; timing changes require new aligned mixes.",
+    "Individual inherited SFX sample provenance is not fully documented; see ASSETS.json."
+  ]
+}

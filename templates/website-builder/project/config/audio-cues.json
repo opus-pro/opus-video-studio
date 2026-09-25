@@ -1,0 +1,209 @@
+{
+  "sampleOrigin": "Generated Seed Audio 1.0 sound-design bank; intervals measured from silence boundaries, not assumed prompt timestamps.",
+  "cues": [
+    {
+      "kind": "sweep",
+      "designSeconds": 2.5,
+      "outputSeconds": 2.4792,
+      "peakAmplitude": 0.105
+    },
+    {
+      "kind": "sweep",
+      "designSeconds": 10.1,
+      "outputSeconds": 10.008,
+      "peakAmplitude": 0.105
+    },
+    {
+      "kind": "sweep",
+      "designSeconds": 12.05,
+      "outputSeconds": 12.0641,
+      "peakAmplitude": 0.105
+    },
+    {
+      "kind": "sweep",
+      "designSeconds": 13.4,
+      "outputSeconds": 13.4725,
+      "peakAmplitude": 0.105
+    },
+    {
+      "kind": "sweep",
+      "designSeconds": 15.2,
+      "outputSeconds": 15.1746,
+      "peakAmplitude": 0.105
+    },
+    {
+      "kind": "sweep",
+      "designSeconds": 17.4,
+      "outputSeconds": 17.3,
+      "peakAmplitude": 0.105
+    },
+    {
+      "kind": "sweep",
+      "designSeconds": 21.9,
+      "outputSeconds": 21.9333,
+      "peakAmplitude": 0.105
+    },
+    {
+      "kind": "sweep",
+      "designSeconds": 23.75,
+      "outputSeconds": 23.8,
+      "peakAmplitude": 0.105
+    },
+    {
+      "kind": "sweep",
+      "designSeconds": 26.76,
+      "outputSeconds": 26.8568,
+      "peakAmplitude": 0.105
+    },
+    {
+      "kind": "sweep",
+      "designSeconds": 29.5,
+      "outputSeconds": 29.4526,
+      "peakAmplitude": 0.105
+    },
+    {
+      "kind": "sweep",
+      "designSeconds": 32.26,
+      "outputSeconds": 32.2593,
+      "peakAmplitude": 0.105
+    },
+    {
+      "kind": "sweep",
+      "designSeconds": 37.65,
+      "outputSeconds": 37.6179,
+      "peakAmplitude": 0.105
+    },
+    {
+      "kind": "sweep",
+      "designSeconds": 38.5,
+      "outputSeconds": 38.4942,
+      "peakAmplitude": 0.105
+    },
+    {
+      "kind": "sweep",
+      "designSeconds": 42.62,
+      "outputSeconds": 42.5705,
+      "peakAmplitude": 0.105
+    },
+    {
+      "kind": "click",
+      "designSeconds": 13.1,
+      "outputSeconds": 13.1595,
+      "peakAmplitude": 0.13
+    },
+    {
+      "kind": "click",
+      "designSeconds": 14.82,
+      "outputSeconds": 14.8212,
+      "peakAmplitude": 0.13
+    },
+    {
+      "kind": "click",
+      "designSeconds": 18.35,
+      "outputSeconds": 18.25,
+      "peakAmplitude": 0.13
+    },
+    {
+      "kind": "click",
+      "designSeconds": 19.67,
+      "outputSeconds": 19.58,
+      "peakAmplitude": 0.13
+    },
+    {
+      "kind": "click",
+      "designSeconds": 20.64,
+      "outputSeconds": 20.5762,
+      "peakAmplitude": 0.13
+    },
+    {
+      "kind": "click",
+      "designSeconds": 25.15,
+      "outputSeconds": 25.2237,
+      "peakAmplitude": 0.13
+    },
+    {
+      "kind": "click",
+      "designSeconds": 28.94,
+      "outputSeconds": 28.9221,
+      "peakAmplitude": 0.13
+    },
+    {
+      "kind": "click",
+      "designSeconds": 43.51,
+      "outputSeconds": 43.5046,
+      "peakAmplitude": 0.13
+    },
+    {
+      "kind": "click",
+      "designSeconds": 31.04,
+      "outputSeconds": 31.0171,
+      "peakAmplitude": 0.13
+    },
+    {
+      "kind": "sparkle",
+      "designSeconds": 6.28,
+      "outputSeconds": 6.2195,
+      "peakAmplitude": 0.095
+    },
+    {
+      "kind": "sparkle",
+      "designSeconds": 7.52,
+      "outputSeconds": 7.5523,
+      "peakAmplitude": 0.095
+    },
+    {
+      "kind": "sparkle",
+      "designSeconds": 47.25,
+      "outputSeconds": 47.2519,
+      "peakAmplitude": 0.095
+    },
+    {
+      "kind": "sparkle",
+      "designSeconds": 48.5,
+      "outputSeconds": 48.5164,
+      "peakAmplitude": 0.095
+    },
+    {
+      "kind": "impact",
+      "designSeconds": 5.03,
+      "outputSeconds": 5.0608,
+      "peakAmplitude": 0.11
+    },
+    {
+      "kind": "impact",
+      "designSeconds": 10.03,
+      "outputSeconds": 9.9333,
+      "peakAmplitude": 0.11
+    },
+    {
+      "kind": "impact",
+      "designSeconds": 17.4,
+      "outputSeconds": 17.3,
+      "peakAmplitude": 0.11
+    },
+    {
+      "kind": "impact",
+      "designSeconds": 33.65,
+      "outputSeconds": 33.7,
+      "peakAmplitude": 0.11
+    },
+    {
+      "kind": "impact",
+      "designSeconds": 35.15,
+      "outputSeconds": 35.1597,
+      "peakAmplitude": 0.11
+    },
+    {
+      "kind": "impact",
+      "designSeconds": 44.9,
+      "outputSeconds": 44.9667,
+      "peakAmplitude": 0.11
+    },
+    {
+      "kind": "success",
+      "designSeconds": 43.894999999999996,
+      "outputSeconds": 43.9096,
+      "peakAmplitude": 0.1
+    }
+  ]
+}

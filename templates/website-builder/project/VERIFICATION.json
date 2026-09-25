@@ -1,0 +1,34 @@
+{
+  "render": {
+    "width": 1920,
+    "height": 1080,
+    "fps": "30/1",
+    "frames": 1560,
+    "videoDurationSeconds": 52.0,
+    "containerDurationSeconds": 52.053333,
+    "audioCodec": "aac",
+    "sampleRate": 48000,
+    "channels": 2
+  },
+  "preview": {
+    "width": 1280,
+    "height": 720,
+    "fps": "30/1",
+    "frames": 1560,
+    "videoDurationSeconds": 52.0,
+    "containerDurationSeconds": 52.053,
+    "audioCodec": "aac",
+    "sampleRate": 48000,
+    "channels": 2
+  },
+  "cleanNpmCi": "passed",
+  "typecheck": "passed",
+  "fullStandaloneRender": "passed",
+  "approvedFilmComparison": {
+    "ssim": 0.998799,
+    "note": "Complete 1560-frame comparison against approved v0.3; independent H.264 encoding."
+  },
+  "approvedAudioStreamPreserved": true,
+  "audioPacketSha256": "6d2a7138a6037a44528a8e7b8a427cfbe829b9b512b569b64cb6a26d3149f8c1",
+  "renderBrowser": "Pinned Remotion browser cache reused; no source or media dependency on prior projects."
+}

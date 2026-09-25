@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "id": "template-manifesto",
+  "title": "Glossy Serif Manifesto",
+  "version": "1.1.0",
+  "compositionId": "template-manifesto",
+  "width": 960,
+  "height": 540,
+  "fps": 30,
+  "frames": 270,
+  "preview": {
+    "width": 960,
+    "height": 540
+  },
+  "audioMode": "mute",
+  "sourceEntry": "src/index.tsx",
+  "provenance": {
+    "originalCodeArchiveSha256": "e16f070465c1de564f339d485019bb7e274bc11e0cd60111d664a8566b02f8bb",
+    "originalBatch": "batch-code",
+    "originalSourceFiles": {
+      "src/index.tsx": "e8194d5f3918d76f03ec5cf9b0f21536f622ae6ce7a8dbbe35dd29ca36494bcb",
+      "src/companion.tsx": "68aaff6ea71399b7ad3c621d17a5972a01499095c53e28f16154125c5e779308",
+      "src/shared.tsx": "eca6c0a8507fda966f5d1ad471c77b1510054f4019dcf282fe349855b3aa489c",
+      "src/search.tsx": "1f56d43e9a665b8d48a17ba19dea8f6ee88dce2ba679c349fb3b81d401b43def",
+      "src/typography.tsx": "09c8847a1f6e453472c381a818aae027cd5e76dc0384fde2335d0231192773f5",
+      "src/analytics.tsx": "e70e80094140890287fdeee30a6e2f54f84396eb1fa572d97c71c7c7679ffbe7",
+      "src/numo.tsx": "e50713fa21345f1ba6ae2710c77fc628c98a28db46f037f2fd18536d74c34834",
+      "src/companion-world.tsx": "9528a2e4bf4bba811c0629c6036c2bacc3fa2f90123e8be40118d98cfa2f3da1",
+      "src/brand.tsx": "12bced58270228bb69e79f40d820f82ccca6c3ee98c96e80f40d341e3866f35b"
+    },
+    "publishedPreviewSha256": "ff2cde0ba326768d9652e52228f6171d3de86ea608e8daf193c13788c6f0276b",
+    "animationSourceUnchanged": true
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "f686bac54cb88e6ac757636e4a574c35f06c05f08a39c869b4b2a6ede75de2c1",
+      "bytes": 44
+    },
+    {
+      "path": "ASSETS.md",
+      "sha256": "b2796640ee7b7eb13406037ced15e2019da3e6d3f1a349bd6772e25c2c52172a",
+      "bytes": 345
+    },
+    {
+      "path": "MOTION-NOTES.md",
+      "sha256": "0542ed4a7530d031835c2cd1c6f5ef8239530f30dcdafcaba4c312bf18d2189d",
+      "bytes": 199
+    },
+    {
+      "path": "README.md",
+      "sha256": "86602eda0f082a80564bb1ca8f5558939b1183a81366bd343c38d1a0740ad188",
+      "bytes": 2464
+    },
+    {
+      "path": "captions.vtt",
+      "sha256": "7c6acb5a8cf436b11c3ea003690cb53daf7ab2767fabf8cf39adb2fe22706fef",
+      "bytes": 61
+    },
+    {
+      "path": "context.json",
+      "sha256": "d666086f267b0d8d502223b166766f74e073bb9468f5bfe8d8f0d2e8eac2e636",
+      "bytes": 1866
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "78e985814de771419c66af6eaf84e65f1d56c13612f9e84c8fa66662a050c059",
+      "bytes": 118193
+    },
+    {
+      "path": "package.json",
+      "sha256": "64023b10e82ebbee0728f88a867cba74815bd320ad5bd867b141178a837f99fa",
+      "bytes": 826
+    },
+    {
+      "path": "poster.jpg",
+      "sha256": "98587c15b5e46481090ed1221d76cd114b475035dbd0fea6d0098c8105f2bd20",
+      "bytes": 49389
+    },
+    {
+      "path": "preview.mp4",
+      "sha256": "ff2cde0ba326768d9652e52228f6171d3de86ea608e8daf193c13788c6f0276b",
+      "bytes": 322405
+    },
+    {
+      "path": "scripts/render.mjs",
+      "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
+      "bytes": 2937
+    },
+    {
+      "path": "scripts/verify.mjs",
+      "sha256": "d89b41b3a2d664b17d90a20e2b8881cabd75d121947eb66ad87459a21953781a",
+      "bytes": 513
+    },
+    {
+      "path": "src/analytics.tsx",
+      "sha256": "e70e80094140890287fdeee30a6e2f54f84396eb1fa572d97c71c7c7679ffbe7",
+      "bytes": 5023
+    },
+    {
+      "path": "src/brand.tsx",
+      "sha256": "12bced58270228bb69e79f40d820f82ccca6c3ee98c96e80f40d341e3866f35b",
+      "bytes": 3996
+    },
+    {
+      "path": "src/companion-world.tsx",
+      "sha256": "9528a2e4bf4bba811c0629c6036c2bacc3fa2f90123e8be40118d98cfa2f3da1",
+      "bytes": 14028
+    },
+    {
+      "path": "src/companion.tsx",
+      "sha256": "68aaff6ea71399b7ad3c621d17a5972a01499095c53e28f16154125c5e779308",
+      "bytes": 17914
+    },
+    {
+      "path": "src/index.tsx",
+      "sha256": "e8194d5f3918d76f03ec5cf9b0f21536f622ae6ce7a8dbbe35dd29ca36494bcb",
+      "bytes": 2241
+    },
+    {
+      "path": "src/numo.tsx",
+      "sha256": "e50713fa21345f1ba6ae2710c77fc628c98a28db46f037f2fd18536d74c34834",
+      "bytes": 21700
+    },
+    {
+      "path": "src/search.tsx",
+      "sha256": "1f56d43e9a665b8d48a17ba19dea8f6ee88dce2ba679c349fb3b81d401b43def",
+      "bytes": 12370
+    },
+    {
+      "path": "src/shared.tsx",
+      "sha256": "eca6c0a8507fda966f5d1ad471c77b1510054f4019dcf282fe349855b3aa489c",
+      "bytes": 6304
+    },
+    {
+      "path": "src/typography.tsx",
+      "sha256": "09c8847a1f6e453472c381a818aae027cd5e76dc0384fde2335d0231192773f5",
+      "bytes": 10319
+    },
+    {
+      "path": "template.json",
+      "sha256": "9028a14e4884771d5c37eb3301e2bf2bae1539246e6120d10d1e0eed4dc64a25",
+      "bytes": 309
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "951b8335a4cdb8203c3305f6e138ecca8e53e55dcab091cf6a623297a5fdb3f2",
+      "bytes": 328
+    }
+  ]
+}

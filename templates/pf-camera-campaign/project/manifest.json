@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "id": "pf-camera-campaign",
+  "title": "Camera to Fashion Campaign",
+  "version": "1.1.0",
+  "compositionId": "pf-camera-campaign",
+  "width": 1080,
+  "height": 1920,
+  "fps": 60,
+  "frames": 252,
+  "preview": {
+    "width": 1080,
+    "height": 1920
+  },
+  "audioMode": "mute",
+  "sourceEntry": "src/index.tsx",
+  "provenance": {
+    "originalCodeArchiveSha256": "8c4dd1c68434cc15cd3522d050ef7debd4a71229556ee4d9c195b008e84d7816",
+    "originalBatch": "batch-editorial-v2",
+    "originalSourceFiles": {
+      "src/index.tsx": "f2fd231568cac82460519e9b8d7adc3a13bf65c69d3e2c49de6985b2fe2c4f1b"
+    },
+    "publishedPreviewSha256": "14c92a998b9b74d4f32f46e7bdd5be3cf0b1066190b82002638b256be7dde27e",
+    "animationSourceUnchanged": true
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "f686bac54cb88e6ac757636e4a574c35f06c05f08a39c869b4b2a6ede75de2c1",
+      "bytes": 44
+    },
+    {
+      "path": "ASSETS.md",
+      "sha256": "9fb1d38d84650b601f92340a975834f6518d9f8eec5df4721d232f6d0c53caa3",
+      "bytes": 579
+    },
+    {
+      "path": "Geist-OFL.txt",
+      "sha256": "1781d2806a07d91c4edf4740b88449fab7d0eadad53f7c351b94cd4d4eb8c00f",
+      "bytes": 4387
+    },
+    {
+      "path": "MOTION-NOTES.md",
+      "sha256": "36770b6b6797d9fc937a8f5e0db3386a34864209e3f28d5b8a62a862415d96ff",
+      "bytes": 1236
+    },
+    {
+      "path": "PHOTO-SOURCES.json",
+      "sha256": "ce7054c124aaab8e236ca22920ce907fcaa7dcb3f0ec9fdaec41c0395276d221",
+      "bytes": 1380
+    },
+    {
+      "path": "README.md",
+      "sha256": "1f190b6ee30cbf886f4068f4beef6ae970f09e0e06ae23a230584bfa32b87b63",
+      "bytes": 2470
+    },
+    {
+      "path": "captions.vtt",
+      "sha256": "7c6acb5a8cf436b11c3ea003690cb53daf7ab2767fabf8cf39adb2fe22706fef",
+      "bytes": 61
+    },
+    {
+      "path": "context.json",
+      "sha256": "7825571994c45e11aac7c25c72e657c1c18b72165ba5f8137ea7fdb2ae82b0fe",
+      "bytes": 938
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+      "bytes": 106599
+    },
+    {
+      "path": "package.json",
+      "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+      "bytes": 702
+    },
+    {
+      "path": "poster.jpg",
+      "sha256": "0a9adcbcc2c0c9df397a50cc25ad9464705fadf3eb3c0f58ca2b9fe28d23fbb5",
+      "bytes": 281257
+    },
+    {
+      "path": "preview.mp4",
+      "sha256": "14c92a998b9b74d4f32f46e7bdd5be3cf0b1066190b82002638b256be7dde27e",
+      "bytes": 2912860
+    },
+    {
+      "path": "public/assets/GeistVF.woff2",
+      "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
+      "bytes": 56800
+    },
+    {
+      "path": "public/assets/editorial-silver-close.png",
+      "sha256": "f26aa3c99069a8a34996a49a47b95449f4a32312dcdf566ea93dcd61d44fa51e",
+      "bytes": 2395741
+    },
+    {
+      "path": "public/assets/editorial-silver-detail.png",
+      "sha256": "06ecd9b3d98cbb94c02841bebe908dbe1f15654e6997242d6f2f3b8096210b1c",
+      "bytes": 2418183
+    },
+    {
+      "path": "public/assets/editorial-silver-wide.png",
+      "sha256": "3e2b52708791bc9969d2e9da08187b6607db812784cb5627aebd2eff81d5f185",
+      "bytes": 2293542
+    },
+    {
+      "path": "public/assets/editorial-sunset-macro.png",
+      "sha256": "182a18fad9fdda45444b708e31a674bf4cf0349fc170ca9b8151a3080b3b00c5",
+      "bytes": 2486270
+    },
+    {
+      "path": "public/assets/editorial-sunset-turn.png",
+      "sha256": "4e5c8b5f424d2a7064c8a33cdc7bc314db821653fe3b3d76f51e800602b93999",
+      "bytes": 2224198
+    },
+    {
+      "path": "public/assets/editorial-sunset-wide.png",
+      "sha256": "9d7d50a0d9bd1b5d333765766fd321526c0c4b65b088bed4d391cae4b8d0ea78",
+      "bytes": 2271452
+    },
+    {
+      "path": "scripts/render.mjs",
+      "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
+      "bytes": 2937
+    },
+    {
+      "path": "scripts/verify.mjs",
+      "sha256": "d89b41b3a2d664b17d90a20e2b8881cabd75d121947eb66ad87459a21953781a",
+      "bytes": 513
+    },
+    {
+      "path": "src/index.tsx",
+      "sha256": "f2fd231568cac82460519e9b8d7adc3a13bf65c69d3e2c49de6985b2fe2c4f1b",
+      "bytes": 16595
+    },
+    {
+      "path": "template.json",
+      "sha256": "74166db59dc0fb07367f957b5cfcb7ecaa287998ea068ac5ef562ccec972ed63",
+      "bytes": 317
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "eb1bac7031a0de11dcb0eabccbcaf3f528c40ba9cff965d1f69e5e79667dd8a1",
+      "bytes": 284
+    }
+  ]
+}

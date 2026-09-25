@@ -1,0 +1,2 @@
+# Preserve original release bytes and license formatting for checksum verification.
+*/project/** -text -whitespace

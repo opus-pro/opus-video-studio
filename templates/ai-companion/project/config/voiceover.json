@@ -1,0 +1,145 @@
+{
+  "language": "en-US",
+  "model": "seed-audio-1.0",
+  "voice": "Generated original conversational voice; no identity clone",
+  "duration": 30,
+  "speechRateChanged": false,
+  "phrases": [
+    {
+      "id": "opening",
+      "text": "Find your kind.",
+      "sourceStart": 0.44,
+      "sourceEnd": 1.97,
+      "start": 0.08,
+      "end": 1.61,
+      "rate": 1
+    },
+    {
+      "id": "identity",
+      "text": "Meet Pip.",
+      "sourceStart": 3.22,
+      "sourceEnd": 3.88,
+      "start": 4.91,
+      "end": 5.57,
+      "rate": 1
+    },
+    {
+      "id": "conversation",
+      "text": "Say what's on your mind.",
+      "sourceStart": 4.71,
+      "sourceEnd": 5.94,
+      "start": 6.82,
+      "end": 8.05,
+      "rate": 1
+    },
+    {
+      "id": "memory",
+      "text": "Someone who actually remembers.",
+      "sourceStart": 6.76,
+      "sourceEnd": 8.7,
+      "start": 8.96,
+      "end": 10.9,
+      "rate": 1
+    },
+    {
+      "id": "curious",
+      "text": "Curious.",
+      "sourceStart": 9.55,
+      "sourceEnd": 10.36,
+      "start": 12.22,
+      "end": 13.03,
+      "rate": 1
+    },
+    {
+      "id": "playful",
+      "text": "Playful.",
+      "sourceStart": 11.02,
+      "sourceEnd": 11.67,
+      "start": 13.09,
+      "end": 13.74,
+      "rate": 1
+    },
+    {
+      "id": "personal",
+      "text": "Totally you.",
+      "sourceStart": 12.33,
+      "sourceEnd": 13.26,
+      "start": 13.83,
+      "end": 14.76,
+      "rate": 1
+    },
+    {
+      "id": "voice",
+      "text": "Give them a voice.",
+      "sourceStart": 14.02,
+      "sourceEnd": 15.07,
+      "start": 15.27,
+      "end": 16.32,
+      "rate": 1
+    },
+    {
+      "id": "idea",
+      "text": "Got a little idea?",
+      "sourceStart": 15.79,
+      "sourceEnd": 16.83,
+      "start": 17.09,
+      "end": 18.13,
+      "rate": 1
+    },
+    {
+      "id": "result",
+      "text": "Make a whole new world.",
+      "sourceStart": 17.64,
+      "sourceEnd": 19.42,
+      "start": 20.25,
+      "end": 22.03,
+      "rate": 1
+    },
+    {
+      "id": "make",
+      "text": "Make it.",
+      "sourceStart": 20.15,
+      "sourceEnd": 20.89,
+      "start": 22.14,
+      "end": 22.88,
+      "rate": 1
+    },
+    {
+      "id": "share",
+      "text": "Share it.",
+      "sourceStart": 21.78,
+      "sourceEnd": 22.51,
+      "start": 23.43,
+      "end": 24.16,
+      "rate": 1
+    },
+    {
+      "id": "community",
+      "text": "See who joins.",
+      "sourceStart": 23.37,
+      "sourceEnd": 24.4,
+      "start": 25.11,
+      "end": 26.14,
+      "rate": 1
+    },
+    {
+      "id": "brand",
+      "text": "Companion.",
+      "sourceStart": 25.03,
+      "sourceEnd": 25.8,
+      "start": 27.36,
+      "end": 28.13,
+      "rate": 1
+    },
+    {
+      "id": "close",
+      "text": "Your kind of connection.",
+      "sourceStart": 26.64,
+      "sourceEnd": 28.005,
+      "start": 28.3,
+      "end": 29.665,
+      "rate": 1
+    }
+  ],
+  "timingSource": "Waveform silence boundaries checked against AAO Whisper transcript"
+}

@@ -1,0 +1,33 @@
+{
+  "artwork": "Original editable SVG/CSS conceptual archive posters, no third-party video embedded.",
+  "font": {
+    "family": "Helvetica Neue (system font)",
+    "bundled": false,
+    "metrics": "src/font-metrics.json stores ASCII glyph advances; install a suitable font and update metrics/layout when changing platforms or language."
+  },
+  "audio": {
+    "path": "public/audio/master.m4a",
+    "source": "Exact AAC stream from approved creative-search-v8-beat.mp4; BGM and SFX mixed; no narration",
+    "music": {
+      "title": "House Vibez",
+      "artist": "Lily J",
+      "source": "https://assets.mixkit.co/music/745/745.mp3",
+      "license_record": "Upstream records Mixkit Stock Music Free License"
+    },
+    "sfx": [
+      {
+        "name": "swoosh-quick",
+        "source": "https://assets.mixkit.co/active_storage/sfx/166/166-preview.mp3"
+      },
+      {
+        "name": "switch-tap",
+        "source": "https://assets.mixkit.co/active_storage/sfx/2585/2585-preview.mp3"
+      },
+      {
+        "name": "keyboard/key-a",
+        "source": "Upstream bundled keyboard sample; individual original provenance unresolved. The master inherits this status."
+      }
+    ]
+  },
+  "reference": "preview/reference.mp4 is this project’s own approved V8, resized to720p; never used as source video during rendering."
+}

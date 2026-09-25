@@ -1,0 +1,55 @@
+{
+  "baseline": "ai-research-template-0.5.0 / research-setting",
+  "packageVersion": "1.0.0",
+  "isolatedDependencyInstall": "npm ci --no-audit --no-fund: passed; no shared node_modules",
+  "checks": "local assets + TypeScript: passed",
+  "standaloneFullRender": {
+    "passed": true,
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "30/1",
+      "duration": "19.200000",
+      "nb_frames": "576",
+      "side_data_list": [
+        {}
+      ]
+    }
+  },
+  "visualSource": "Approved source unchanged except configurable final audio input",
+  "photos": "Original full-resolution PNGs retained byte for byte, including alpha matte",
+  "audio": {
+    "decodedPCMIdenticalToApproved": true,
+    "sha256": "aae881845b594843427da348a5656a97d9ce858492ee51b501925e99e4232c44",
+    "decodedPCMBytes": 3694592
+  },
+  "runtime": "Node.js 24.14.0; Remotion 4.0.332; macOS arm64",
+  "preview": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "30/1",
+        "duration": "19.200000",
+        "nb_frames": "576",
+        "side_data_list": [
+          {}
+        ]
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "r_frame_rate": "0/0",
+        "duration": "19.242667",
+        "nb_frames": "902"
+      }
+    ]
+  },
+  "portability": "No symlinks, machine paths, external media or sibling project dependencies in package"
+}

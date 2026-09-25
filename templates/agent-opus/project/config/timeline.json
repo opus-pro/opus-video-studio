@@ -1,0 +1,20 @@
+{
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "durationInFrames": 1224,
+  "inputStart": 209,
+  "workflowStart": 288,
+  "inputsEnd": 296,
+  "lockedStart": 330,
+  "lockedEnd": 600,
+  "workflowClockOffset": 24,
+  "outputOverlapStart": 704,
+  "outputStart": 715,
+  "endingStart": 1124,
+  "endingLegacyStart": 1325,
+  "categoryStarts": [715, 849, 982],
+  "categoryReveals": [773, 903, 1040],
+  "categoryExpands": [800, 935, 1070],
+  "categoryEnds": [849, 982, 1124]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "pf-brand-clover",
+  "title": "Logo Unfold Brand System",
+  "version": "1.1.0",
+  "compositionId": "pf-brand-clover",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "frames": 324,
+  "preview": {
+    "width": 960,
+    "height": 540
+  },
+  "audioMode": "mute",
+  "sourceEntry": "src/index.tsx"
+}

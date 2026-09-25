@@ -1,0 +1,36 @@
+{
+  "id": "pf-camera-campaign",
+  "title": "Camera to Fashion Campaign",
+  "version": "1.1.0",
+  "compositionId": "pf-camera-campaign",
+  "width": 1080,
+  "height": 1920,
+  "fps": 60,
+  "frames": 252,
+  "preview": {
+    "width": 1080,
+    "height": 1920
+  },
+  "audioMode": "mute",
+  "sourceEntry": "src/index.tsx",
+  "readingOrder": [
+    "README.md",
+    "template.json",
+    "ASSETS.md",
+    "MOTION-NOTES.md",
+    "src/index.tsx",
+    "scripts/render.mjs"
+  ],
+  "sourceFiles": [
+    "src/index.tsx"
+  ],
+  "provenance": {
+    "originalCodeArchiveSha256": "8c4dd1c68434cc15cd3522d050ef7debd4a71229556ee4d9c195b008e84d7816",
+    "originalBatch": "batch-editorial-v2",
+    "originalSourceFiles": {
+      "src/index.tsx": "f2fd231568cac82460519e9b8d7adc3a13bf65c69d3e2c49de6985b2fe2c4f1b"
+    },
+    "publishedPreviewSha256": "14c92a998b9b74d4f32f46e7bdd5be3cf0b1066190b82002638b256be7dde27e",
+    "animationSourceUnchanged": true
+  }
+}

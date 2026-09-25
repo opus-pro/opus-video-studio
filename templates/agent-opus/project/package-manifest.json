@@ -1,0 +1,22 @@
+{
+  "name": "agent-opus-motion-template-lite",
+  "version": "1.1.0",
+  "approvedVisualVersion": "v19.10",
+  "approvedDate": "2026-09-07",
+  "durationInFrames": 1224,
+  "fps": 30,
+  "renderSize": [
+    1920,
+    1080
+  ],
+  "referenceSize": [
+    1280,
+    720
+  ],
+  "reference": "preview/reference.mp4",
+  "entry": "src/index.tsx",
+  "composition": "ProductLaunch",
+  "configuration": "config/template.json",
+  "audio": "public/audio/approved-master.m4a",
+  "sourceRenderDoesNotUseReference": true
+}
