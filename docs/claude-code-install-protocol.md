@@ -1,4 +1,4 @@
-# Opus Video Tools for Claude
+# OpusClip Video Tools for Claude
 
 Install or update the public plugin in a supported Claude Code session, then
 continue the user's request. Setup is free; media generation uses Opus credits.
@@ -29,8 +29,9 @@ connection-check request still uses the relevant checks below.
 
 ## Install or upgrade the local plugin
 
-The public source is https://github.com/opus-pro/opus-video-studio.git and the
-stable install ID is `opus-video-studio@opus-pro`. No company GitHub access is
+The public source is https://github.com/opus-pro/opusclip-video-tools.git and the
+stable install ID is `opus-video-studio@opus-pro`. The ID intentionally stays
+unchanged so existing installations and MCP sign-in remain attached. No company GitHub access is
 required. Use the actual local Claude Code installation. Inspect supported
 commands and current state:
 
@@ -44,7 +45,7 @@ claude plugin list --json
 If `opus-pro` is absent, add it:
 
 ```sh
-claude plugin marketplace add opus-pro/opus-video-studio
+claude plugin marketplace add opus-pro/opusclip-video-tools
 ```
 
 If it already points to the public repository above, refresh it:
@@ -186,7 +187,7 @@ Do not substitute a staging URL, the product root `/mcp`, or `/mcp-v2`.
    section of Settings in clients that use that layout. Reuse an existing
    connector for the exact endpoint. If an organization restricts connector
    creation, its owner must make it available before the user can connect.
-2. Name it **Opus Video Tools** and enter
+2. Name it **OpusClip Video Tools** and enter
    `https://labs.opus.pro/opus-video-tools/mcp`. Use OAuth discovery without
    supplying shared credentials. The separate OpusClip connector is a different
    product.

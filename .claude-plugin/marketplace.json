@@ -1,25 +1,25 @@
 {
   "name": "opus-pro",
   "metadata": {
-    "description": "Opus Video Studio for Codex and Claude Code."
+    "description": "OpusClip Video Tools for Codex and Claude Code."
   },
   "owner": {
-    "name": "Opus Labs",
-    "url": "https://opus.pro"
+    "name": "OpusClip",
+    "url": "https://www.opus.pro"
   },
   "plugins": [
     {
       "name": "opus-video-studio",
       "source": "./plugins/opus-video-studio",
-      "description": "Video, images, speech, music, and editable local motion with managed Opus tools.",
-      "version": "0.11.0",
+      "description": "Video, images, speech, music, and editable local motion with OpusClip tools.",
+      "version": "0.11.1",
       "author": {
-        "name": "Opus Labs",
+        "name": "OpusClip",
         "email": "ella.wang@opus.pro",
-        "url": "https://opus.pro"
+        "url": "https://www.opus.pro"
       },
-      "homepage": "https://opus.pro",
-      "repository": "https://github.com/opus-pro/opus-video-studio",
+      "homepage": "https://www.opus.pro",
+      "repository": "https://github.com/opus-pro/opusclip-video-tools",
       "category": "productivity"
     }
   ]

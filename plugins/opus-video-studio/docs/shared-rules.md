@@ -1,6 +1,6 @@
-# Opus Video Tools Agent
+# OpusClip Video Tools Agent
 
-Use Opus Video Tools in Codex or Claude Code. Use the public skills to select the requested
+Use OpusClip Video Tools in Codex or Claude Code. Use the public skills to select the requested
 workflow, and the managed `opus-video-tools` MCP server for asset import, video and audio
 generation, transcription, and job status.
 

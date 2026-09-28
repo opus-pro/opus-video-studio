@@ -1,7 +1,7 @@
 # Agent guide
 
-This repository ships the **Opus Video Studio** plugin for Codex and Claude Code (with the managed
-Opus Video Tools MCP connection), plus open-source Remotion video templates and their Claude Opus 5.5 remakes.
+This repository ships the **OpusClip Video Tools** plugin for Codex and Claude Code (with the managed
+OpusClip Video Tools MCP connection), plus open-source Remotion video templates and their Claude Opus 5.5 remakes.
 
 ## Install the plugin for a user
 
