@@ -21,13 +21,15 @@ test("both clients publish one consistent plugin version and source", () => {
     assert.equal(marketplace.plugins[0].version, json("package.json").version);
   }
   assert.equal(codex.plugins[0].source.path, `./${plugin}`);
+  assert.equal(codex.interface.displayName, "OpusClip");
   assert.equal(claude.plugins[0].source, `./${plugin}`);
   for (const client of ["codex", "claude"]) {
     const manifest = json(`${plugin}/.${client}-plugin/plugin.json`);
     assert.equal(manifest.version, json("package.json").version);
     assert.equal(manifest.name, "opus-video-studio");
-    assert.equal(manifest.repository, "https://github.com/opus-pro/opus-video-studio");
+    assert.equal(manifest.repository, "https://github.com/opus-pro/opusclip-video-tools");
   }
+  assert.equal(json(`${plugin}/.codex-plugin/plugin.json`).interface.displayName, "OpusClip Video Tools");
 });
 
 test("the public distribution excludes inactive packs and internal contracts", () => {
@@ -53,7 +55,7 @@ test("MCP is the public Labs resource without bundled credentials", () => {
 test("installation guides use the public source and keep the same MCP resource", () => {
   for (const file of ["docs/codex-install-protocol.md", "docs/claude-code-install-protocol.md"]) {
     const text = read(file);
-    assert.match(text, /github\.com\/opus-pro\/opus-video-studio\.git/);
+    assert.match(text, /github\.com\/opus-pro\/opusclip-video-tools\.git/);
     assert.match(text, /https:\/\/labs\.opus\.pro\/opus-video-tools\/mcp/);
     assert.match(text, /setup-remotion\.mjs/);
     assert.doesNotMatch(text, /github\.com\/opus-pro\/opus-video-tools|npm run schema:check|mcp remove aao/);

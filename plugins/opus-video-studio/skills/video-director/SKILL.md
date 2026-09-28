@@ -1,6 +1,6 @@
 ---
 name: video-director
-description: Plan, optimize prompts, and generate AI video clips with any video model exposed by Opus Video Tools. Use even for a single direct video-model request. Local code animation belongs to motion-ui; standalone audio, images, transcription, and job recovery belong to media-tools.
+description: Plan, optimize prompts, and generate AI video clips with any video model exposed by OpusClip Video Tools. Use even for a single direct video-model request. Local code animation belongs to motion-ui; standalone audio, images, transcription, and job recovery belong to media-tools.
 ---
 
 # Video Director

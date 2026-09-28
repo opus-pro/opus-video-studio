@@ -1,13 +1,13 @@
 {
   "name": "opus-video-studio",
-  "version": "0.11.0",
-  "description": "Video, images, speech, music, and editable local motion with managed Opus tools.",
+  "version": "0.11.1",
+  "description": "Video, images, speech, music, and editable local motion with OpusClip tools.",
   "author": {
-    "name": "Opus Labs",
+    "name": "OpusClip",
     "email": "ella.wang@opus.pro",
-    "url": "https://opus.pro"
+    "url": "https://www.opus.pro"
   },
-  "repository": "https://github.com/opus-pro/opus-video-studio",
+  "repository": "https://github.com/opus-pro/opusclip-video-tools",
   "license": "Proprietary",
   "keywords": [
     "opus",

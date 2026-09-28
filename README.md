@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://labs.opus.pro"><img src=".github/assets/banner.png" alt="Opus Video Studio by Opus Labs. You shipped it. Now show it. Your coding agent turns one of 43 proven launch templates into a video for your product, sized for every social feed." width="100%"></a>
+  <a href="https://labs.opus.pro"><img src=".github/assets/banner.png" alt="OpusClip Video Tools by Opus Labs. You shipped it. Now show it. Your coding agent turns one of 43 proven launch templates into a video for your product, sized for every social feed." width="100%"></a>
 </p>
 
 <p align="center">
@@ -14,7 +14,7 @@
   <a href="remakes/opus-5.5/README.md">GPT-6 vs Claude Opus 5.5</a>
 </p>
 
-**Everyone knows a launch should go out on social. The hard part is making the video.** Opus Video Studio handles
+**Everyone knows a launch should go out on social. The hard part is making the video.** OpusClip Video Tools handles
 that inside **Claude Code** and **Codex**: pick one of 43 open-source launch templates, and your coding agent adapts it
 to your product and renders it for every feed.
 
@@ -32,7 +32,7 @@ to your product and renders it for every feed.
 </p>
 
 <p align="center">
-  <img src=".github/assets/demo.gif" alt="A Claude Code session with Opus Video Studio: one sentence asks for an Opus Labs logo reveal in three formats, the agent downloads and verifies the template, adapts it, and renders 16:9, 1:1 and 9:16 versions" width="100%"><br>
+  <img src=".github/assets/demo.gif" alt="A Claude Code session with OpusClip Video Tools: one sentence asks for an Opus Labs logo reveal in three formats, the agent downloads and verifies the template, adapts it, and renders 16:9, 1:1 and 9:16 versions" width="100%"><br>
   <sub>A real Claude Code session with the plugin, sped up. One sentence in, every feed out: 11 minutes, rendered locally, no paid media.</sub>
 </p>
 
@@ -41,14 +41,14 @@ to your product and renders it for every feed.
 **1. Install the plugin.** In **Claude Code**, in a terminal session or the Desktop Code tab:
 
 ```text
-/plugin marketplace add opus-pro/opus-video-studio
+/plugin marketplace add opus-pro/opusclip-video-tools
 /plugin install opus-video-studio@opus-pro
 ```
 
 In **Codex**:
 
 ```sh
-codex plugin marketplace add https://github.com/opus-pro/opus-video-studio.git --ref main
+codex plugin marketplace add https://github.com/opus-pro/opusclip-video-tools.git --ref main
 codex plugin add opus-video-studio@opus-pro
 ```
 
@@ -77,7 +77,7 @@ and the agent always shows you the exact request before it spends any.
 **3. Or skip the plugin.** Every template is plain Remotion source:
 
 ```sh
-git clone https://github.com/opus-pro/opus-video-studio.git && cd opus-video-studio
+git clone https://github.com/opus-pro/opusclip-video-tools.git && cd opusclip-video-tools
 npm run templates:prepare -- ai-research      # restores this template's media, verified by SHA-256
 cd templates/ai-research/project && npm ci && npm run studio   # or: npm run render
 ```
@@ -101,7 +101,7 @@ If you are an agent working in this repository or helping a user with it, read [
 A user can hand their agent one line:
 
 ```text
-Install Opus Video Studio by following https://github.com/opus-pro/opus-video-studio/blob/main/docs/claude-code-install-protocol.md, then help me make a launch video.
+Install OpusClip Video Tools by following https://github.com/opus-pro/opusclip-video-tools/blob/main/docs/claude-code-install-protocol.md, then help me make a launch video.
 ```
 
 For Codex, swap in `codex-install-protocol.md`.
@@ -183,7 +183,7 @@ cd remakes/opus-5.5/pf-brand-clover/project && npm ci && npm run studio
 | [**Motion UI**](plugins/opus-video-studio/skills/motion-ui/SKILL.md) | Editable UI animation and code-driven product videos, with real-UI fidelity, kinetic typography, deliberate easing, and optional Opus audio. |
 | [**Media Tools**](plugins/opus-video-studio/skills/media-tools/SKILL.md) | Standalone audio, images and keyframes, transcription, asset import, and job status and recovery. |
 | [**Video Director**](plugins/opus-video-studio/skills/video-director/SKILL.md) | Directing and prompt optimization for every new AI video generation, including direct model requests. It supports whichever video models the public tools expose; the bundled Seedance pack is loaded only for Seedance. |
-| **Opus Video Tools MCP** | The managed `opus-video-tools` connection at `https://labs.opus.pro/opus-video-tools/mcp`. |
+| **OpusClip Video Tools MCP** | The managed `opus-video-tools` connection at `https://labs.opus.pro/opus-video-tools/mcp`. |
 | **Local Remotion** | Pinned local Remotion dependencies, a setup helper, and an editable starter composition. |
 
 **What it costs.** Templates, local rendering and preview are free and need no Opus account. Generated voiceover,
@@ -198,12 +198,13 @@ and reuses request keys for identical retries. The plugin contains no provider c
 
 | Setting | Value | Defined in |
 |---|---|---|
-| Public repository | `opus-pro/opus-video-studio` | GitHub and installation guides |
-| Display name | `Opus Video Studio` | Codex plugin manifest |
+| Public repository | `opus-pro/opusclip-video-tools` | GitHub and installation guides |
+| Display name | `OpusClip Video Tools` | Codex plugin manifest |
 | Plugin installation ID | `opus-video-studio@opus-pro` | Codex and Claude marketplace manifests |
-| MCP server ID | `opus-video-tools` (the managed Opus Video Tools connection) | Plugin `.mcp.json` |
+| MCP server ID | `opus-video-tools` (the managed OpusClip Video Tools connection) | Plugin `.mcp.json` |
 
-The installation ID is stable so existing clients can upgrade. Repository names, plugin IDs,
+The installation ID and MCP server ID remain stable across this repository rename, so existing clients
+can upgrade without a duplicate plugin or a new OAuth connection. Repository names, plugin IDs,
 display names, and OAuth resource addresses are separate settings.
 
 ### Website guides
@@ -235,5 +236,5 @@ The plugin outside `templates/` and `remakes/` retains its existing proprietary 
       <img alt="Opus Labs" src=".github/assets/opus-labs-wordmark-black.svg" height="20">
     </picture>
   </a><br>
-  <sub>Built by <a href="https://labs.opus.pro">Opus Labs</a> at <a href="https://www.opus.pro">OpusClip</a>.</sub>
+  <sub>Built by <a href="https://www.opus.pro">OpusClip</a>.</sub>
 </p>

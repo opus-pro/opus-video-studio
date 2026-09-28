@@ -1,9 +1,9 @@
 ---
 name: get-started
-description: Welcome users starting with Opus Video Tools, choose between editing a motion template and generating media, or route a Product Videos template link to its original source. Use for plugin onboarding and general capability questions.
+description: Welcome users starting with OpusClip Video Tools, choose between editing a motion template and generating media, or route a Product Videos template link to its original source. Use for plugin onboarding and general capability questions.
 ---
 
-# Get started with Opus Video Tools
+# Get started with OpusClip Video Tools
 
 Keep the first response brief. Ask whether the user wants to:
 

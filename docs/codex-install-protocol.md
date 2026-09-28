@@ -1,11 +1,11 @@
-# Install Opus Video Tools in Codex
+# Install OpusClip Video Tools in Codex
 
 Install the plugin, then help the user start creating in the same conversation.
 Setup and template downloads are free. Generated media uses Opus credits.
 
 ## Reuse an available plugin
 
-If this conversation already exposes the current Opus Video Tools skills
+If this conversation already exposes the current OpusClip Video Tools skills
 (`get-started`, `motion-ui`, `media-tools`, `video-director`), proceed to the
 welcome below. Do not run shell setup, a runtime installer, an updater or an
 account check just to greet the user. An explicit update/repair request still
@@ -17,9 +17,11 @@ native flow and Continue in this conversation. Do not create another task.
 ## First installation or requested update
 
 This public repository is the source:
-https://github.com/opus-pro/opus-video-studio.git
+https://github.com/opus-pro/opusclip-video-tools.git
 
-The stable install ID is `opus-video-studio@opus-pro`. Install on the local
+The stable install ID is `opus-video-studio@opus-pro` even though the repository
+is now named `opusclip-video-tools`; keep that ID so an existing installation and
+its MCP sign-in remain attached. Install on the local
 machine running Codex desktop. A cloud sandbox cannot install into the user's
 computer. Find the CLI bundled with the running desktop app and use its quoted
 absolute path as `<CODEX>` below; do not assume a separately installed CLI is
@@ -36,7 +38,7 @@ Inspect the supported commands and current entry:
 If the public marketplace is absent:
 
 ```sh
-"<CODEX>" plugin marketplace add https://github.com/opus-pro/opus-video-studio.git --ref main
+"<CODEX>" plugin marketplace add https://github.com/opus-pro/opusclip-video-tools.git --ref main
 ```
 
 If already registered to this public Git repository, refresh its snapshot with

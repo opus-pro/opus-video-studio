@@ -146,11 +146,11 @@ Identify the problem before testing a technique; do not stack a standard package
 
 When the plan includes sound effects, or an existing version has them, proactively ask once if the music/voiceover choice is still unspecified:
 
-> This version will have sound effects. Would you like Opus Video Tools to generate background music, voiceover, both, or should we keep sound effects only?
+> This version will have sound effects. Would you like OpusClip Video Tools to generate background music, voiceover, both, or should we keep sound effects only?
 
 - Ask before finalizing sound and text timing. Continue composition, real-UI reconstruction, and adjustable visual work while waiting. Silence is not authorization for paid generation.
 - Reuse explicit choices such as mute, sound effects only, existing tracks, or a stated music/narration preference; do not ask again.
-- If generation is selected, use Opus Video Tools `generate_audio` with the appropriate music or speech type. Establish the music direction/duration and full narration text/language/voice, then follow the shared approval, submission, and polling rules. Use `skills/media-tools/SKILL.md` for these calls; do not introduce Video Director for audio.
+- If generation is selected, use OpusClip Video Tools `generate_audio` with the appropriate music or speech type. Establish the music direction/duration and full narration text/language/voice, then follow the shared approval, submission, and polling rules. Use `skills/media-tools/SKILL.md` for these calls; do not introduce Video Director for audio.
 - If tools are unavailable, explain and continue visual work. Do not silently switch providers or label locally synthesized audio as Opus-generated.
 - Sound can reinforce landing, clicks, expansion, and transitions but is not required for a visual idea to work. Honor requests for silence.
 - Align key actions with syllables, pauses, beats, or transients rather than adding a whoosh to every element.

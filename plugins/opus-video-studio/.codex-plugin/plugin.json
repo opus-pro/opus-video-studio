@@ -1,13 +1,13 @@
 {
   "name": "opus-video-studio",
-  "version": "0.11.0",
-  "description": "Video, images, speech, music, and editable local motion with managed Opus tools.",
+  "version": "0.11.1",
+  "description": "Video, images, speech, music, and editable local motion with OpusClip tools.",
   "author": {
-    "name": "Opus Labs",
+    "name": "OpusClip",
     "email": "ella.wang@opus.pro",
-    "url": "https://opus.pro"
+    "url": "https://www.opus.pro"
   },
-  "repository": "https://github.com/opus-pro/opus-video-studio",
+  "repository": "https://github.com/opus-pro/opusclip-video-tools",
   "license": "Proprietary",
   "keywords": [
     "opus",
@@ -19,10 +19,10 @@
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "interface": {
-    "displayName": "Opus Video Studio",
-    "shortDescription": "Create UI motion, video, and audio with Opus.",
-    "longDescription": "Edit an original motion template or generate video, voiceover, music and images with Opus. Paste a Product Videos link to download its verified source and customize it in Codex.",
-    "developerName": "Opus Labs",
+    "displayName": "OpusClip Video Tools",
+    "shortDescription": "Create UI motion, video, and audio with OpusClip.",
+    "longDescription": "Edit an original motion template or generate video, voiceover, music and images with OpusClip. Paste a Product Videos link to download its verified source and customize it in Codex.",
+    "developerName": "OpusClip",
     "category": "Productivity",
     "capabilities": [
       "Interactive",
@@ -30,7 +30,7 @@
     ],
     "websiteURL": "https://labs.opus.pro/product-videos/opus-video-tools",
     "defaultPrompt": [
-      "I'd like to create with Opus Video Studio. Briefly ask whether I want to edit a motion template or generate video, voiceover, music or images. Include the template library link."
+      "I'd like to create with OpusClip Video Tools. Briefly ask whether I want to edit a motion template or generate video, voiceover, music or images. Include the template library link."
     ],
     "brandColor": "#0B0C12",
     "composerIcon": "./assets/opus-video-studio-logo.png",
