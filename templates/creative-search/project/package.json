@@ -8,10 +8,10 @@
     "stills": "node scripts/render.mjs --stills"
   },
   "dependencies": {
-    "@remotion/cli": "4.0.332",
-    "@remotion/renderer": "4.0.332",
-    "@remotion/bundler": "4.0.332",
-    "remotion": "4.0.332",
+    "@remotion/cli": "4.0.484",
+    "@remotion/renderer": "4.0.484",
+    "@remotion/bundler": "4.0.484",
+    "remotion": "4.0.484",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "typescript": "5.8.3"
