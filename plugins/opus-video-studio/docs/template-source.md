@@ -7,7 +7,7 @@ as the render input or rebuild its scenes from the preview.
 Resolve the installed plugin root from this skill, then run:
 
 ```sh
-node "<plugin-root>/scripts/download-template.mjs" "https://labs.opus.pro/product-videos/<id>" "<new workspace folder>"
+node "<plugin-root>/scripts/download-template.mjs" "https://product-videos.labs.opus.pro/<id>" "<new workspace folder>"
 ```
 
 Use an available Node.js 22+ runtime. If `node` is not on PATH, resolve a
@@ -16,6 +16,9 @@ use its absolute executable path. The helper needs no npm packages. If no runtim
 is available, report that prerequisite without starting a Remotion installation.
 
 Use the exact URL the user supplied; staging links resolve staging assets.
+Both the current `product-videos.(stg-)labs.opus.pro/<id>` URLs and legacy
+`(stg-)labs.opus.pro/product-videos/<id>` URLs are supported. Receipts use the
+current URL for the selected realm.
 Choose a new descriptive folder in the current workspace. The helper refuses
 to overwrite existing work, resolves only the trusted published catalogue,
 verifies the archive SHA-256 and size, validates extraction paths, and returns

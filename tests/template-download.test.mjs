@@ -48,13 +48,20 @@ const catalogue = { schemaVersion: 1, items: [entry] };
 test("template URLs select only published sources in their own realm", () => {
   for (const host of ["labs.opus.pro", "stg-labs.opus.pro"]) {
     const location = templateLocation(`https://${host}/product-videos/margin?utm_source=test#preview`);
+    const canonical = templateLocation(`https://product-videos.${host}/margin/?utm_source=test#preview`);
+    assert.deepEqual(location, canonical);
+    assert.equal(location.url, `https://product-videos.${host}/margin`);
     assert.equal(location.id, "margin");
     assert.equal(location.base.includes("stg-"), host.startsWith("stg-"));
     assert.equal(selectTemplate(catalogue, location).sha256, entry.sha256);
   }
   for (const link of ["https://evil.test/product-videos/margin", "http://labs.opus.pro/product-videos/margin",
     "https://user@labs.opus.pro/product-videos/margin", "https://labs.opus.pro:4433/product-videos/margin",
-    "https://labs.opus.pro/product-videos", "https://labs.opus.pro/product-videos/%2e%2e"]) {
+    "https://labs.opus.pro/product-videos", "https://labs.opus.pro/product-videos/%2e%2e",
+    "http://product-videos.labs.opus.pro/margin", "https://user@product-videos.labs.opus.pro/margin",
+    "https://product-videos.labs.opus.pro:4433/margin", "https://product-videos.labs.opus.pro/",
+    "https://product-videos.labs.opus.pro/%2e%2e", "https://product-videos.labs.opus.pro/product-videos/margin",
+    "https://product-videos.labs.opus.pro.evil.test/margin", "https://constructor/margin"]) {
     assert.throws(() => templateLocation(link));
   }
   const location = templateLocation("https://labs.opus.pro/product-videos/margin");
@@ -68,7 +75,7 @@ test("a successful download preserves exact source and receipt without executing
   t.after(() => rm(temporary, { recursive: true, force: true }));
   const destination = path.join(temporary, "download");
   const requests = [];
-  const receipt = await downloadTemplate("https://labs.opus.pro/product-videos/margin", destination, {
+  const receipt = await downloadTemplate("https://product-videos.labs.opus.pro/margin", destination, {
     fetcher: async (url, options) => {
       requests.push(url);
       assert.equal(options.redirect, "error");
@@ -77,6 +84,7 @@ test("a successful download preserves exact source and receipt without executing
   });
   assert.equal(await readFile(path.join(receipt.projectDirectory, "src/index.tsx"), "utf8"), "original source");
   assert.equal(JSON.parse(await readFile(path.join(destination, "template-source.json"))).sha256, entry.sha256);
+  assert.equal(receipt.templateUrl, "https://product-videos.labs.opus.pro/margin");
   assert.equal(requests.length, 2);
   await assert.rejects(downloadTemplate("https://labs.opus.pro/product-videos/margin", destination), /already exists/);
 });

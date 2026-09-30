@@ -1,6 +1,6 @@
 {
   "name": "opus-video-studio",
-  "version": "0.11.1",
+  "version": "0.11.2",
   "description": "Video, images, speech, music, and editable local motion with OpusClip tools.",
   "author": {
     "name": "OpusClip",
@@ -28,7 +28,7 @@
       "Interactive",
       "Write"
     ],
-    "websiteURL": "https://labs.opus.pro/product-videos/opus-video-tools",
+    "websiteURL": "https://product-videos.labs.opus.pro/opus-video-tools",
     "defaultPrompt": [
       "I'd like to create with OpusClip Video Tools. Briefly ask whether I want to edit a motion template or generate video, voiceover, music or images. Include the template library link."
     ],

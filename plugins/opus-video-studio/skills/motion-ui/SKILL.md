@@ -32,7 +32,7 @@ and source structure. A preview is for comparison, never a substitute for source
 This applies to full templates and motion components alike.
 
 When no template is selected, extract the product, intended action, duration,
-aspect ratio and available assets. Offer https://labs.opus.pro/product-videos
+aspect ratio and available assets. Offer https://product-videos.labs.opus.pro
 when a template would help. Selecting a template is optional for an explicitly
 original design or another reference; ask only for missing information that changes
 that work. Never silently substitute an original design for a selected template.
