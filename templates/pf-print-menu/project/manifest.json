@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "pf-print-menu",
   "title": "Editorial Print Launch",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "compositionId": "pf-print-menu",
   "width": 1080,
   "height": 1080,
@@ -51,8 +51,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "5fb9f8ca2100a1312a14667cf406a4f44c9052a09c1df72a4ac4d3e0dbfd196d",
-      "bytes": 2451
+      "sha256": "be15eda78ae1fe7f1e45be50ae6dda9e7b4a33ca8539b0ad114f8c52df8f2fda",
+      "bytes": 3149
     },
     {
       "path": "captions.vtt",
@@ -66,12 +66,12 @@
     },
     {
       "path": "package-lock.json",
-      "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+      "sha256": "49d2c9b44cc1811e82fb93737aa6f92f5dc51351b415873d287a36b864778588",
       "bytes": 106599
     },
     {
       "path": "package.json",
-      "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+      "sha256": "dc4ac61570bc6a93b08801840b9796695e9e1711cce34c274129d55f45c7eee5",
       "bytes": 702
     },
     {
@@ -131,8 +131,8 @@
     },
     {
       "path": "scripts/render.mjs",
-      "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-      "bytes": 2937
+      "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+      "bytes": 3051
     },
     {
       "path": "scripts/verify.mjs",
@@ -146,7 +146,7 @@
     },
     {
       "path": "template.json",
-      "sha256": "e390df8e7bb31957d39633c58ddbce3161ed0bc26b8f4483bdc3ce2ded1bc311",
+      "sha256": "3d5b2a7f19a456be803d4bd6792c5e65e4436b9ecd6f2548370af9a47d5caece",
       "bytes": 301
     },
     {

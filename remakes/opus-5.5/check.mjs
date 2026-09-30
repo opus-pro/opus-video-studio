@@ -1,3 +1,4 @@
+import { existsSync, realpathSync } from "node:fs";
 // SPDX-License-Identifier: MIT
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
@@ -57,6 +58,6 @@ export async function checkRemakes({ root = remakesRoot, catalogue, templates } 
   return { remakes: catalogue.items.length, sourceFiles, mediaFiles };
 }
 
-if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+if (process.argv[1] && existsSync(process.argv[1]) && realpathSync(process.argv[1]) === realpathSync(fileURLToPath(import.meta.url))) {
   try { console.log(await checkRemakes()); } catch (error) { console.error(error.message); process.exitCode = 1; }
 }

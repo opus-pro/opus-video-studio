@@ -91,7 +91,8 @@ export async function downloadTemplate(link, destination, { fetcher = fetch } = 
     const receipt = {
       templateUrl: location.url, id: item.id, title: item.title, version: item.version,
       kind: item.kind, archiveUrl: item.archiveUrl, sha256: item.sha256,
-      width: item.width, height: item.height, fps: item.fps, frames: item.frames,
+      preview: { width: item.width, height: item.height, fps: item.fps, frames: item.frames },
+      renderConfiguration: "Read the extracted source composition and README; preview dimensions may differ.",
       readingOrder: item.readingOrder,
       projectDirectory: path.join(target, "source", project),
     };

@@ -78,3 +78,12 @@ timed video script applies to managed video clip generation. Do not regenerate m
 error. Only claim an export after the requested local render succeeds.
 The first export may download Remotion's rendering browser; respect the host's download permissions
 and report network or platform-specific dependency failures separately from successful Studio setup.
+
+## Rendering permissions
+
+Chromium must be allowed to launch in the current execution environment. If a
+render fails with a sandbox or macOS Mach service permission error, report the
+host restriction and use the host's supported local-execution approval flow, or
+continue in an authorized local Code session. Do not disable operating-system
+security settings or repeatedly reinstall the project. Keep the source and
+lockfile unchanged while diagnosing an execution-permission failure.

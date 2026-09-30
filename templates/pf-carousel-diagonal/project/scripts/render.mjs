@@ -30,17 +30,18 @@ try {
   } else {
     await renderMedia({serveUrl, composition, puppeteerInstance: browser, codec: 'h264',
       imageFormat: 'png', pixelFormat: 'yuv420p', colorSpace: 'bt709', crf: 16,
-      muted: true, enforceAudioTrack: false, scale, concurrency: 2,
+      muted: config.audioMode === 'mute', enforceAudioTrack: false, scale, concurrency: 2,
       outputLocation: path.join(output, `${config.compositionId}.mp4`),
       ffmpegOverride: ({args: ffmpegArgs}) => [...ffmpegArgs.slice(0, -1), '-color_range', 'tv',
-        '-colorspace', 'bt709', '-color_primaries', 'bt709', '-color_trc', 'bt709', ffmpegArgs.at(-1)],
+        '-colorspace', 'bt709', '-color_primaries', 'bt709', '-color_trc', 'bt709', '-bsf:v',
+        'h264_metadata=colour_primaries=1:transfer_characteristics=1:matrix_coefficients=1', ffmpegArgs.at(-1)],
     });
   }
   await writeFile(path.join(output, 'render-report.json'), JSON.stringify({
     compositionId: config.compositionId, sourceVersion: config.version,
     width: Math.round(config.width * scale), height: Math.round(config.height * scale),
     fps: config.fps, frames: config.frames, durationSeconds: config.frames / config.fps,
-    audio: 'intentionally silent component', kind: stills ? 'sampled stills' : 'complete MP4',
+    audioMode: config.audioMode, kind: stills ? 'sampled stills' : 'complete MP4',
     fullPlaybackReviewed: false,
   }, null, 2) + '\n');
   console.log(`${config.compositionId}: ${stills ? 'stills' : 'MP4'} rendered`);

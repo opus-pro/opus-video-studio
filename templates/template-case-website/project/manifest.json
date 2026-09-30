@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "template-case-website",
   "title": "Live Website Restyle",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "compositionId": "template-case-website",
   "width": 960,
   "height": 540,
@@ -44,8 +44,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "305db565b82efa74a6ed2969ae9f6344a2e56d4ffee1810c4257cf9662351a7b",
-      "bytes": 2471
+      "sha256": "910ba3a8b87d6991fb02f59d2f84aa5e178fef4fe63af8c8bf1349b8571dc84c",
+      "bytes": 3169
     },
     {
       "path": "asset-generation-log.json",
@@ -64,12 +64,12 @@
     },
     {
       "path": "package-lock.json",
-      "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+      "sha256": "49d2c9b44cc1811e82fb93737aa6f92f5dc51351b415873d287a36b864778588",
       "bytes": 106599
     },
     {
       "path": "package.json",
-      "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+      "sha256": "dc4ac61570bc6a93b08801840b9796695e9e1711cce34c274129d55f45c7eee5",
       "bytes": 702
     },
     {
@@ -114,8 +114,8 @@
     },
     {
       "path": "scripts/render.mjs",
-      "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-      "bytes": 2937
+      "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+      "bytes": 3051
     },
     {
       "path": "scripts/verify.mjs",
@@ -144,7 +144,7 @@
     },
     {
       "path": "template.json",
-      "sha256": "449bae8652b242a8ed5e9b8a30e70db1e90857b8a72fff58a0e121a3ef233d2f",
+      "sha256": "d462cc76e55fdb164bd1f498a76e3fd8c6ec9bc6401c057a09cbd273e00530fd",
       "bytes": 313
     },
     {

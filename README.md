@@ -17,7 +17,7 @@
 
 **Everyone knows a launch should go out on social. The hard part is making the video.** OpusClip Video Tools turns
 **Claude** and **ChatGPT** into your motion designer. Tell it what you shipped, and it hands back a finished video for
-every feed, built from templates that already work. It runs as a plugin for Claude Code and Codex, open source and
+every feed, built from templates that already work. It runs as a plugin for Claude Code and Codex, with MIT-licensed template and remake source,
 made by [Opus Labs](https://labs.opus.pro), brought to you by [OpusClip](https://www.opus.pro/?utm_source=github&utm_medium=readme&utm_campaign=opusclip-video-tools&utm_content=intro).
 
 <table>
@@ -237,7 +237,7 @@ Use the new repository address for new installations.
 ### Website guides
 
 The Product Videos website offers Codex and Claude Code onboarding. Both client distributions share one set of
-template-source and media workflows; see [publishing and verifying the shared website guides](docs/guide-publication.md).
+template-source and media workflows; see [validating the shared website guides](docs/guide-validation.md).
 
 ### Validate
 

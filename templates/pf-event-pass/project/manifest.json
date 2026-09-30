@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "pf-event-pass",
   "title": "Headline to Event Pass",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "compositionId": "pf-event-pass",
   "width": 1080,
   "height": 1350,
@@ -51,8 +51,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "8d0a33bb8ca9a7928b20c4e7f1ab30c8eea4afe336312855b1ce2f88c7b6a859",
-      "bytes": 2451
+      "sha256": "780f2fe5f9235d2c203e0845824a2e7aca527f364eba1620bec7fc046a7ce6c2",
+      "bytes": 3149
     },
     {
       "path": "captions.vtt",
@@ -66,12 +66,12 @@
     },
     {
       "path": "package-lock.json",
-      "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+      "sha256": "49d2c9b44cc1811e82fb93737aa6f92f5dc51351b415873d287a36b864778588",
       "bytes": 106599
     },
     {
       "path": "package.json",
-      "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+      "sha256": "dc4ac61570bc6a93b08801840b9796695e9e1711cce34c274129d55f45c7eee5",
       "bytes": 702
     },
     {
@@ -111,8 +111,8 @@
     },
     {
       "path": "scripts/render.mjs",
-      "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-      "bytes": 2937
+      "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+      "bytes": 3051
     },
     {
       "path": "scripts/verify.mjs",
@@ -126,7 +126,7 @@
     },
     {
       "path": "template.json",
-      "sha256": "095ce521ca39612b9cc63ef1ef0856bc4224c8fb1cdebf7660c941ac847d2514",
+      "sha256": "758ee5450e5272cba88288d8ba726cbaf790dac477c9f4a4d3bb320669a53cfc",
       "bytes": 301
     },
     {

@@ -43,3 +43,24 @@ test("update CLI reports a failed check through a symlinked installation", (t) =
   assert.equal(report.status, "check_failed");
   assert.match(report.message, /ENOENT/);
 });
+
+for (const script of ["templates/prepare.mjs", "remakes/opus-5.5/prepare.mjs", "scripts/check-install-guides.mjs", "templates/check.mjs", "remakes/opus-5.5/check.mjs"]) {
+  test(`repository CLI ${script} runs through a symlink`, (t) => {
+    const temporary = mkdtempSync(path.join(os.tmpdir(), "opus-repo-link-"));
+    t.after(() => rmSync(temporary, { recursive: true, force: true }));
+    const real = fileURLToPath(new URL(`../${script}`, import.meta.url));
+    const link = path.join(temporary, "entry.mjs");
+    symlinkSync(real, link);
+    const direct = spawnSync(process.execPath, [real], { encoding: "utf8" });
+    const linked = spawnSync(process.execPath, [link], { encoding: "utf8" });
+    assert.equal(linked.status, direct.status);
+    assert.equal(linked.stdout, direct.stdout);
+    assert.equal(linked.stderr, direct.stderr);
+    assert.ok(linked.stdout || linked.stderr, "must execute the CLI, not silently skip it");
+    const imported = spawnSync(process.execPath, ["--input-type=module", "-"], {
+      encoding: "utf8", input: `await import(${JSON.stringify(new URL(`../${script}`, import.meta.url).href)}); console.log("imported");`,
+    });
+    assert.equal(imported.status, 0, imported.stderr);
+    assert.equal(imported.stdout, "imported\n");
+  });
+}

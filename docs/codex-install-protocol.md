@@ -1,5 +1,7 @@
 # Install OpusClip Video Tools in Codex
 
+This guide is also available as [public raw Markdown](https://raw.githubusercontent.com/opus-pro/opusclip-video-tools/main/docs/codex-install-protocol.md). If the website reader fails or returns an access page, use that source; do not change security settings or imitate another client to fetch it.
+
 Install the plugin, then help the user start creating in the same conversation.
 Setup and template downloads are free. Generated media uses Opus credits.
 

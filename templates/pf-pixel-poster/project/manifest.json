@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "pf-pixel-poster",
   "title": "Dithered Event Poster",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "compositionId": "pf-pixel-poster",
   "width": 1350,
   "height": 1350,
@@ -57,8 +57,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "dfb4b9e192a1b22b689f8f998996b9cd42b4e56dde4b165752adc687bec72efe",
-      "bytes": 2456
+      "sha256": "005a2cfd935ec4f78969ad3b92d5628f6a43a50aac2d36907ef9daf8b54ccaf1",
+      "bytes": 3154
     },
     {
       "path": "captions.vtt",
@@ -72,12 +72,12 @@
     },
     {
       "path": "package-lock.json",
-      "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+      "sha256": "49d2c9b44cc1811e82fb93737aa6f92f5dc51351b415873d287a36b864778588",
       "bytes": 106599
     },
     {
       "path": "package.json",
-      "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+      "sha256": "dc4ac61570bc6a93b08801840b9796695e9e1711cce34c274129d55f45c7eee5",
       "bytes": 702
     },
     {
@@ -117,8 +117,8 @@
     },
     {
       "path": "scripts/render.mjs",
-      "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-      "bytes": 2937
+      "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+      "bytes": 3051
     },
     {
       "path": "scripts/verify.mjs",
@@ -162,7 +162,7 @@
     },
     {
       "path": "template.json",
-      "sha256": "f70ff3ae852985d845beb0492262d6473d42fcdf6e40947d2469bd4465aeb0c1",
+      "sha256": "0eea68d3acad2c6e42823998cdfa379f51205a0425a925fcd7083b30607d2527",
       "bytes": 304
     },
     {

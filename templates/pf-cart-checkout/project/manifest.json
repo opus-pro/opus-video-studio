@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "pf-cart-checkout",
   "title": "Add-to-Cart Transformation",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "compositionId": "pf-cart-checkout",
   "width": 1600,
   "height": 1200,
@@ -57,8 +57,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "2b55cbc58b701f9651726cbb477a3fbdb90280170cdcbe534677d6f7a6256283",
-      "bytes": 2464
+      "sha256": "73cb0b6a9961b84749c580f653dc97e8b52cc6b390dfa6b0fe0b04af8f9491fb",
+      "bytes": 3162
     },
     {
       "path": "captions.vtt",
@@ -72,12 +72,12 @@
     },
     {
       "path": "package-lock.json",
-      "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+      "sha256": "49d2c9b44cc1811e82fb93737aa6f92f5dc51351b415873d287a36b864778588",
       "bytes": 106599
     },
     {
       "path": "package.json",
-      "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+      "sha256": "dc4ac61570bc6a93b08801840b9796695e9e1711cce34c274129d55f45c7eee5",
       "bytes": 702
     },
     {
@@ -117,8 +117,8 @@
     },
     {
       "path": "scripts/render.mjs",
-      "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-      "bytes": 2937
+      "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+      "bytes": 3051
     },
     {
       "path": "scripts/verify.mjs",
@@ -162,7 +162,7 @@
     },
     {
       "path": "template.json",
-      "sha256": "716ef32c60189305e2bddb6ea1464922f447ccf6af2b7e6bed8d8201a6ba1217",
+      "sha256": "e8fd2475613da07ff708d8cb6d43502146fab82a2868c4d75576f583ae2e7e96",
       "bytes": 311
     },
     {

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "template-ribbon-manifesto",
   "title": "Three-Ribbon Campaign",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "compositionId": "template-ribbon-manifesto",
   "width": 960,
   "height": 540,
@@ -49,8 +49,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "780c24112b0b3ca8efda3a1ae8397e6c4da0a5006145a55323a86a6b27699deb",
-      "bytes": 2484
+      "sha256": "63ab3e7f6177756b7902d7b9aa9e3da40395c4a8c351183c027d8169e62d217a",
+      "bytes": 3182
     },
     {
       "path": "captions.vtt",
@@ -64,12 +64,12 @@
     },
     {
       "path": "package-lock.json",
-      "sha256": "78e985814de771419c66af6eaf84e65f1d56c13612f9e84c8fa66662a050c059",
+      "sha256": "fd6792e1444f7d8c7f68b7297c3fee16c84b24f8878d1c3e4825cdaca652eb11",
       "bytes": 118193
     },
     {
       "path": "package.json",
-      "sha256": "64023b10e82ebbee0728f88a867cba74815bd320ad5bd867b141178a837f99fa",
+      "sha256": "26299517eba309d7efa5852e421193725a4be0b0fb33f52f1a421e712f1a4d22",
       "bytes": 826
     },
     {
@@ -84,8 +84,8 @@
     },
     {
       "path": "scripts/render.mjs",
-      "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-      "bytes": 2937
+      "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+      "bytes": 3051
     },
     {
       "path": "scripts/verify.mjs",
@@ -139,7 +139,7 @@
     },
     {
       "path": "template.json",
-      "sha256": "2390d79f29308a6439fc805e9e502edcd65e16b65a7876ad732cc041d8e847cb",
+      "sha256": "fdfaf857029e28aacc0a8a4baf7eb0123af06b75d306fe38b7d09d9502c09661",
       "bytes": 322
     },
     {

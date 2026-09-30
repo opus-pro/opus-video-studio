@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "template-case-numo",
   "title": "Anomaly to Action",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "compositionId": "template-case-numo",
   "width": 960,
   "height": 540,
@@ -49,8 +49,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "3a470cb00ed400af5848a907b8928e9a40802367674b75957b9359727aefdb0d",
-      "bytes": 2459
+      "sha256": "1c903ef05eff3dc8e66996ce124106daba83c9c623574849c6273192889c28d6",
+      "bytes": 3157
     },
     {
       "path": "captions.vtt",
@@ -64,12 +64,12 @@
     },
     {
       "path": "package-lock.json",
-      "sha256": "78e985814de771419c66af6eaf84e65f1d56c13612f9e84c8fa66662a050c059",
+      "sha256": "fd6792e1444f7d8c7f68b7297c3fee16c84b24f8878d1c3e4825cdaca652eb11",
       "bytes": 118193
     },
     {
       "path": "package.json",
-      "sha256": "64023b10e82ebbee0728f88a867cba74815bd320ad5bd867b141178a837f99fa",
+      "sha256": "26299517eba309d7efa5852e421193725a4be0b0fb33f52f1a421e712f1a4d22",
       "bytes": 826
     },
     {
@@ -84,8 +84,8 @@
     },
     {
       "path": "scripts/render.mjs",
-      "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-      "bytes": 2937
+      "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+      "bytes": 3051
     },
     {
       "path": "scripts/verify.mjs",
@@ -139,7 +139,7 @@
     },
     {
       "path": "template.json",
-      "sha256": "350271014ea6b44fc11ee6fd4cf0755a71a495e57c960b0ddf2ed6107e9593fd",
+      "sha256": "3c749d608e742b57a769e4582bb11cb2e9c057eb8bfd2eccb245821015ead68c",
       "bytes": 304
     },
     {

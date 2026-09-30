@@ -1,5 +1,7 @@
 # OpusClip Video Tools for Claude
 
+This guide is also available as [public raw Markdown](https://raw.githubusercontent.com/opus-pro/opusclip-video-tools/main/docs/claude-code-install-protocol.md). If the website reader fails or returns an access page, use that source; do not change security settings or imitate another client to fetch it.
+
 Install or update the public plugin in a supported Claude Code session, then
 continue the user's request. Setup is free; media generation uses Opus credits.
 Do not generate media, transcribe audio, upload assets or create a media project

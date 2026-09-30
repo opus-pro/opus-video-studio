@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "template-case-search",
   "title": "Creative Search Selection",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "compositionId": "template-case-search",
   "width": 960,
   "height": 540,
@@ -49,8 +49,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "9250ee1eeedab724f2bdd61ce79f19775df0f72c6f67c7b35ed149923408606d",
-      "bytes": 2473
+      "sha256": "51f4fdfb844627e47df533b5b4e9fa6f3c3c49598123b5db4330e23350e3ade4",
+      "bytes": 3171
     },
     {
       "path": "captions.vtt",
@@ -64,12 +64,12 @@
     },
     {
       "path": "package-lock.json",
-      "sha256": "78e985814de771419c66af6eaf84e65f1d56c13612f9e84c8fa66662a050c059",
+      "sha256": "fd6792e1444f7d8c7f68b7297c3fee16c84b24f8878d1c3e4825cdaca652eb11",
       "bytes": 118193
     },
     {
       "path": "package.json",
-      "sha256": "64023b10e82ebbee0728f88a867cba74815bd320ad5bd867b141178a837f99fa",
+      "sha256": "26299517eba309d7efa5852e421193725a4be0b0fb33f52f1a421e712f1a4d22",
       "bytes": 826
     },
     {
@@ -84,8 +84,8 @@
     },
     {
       "path": "scripts/render.mjs",
-      "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-      "bytes": 2937
+      "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+      "bytes": 3051
     },
     {
       "path": "scripts/verify.mjs",
@@ -139,7 +139,7 @@
     },
     {
       "path": "template.json",
-      "sha256": "46caedbe2d458fc8bba1f7a129f69780f93c83236487824822cecfc58d9ccdc1",
+      "sha256": "5d0c16d32280cfe4b86995371c47ee7c51df50cbabc5207d2b89f0b9aa0a9a90",
       "bytes": 316
     },
     {

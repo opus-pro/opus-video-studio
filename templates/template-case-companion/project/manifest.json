@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "template-case-companion",
   "title": "Idea to Shared World",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "compositionId": "template-case-companion",
   "width": 960,
   "height": 540,
@@ -49,8 +49,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "e714a985a6f618b6738169d51af4754e26bf50016e9eb931e80af6976fa2c958",
-      "bytes": 2477
+      "sha256": "0be6f502fe15af1215202cf95a71f65b7237ffb1704cb09494e106530b1de568",
+      "bytes": 3175
     },
     {
       "path": "captions.vtt",
@@ -64,12 +64,12 @@
     },
     {
       "path": "package-lock.json",
-      "sha256": "78e985814de771419c66af6eaf84e65f1d56c13612f9e84c8fa66662a050c059",
+      "sha256": "fd6792e1444f7d8c7f68b7297c3fee16c84b24f8878d1c3e4825cdaca652eb11",
       "bytes": 118193
     },
     {
       "path": "package.json",
-      "sha256": "64023b10e82ebbee0728f88a867cba74815bd320ad5bd867b141178a837f99fa",
+      "sha256": "26299517eba309d7efa5852e421193725a4be0b0fb33f52f1a421e712f1a4d22",
       "bytes": 826
     },
     {
@@ -84,8 +84,8 @@
     },
     {
       "path": "scripts/render.mjs",
-      "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-      "bytes": 2937
+      "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+      "bytes": 3051
     },
     {
       "path": "scripts/verify.mjs",
@@ -139,7 +139,7 @@
     },
     {
       "path": "template.json",
-      "sha256": "8938aa6fe35cf38989dc683b1bb17df419007473c374ebad81bd6b7e03127144",
+      "sha256": "6c2968b2f3a0122ff4b620b83c607a56a52f882a3f7d6b666ea95beb2cee576b",
       "bytes": 317
     },
     {

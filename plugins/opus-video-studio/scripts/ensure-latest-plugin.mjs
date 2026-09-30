@@ -58,7 +58,12 @@ function result(status, fields = {}) {
 export function resolveCodexBinary({ env = process.env, platform = process.platform, exists = existsSync } = {}) {
   if (env.OPUS_VIDEO_STUDIO_CODEX_BIN) return env.OPUS_VIDEO_STUDIO_CODEX_BIN;
   if (platform === "darwin") {
-    for (const candidate of ["/Applications/Codex.app/Contents/Resources/codex", "/Applications/ChatGPT.app/Contents/Resources/codex"]) {
+    for (const candidate of [
+      "/Applications/Codex.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS/codex",
+      "/Applications/ChatGPT.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS/codex",
+      "/Applications/Codex.app/Contents/Resources/codex",
+      "/Applications/ChatGPT.app/Contents/Resources/codex",
+    ]) {
       if (exists(candidate)) return candidate;
     }
   }
