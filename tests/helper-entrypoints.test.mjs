@@ -14,6 +14,17 @@ function linkedScripts(t) {
   return { temporary, link };
 }
 
+test("helpers remain importable from stdin without running their CLI", () => {
+  const modules = ["download-template.mjs", "ensure-latest-plugin.mjs"].map(name =>
+    new URL(`../plugins/opus-video-studio/scripts/${name}`, import.meta.url).href);
+  const result = spawnSync(process.execPath, ["--input-type=module", "-"], {
+    encoding: "utf8",
+    input: `${modules.map(url => `await import(${JSON.stringify(url)});`).join("\n")}\nconsole.log("imported");`,
+  });
+  assert.equal(result.status, 0, result.stderr);
+  assert.equal(result.stdout, "imported\n");
+});
+
 test("download CLI reports missing arguments through a symlinked installation", (t) => {
   const { link } = linkedScripts(t);
   const result = spawnSync(process.execPath, [path.join(link, "download-template.mjs")], { encoding: "utf8" });
