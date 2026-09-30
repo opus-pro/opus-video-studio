@@ -61,21 +61,21 @@ codex plugin marketplace add https://github.com/opus-pro/opusclip-video-tools.gi
 codex plugin add opus-video-studio@opus-pro
 ```
 
-Start a new session so the plugin loads. Need help with Desktop, upgrades or signing in? See the
+Continue in the current conversation once the plugin is available. Use the client’s reload or Continue action when required; start a new conversation only if the client requires it, carrying the full brief forward. Need help with Desktop, upgrades or signing in? See the
 [Claude Code](docs/claude-code-install-protocol.md) and [Codex](docs/codex-install-protocol.md) guides.
 
 **2. Ask for a video.** Pick a template in the [gallery](https://product-videos.labs.opus.pro/) or [below](#pick-a-template-for-your-launch), then describe what you want:
 
 ```text
-Make a 20-second launch video for Acme (acme.com) from https://labs.opus.pro/product-videos/ai-research, in 16:9 and 9:16
+Make a 20-second launch video for Acme (acme.com) from https://product-videos.labs.opus.pro/ai-research, in 16:9 and 9:16
 ```
 
 ```text
-Turn https://labs.opus.pro/product-videos/pf-mark-lockup into a 4-second logo reveal. Logo: ./brand/logo.svg
+Turn https://product-videos.labs.opus.pro/pf-mark-lockup into a 4-second logo reveal. Logo: ./brand/logo.svg
 ```
 
 ```text
-Turn "Teams close tickets 3x faster with Acme" into a 10-second LinkedIn stat video from https://labs.opus.pro/product-videos/template-case-numo
+Turn "Teams close tickets 3x faster with Acme" into a 10-second LinkedIn stat video from https://product-videos.labs.opus.pro/template-case-numo
 ```
 
 That's it. Your agent adapts the template, renders it on your machine and checks the result before handing it back.
@@ -190,7 +190,7 @@ If you are an agent helping a user with this repository, read [`AGENTS.md`](AGEN
   animation, [`media-tools`](plugins/opus-video-studio/skills/media-tools/SKILL.md) for audio, images and transcription,
   [`video-director`](plugins/opus-video-studio/skills/video-director/SKILL.md) for AI video, and
   [`get-started`](plugins/opus-video-studio/skills/get-started/SKILL.md) when the user is unsure.
-- **Given a template link** (`https://labs.opus.pro/product-videos/<id>`), follow the
+- **Given a template link** (`https://product-videos.labs.opus.pro/<id>`), follow the
   [source workflow](plugins/opus-video-studio/docs/template-source.md): download and verify the original project, then
   edit it. Never rebuild it from the preview video.
 - **Catalogues are machine-readable:** [`templates/catalog.json`](templates/catalog.json) and
@@ -236,7 +236,7 @@ Use the new repository address for new installations.
 
 ### Website guides
 
-The Product Videos website currently offers Codex onboarding. Both client distributions share one set of
+The Product Videos website offers Codex and Claude Code onboarding. Both client distributions share one set of
 template-source and media workflows; see [publishing and verifying the shared website guides](docs/guide-publication.md).
 
 ### Validate

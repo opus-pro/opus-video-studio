@@ -55,7 +55,7 @@ the original brief and source paths. Never create a task without user authorizat
   the sanitized error and failed step. Do not infer the underlying token lifecycle cause without
   evidence. Timeouts, gate denials, and insufficient credits need their own diagnosis.
 - For an authorized Codex package update/repair, follow the current installation guide at
-  `https://labs.opus.pro/opus-video-tools/codex`: verify the refreshed public source, uninstall only
+  `https://product-videos.labs.opus.pro/codex`: verify the refreshed public source, uninstall only
   `opus-video-studio@opus-pro` through `plugin remove`, then install it again with `plugin add`.
   The supported uninstaller cleans its local cache. Do not manually wipe shared plugin/config
   directories. Equal version strings do not prove identical or complete package contents.

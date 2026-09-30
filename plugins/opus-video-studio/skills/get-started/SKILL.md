@@ -7,7 +7,7 @@ description: Welcome users starting with OpusClip Video Tools, choose between ed
 
 Keep the first response brief. Ask whether the user wants to:
 
-- Edit a motion video from the [template library](https://labs.opus.pro/product-videos).
+- Edit a motion video from the [template library](https://product-videos.labs.opus.pro).
   They can paste a template link here.
 - Generate video, voiceover, music, images or sound effects.
 

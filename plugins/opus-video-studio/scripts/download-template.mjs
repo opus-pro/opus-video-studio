@@ -5,19 +5,28 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { extractArchive } from "./template-archive.mjs";
 
-const ORIGINS = {
-  "labs.opus.pro": "https://opus-lab.cdn.opuslab.ai/labs/",
-  "stg-labs.opus.pro": "https://stg-opus-lab.cdn.opuslab.work/labs/",
-};
+const ORIGINS = new Map([
+  ["product-videos.labs.opus.pro", "https://opus-lab.cdn.opuslab.ai/labs/"],
+  ["product-videos.stg-labs.opus.pro", "https://stg-opus-lab.cdn.opuslab.work/labs/"],
+]);
+const LEGACY_HOSTS = new Map([
+  ["labs.opus.pro", "product-videos.labs.opus.pro"],
+  ["stg-labs.opus.pro", "product-videos.stg-labs.opus.pro"],
+]);
 const ID = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 
 export function templateLocation(value) {
   const url = new URL(value);
-  const match = url.pathname.match(/^\/product-videos\/([a-z0-9]+(?:-[a-z0-9]+)*)\/?$/);
-  if (url.protocol !== "https:" || url.username || url.password || url.port || !ORIGINS[url.hostname] || !match) {
-    throw new Error("Use a template link from https://labs.opus.pro/product-videos");
+  const legacyHost = LEGACY_HOSTS.get(url.hostname);
+  const host = legacyHost ?? url.hostname;
+  const base = ORIGINS.get(host);
+  const match = url.pathname.match(legacyHost
+    ? /^\/product-videos\/([a-z0-9]+(?:-[a-z0-9]+)*)\/?$/
+    : /^\/([a-z0-9]+(?:-[a-z0-9]+)*)\/?$/);
+  if (url.protocol !== "https:" || url.username || url.password || url.port || !base || !match) {
+    throw new Error("Use a template link from https://product-videos.labs.opus.pro");
   }
-  return { id: match[1], base: ORIGINS[url.hostname], url: url.origin + "/product-videos/" + match[1] };
+  return { id: match[1], base, url: "https://" + host + "/" + match[1] };
 }
 
 function safePath(value) {
