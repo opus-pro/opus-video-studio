@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "snapshotDate": "2026-09-24",
+  "snapshotDate": "2026-09-30",
   "galleryUrl": "https://product-videos.labs.opus.pro/",
   "upstreamCatalogueUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/catalog/index.json",
-  "upstreamCatalogueSha256": "6fea47e164f904b5f65142b5f212931b6f4a57cc583a07b6bb5f70fe6db6ba01",
+  "upstreamCatalogueSha256": "8c8d37be3831bd188292d5aeded1add10dc4fbd0391765f1de0b6b2564579622",
   "items": [
     {
       "id": "ai-research",
