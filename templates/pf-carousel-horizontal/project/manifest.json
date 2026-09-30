@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "pf-carousel-horizontal",
   "title": "Horizontal Portfolio Relay",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "compositionId": "pf-carousel-horizontal",
   "width": 1200,
   "height": 1200,
@@ -51,8 +51,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "b2722cc2bed73d260bba5bb6e09fdea89b5f3e8ffe27f9d668d8ab81f8285cb0",
-      "bytes": 2482
+      "sha256": "529d2609d1e86eca59ee81a5da82daee63d1507f3ea0452c50a4e217e42ba8d3",
+      "bytes": 3180
     },
     {
       "path": "captions.vtt",
@@ -66,12 +66,12 @@
     },
     {
       "path": "package-lock.json",
-      "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+      "sha256": "49d2c9b44cc1811e82fb93737aa6f92f5dc51351b415873d287a36b864778588",
       "bytes": 106599
     },
     {
       "path": "package.json",
-      "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+      "sha256": "dc4ac61570bc6a93b08801840b9796695e9e1711cce34c274129d55f45c7eee5",
       "bytes": 702
     },
     {
@@ -111,8 +111,8 @@
     },
     {
       "path": "scripts/render.mjs",
-      "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-      "bytes": 2937
+      "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+      "bytes": 3051
     },
     {
       "path": "scripts/verify.mjs",
@@ -126,7 +126,7 @@
     },
     {
       "path": "template.json",
-      "sha256": "cfa758d994b1c57afd6bb2a205b1ff7b05b74c86312ec58847928d52a2a700a6",
+      "sha256": "11d1298b74f4b20d1d48c00a8ec9b642a1b1559f638df0be7aab6b27663c6750",
       "bytes": 323
     },
     {

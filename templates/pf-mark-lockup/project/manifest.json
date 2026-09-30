@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "pf-mark-lockup",
   "title": "Icon-to-Wordmark Reveal",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "compositionId": "pf-mark-lockup",
   "width": 1920,
   "height": 1080,
@@ -51,8 +51,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "b539c753062a6e7260fac7e421c35c224db8435fb8718f7e10eaee6194157583",
-      "bytes": 2455
+      "sha256": "9302d1ae9a0f31465bdd51560d82cf145e86213a20432a5fdd98a4f2f9ab8249",
+      "bytes": 3153
     },
     {
       "path": "captions.vtt",
@@ -66,12 +66,12 @@
     },
     {
       "path": "package-lock.json",
-      "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+      "sha256": "49d2c9b44cc1811e82fb93737aa6f92f5dc51351b415873d287a36b864778588",
       "bytes": 106599
     },
     {
       "path": "package.json",
-      "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+      "sha256": "dc4ac61570bc6a93b08801840b9796695e9e1711cce34c274129d55f45c7eee5",
       "bytes": 702
     },
     {
@@ -111,8 +111,8 @@
     },
     {
       "path": "scripts/render.mjs",
-      "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-      "bytes": 2937
+      "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+      "bytes": 3051
     },
     {
       "path": "scripts/verify.mjs",
@@ -126,7 +126,7 @@
     },
     {
       "path": "template.json",
-      "sha256": "77c12e976f7e4516540840c250f2ec26bdc9323d5ce70ba498d07fd0761d6640",
+      "sha256": "cb3402469d3b1210a080b5a9a0f14f93101abdabbab3f17acb751263eae2ae70",
       "bytes": 305
     },
     {

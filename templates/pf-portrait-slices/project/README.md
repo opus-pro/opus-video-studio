@@ -1,4 +1,4 @@
-# Portrait Slice Assembly — editable source 1.1.0
+# Portrait Slice Assembly — editable source 1.1.1
 
 Download and modify this source project. The published animation source is preserved byte for byte from its original code archive; the portable installation and rendering wrapper is new. Do not rebuild the animation from the preview.
 
@@ -29,3 +29,16 @@ Use the preview for comparison only. The MP4 is not render input. Keep official 
 ## Provenance
 
 `manifest.json` records every packaged file and the original source hashes. The gallery preview is copied unchanged from the published release. This packaging repair restores existing source; it does not claim a new animation or a second independent creative generation.
+
+## Audio and execution permissions
+
+The baseline uses `audioMode: "mute"`. When adding narration or music, change
+`audioMode` in `template.json` to `"audio"` so the renderer includes it. Keep
+`"mute"` for a silent export. Keep audio files in
+`public/`, add them to the composition, and listen to the complete exported MP4.
+The render report records the selected mode, not a verified audio-track inventory.
+
+Rendering requires permission to start Chromium. If the host blocks it with a
+sandbox or macOS Mach service error, use the host's supported local-execution
+approval flow or an authorized local Code session. Do not disable OS security or
+reinstall dependencies to fix execution permissions.

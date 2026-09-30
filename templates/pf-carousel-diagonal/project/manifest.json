@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "pf-carousel-diagonal",
   "title": "3D Diagonal Portfolio Relay",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "compositionId": "pf-carousel-diagonal",
   "width": 1200,
   "height": 1200,
@@ -51,8 +51,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "54c7ff633c0cc9ddc8722527304b73546b3568db248ed9c075abf0f8cc35af2e",
-      "bytes": 2477
+      "sha256": "edd158acfb5b9f88ccf88b71128913024d364c70511a2146668618060689c476",
+      "bytes": 3175
     },
     {
       "path": "captions.vtt",
@@ -66,12 +66,12 @@
     },
     {
       "path": "package-lock.json",
-      "sha256": "78e985814de771419c66af6eaf84e65f1d56c13612f9e84c8fa66662a050c059",
+      "sha256": "fd6792e1444f7d8c7f68b7297c3fee16c84b24f8878d1c3e4825cdaca652eb11",
       "bytes": 118193
     },
     {
       "path": "package.json",
-      "sha256": "64023b10e82ebbee0728f88a867cba74815bd320ad5bd867b141178a837f99fa",
+      "sha256": "26299517eba309d7efa5852e421193725a4be0b0fb33f52f1a421e712f1a4d22",
       "bytes": 826
     },
     {
@@ -111,8 +111,8 @@
     },
     {
       "path": "scripts/render.mjs",
-      "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-      "bytes": 2937
+      "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+      "bytes": 3051
     },
     {
       "path": "scripts/verify.mjs",
@@ -126,7 +126,7 @@
     },
     {
       "path": "template.json",
-      "sha256": "a924258ae190a0f4f73103032817622acba6fc8a3becd0ef138e27576aabba7d",
+      "sha256": "bbfa04ac03e3fa858e10529d11e8f1937f60db113ca696d3fffd462a79c7d226",
       "bytes": 320
     },
     {

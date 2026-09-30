@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "pf-portrait-slices",
   "title": "Portrait Slice Assembly",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "compositionId": "pf-portrait-slices",
   "width": 1080,
   "height": 1920,
@@ -51,8 +51,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "dca407fdec1b2a83716eb835a10b63f702f5bbda7bc847cc37eb575d1842e403",
-      "bytes": 2467
+      "sha256": "1a583eb580fd10d45bd6bec03f0dd89903cf3823179353f71df10c6bd6ba6388",
+      "bytes": 3165
     },
     {
       "path": "captions.vtt",
@@ -66,12 +66,12 @@
     },
     {
       "path": "package-lock.json",
-      "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+      "sha256": "49d2c9b44cc1811e82fb93737aa6f92f5dc51351b415873d287a36b864778588",
       "bytes": 106599
     },
     {
       "path": "package.json",
-      "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+      "sha256": "dc4ac61570bc6a93b08801840b9796695e9e1711cce34c274129d55f45c7eee5",
       "bytes": 702
     },
     {
@@ -121,8 +121,8 @@
     },
     {
       "path": "scripts/render.mjs",
-      "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-      "bytes": 2937
+      "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+      "bytes": 3051
     },
     {
       "path": "scripts/verify.mjs",
@@ -136,7 +136,7 @@
     },
     {
       "path": "template.json",
-      "sha256": "8372d77447d32d505f3de53a1b6061b04d87b57aed2b89ffbde3aecb071cdbeb",
+      "sha256": "cfba347384f490a762c50fb7b47d8708cf81cf02369351a5e1a9c80c064d0e69",
       "bytes": 314
     },
     {

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "pf-brand-dots",
   "title": "Five-Point Brand System",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "compositionId": "pf-brand-dots",
   "width": 1920,
   "height": 1080,
@@ -51,8 +51,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "77f285159a39f29c3d1d3be7d0fd29951976299a4e8b20e5c59344e2a8a6a695",
-      "bytes": 2452
+      "sha256": "29a7998d9fe287dcb781d2e6654fab93b56d64d4f0a09c5db529208b12496832",
+      "bytes": 3150
     },
     {
       "path": "captions.vtt",
@@ -66,12 +66,12 @@
     },
     {
       "path": "package-lock.json",
-      "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+      "sha256": "49d2c9b44cc1811e82fb93737aa6f92f5dc51351b415873d287a36b864778588",
       "bytes": 106599
     },
     {
       "path": "package.json",
-      "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+      "sha256": "dc4ac61570bc6a93b08801840b9796695e9e1711cce34c274129d55f45c7eee5",
       "bytes": 702
     },
     {
@@ -111,8 +111,8 @@
     },
     {
       "path": "scripts/render.mjs",
-      "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-      "bytes": 2937
+      "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+      "bytes": 3051
     },
     {
       "path": "scripts/verify.mjs",
@@ -126,7 +126,7 @@
     },
     {
       "path": "template.json",
-      "sha256": "83d5be316860bfd1d8bc66a0c7c5a85d630a091ab67889410c1ca7fa2574aa03",
+      "sha256": "bc5d418496fbfc3f604ff6144aa6490b23cd1976148efc4cc8a6a9a2fbe9fa05",
       "bytes": 302
     },
     {

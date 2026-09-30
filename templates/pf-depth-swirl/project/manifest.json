@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "pf-depth-swirl",
   "title": "3D Depth Spiral",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "compositionId": "pf-depth-swirl",
   "width": 1920,
   "height": 1080,
@@ -51,8 +51,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "a721c133b0f078e54133a02da07664f938562f070c563564f35c33ce2c36de2b",
-      "bytes": 2447
+      "sha256": "aa2f7d1582fbb75b89ae1a4760b893a175cdd403b40112f62b5243b8d2bbfc0f",
+      "bytes": 3145
     },
     {
       "path": "captions.vtt",
@@ -66,12 +66,12 @@
     },
     {
       "path": "package-lock.json",
-      "sha256": "78e985814de771419c66af6eaf84e65f1d56c13612f9e84c8fa66662a050c059",
+      "sha256": "fd6792e1444f7d8c7f68b7297c3fee16c84b24f8878d1c3e4825cdaca652eb11",
       "bytes": 118193
     },
     {
       "path": "package.json",
-      "sha256": "64023b10e82ebbee0728f88a867cba74815bd320ad5bd867b141178a837f99fa",
+      "sha256": "26299517eba309d7efa5852e421193725a4be0b0fb33f52f1a421e712f1a4d22",
       "bytes": 826
     },
     {
@@ -111,8 +111,8 @@
     },
     {
       "path": "scripts/render.mjs",
-      "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-      "bytes": 2937
+      "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+      "bytes": 3051
     },
     {
       "path": "scripts/verify.mjs",
@@ -126,7 +126,7 @@
     },
     {
       "path": "template.json",
-      "sha256": "e08479ed234ac67344daddd7c47c3d3b328154b8bd63c58ffc575661bede26fc",
+      "sha256": "0ef3af250dc67f4253c4a26aa8a49a5ae2a1d614563555e5681aa465690d6233",
       "bytes": 297
     },
     {

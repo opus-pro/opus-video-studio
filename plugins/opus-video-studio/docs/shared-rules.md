@@ -59,8 +59,9 @@ the original brief and source paths. Never create a task without user authorizat
   `opus-video-studio@opus-pro` through `plugin remove`, then install it again with `plugin add`.
   The supported uninstaller cleans its local cache. Do not manually wipe shared plugin/config
   directories. Equal version strings do not prove identical or complete package contents.
-- Claude Code uses its own plugin update and interactive /mcp flow, documented in
-  the repository's docs/claude-code-install-protocol.md. Do not run Codex CLI commands
+- Claude Code uses its own plugin update and host-supported authentication flow, documented at
+  `https://product-videos.labs.opus.pro/claude` (fallback:
+  `https://raw.githubusercontent.com/opus-pro/opusclip-video-tools/main/docs/claude-code-install-protocol.md`). Do not run Codex CLI commands
   in Claude Code or assume remote Claude chat has local plugin capabilities.
 - After installation, use the host reload/Continue action and recheck the required tools.
   If this host cannot reload, explain the specific limitation before suggesting a new task.

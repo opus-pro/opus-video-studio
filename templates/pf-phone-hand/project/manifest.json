@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "pf-phone-hand",
   "title": "In-Hand App Scroll",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "compositionId": "pf-phone-hand",
   "width": 1200,
   "height": 1200,
@@ -51,8 +51,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "55eca2aa94a38647a5820f2faf28b76aa12c72d7ea82d1c4ed2cf2ee3736993c",
-      "bytes": 2447
+      "sha256": "f16e21bfcf42f7f27a9b247a9f61079f7df1fadd0e6f2e60297f769158c5e489",
+      "bytes": 3145
     },
     {
       "path": "captions.vtt",
@@ -66,12 +66,12 @@
     },
     {
       "path": "package-lock.json",
-      "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+      "sha256": "49d2c9b44cc1811e82fb93737aa6f92f5dc51351b415873d287a36b864778588",
       "bytes": 106599
     },
     {
       "path": "package.json",
-      "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+      "sha256": "dc4ac61570bc6a93b08801840b9796695e9e1711cce34c274129d55f45c7eee5",
       "bytes": 702
     },
     {
@@ -131,8 +131,8 @@
     },
     {
       "path": "scripts/render.mjs",
-      "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-      "bytes": 2937
+      "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+      "bytes": 3051
     },
     {
       "path": "scripts/verify.mjs",
@@ -146,7 +146,7 @@
     },
     {
       "path": "template.json",
-      "sha256": "0707b189d768cbc5bb9afa601d4e87681bf235db821f81d5b11f4ead28f8d437",
+      "sha256": "2b7ce2754533ada54fd8d9e00f80f694355f09267080a6df6272cc35df47ef87",
       "bytes": 297
     },
     {

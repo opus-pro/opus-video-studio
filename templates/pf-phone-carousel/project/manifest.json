@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "pf-phone-carousel",
   "title": "Three-Phone Carousel",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "compositionId": "pf-phone-carousel",
   "width": 1440,
   "height": 1080,
@@ -51,8 +51,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "668ba93b5c46a31e6972024f03544cc3dfee94f8ba9e4b6dd9e1f453d5bfc268",
-      "bytes": 2461
+      "sha256": "62d166bd3396c0fde03b8549f00f10218c63a0ff68335a83a58e9988536d70ee",
+      "bytes": 3159
     },
     {
       "path": "captions.vtt",
@@ -66,12 +66,12 @@
     },
     {
       "path": "package-lock.json",
-      "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+      "sha256": "49d2c9b44cc1811e82fb93737aa6f92f5dc51351b415873d287a36b864778588",
       "bytes": 106599
     },
     {
       "path": "package.json",
-      "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+      "sha256": "dc4ac61570bc6a93b08801840b9796695e9e1711cce34c274129d55f45c7eee5",
       "bytes": 702
     },
     {
@@ -131,8 +131,8 @@
     },
     {
       "path": "scripts/render.mjs",
-      "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-      "bytes": 2937
+      "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+      "bytes": 3051
     },
     {
       "path": "scripts/verify.mjs",
@@ -146,7 +146,7 @@
     },
     {
       "path": "template.json",
-      "sha256": "f4b990509060674d5d4f7db5f1013252de8e9e03e8581c665191cf8a3affade4",
+      "sha256": "4b3e029217fed2baf120f3abe094a41da359987f4345e1b27947e83160ecaa9b",
       "bytes": 307
     },
     {

@@ -42,6 +42,7 @@ const entry = {
   mediaPath: "launch-videos/lite/source-v1", archive: "source.zip",
   sha256: createHash("sha256").update(bytes).digest("hex"), size: bytes.length,
   readingOrder: ["README.md", "src/index.tsx"],
+  width: 1152, height: 648, fps: 60, frames: 216,
 };
 const catalogue = { schemaVersion: 1, items: [entry] };
 
@@ -86,6 +87,9 @@ test("a successful download preserves exact source and receipt without executing
   assert.equal(JSON.parse(await readFile(path.join(destination, "template-source.json"))).sha256, entry.sha256);
   assert.equal(receipt.templateUrl, "https://product-videos.labs.opus.pro/margin");
   assert.equal(requests.length, 2);
+  assert.deepEqual(receipt.preview, { width: 1152, height: 648, fps: 60, frames: 216 });
+  assert.ok(!("width" in receipt) && !("height" in receipt));
+  assert.match(receipt.renderConfiguration, /source composition.*preview dimensions may differ/);
   await assert.rejects(downloadTemplate("https://labs.opus.pro/product-videos/margin", destination), /already exists/);
 });
 

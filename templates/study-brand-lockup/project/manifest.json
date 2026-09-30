@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "study-brand-lockup",
   "title": "Symbol to Wordmark",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "compositionId": "study-brand-lockup",
   "width": 960,
   "height": 540,
@@ -49,8 +49,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "ee280cac47d0125d89c774e629e3517a3c826045ae90cd7ab9db33af9649f6c5",
-      "bytes": 2459
+      "sha256": "73ce51451b098c6dd8e1be8060664e005414004cb677365d9091e9ad0bdbae3f",
+      "bytes": 3157
     },
     {
       "path": "captions.vtt",
@@ -64,12 +64,12 @@
     },
     {
       "path": "package-lock.json",
-      "sha256": "78e985814de771419c66af6eaf84e65f1d56c13612f9e84c8fa66662a050c059",
+      "sha256": "fd6792e1444f7d8c7f68b7297c3fee16c84b24f8878d1c3e4825cdaca652eb11",
       "bytes": 118193
     },
     {
       "path": "package.json",
-      "sha256": "64023b10e82ebbee0728f88a867cba74815bd320ad5bd867b141178a837f99fa",
+      "sha256": "26299517eba309d7efa5852e421193725a4be0b0fb33f52f1a421e712f1a4d22",
       "bytes": 826
     },
     {
@@ -84,8 +84,8 @@
     },
     {
       "path": "scripts/render.mjs",
-      "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-      "bytes": 2937
+      "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+      "bytes": 3051
     },
     {
       "path": "scripts/verify.mjs",
@@ -139,7 +139,7 @@
     },
     {
       "path": "template.json",
-      "sha256": "dcec38301c84ef061b7406e411afe4fb59dec5df960fcd89eb159028c75de3ca",
+      "sha256": "67b939ae6b97b7f848fe9e65111c4ee10161e44f8598834fb588b4610cf65705",
       "bytes": 304
     },
     {

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "pf-brand-app",
   "title": "App Icon to Brand System",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "compositionId": "pf-brand-app",
   "width": 1920,
   "height": 1080,
@@ -51,8 +51,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "8b74cfbd59213b64c9c213ba60b60248db98c87767544c68efd7faa84a069b45",
-      "bytes": 2450
+      "sha256": "8d84827b22ddec1227dc01cd68ef607efe073b0fedd6f1f7d11da3d2f0edc38f",
+      "bytes": 3148
     },
     {
       "path": "captions.vtt",
@@ -66,12 +66,12 @@
     },
     {
       "path": "package-lock.json",
-      "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+      "sha256": "49d2c9b44cc1811e82fb93737aa6f92f5dc51351b415873d287a36b864778588",
       "bytes": 106599
     },
     {
       "path": "package.json",
-      "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+      "sha256": "dc4ac61570bc6a93b08801840b9796695e9e1711cce34c274129d55f45c7eee5",
       "bytes": 702
     },
     {
@@ -111,8 +111,8 @@
     },
     {
       "path": "scripts/render.mjs",
-      "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-      "bytes": 2937
+      "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+      "bytes": 3051
     },
     {
       "path": "scripts/verify.mjs",
@@ -126,7 +126,7 @@
     },
     {
       "path": "template.json",
-      "sha256": "1d3b6cada2d3d73d82552aa88ec5433673b7a25a051354aad8073002edf36394",
+      "sha256": "3e32d84d8bed795a4211503c2fb2366f8e6262b06d979944440b5d04e6317d84",
       "bytes": 301
     },
     {

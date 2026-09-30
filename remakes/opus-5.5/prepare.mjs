@@ -1,3 +1,4 @@
+import { existsSync, realpathSync } from "node:fs";
 // SPDX-License-Identifier: MIT
 import { readFile } from "node:fs/promises";
 import path from "node:path";
@@ -11,7 +12,7 @@ export const readRemakes = async () => JSON.parse(await readFile(path.join(remak
 // immutable, checksummed release with the template preparation code.
 export const prepareRemake = (item, options = {}) => prepareTemplate(item, { root: remakesRoot, ...options });
 
-if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+if (process.argv[1] && existsSync(process.argv[1]) && realpathSync(process.argv[1]) === realpathSync(fileURLToPath(import.meta.url))) {
   try {
     const [, , id, archivePath, extra] = process.argv;
     const item = (await readRemakes()).items.find(item => item.id === id);

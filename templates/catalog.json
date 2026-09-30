@@ -2333,8 +2333,8 @@
       "kind": "component",
       "description": "Move a centered app mark aside and reveal a complete wordmark lockup.",
       "bestFor": "Logo reveals and brand idents",
-      "version": "1.1.0",
-      "revision": "editable-source-v1.1.0",
+      "version": "1.1.1",
+      "revision": "editable-source-v1.1.1",
       "width": 1152,
       "height": 648,
       "fps": 60,
@@ -2353,9 +2353,9 @@
       "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-mark-lockup-v1.0.0/preview.mp4",
       "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-mark-lockup-v1.0.0/poster.jpg",
       "sourcePath": "pf-mark-lockup/project",
-      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-mark-lockup-v1.0.0/motion-component-pf-mark-lockup-v1.1.0.zip",
-      "archiveSha256": "f73099f209e8a7904c8a8f6c6e938ccf93c077f872d83145c123ddd7b8747829",
-      "archiveBytes": 1115782,
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-mark-lockup-v1.0.0/motion-component-pf-mark-lockup-v1.1.1.zip",
+      "archiveSha256": "12ee00250ad66bec8b7c8e7224b94b24315ea912bbd0e804dd6b26f45a267369",
+      "archiveBytes": 1116132,
       "files": [
         {
           "path": ".gitignore",
@@ -2389,8 +2389,8 @@
         },
         {
           "path": "README.md",
-          "sha256": "b539c753062a6e7260fac7e421c35c224db8435fb8718f7e10eaee6194157583",
-          "bytes": 2455,
+          "sha256": "9302d1ae9a0f31465bdd51560d82cf145e86213a20432a5fdd98a4f2f9ab8249",
+          "bytes": 3153,
           "storage": "git"
         },
         {
@@ -2407,19 +2407,19 @@
         },
         {
           "path": "manifest.json",
-          "sha256": "17b8ed85aab072d7e97a644ee67730fcafcf3e99d871e4b335079fb1081e7c77",
+          "sha256": "2b15bfa3f1949a05c60e25b4b0d4b2bfd48ec29afc6449cfd71bb888c5ae2b5c",
           "bytes": 4083,
           "storage": "git"
         },
         {
           "path": "package-lock.json",
-          "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+          "sha256": "49d2c9b44cc1811e82fb93737aa6f92f5dc51351b415873d287a36b864778588",
           "bytes": 106599,
           "storage": "git"
         },
         {
           "path": "package.json",
-          "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+          "sha256": "dc4ac61570bc6a93b08801840b9796695e9e1711cce34c274129d55f45c7eee5",
           "bytes": 702,
           "storage": "git"
         },
@@ -2427,55 +2427,55 @@
           "path": "poster.jpg",
           "sha256": "50f54e2a7bda9629000c353744f77e5317f2edea1d422a9fb998873dbcb412a6",
           "bytes": 21859,
-          "archivePath": "motion-component-pf-mark-lockup-v1.1.0/poster.jpg",
+          "archivePath": "motion-component-pf-mark-lockup-v1.1.1/poster.jpg",
           "storage": "download"
         },
         {
           "path": "preview.mp4",
           "sha256": "14bbc81d14c39d3d90b99c68c3cac8e2a22dc10735cf4db46048054f4c4575ee",
           "bytes": 58660,
-          "archivePath": "motion-component-pf-mark-lockup-v1.1.0/preview.mp4",
+          "archivePath": "motion-component-pf-mark-lockup-v1.1.1/preview.mp4",
           "storage": "download"
         },
         {
           "path": "public/assets/GeistVF.woff2",
           "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
           "bytes": 56800,
-          "archivePath": "motion-component-pf-mark-lockup-v1.1.0/public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-mark-lockup-v1.1.1/public/assets/GeistVF.woff2",
           "storage": "download"
         },
         {
           "path": "public/assets/coast.jpg",
           "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
           "bytes": 251741,
-          "archivePath": "motion-component-pf-mark-lockup-v1.1.0/public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-mark-lockup-v1.1.1/public/assets/coast.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/desert.jpg",
           "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
           "bytes": 205527,
-          "archivePath": "motion-component-pf-mark-lockup-v1.1.0/public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-mark-lockup-v1.1.1/public/assets/desert.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/forest.jpg",
           "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
           "bytes": 229748,
-          "archivePath": "motion-component-pf-mark-lockup-v1.1.0/public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-mark-lockup-v1.1.1/public/assets/forest.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/mountains.jpg",
           "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
           "bytes": 269763,
-          "archivePath": "motion-component-pf-mark-lockup-v1.1.0/public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-mark-lockup-v1.1.1/public/assets/mountains.jpg",
           "storage": "download"
         },
         {
           "path": "scripts/render.mjs",
-          "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-          "bytes": 2937,
+          "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+          "bytes": 3051,
           "storage": "git"
         },
         {
@@ -2492,7 +2492,7 @@
         },
         {
           "path": "template.json",
-          "sha256": "77c12e976f7e4516540840c250f2ec26bdc9323d5ce70ba498d07fd0761d6640",
+          "sha256": "cb3402469d3b1210a080b5a9a0f14f93101abdabbab3f17acb751263eae2ae70",
           "bytes": 305,
           "storage": "git"
         },
@@ -2510,8 +2510,8 @@
       "kind": "component",
       "description": "Pass four editorial posters through one horizontal hero position.",
       "bestFor": "Portfolios, collections, and case studies",
-      "version": "1.1.0",
-      "revision": "editable-source-v1.1.0",
+      "version": "1.1.1",
+      "revision": "editable-source-v1.1.1",
       "width": 720,
       "height": 720,
       "fps": 60,
@@ -2530,9 +2530,9 @@
       "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-carousel-horizontal-v1.0.0/preview.mp4",
       "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-carousel-horizontal-v1.0.0/poster.jpg",
       "sourcePath": "pf-carousel-horizontal/project",
-      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-carousel-horizontal-v1.0.0/motion-component-pf-carousel-horizontal-v1.1.0.zip",
-      "archiveSha256": "3dac0eeff8b14bf4be0dd2aaf8a6a3f9714f9cdc86d848478471e9fd681169e6",
-      "archiveBytes": 1796607,
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-carousel-horizontal-v1.0.0/motion-component-pf-carousel-horizontal-v1.1.1.zip",
+      "archiveSha256": "d39c6bff0c265e7707c1f6e92417e27d116b2fbaecd90a76516170f3112a59da",
+      "archiveBytes": 1796949,
       "files": [
         {
           "path": ".gitignore",
@@ -2566,8 +2566,8 @@
         },
         {
           "path": "README.md",
-          "sha256": "b2722cc2bed73d260bba5bb6e09fdea89b5f3e8ffe27f9d668d8ab81f8285cb0",
-          "bytes": 2482,
+          "sha256": "529d2609d1e86eca59ee81a5da82daee63d1507f3ea0452c50a4e217e42ba8d3",
+          "bytes": 3180,
           "storage": "git"
         },
         {
@@ -2584,19 +2584,19 @@
         },
         {
           "path": "manifest.json",
-          "sha256": "515417269dd7347552dd2ddc1d1bdd03d720321ddf203e333755955e5df363e9",
+          "sha256": "9ba07457a33ce673740d051bcef40acd9294b0e4b30e178b8d38cf610337bf5c",
           "bytes": 4102,
           "storage": "git"
         },
         {
           "path": "package-lock.json",
-          "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+          "sha256": "49d2c9b44cc1811e82fb93737aa6f92f5dc51351b415873d287a36b864778588",
           "bytes": 106599,
           "storage": "git"
         },
         {
           "path": "package.json",
-          "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+          "sha256": "dc4ac61570bc6a93b08801840b9796695e9e1711cce34c274129d55f45c7eee5",
           "bytes": 702,
           "storage": "git"
         },
@@ -2604,55 +2604,55 @@
           "path": "poster.jpg",
           "sha256": "27d9910e7288813ef4358917765b5b6fbd47cba36abaa35b43e89b3d1d6738af",
           "bytes": 72670,
-          "archivePath": "motion-component-pf-carousel-horizontal-v1.1.0/poster.jpg",
+          "archivePath": "motion-component-pf-carousel-horizontal-v1.1.1/poster.jpg",
           "storage": "download"
         },
         {
           "path": "preview.mp4",
           "sha256": "e317883ba1377b86cecce6668194e0f394cc181097c93633dbd9e5178b92673d",
           "bytes": 682281,
-          "archivePath": "motion-component-pf-carousel-horizontal-v1.1.0/preview.mp4",
+          "archivePath": "motion-component-pf-carousel-horizontal-v1.1.1/preview.mp4",
           "storage": "download"
         },
         {
           "path": "public/assets/GeistVF.woff2",
           "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
           "bytes": 56800,
-          "archivePath": "motion-component-pf-carousel-horizontal-v1.1.0/public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-carousel-horizontal-v1.1.1/public/assets/GeistVF.woff2",
           "storage": "download"
         },
         {
           "path": "public/assets/coast.jpg",
           "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
           "bytes": 251741,
-          "archivePath": "motion-component-pf-carousel-horizontal-v1.1.0/public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-carousel-horizontal-v1.1.1/public/assets/coast.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/desert.jpg",
           "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
           "bytes": 205527,
-          "archivePath": "motion-component-pf-carousel-horizontal-v1.1.0/public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-carousel-horizontal-v1.1.1/public/assets/desert.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/forest.jpg",
           "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
           "bytes": 229748,
-          "archivePath": "motion-component-pf-carousel-horizontal-v1.1.0/public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-carousel-horizontal-v1.1.1/public/assets/forest.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/mountains.jpg",
           "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
           "bytes": 269763,
-          "archivePath": "motion-component-pf-carousel-horizontal-v1.1.0/public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-carousel-horizontal-v1.1.1/public/assets/mountains.jpg",
           "storage": "download"
         },
         {
           "path": "scripts/render.mjs",
-          "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-          "bytes": 2937,
+          "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+          "bytes": 3051,
           "storage": "git"
         },
         {
@@ -2669,7 +2669,7 @@
         },
         {
           "path": "template.json",
-          "sha256": "cfa758d994b1c57afd6bb2a205b1ff7b05b74c86312ec58847928d52a2a700a6",
+          "sha256": "11d1298b74f4b20d1d48c00a8ec9b642a1b1559f638df0be7aab6b27663c6750",
           "bytes": 323,
           "storage": "git"
         },
@@ -2687,8 +2687,8 @@
       "kind": "component",
       "description": "Move equal-size poster planes around a true diagonal 3D loop.",
       "bestFor": "Dimensional portfolios and spatial showreels",
-      "version": "1.1.0",
-      "revision": "editable-source-v1.1.0",
+      "version": "1.1.1",
+      "revision": "editable-source-v1.1.1",
       "width": 720,
       "height": 720,
       "fps": 60,
@@ -2707,9 +2707,9 @@
       "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-carousel-diagonal-v1.0.0/preview.mp4",
       "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-carousel-diagonal-v1.0.0/poster.jpg",
       "sourcePath": "pf-carousel-diagonal/project",
-      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-carousel-diagonal-v1.0.0/motion-component-pf-carousel-diagonal-v1.1.0.zip",
-      "archiveSha256": "6d5d83e8acb3441efc582f46620c9fb1d39c963a76fcae938de89f5ae551aad8",
-      "archiveBytes": 3303637,
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-carousel-diagonal-v1.0.0/motion-component-pf-carousel-diagonal-v1.1.1.zip",
+      "archiveSha256": "cb4508bc1400952030968ae848af94cd7a581a67670aea742a868c07de6a27a5",
+      "archiveBytes": 3303984,
       "files": [
         {
           "path": ".gitignore",
@@ -2743,8 +2743,8 @@
         },
         {
           "path": "README.md",
-          "sha256": "54c7ff633c0cc9ddc8722527304b73546b3568db248ed9c075abf0f8cc35af2e",
-          "bytes": 2477,
+          "sha256": "edd158acfb5b9f88ccf88b71128913024d364c70511a2146668618060689c476",
+          "bytes": 3175,
           "storage": "git"
         },
         {
@@ -2761,19 +2761,19 @@
         },
         {
           "path": "manifest.json",
-          "sha256": "dc3ea4d8193c6446149dafb2414d9e273e9bfab88f1072832799b2e6a83f07a3",
+          "sha256": "1e4e9d938d9ef66370de0e682e0ab515dd8b8169911c24f1b4323173f3daafaa",
           "bytes": 4110,
           "storage": "git"
         },
         {
           "path": "package-lock.json",
-          "sha256": "78e985814de771419c66af6eaf84e65f1d56c13612f9e84c8fa66662a050c059",
+          "sha256": "fd6792e1444f7d8c7f68b7297c3fee16c84b24f8878d1c3e4825cdaca652eb11",
           "bytes": 118193,
           "storage": "git"
         },
         {
           "path": "package.json",
-          "sha256": "64023b10e82ebbee0728f88a867cba74815bd320ad5bd867b141178a837f99fa",
+          "sha256": "26299517eba309d7efa5852e421193725a4be0b0fb33f52f1a421e712f1a4d22",
           "bytes": 826,
           "storage": "git"
         },
@@ -2781,55 +2781,55 @@
           "path": "poster.jpg",
           "sha256": "e82a655bf191f1de4ce59ded44346b35d94f85106f9840112db25e457e22ccd2",
           "bytes": 100307,
-          "archivePath": "motion-component-pf-carousel-diagonal-v1.1.0/poster.jpg",
+          "archivePath": "motion-component-pf-carousel-diagonal-v1.1.1/poster.jpg",
           "storage": "download"
         },
         {
           "path": "preview.mp4",
           "sha256": "0c068f3799a1fcb6611d3e5792afeb1b51529285d88def0161a3d9c4195172e0",
           "bytes": 2156726,
-          "archivePath": "motion-component-pf-carousel-diagonal-v1.1.0/preview.mp4",
+          "archivePath": "motion-component-pf-carousel-diagonal-v1.1.1/preview.mp4",
           "storage": "download"
         },
         {
           "path": "public/assets/GeistVF.woff2",
           "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
           "bytes": 56800,
-          "archivePath": "motion-component-pf-carousel-diagonal-v1.1.0/public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-carousel-diagonal-v1.1.1/public/assets/GeistVF.woff2",
           "storage": "download"
         },
         {
           "path": "public/assets/coast.jpg",
           "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
           "bytes": 251741,
-          "archivePath": "motion-component-pf-carousel-diagonal-v1.1.0/public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-carousel-diagonal-v1.1.1/public/assets/coast.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/desert.jpg",
           "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
           "bytes": 205527,
-          "archivePath": "motion-component-pf-carousel-diagonal-v1.1.0/public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-carousel-diagonal-v1.1.1/public/assets/desert.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/forest.jpg",
           "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
           "bytes": 229748,
-          "archivePath": "motion-component-pf-carousel-diagonal-v1.1.0/public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-carousel-diagonal-v1.1.1/public/assets/forest.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/mountains.jpg",
           "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
           "bytes": 269763,
-          "archivePath": "motion-component-pf-carousel-diagonal-v1.1.0/public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-carousel-diagonal-v1.1.1/public/assets/mountains.jpg",
           "storage": "download"
         },
         {
           "path": "scripts/render.mjs",
-          "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-          "bytes": 2937,
+          "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+          "bytes": 3051,
           "storage": "git"
         },
         {
@@ -2846,7 +2846,7 @@
         },
         {
           "path": "template.json",
-          "sha256": "a924258ae190a0f4f73103032817622acba6fc8a3becd0ef138e27576aabba7d",
+          "sha256": "bbfa04ac03e3fa858e10529d11e8f1937f60db113ca696d3fffd462a79c7d226",
           "bytes": 320,
           "storage": "git"
         },
@@ -2864,8 +2864,8 @@
       "kind": "component",
       "description": "Pass four editorial posters through one vertical hero position.",
       "bestFor": "Mobile collections and vertical showcases",
-      "version": "1.1.0",
-      "revision": "editable-source-v1.1.0",
+      "version": "1.1.1",
+      "revision": "editable-source-v1.1.1",
       "width": 720,
       "height": 720,
       "fps": 60,
@@ -2884,9 +2884,9 @@
       "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-carousel-vertical-v1.0.0/preview.mp4",
       "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-carousel-vertical-v1.0.0/poster.jpg",
       "sourcePath": "pf-carousel-vertical/project",
-      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-carousel-vertical-v1.0.0/motion-component-pf-carousel-vertical-v1.1.0.zip",
-      "archiveSha256": "8a2255f5a3d7e80c2c56795504e6a4b1ba7f869f32575fc742f0169ecc6c6a4c",
-      "archiveBytes": 1788953,
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-carousel-vertical-v1.0.0/motion-component-pf-carousel-vertical-v1.1.1.zip",
+      "archiveSha256": "206f77a67444c2c3bc0648e120e6d1040cbb4ceb0cf249288fd81c5d687ef331",
+      "archiveBytes": 1789297,
       "files": [
         {
           "path": ".gitignore",
@@ -2920,8 +2920,8 @@
         },
         {
           "path": "README.md",
-          "sha256": "3b35d91ff911e22a6dfe6ec0ed47676b6d4545c4113efff2bd399261f7854f33",
-          "bytes": 2474,
+          "sha256": "11c48d507998f15c81ab73110a711ebd7fc129e14f580e5fa7085e4f7318c413",
+          "bytes": 3172,
           "storage": "git"
         },
         {
@@ -2938,19 +2938,19 @@
         },
         {
           "path": "manifest.json",
-          "sha256": "08500b8aa918bcff86ce26279a61fcf2f5dc93a7cd008fdd125dbdc99c61c306",
+          "sha256": "13d543574025a095c06906cf5b8727a0ed72de095623b206954e297b0308ad87",
           "bytes": 4096,
           "storage": "git"
         },
         {
           "path": "package-lock.json",
-          "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+          "sha256": "49d2c9b44cc1811e82fb93737aa6f92f5dc51351b415873d287a36b864778588",
           "bytes": 106599,
           "storage": "git"
         },
         {
           "path": "package.json",
-          "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+          "sha256": "dc4ac61570bc6a93b08801840b9796695e9e1711cce34c274129d55f45c7eee5",
           "bytes": 702,
           "storage": "git"
         },
@@ -2958,55 +2958,55 @@
           "path": "poster.jpg",
           "sha256": "c6d4d9c934841d82ebc447b6f9f9c1096de5518251e3375a852f40b16e17877f",
           "bytes": 68667,
-          "archivePath": "motion-component-pf-carousel-vertical-v1.1.0/poster.jpg",
+          "archivePath": "motion-component-pf-carousel-vertical-v1.1.1/poster.jpg",
           "storage": "download"
         },
         {
           "path": "preview.mp4",
           "sha256": "b6b10e622b00514d079ceaa1f581855b6ed388528175d2211cc47f686a9845e1",
           "bytes": 679021,
-          "archivePath": "motion-component-pf-carousel-vertical-v1.1.0/preview.mp4",
+          "archivePath": "motion-component-pf-carousel-vertical-v1.1.1/preview.mp4",
           "storage": "download"
         },
         {
           "path": "public/assets/GeistVF.woff2",
           "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
           "bytes": 56800,
-          "archivePath": "motion-component-pf-carousel-vertical-v1.1.0/public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-carousel-vertical-v1.1.1/public/assets/GeistVF.woff2",
           "storage": "download"
         },
         {
           "path": "public/assets/coast.jpg",
           "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
           "bytes": 251741,
-          "archivePath": "motion-component-pf-carousel-vertical-v1.1.0/public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-carousel-vertical-v1.1.1/public/assets/coast.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/desert.jpg",
           "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
           "bytes": 205527,
-          "archivePath": "motion-component-pf-carousel-vertical-v1.1.0/public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-carousel-vertical-v1.1.1/public/assets/desert.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/forest.jpg",
           "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
           "bytes": 229748,
-          "archivePath": "motion-component-pf-carousel-vertical-v1.1.0/public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-carousel-vertical-v1.1.1/public/assets/forest.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/mountains.jpg",
           "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
           "bytes": 269763,
-          "archivePath": "motion-component-pf-carousel-vertical-v1.1.0/public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-carousel-vertical-v1.1.1/public/assets/mountains.jpg",
           "storage": "download"
         },
         {
           "path": "scripts/render.mjs",
-          "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-          "bytes": 2937,
+          "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+          "bytes": 3051,
           "storage": "git"
         },
         {
@@ -3023,7 +3023,7 @@
         },
         {
           "path": "template.json",
-          "sha256": "9f9c516770ba11306280c46042e1e91fbcc0c40a9e7fb1b4afb0cc2f30793587",
+          "sha256": "ecd0a1321bbecae6faacd88cc829146a852e87625f4efcb4d09ac37919be9c8e",
           "bytes": 317,
           "storage": "git"
         },
@@ -3041,8 +3041,8 @@
       "kind": "component",
       "description": "Turn five color points into a living modular identity board.",
       "bestFor": "Identity systems and brand launches",
-      "version": "1.1.0",
-      "revision": "editable-source-v1.1.0",
+      "version": "1.1.1",
+      "revision": "editable-source-v1.1.1",
       "width": 960,
       "height": 540,
       "fps": 60,
@@ -3061,9 +3061,9 @@
       "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-brand-dots-v1.0.0/preview.mp4",
       "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-brand-dots-v1.0.0/poster.jpg",
       "sourcePath": "pf-brand-dots/project",
-      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-brand-dots-v1.0.0/motion-component-pf-brand-dots-v1.1.0.zip",
-      "archiveSha256": "6cebf3a8ecd706c504c61d6b6e62fab3679ac03c601b07056407f74399b1d601",
-      "archiveBytes": 1402903,
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-brand-dots-v1.0.0/motion-component-pf-brand-dots-v1.1.1.zip",
+      "archiveSha256": "09b9f3461ec11ff01dd3a7d09e49a537ac09969cd8294e4fef9085c98ed3e3cc",
+      "archiveBytes": 1403253,
       "files": [
         {
           "path": ".gitignore",
@@ -3097,8 +3097,8 @@
         },
         {
           "path": "README.md",
-          "sha256": "77f285159a39f29c3d1d3be7d0fd29951976299a4e8b20e5c59344e2a8a6a695",
-          "bytes": 2452,
+          "sha256": "29a7998d9fe287dcb781d2e6654fab93b56d64d4f0a09c5db529208b12496832",
+          "bytes": 3150,
           "storage": "git"
         },
         {
@@ -3115,19 +3115,19 @@
         },
         {
           "path": "manifest.json",
-          "sha256": "ebbb0bd95a3c4fee4fefa9c98ff93b13116954c418de1c958ac3122662c9ba20",
+          "sha256": "97749c713c09773e2d65bbe931acd21c0cefcfcf30b555010493afde9b91c80d",
           "bytes": 4081,
           "storage": "git"
         },
         {
           "path": "package-lock.json",
-          "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+          "sha256": "49d2c9b44cc1811e82fb93737aa6f92f5dc51351b415873d287a36b864778588",
           "bytes": 106599,
           "storage": "git"
         },
         {
           "path": "package.json",
-          "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+          "sha256": "dc4ac61570bc6a93b08801840b9796695e9e1711cce34c274129d55f45c7eee5",
           "bytes": 702,
           "storage": "git"
         },
@@ -3135,55 +3135,55 @@
           "path": "poster.jpg",
           "sha256": "9f0ccac560112391793571bc4662cf7b0c2221182ab0d0200ceea065eccf9979",
           "bytes": 63922,
-          "archivePath": "motion-component-pf-brand-dots-v1.1.0/poster.jpg",
+          "archivePath": "motion-component-pf-brand-dots-v1.1.1/poster.jpg",
           "storage": "download"
         },
         {
           "path": "preview.mp4",
           "sha256": "e6bfee947e003385dd38ec209ca5f0884f5328626b486670633e6c657a34c5e3",
           "bytes": 303436,
-          "archivePath": "motion-component-pf-brand-dots-v1.1.0/preview.mp4",
+          "archivePath": "motion-component-pf-brand-dots-v1.1.1/preview.mp4",
           "storage": "download"
         },
         {
           "path": "public/assets/GeistVF.woff2",
           "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
           "bytes": 56800,
-          "archivePath": "motion-component-pf-brand-dots-v1.1.0/public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-brand-dots-v1.1.1/public/assets/GeistVF.woff2",
           "storage": "download"
         },
         {
           "path": "public/assets/coast.jpg",
           "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
           "bytes": 251741,
-          "archivePath": "motion-component-pf-brand-dots-v1.1.0/public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-brand-dots-v1.1.1/public/assets/coast.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/desert.jpg",
           "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
           "bytes": 205527,
-          "archivePath": "motion-component-pf-brand-dots-v1.1.0/public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-brand-dots-v1.1.1/public/assets/desert.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/forest.jpg",
           "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
           "bytes": 229748,
-          "archivePath": "motion-component-pf-brand-dots-v1.1.0/public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-brand-dots-v1.1.1/public/assets/forest.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/mountains.jpg",
           "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
           "bytes": 269763,
-          "archivePath": "motion-component-pf-brand-dots-v1.1.0/public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-brand-dots-v1.1.1/public/assets/mountains.jpg",
           "storage": "download"
         },
         {
           "path": "scripts/render.mjs",
-          "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-          "bytes": 2937,
+          "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+          "bytes": 3051,
           "storage": "git"
         },
         {
@@ -3200,7 +3200,7 @@
         },
         {
           "path": "template.json",
-          "sha256": "83d5be316860bfd1d8bc66a0c7c5a85d630a091ab67889410c1ca7fa2574aa03",
+          "sha256": "bc5d418496fbfc3f604ff6144aa6490b23cd1976148efc4cc8a6a9a2fbe9fa05",
           "bytes": 302,
           "storage": "git"
         },
@@ -3218,8 +3218,8 @@
       "kind": "component",
       "description": "Open an app icon into a complete five-panel identity system.",
       "bestFor": "App launches and visual identity",
-      "version": "1.1.0",
-      "revision": "editable-source-v1.1.0",
+      "version": "1.1.1",
+      "revision": "editable-source-v1.1.1",
       "width": 960,
       "height": 540,
       "fps": 60,
@@ -3238,9 +3238,9 @@
       "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-brand-app-v1.0.0/preview.mp4",
       "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-brand-app-v1.0.0/poster.jpg",
       "sourcePath": "pf-brand-app/project",
-      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-brand-app-v1.0.0/motion-component-pf-brand-app-v1.1.0.zip",
-      "archiveSha256": "ce9772a0161ae464dcc728e320cfe841ff031043344a021ea7876be33e507cca",
-      "archiveBytes": 1415144,
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-brand-app-v1.0.0/motion-component-pf-brand-app-v1.1.1.zip",
+      "archiveSha256": "18e027898f051ecd15d19f413c7ee689d8c67670b13e31c40c5738f072e8a58d",
+      "archiveBytes": 1415496,
       "files": [
         {
           "path": ".gitignore",
@@ -3274,8 +3274,8 @@
         },
         {
           "path": "README.md",
-          "sha256": "8b74cfbd59213b64c9c213ba60b60248db98c87767544c68efd7faa84a069b45",
-          "bytes": 2450,
+          "sha256": "8d84827b22ddec1227dc01cd68ef607efe073b0fedd6f1f7d11da3d2f0edc38f",
+          "bytes": 3148,
           "storage": "git"
         },
         {
@@ -3292,19 +3292,19 @@
         },
         {
           "path": "manifest.json",
-          "sha256": "23845e3698c356d109995ed72867a2a5329fb2a859673cb7e1fcdd35ea7a872b",
+          "sha256": "3f0f5afbeed7f6ad8b1c11af26846299aa71663ed7e1328a3c8ce732db729b63",
           "bytes": 4080,
           "storage": "git"
         },
         {
           "path": "package-lock.json",
-          "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+          "sha256": "49d2c9b44cc1811e82fb93737aa6f92f5dc51351b415873d287a36b864778588",
           "bytes": 106599,
           "storage": "git"
         },
         {
           "path": "package.json",
-          "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+          "sha256": "dc4ac61570bc6a93b08801840b9796695e9e1711cce34c274129d55f45c7eee5",
           "bytes": 702,
           "storage": "git"
         },
@@ -3312,55 +3312,55 @@
           "path": "poster.jpg",
           "sha256": "c538d07279dbf570ced8e1db5dbf9ab0d7583dc0ea990489d82cd1272cce7b59",
           "bytes": 63293,
-          "archivePath": "motion-component-pf-brand-app-v1.1.0/poster.jpg",
+          "archivePath": "motion-component-pf-brand-app-v1.1.1/poster.jpg",
           "storage": "download"
         },
         {
           "path": "preview.mp4",
           "sha256": "c175dabe7faa8bf1e247f815d66563a2478a0549cc3b897ad185c728b942f91f",
           "bytes": 317455,
-          "archivePath": "motion-component-pf-brand-app-v1.1.0/preview.mp4",
+          "archivePath": "motion-component-pf-brand-app-v1.1.1/preview.mp4",
           "storage": "download"
         },
         {
           "path": "public/assets/GeistVF.woff2",
           "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
           "bytes": 56800,
-          "archivePath": "motion-component-pf-brand-app-v1.1.0/public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-brand-app-v1.1.1/public/assets/GeistVF.woff2",
           "storage": "download"
         },
         {
           "path": "public/assets/coast.jpg",
           "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
           "bytes": 251741,
-          "archivePath": "motion-component-pf-brand-app-v1.1.0/public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-brand-app-v1.1.1/public/assets/coast.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/desert.jpg",
           "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
           "bytes": 205527,
-          "archivePath": "motion-component-pf-brand-app-v1.1.0/public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-brand-app-v1.1.1/public/assets/desert.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/forest.jpg",
           "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
           "bytes": 229748,
-          "archivePath": "motion-component-pf-brand-app-v1.1.0/public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-brand-app-v1.1.1/public/assets/forest.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/mountains.jpg",
           "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
           "bytes": 269763,
-          "archivePath": "motion-component-pf-brand-app-v1.1.0/public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-brand-app-v1.1.1/public/assets/mountains.jpg",
           "storage": "download"
         },
         {
           "path": "scripts/render.mjs",
-          "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-          "bytes": 2937,
+          "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+          "bytes": 3051,
           "storage": "git"
         },
         {
@@ -3377,7 +3377,7 @@
         },
         {
           "path": "template.json",
-          "sha256": "1d3b6cada2d3d73d82552aa88ec5433673b7a25a051354aad8073002edf36394",
+          "sha256": "3e32d84d8bed795a4211503c2fb2366f8e6262b06d979944440b5d04e6317d84",
           "bytes": 301,
           "storage": "git"
         },
@@ -3395,8 +3395,8 @@
       "kind": "component",
       "description": "Unfold a four-part mark into a complete modular brand world.",
       "bestFor": "Logo stories and identity presentations",
-      "version": "1.1.0",
-      "revision": "editable-source-v1.1.0",
+      "version": "1.1.1",
+      "revision": "editable-source-v1.1.1",
       "width": 960,
       "height": 540,
       "fps": 60,
@@ -3415,9 +3415,9 @@
       "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-brand-clover-v1.0.0/preview.mp4",
       "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-brand-clover-v1.0.0/poster.jpg",
       "sourcePath": "pf-brand-clover/project",
-      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-brand-clover-v1.0.0/motion-component-pf-brand-clover-v1.1.0.zip",
-      "archiveSha256": "6b94931ce73d9f8523741ba126887a13de942db101033311da926c0e44ce35f3",
-      "archiveBytes": 1411533,
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-brand-clover-v1.0.0/motion-component-pf-brand-clover-v1.1.1.zip",
+      "archiveSha256": "1d76691bf3bd02b2251f9f4d854e03146bb57259c38c78d2916a623e581d643d",
+      "archiveBytes": 1411881,
       "files": [
         {
           "path": ".gitignore",
@@ -3451,8 +3451,8 @@
         },
         {
           "path": "README.md",
-          "sha256": "f6f6eb9ac29757e12cfcf24af67cfa1b3f2df0cb6d45a4b99281726aa7630792",
-          "bytes": 2459,
+          "sha256": "1f2e8d18b10765c4f51fd4962c4d62c56419ef5cfa1aa1abd7a33f267866d57d",
+          "bytes": 3157,
           "storage": "git"
         },
         {
@@ -3469,19 +3469,19 @@
         },
         {
           "path": "manifest.json",
-          "sha256": "3bdfd80e363ed8bc62c22b17bea35b92df3cf598ca2d8dfc126872ecaad96fd7",
+          "sha256": "c61030d5c534c65d3764477c2be80312ee9f3cb0ae1a0814c81f6634a67761e9",
           "bytes": 4086,
           "storage": "git"
         },
         {
           "path": "package-lock.json",
-          "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+          "sha256": "49d2c9b44cc1811e82fb93737aa6f92f5dc51351b415873d287a36b864778588",
           "bytes": 106599,
           "storage": "git"
         },
         {
           "path": "package.json",
-          "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+          "sha256": "dc4ac61570bc6a93b08801840b9796695e9e1711cce34c274129d55f45c7eee5",
           "bytes": 702,
           "storage": "git"
         },
@@ -3489,55 +3489,55 @@
           "path": "poster.jpg",
           "sha256": "86c982e00f7964b5a2ccaace07e4d117d8cd8090ecda10c161fa9ac6a7af7e5f",
           "bytes": 62237,
-          "archivePath": "motion-component-pf-brand-clover-v1.1.0/poster.jpg",
+          "archivePath": "motion-component-pf-brand-clover-v1.1.1/poster.jpg",
           "storage": "download"
         },
         {
           "path": "preview.mp4",
           "sha256": "22514e34ee91e1b630737af5e5122bee100049d8cac62105b61c72933c8440c7",
           "bytes": 314346,
-          "archivePath": "motion-component-pf-brand-clover-v1.1.0/preview.mp4",
+          "archivePath": "motion-component-pf-brand-clover-v1.1.1/preview.mp4",
           "storage": "download"
         },
         {
           "path": "public/assets/GeistVF.woff2",
           "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
           "bytes": 56800,
-          "archivePath": "motion-component-pf-brand-clover-v1.1.0/public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-brand-clover-v1.1.1/public/assets/GeistVF.woff2",
           "storage": "download"
         },
         {
           "path": "public/assets/coast.jpg",
           "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
           "bytes": 251741,
-          "archivePath": "motion-component-pf-brand-clover-v1.1.0/public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-brand-clover-v1.1.1/public/assets/coast.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/desert.jpg",
           "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
           "bytes": 205527,
-          "archivePath": "motion-component-pf-brand-clover-v1.1.0/public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-brand-clover-v1.1.1/public/assets/desert.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/forest.jpg",
           "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
           "bytes": 229748,
-          "archivePath": "motion-component-pf-brand-clover-v1.1.0/public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-brand-clover-v1.1.1/public/assets/forest.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/mountains.jpg",
           "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
           "bytes": 269763,
-          "archivePath": "motion-component-pf-brand-clover-v1.1.0/public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-brand-clover-v1.1.1/public/assets/mountains.jpg",
           "storage": "download"
         },
         {
           "path": "scripts/render.mjs",
-          "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-          "bytes": 2937,
+          "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+          "bytes": 3051,
           "storage": "git"
         },
         {
@@ -3554,7 +3554,7 @@
         },
         {
           "path": "template.json",
-          "sha256": "77e926814a1973dd41af8fbfd01cd44aba7761ad7433104b9dcd3d3bf269d2bc",
+          "sha256": "55e965bb8a161f821e37402c41cd827cfc4585769d123545f275a95455e88c61",
           "bytes": 307,
           "storage": "git"
         },
@@ -3572,8 +3572,8 @@
       "kind": "component",
       "description": "Build a launch moment from six full-width brand color bands.",
       "bestFor": "Color systems and campaign openers",
-      "version": "1.1.0",
-      "revision": "editable-source-v1.1.0",
+      "version": "1.1.1",
+      "revision": "editable-source-v1.1.1",
       "width": 960,
       "height": 540,
       "fps": 60,
@@ -3592,9 +3592,9 @@
       "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-six-colors-v1.0.0/preview.mp4",
       "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-six-colors-v1.0.0/poster.jpg",
       "sourcePath": "pf-six-colors/project",
-      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-six-colors-v1.0.0/motion-component-pf-six-colors-v1.1.0.zip",
-      "archiveSha256": "6d43234c47f8920dcbd48564d64978a32569fa35a555bcc56a92dca99cc764da",
-      "archiveBytes": 1139368,
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-six-colors-v1.0.0/motion-component-pf-six-colors-v1.1.1.zip",
+      "archiveSha256": "25ed8df560f13895c8f38cf9cb557893b8dfc55a68ea3733cd07aeb156848c18",
+      "archiveBytes": 1139724,
       "files": [
         {
           "path": ".gitignore",
@@ -3628,8 +3628,8 @@
         },
         {
           "path": "README.md",
-          "sha256": "9269c937b033da312ca11ee4b93f85b173d8d8c3dcf80e82e66978fb40ce1c1f",
-          "bytes": 2451,
+          "sha256": "5c355a68be2be447b5bddbda162af12f24cb93d8edc77a1891e25584e2d0c858",
+          "bytes": 3149,
           "storage": "git"
         },
         {
@@ -3646,19 +3646,19 @@
         },
         {
           "path": "manifest.json",
-          "sha256": "967cd65afe28d6272a338317f5e6713f072ae50fcc36ef5b16ba15d959411901",
+          "sha256": "9ef40ab7877470cb2a742fb54f6256c286a073f4b7be085014ecc0f609e8754f",
           "bytes": 4079,
           "storage": "git"
         },
         {
           "path": "package-lock.json",
-          "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+          "sha256": "49d2c9b44cc1811e82fb93737aa6f92f5dc51351b415873d287a36b864778588",
           "bytes": 106599,
           "storage": "git"
         },
         {
           "path": "package.json",
-          "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+          "sha256": "dc4ac61570bc6a93b08801840b9796695e9e1711cce34c274129d55f45c7eee5",
           "bytes": 702,
           "storage": "git"
         },
@@ -3666,55 +3666,55 @@
           "path": "poster.jpg",
           "sha256": "0c4a08049417409957e26cb3b17cff78e68813c5a8a9a4436f32fd596321db60",
           "bytes": 29725,
-          "archivePath": "motion-component-pf-six-colors-v1.1.0/poster.jpg",
+          "archivePath": "motion-component-pf-six-colors-v1.1.1/poster.jpg",
           "storage": "download"
         },
         {
           "path": "preview.mp4",
           "sha256": "832fae00e0889bb8e64721467e56cc4c235ab601f6d95e6b0f9b9c825d876fde",
           "bytes": 73352,
-          "archivePath": "motion-component-pf-six-colors-v1.1.0/preview.mp4",
+          "archivePath": "motion-component-pf-six-colors-v1.1.1/preview.mp4",
           "storage": "download"
         },
         {
           "path": "public/assets/GeistVF.woff2",
           "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
           "bytes": 56800,
-          "archivePath": "motion-component-pf-six-colors-v1.1.0/public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-six-colors-v1.1.1/public/assets/GeistVF.woff2",
           "storage": "download"
         },
         {
           "path": "public/assets/coast.jpg",
           "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
           "bytes": 251741,
-          "archivePath": "motion-component-pf-six-colors-v1.1.0/public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-six-colors-v1.1.1/public/assets/coast.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/desert.jpg",
           "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
           "bytes": 205527,
-          "archivePath": "motion-component-pf-six-colors-v1.1.0/public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-six-colors-v1.1.1/public/assets/desert.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/forest.jpg",
           "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
           "bytes": 229748,
-          "archivePath": "motion-component-pf-six-colors-v1.1.0/public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-six-colors-v1.1.1/public/assets/forest.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/mountains.jpg",
           "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
           "bytes": 269763,
-          "archivePath": "motion-component-pf-six-colors-v1.1.0/public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-six-colors-v1.1.1/public/assets/mountains.jpg",
           "storage": "download"
         },
         {
           "path": "scripts/render.mjs",
-          "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-          "bytes": 2937,
+          "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+          "bytes": 3051,
           "storage": "git"
         },
         {
@@ -3731,7 +3731,7 @@
         },
         {
           "path": "template.json",
-          "sha256": "9ab8cbe848478ae0a6a64ac5d4f221197463d74f28b5ac96baf70bedfc22ec85",
+          "sha256": "43de15289117f582527b16675c2a4d1dcdfdc01072657997c3fc93c0a2fd4653",
           "bytes": 301,
           "storage": "git"
         },
@@ -3749,8 +3749,8 @@
       "kind": "component",
       "description": "Rotate a grounded fan of posters and promote one work at a time.",
       "bestFor": "Artwork, covers, and portfolio reels",
-      "version": "1.1.0",
-      "revision": "editable-source-v1.1.0",
+      "version": "1.1.1",
+      "revision": "editable-source-v1.1.1",
       "width": 720,
       "height": 540,
       "fps": 60,
@@ -3769,9 +3769,9 @@
       "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-orbit-fan-v1.0.0/preview.mp4",
       "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-orbit-fan-v1.0.0/poster.jpg",
       "sourcePath": "pf-orbit-fan/project",
-      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-orbit-fan-v1.0.0/motion-component-pf-orbit-fan-v1.1.0.zip",
-      "archiveSha256": "9cae8c824124288e7155e9991ace87df0fdf146333f17bcf8751b78a72c6abd4",
-      "archiveBytes": 1866283,
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-orbit-fan-v1.0.0/motion-component-pf-orbit-fan-v1.1.1.zip",
+      "archiveSha256": "83740f21d555c2ca61eb64be1e1f881d39961f93d41ad13d37cb44cfff7b170b",
+      "archiveBytes": 1866632,
       "files": [
         {
           "path": ".gitignore",
@@ -3805,8 +3805,8 @@
         },
         {
           "path": "README.md",
-          "sha256": "d3b2115d632954cf3a14cacd7497af04a38c86e8c0919c1fc4da1e657a1ebea7",
-          "bytes": 2443,
+          "sha256": "fcb8a4206619e14159d42473bde6e81157deddcfc9c82121f38cbdd740bcf2e6",
+          "bytes": 3141,
           "storage": "git"
         },
         {
@@ -3823,19 +3823,19 @@
         },
         {
           "path": "manifest.json",
-          "sha256": "d6dd9b89d486e9bbce19433296060f5c873d1a866814cf7a42b2021150448e54",
+          "sha256": "3d6e69b755e68a7c648143f8d1d9ed1cb9c15081ed298ab6968a2f8725b8b570",
           "bytes": 4073,
           "storage": "git"
         },
         {
           "path": "package-lock.json",
-          "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+          "sha256": "49d2c9b44cc1811e82fb93737aa6f92f5dc51351b415873d287a36b864778588",
           "bytes": 106599,
           "storage": "git"
         },
         {
           "path": "package.json",
-          "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+          "sha256": "dc4ac61570bc6a93b08801840b9796695e9e1711cce34c274129d55f45c7eee5",
           "bytes": 702,
           "storage": "git"
         },
@@ -3843,55 +3843,55 @@
           "path": "poster.jpg",
           "sha256": "bd26fb57ac8efb3713ebc73b778b829e2ea69f7858524982a322208ab534a7ed",
           "bytes": 67837,
-          "archivePath": "motion-component-pf-orbit-fan-v1.1.0/poster.jpg",
+          "archivePath": "motion-component-pf-orbit-fan-v1.1.1/poster.jpg",
           "storage": "download"
         },
         {
           "path": "preview.mp4",
           "sha256": "1f08a163fb38b6acf8cbcb997bded092f25cfb4300b65d78304554ccb940e21d",
           "bytes": 751579,
-          "archivePath": "motion-component-pf-orbit-fan-v1.1.0/preview.mp4",
+          "archivePath": "motion-component-pf-orbit-fan-v1.1.1/preview.mp4",
           "storage": "download"
         },
         {
           "path": "public/assets/GeistVF.woff2",
           "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
           "bytes": 56800,
-          "archivePath": "motion-component-pf-orbit-fan-v1.1.0/public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-orbit-fan-v1.1.1/public/assets/GeistVF.woff2",
           "storage": "download"
         },
         {
           "path": "public/assets/coast.jpg",
           "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
           "bytes": 251741,
-          "archivePath": "motion-component-pf-orbit-fan-v1.1.0/public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-orbit-fan-v1.1.1/public/assets/coast.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/desert.jpg",
           "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
           "bytes": 205527,
-          "archivePath": "motion-component-pf-orbit-fan-v1.1.0/public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-orbit-fan-v1.1.1/public/assets/desert.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/forest.jpg",
           "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
           "bytes": 229748,
-          "archivePath": "motion-component-pf-orbit-fan-v1.1.0/public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-orbit-fan-v1.1.1/public/assets/forest.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/mountains.jpg",
           "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
           "bytes": 269763,
-          "archivePath": "motion-component-pf-orbit-fan-v1.1.0/public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-orbit-fan-v1.1.1/public/assets/mountains.jpg",
           "storage": "download"
         },
         {
           "path": "scripts/render.mjs",
-          "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-          "bytes": 2937,
+          "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+          "bytes": 3051,
           "storage": "git"
         },
         {
@@ -3908,7 +3908,7 @@
         },
         {
           "path": "template.json",
-          "sha256": "319991b389cccd1fdbdec1adbc21c5eec1b8cf4eaef4893445bb19cb2a90362f",
+          "sha256": "056875c209eca2cedf9eac54e9cefd5ecc61cf75bcd410238df717d5fe624212",
           "bytes": 294,
           "storage": "git"
         },
@@ -3926,8 +3926,8 @@
       "kind": "component",
       "description": "Orbit equal-size images around a statement, then bring one through camera.",
       "bestFor": "Spatial showreels and hero reveals",
-      "version": "1.1.0",
-      "revision": "editable-source-v1.1.0",
+      "version": "1.1.1",
+      "revision": "editable-source-v1.1.1",
       "width": 1152,
       "height": 648,
       "fps": 60,
@@ -3946,9 +3946,9 @@
       "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-orbit-focus-v1.0.0/preview.mp4",
       "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-orbit-focus-v1.0.0/poster.jpg",
       "sourcePath": "pf-orbit-focus/project",
-      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-orbit-focus-v1.0.0/motion-component-pf-orbit-focus-v1.1.0.zip",
-      "archiveSha256": "b362d76fd8aaf1c07e15690c7b4a63fd34c77e01e0353cc87b0a6e2b48908602",
-      "archiveBytes": 4626226,
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-orbit-focus-v1.0.0/motion-component-pf-orbit-focus-v1.1.1.zip",
+      "archiveSha256": "ae2e3b38e5dbd8fbcf663448679ca51e8e7bbf46682b4e3a4efb29f27af6ba81",
+      "archiveBytes": 4626573,
       "files": [
         {
           "path": ".gitignore",
@@ -3982,8 +3982,8 @@
         },
         {
           "path": "README.md",
-          "sha256": "94b98b2259cac4002d7376317d9a242d661e0b4f35cbde4b9d6bb99ed5fa1b8c",
-          "bytes": 2448,
+          "sha256": "c9fdcbd234a35dd58a16c8df5548de02fcc3c54f499e72a771a1282bd64ee13f",
+          "bytes": 3146,
           "storage": "git"
         },
         {
@@ -4000,19 +4000,19 @@
         },
         {
           "path": "manifest.json",
-          "sha256": "329891d6b0d9eeb15f898603fa37e1a4056aab474d04a0805b8cb450ede6de0c",
+          "sha256": "035360d4b71b4ebfae3de7122bbb7a5e702eaee1e27f7ccd3a5564c853758272",
           "bytes": 4087,
           "storage": "git"
         },
         {
           "path": "package-lock.json",
-          "sha256": "78e985814de771419c66af6eaf84e65f1d56c13612f9e84c8fa66662a050c059",
+          "sha256": "fd6792e1444f7d8c7f68b7297c3fee16c84b24f8878d1c3e4825cdaca652eb11",
           "bytes": 118193,
           "storage": "git"
         },
         {
           "path": "package.json",
-          "sha256": "64023b10e82ebbee0728f88a867cba74815bd320ad5bd867b141178a837f99fa",
+          "sha256": "26299517eba309d7efa5852e421193725a4be0b0fb33f52f1a421e712f1a4d22",
           "bytes": 826,
           "storage": "git"
         },
@@ -4020,55 +4020,55 @@
           "path": "poster.jpg",
           "sha256": "d06bad62bd80b9909f4e07b75a3615fadad8cfbe2d38dc70e4be03b26a98fc1b",
           "bytes": 85063,
-          "archivePath": "motion-component-pf-orbit-focus-v1.1.0/poster.jpg",
+          "archivePath": "motion-component-pf-orbit-focus-v1.1.1/poster.jpg",
           "storage": "download"
         },
         {
           "path": "preview.mp4",
           "sha256": "1a6cf7c319d2b26b36b7ab864872aa583545194bea57b7fc1327716659674102",
           "bytes": 3493289,
-          "archivePath": "motion-component-pf-orbit-focus-v1.1.0/preview.mp4",
+          "archivePath": "motion-component-pf-orbit-focus-v1.1.1/preview.mp4",
           "storage": "download"
         },
         {
           "path": "public/assets/GeistVF.woff2",
           "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
           "bytes": 56800,
-          "archivePath": "motion-component-pf-orbit-focus-v1.1.0/public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-orbit-focus-v1.1.1/public/assets/GeistVF.woff2",
           "storage": "download"
         },
         {
           "path": "public/assets/coast.jpg",
           "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
           "bytes": 251741,
-          "archivePath": "motion-component-pf-orbit-focus-v1.1.0/public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-orbit-focus-v1.1.1/public/assets/coast.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/desert.jpg",
           "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
           "bytes": 205527,
-          "archivePath": "motion-component-pf-orbit-focus-v1.1.0/public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-orbit-focus-v1.1.1/public/assets/desert.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/forest.jpg",
           "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
           "bytes": 229748,
-          "archivePath": "motion-component-pf-orbit-focus-v1.1.0/public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-orbit-focus-v1.1.1/public/assets/forest.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/mountains.jpg",
           "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
           "bytes": 269763,
-          "archivePath": "motion-component-pf-orbit-focus-v1.1.0/public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-orbit-focus-v1.1.1/public/assets/mountains.jpg",
           "storage": "download"
         },
         {
           "path": "scripts/render.mjs",
-          "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-          "bytes": 2937,
+          "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+          "bytes": 3051,
           "storage": "git"
         },
         {
@@ -4085,7 +4085,7 @@
         },
         {
           "path": "template.json",
-          "sha256": "6144d67fef1a7aaafa05ea343b028712855dc429eba8235b5a6e6789bc8d0ff5",
+          "sha256": "1c7eda866ac5cfc03e67a3a8c155bd00e1610c1694923af1c8dad09af7aef4a4",
           "bytes": 298,
           "storage": "git"
         },
@@ -4103,8 +4103,8 @@
       "kind": "component",
       "description": "Transform a three-line announcement into a finished event credential.",
       "bestFor": "Events, conferences, and invitations",
-      "version": "1.1.0",
-      "revision": "editable-source-v1.1.0",
+      "version": "1.1.1",
+      "revision": "editable-source-v1.1.1",
       "width": 648,
       "height": 810,
       "fps": 60,
@@ -4123,9 +4123,9 @@
       "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-event-pass-v1.0.0/preview.mp4",
       "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-event-pass-v1.0.0/poster.jpg",
       "sourcePath": "pf-event-pass/project",
-      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-event-pass-v1.0.0/motion-component-pf-event-pass-v1.1.0.zip",
-      "archiveSha256": "1cb7f3f4678e785a2e1748f5defb12f5888bdb137fb1117a5186dcd2b673f7d7",
-      "archiveBytes": 1354458,
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-event-pass-v1.0.0/motion-component-pf-event-pass-v1.1.1.zip",
+      "archiveSha256": "63fca37f0937ced10307479a74b2c3fc7499cd4f6bb5c140e2fd69fb85524e99",
+      "archiveBytes": 1354804,
       "files": [
         {
           "path": ".gitignore",
@@ -4159,8 +4159,8 @@
         },
         {
           "path": "README.md",
-          "sha256": "8d0a33bb8ca9a7928b20c4e7f1ab30c8eea4afe336312855b1ce2f88c7b6a859",
-          "bytes": 2451,
+          "sha256": "780f2fe5f9235d2c203e0845824a2e7aca527f364eba1620bec7fc046a7ce6c2",
+          "bytes": 3149,
           "storage": "git"
         },
         {
@@ -4177,19 +4177,19 @@
         },
         {
           "path": "manifest.json",
-          "sha256": "81d3168225d294749deb8cd0d74e8e3016a781e2ef1467ca8e78b6d379bf47c4",
+          "sha256": "54a5d657885abe2d6652dd1536b6a534a543e66a4944d0a23ae1427d4e51e5ec",
           "bytes": 4080,
           "storage": "git"
         },
         {
           "path": "package-lock.json",
-          "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+          "sha256": "49d2c9b44cc1811e82fb93737aa6f92f5dc51351b415873d287a36b864778588",
           "bytes": 106599,
           "storage": "git"
         },
         {
           "path": "package.json",
-          "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+          "sha256": "dc4ac61570bc6a93b08801840b9796695e9e1711cce34c274129d55f45c7eee5",
           "bytes": 702,
           "storage": "git"
         },
@@ -4197,55 +4197,55 @@
           "path": "poster.jpg",
           "sha256": "5c394f7d806965f6152f72fb5cb7446e26f1c35aaab4b813be49bf5e2b33272a",
           "bytes": 50767,
-          "archivePath": "motion-component-pf-event-pass-v1.1.0/poster.jpg",
+          "archivePath": "motion-component-pf-event-pass-v1.1.1/poster.jpg",
           "storage": "download"
         },
         {
           "path": "preview.mp4",
           "sha256": "a2372ea966d669a3c9f89145ca64e7dc457b78b5e304ff2da06a936ce0a3c91a",
           "bytes": 262378,
-          "archivePath": "motion-component-pf-event-pass-v1.1.0/preview.mp4",
+          "archivePath": "motion-component-pf-event-pass-v1.1.1/preview.mp4",
           "storage": "download"
         },
         {
           "path": "public/assets/GeistVF.woff2",
           "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
           "bytes": 56800,
-          "archivePath": "motion-component-pf-event-pass-v1.1.0/public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-event-pass-v1.1.1/public/assets/GeistVF.woff2",
           "storage": "download"
         },
         {
           "path": "public/assets/coast.jpg",
           "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
           "bytes": 251741,
-          "archivePath": "motion-component-pf-event-pass-v1.1.0/public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-event-pass-v1.1.1/public/assets/coast.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/desert.jpg",
           "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
           "bytes": 205527,
-          "archivePath": "motion-component-pf-event-pass-v1.1.0/public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-event-pass-v1.1.1/public/assets/desert.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/forest.jpg",
           "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
           "bytes": 229748,
-          "archivePath": "motion-component-pf-event-pass-v1.1.0/public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-event-pass-v1.1.1/public/assets/forest.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/mountains.jpg",
           "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
           "bytes": 269763,
-          "archivePath": "motion-component-pf-event-pass-v1.1.0/public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-event-pass-v1.1.1/public/assets/mountains.jpg",
           "storage": "download"
         },
         {
           "path": "scripts/render.mjs",
-          "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-          "bytes": 2937,
+          "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+          "bytes": 3051,
           "storage": "git"
         },
         {
@@ -4262,7 +4262,7 @@
         },
         {
           "path": "template.json",
-          "sha256": "095ce521ca39612b9cc63ef1ef0856bc4224c8fb1cdebf7660c941ac847d2514",
+          "sha256": "758ee5450e5272cba88288d8ba726cbaf790dac477c9f4a4d3bb320669a53cfc",
           "bytes": 301,
           "storage": "git"
         },
@@ -4280,8 +4280,8 @@
       "kind": "component",
       "description": "Place an editable product flow precisely inside a photographed phone.",
       "bestFor": "Mobile product demos and app launches",
-      "version": "1.1.0",
-      "revision": "editable-source-v1.1.0",
+      "version": "1.1.1",
+      "revision": "editable-source-v1.1.1",
       "width": 720,
       "height": 720,
       "fps": 60,
@@ -4300,9 +4300,9 @@
       "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-phone-hand-v1.0.0/preview.mp4",
       "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-phone-hand-v1.0.0/poster.jpg",
       "sourcePath": "pf-phone-hand/project",
-      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-phone-hand-v1.0.0/motion-component-pf-phone-hand-v1.1.0.zip",
-      "archiveSha256": "387096fa9767899995f49e1f766e18a89e1d6409715266567b183209bd00fdaa",
-      "archiveBytes": 9320807,
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-phone-hand-v1.0.0/motion-component-pf-phone-hand-v1.1.1.zip",
+      "archiveSha256": "1462b5a56127f6e611bb02a2e907cd8ff854eeb89e1ce32ff4d9a33cda2611d3",
+      "archiveBytes": 9321158,
       "files": [
         {
           "path": ".gitignore",
@@ -4336,8 +4336,8 @@
         },
         {
           "path": "README.md",
-          "sha256": "55eca2aa94a38647a5820f2faf28b76aa12c72d7ea82d1c4ed2cf2ee3736993c",
-          "bytes": 2447,
+          "sha256": "f16e21bfcf42f7f27a9b247a9f61079f7df1fadd0e6f2e60297f769158c5e489",
+          "bytes": 3145,
           "storage": "git"
         },
         {
@@ -4354,19 +4354,19 @@
         },
         {
           "path": "manifest.json",
-          "sha256": "5ea1dd4d1bc7a1157c05fb4bb8f5bf87f3446d3f4946b60e56883d2b6fda5ff3",
+          "sha256": "583982bb245ce16a350827adea27c867506cec1162dc92e56079f075365af5c1",
           "bytes": 4752,
           "storage": "git"
         },
         {
           "path": "package-lock.json",
-          "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+          "sha256": "49d2c9b44cc1811e82fb93737aa6f92f5dc51351b415873d287a36b864778588",
           "bytes": 106599,
           "storage": "git"
         },
         {
           "path": "package.json",
-          "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+          "sha256": "dc4ac61570bc6a93b08801840b9796695e9e1711cce34c274129d55f45c7eee5",
           "bytes": 702,
           "storage": "git"
         },
@@ -4374,83 +4374,83 @@
           "path": "poster.jpg",
           "sha256": "4ae23bba65d9b05a75ed32d06e6ec0a40adaab7b499f2bd08883ce4c5c803bc0",
           "bytes": 113794,
-          "archivePath": "motion-component-pf-phone-hand-v1.1.0/poster.jpg",
+          "archivePath": "motion-component-pf-phone-hand-v1.1.1/poster.jpg",
           "storage": "download"
         },
         {
           "path": "preview.mp4",
           "sha256": "c67d7b8ff62cfb4468cdee41afdb666df3a8b61ca04888ee324001d62340c615",
           "bytes": 448823,
-          "archivePath": "motion-component-pf-phone-hand-v1.1.0/preview.mp4",
+          "archivePath": "motion-component-pf-phone-hand-v1.1.1/preview.mp4",
           "storage": "download"
         },
         {
           "path": "public/assets/GeistVF.woff2",
           "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
           "bytes": 56800,
-          "archivePath": "motion-component-pf-phone-hand-v1.1.0/public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-phone-hand-v1.1.1/public/assets/GeistVF.woff2",
           "storage": "download"
         },
         {
           "path": "public/assets/coast.jpg",
           "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
           "bytes": 251741,
-          "archivePath": "motion-component-pf-phone-hand-v1.1.0/public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-phone-hand-v1.1.1/public/assets/coast.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/desert.jpg",
           "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
           "bytes": 205527,
-          "archivePath": "motion-component-pf-phone-hand-v1.1.0/public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-phone-hand-v1.1.1/public/assets/desert.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/forest.jpg",
           "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
           "bytes": 229748,
-          "archivePath": "motion-component-pf-phone-hand-v1.1.0/public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-phone-hand-v1.1.1/public/assets/forest.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/hand-phone.png",
           "sha256": "3ac26069bbaab1225cc4f8016f2af74141397bc5ccbe0c81a35d374dea873230",
           "bytes": 1835525,
-          "archivePath": "motion-component-pf-phone-hand-v1.1.0/public/assets/hand-phone.png",
+          "archivePath": "motion-component-pf-phone-hand-v1.1.1/public/assets/hand-phone.png",
           "storage": "download"
         },
         {
           "path": "public/assets/mountains.jpg",
           "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
           "bytes": 269763,
-          "archivePath": "motion-component-pf-phone-hand-v1.1.0/public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-phone-hand-v1.1.1/public/assets/mountains.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/portrait-front.png",
           "sha256": "ff587900014fc340a07f8e351e5d2a4a597e34d09de2372fadb7e54722cc8d77",
           "bytes": 2172904,
-          "archivePath": "motion-component-pf-phone-hand-v1.1.0/public/assets/portrait-front.png",
+          "archivePath": "motion-component-pf-phone-hand-v1.1.1/public/assets/portrait-front.png",
           "storage": "download"
         },
         {
           "path": "public/assets/portrait-smile.png",
           "sha256": "d01da7ecdd9329691c762995168f3ef7b0b3d395cb674b3f4862791fecda966c",
           "bytes": 2038079,
-          "archivePath": "motion-component-pf-phone-hand-v1.1.0/public/assets/portrait-smile.png",
+          "archivePath": "motion-component-pf-phone-hand-v1.1.1/public/assets/portrait-smile.png",
           "storage": "download"
         },
         {
           "path": "public/assets/portrait-turn.png",
           "sha256": "b8cf52e5f20d729de97dee6d78249aff691189e983494e2f138a854ab1c146dd",
           "bytes": 2095588,
-          "archivePath": "motion-component-pf-phone-hand-v1.1.0/public/assets/portrait-turn.png",
+          "archivePath": "motion-component-pf-phone-hand-v1.1.1/public/assets/portrait-turn.png",
           "storage": "download"
         },
         {
           "path": "scripts/render.mjs",
-          "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-          "bytes": 2937,
+          "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+          "bytes": 3051,
           "storage": "git"
         },
         {
@@ -4467,7 +4467,7 @@
         },
         {
           "path": "template.json",
-          "sha256": "0707b189d768cbc5bb9afa601d4e87681bf235db821f81d5b11f4ead28f8d437",
+          "sha256": "2b7ce2754533ada54fd8d9e00f80f694355f09267080a6df6272cc35df47ef87",
           "bytes": 297,
           "storage": "git"
         },
@@ -4485,8 +4485,8 @@
       "kind": "component",
       "description": "Rotate three complete phone states through the central product position.",
       "bestFor": "Feature tours and mobile app showcases",
-      "version": "1.1.0",
-      "revision": "editable-source-v1.1.0",
+      "version": "1.1.1",
+      "revision": "editable-source-v1.1.1",
       "width": 864,
       "height": 648,
       "fps": 60,
@@ -4505,9 +4505,9 @@
       "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-phone-carousel-v1.0.0/preview.mp4",
       "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-phone-carousel-v1.0.0/poster.jpg",
       "sourcePath": "pf-phone-carousel/project",
-      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-phone-carousel-v1.0.0/motion-component-pf-phone-carousel-v1.1.0.zip",
-      "archiveSha256": "3acc03bdbea32306fe363b4162ad49f1635018032ac4965d5ef41c2ffd8f37c6",
-      "archiveBytes": 9386984,
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-phone-carousel-v1.0.0/motion-component-pf-phone-carousel-v1.1.1.zip",
+      "archiveSha256": "845b7ffcc0b5d2d1bace59f97ef39d7939143e258ff4675c5e86b27b2c2e454f",
+      "archiveBytes": 9387337,
       "files": [
         {
           "path": ".gitignore",
@@ -4541,8 +4541,8 @@
         },
         {
           "path": "README.md",
-          "sha256": "668ba93b5c46a31e6972024f03544cc3dfee94f8ba9e4b6dd9e1f453d5bfc268",
-          "bytes": 2461,
+          "sha256": "62d166bd3396c0fde03b8549f00f10218c63a0ff68335a83a58e9988536d70ee",
+          "bytes": 3159,
           "storage": "git"
         },
         {
@@ -4559,19 +4559,19 @@
         },
         {
           "path": "manifest.json",
-          "sha256": "45987036ba3a4fec59b81583461735a50aaa9bb5f7cf9bf68852508801d32f12",
+          "sha256": "c7fc488bdbf9977ff74f22dbf0ac804a22ed30c74668d10b52383768c117d176",
           "bytes": 4761,
           "storage": "git"
         },
         {
           "path": "package-lock.json",
-          "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+          "sha256": "49d2c9b44cc1811e82fb93737aa6f92f5dc51351b415873d287a36b864778588",
           "bytes": 106599,
           "storage": "git"
         },
         {
           "path": "package.json",
-          "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+          "sha256": "dc4ac61570bc6a93b08801840b9796695e9e1711cce34c274129d55f45c7eee5",
           "bytes": 702,
           "storage": "git"
         },
@@ -4579,83 +4579,83 @@
           "path": "poster.jpg",
           "sha256": "e0933193c47a44c6ba258b7c18fca1bdf245b6285c7e5937c0efddc1e66cfb1c",
           "bytes": 72270,
-          "archivePath": "motion-component-pf-phone-carousel-v1.1.0/poster.jpg",
+          "archivePath": "motion-component-pf-phone-carousel-v1.1.1/poster.jpg",
           "storage": "download"
         },
         {
           "path": "preview.mp4",
           "sha256": "103c3cb0e49eb6c795e8ac590c66cd8cb52f919c5f8385e126496bd9805ac293",
           "bytes": 566891,
-          "archivePath": "motion-component-pf-phone-carousel-v1.1.0/preview.mp4",
+          "archivePath": "motion-component-pf-phone-carousel-v1.1.1/preview.mp4",
           "storage": "download"
         },
         {
           "path": "public/assets/GeistVF.woff2",
           "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
           "bytes": 56800,
-          "archivePath": "motion-component-pf-phone-carousel-v1.1.0/public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-phone-carousel-v1.1.1/public/assets/GeistVF.woff2",
           "storage": "download"
         },
         {
           "path": "public/assets/coast.jpg",
           "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
           "bytes": 251741,
-          "archivePath": "motion-component-pf-phone-carousel-v1.1.0/public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-phone-carousel-v1.1.1/public/assets/coast.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/desert.jpg",
           "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
           "bytes": 205527,
-          "archivePath": "motion-component-pf-phone-carousel-v1.1.0/public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-phone-carousel-v1.1.1/public/assets/desert.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/forest.jpg",
           "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
           "bytes": 229748,
-          "archivePath": "motion-component-pf-phone-carousel-v1.1.0/public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-phone-carousel-v1.1.1/public/assets/forest.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/hand-phone.png",
           "sha256": "3ac26069bbaab1225cc4f8016f2af74141397bc5ccbe0c81a35d374dea873230",
           "bytes": 1835525,
-          "archivePath": "motion-component-pf-phone-carousel-v1.1.0/public/assets/hand-phone.png",
+          "archivePath": "motion-component-pf-phone-carousel-v1.1.1/public/assets/hand-phone.png",
           "storage": "download"
         },
         {
           "path": "public/assets/mountains.jpg",
           "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
           "bytes": 269763,
-          "archivePath": "motion-component-pf-phone-carousel-v1.1.0/public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-phone-carousel-v1.1.1/public/assets/mountains.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/portrait-front.png",
           "sha256": "ff587900014fc340a07f8e351e5d2a4a597e34d09de2372fadb7e54722cc8d77",
           "bytes": 2172904,
-          "archivePath": "motion-component-pf-phone-carousel-v1.1.0/public/assets/portrait-front.png",
+          "archivePath": "motion-component-pf-phone-carousel-v1.1.1/public/assets/portrait-front.png",
           "storage": "download"
         },
         {
           "path": "public/assets/portrait-smile.png",
           "sha256": "d01da7ecdd9329691c762995168f3ef7b0b3d395cb674b3f4862791fecda966c",
           "bytes": 2038079,
-          "archivePath": "motion-component-pf-phone-carousel-v1.1.0/public/assets/portrait-smile.png",
+          "archivePath": "motion-component-pf-phone-carousel-v1.1.1/public/assets/portrait-smile.png",
           "storage": "download"
         },
         {
           "path": "public/assets/portrait-turn.png",
           "sha256": "b8cf52e5f20d729de97dee6d78249aff691189e983494e2f138a854ab1c146dd",
           "bytes": 2095588,
-          "archivePath": "motion-component-pf-phone-carousel-v1.1.0/public/assets/portrait-turn.png",
+          "archivePath": "motion-component-pf-phone-carousel-v1.1.1/public/assets/portrait-turn.png",
           "storage": "download"
         },
         {
           "path": "scripts/render.mjs",
-          "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-          "bytes": 2937,
+          "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+          "bytes": 3051,
           "storage": "git"
         },
         {
@@ -4672,7 +4672,7 @@
         },
         {
           "path": "template.json",
-          "sha256": "f4b990509060674d5d4f7db5f1013252de8e9e03e8581c665191cf8a3affade4",
+          "sha256": "4b3e029217fed2baf120f3abe094a41da359987f4345e1b27947e83160ecaa9b",
           "bytes": 307,
           "storage": "git"
         },
@@ -4690,8 +4690,8 @@
       "kind": "component",
       "description": "Move from a camera capture sequence into a restrained fashion campaign.",
       "bestFor": "Fashion, eyewear, and editorial launches",
-      "version": "1.1.0",
-      "revision": "editable-source-v1.1.0",
+      "version": "1.1.1",
+      "revision": "editable-source-v1.1.1",
       "width": 1080,
       "height": 1920,
       "fps": 60,
@@ -4710,9 +4710,9 @@
       "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-camera-campaign-v1.0.0/preview.mp4",
       "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-camera-campaign-v1.0.0/poster.jpg",
       "sourcePath": "pf-camera-campaign/project",
-      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-camera-campaign-v1.0.0/motion-component-pf-camera-campaign-v1.1.0.zip",
-      "archiveSha256": "18c7122806f3cbbe35c431bbbc526d0e871caf80b4d513e5afbaf40825b5f37e",
-      "archiveBytes": 16831293,
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-camera-campaign-v1.0.0/motion-component-pf-camera-campaign-v1.1.1.zip",
+      "archiveSha256": "e9c619b6d7899c4ce3ab4bd538a87c32404a7e9d73e7a88c816be2dfad608312",
+      "archiveBytes": 16831644,
       "files": [
         {
           "path": ".gitignore",
@@ -4746,8 +4746,8 @@
         },
         {
           "path": "README.md",
-          "sha256": "1f190b6ee30cbf886f4068f4beef6ae970f09e0e06ae23a230584bfa32b87b63",
-          "bytes": 2470,
+          "sha256": "8e3d03cd78eb538a619456d63225de8b6e734945f91471885269beb0d6509f69",
+          "bytes": 3168,
           "storage": "git"
         },
         {
@@ -4764,19 +4764,19 @@
         },
         {
           "path": "manifest.json",
-          "sha256": "49c18763212aa02f490b269d0337597461df97c00df6d8a219d426a26ada877b",
+          "sha256": "8618361ce239465fb14840a4d1779d8e5b459d4f9b8ea69d0e86cf12fa1652b1",
           "bytes": 4529,
           "storage": "git"
         },
         {
           "path": "package-lock.json",
-          "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+          "sha256": "49d2c9b44cc1811e82fb93737aa6f92f5dc51351b415873d287a36b864778588",
           "bytes": 106599,
           "storage": "git"
         },
         {
           "path": "package.json",
-          "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+          "sha256": "dc4ac61570bc6a93b08801840b9796695e9e1711cce34c274129d55f45c7eee5",
           "bytes": 702,
           "storage": "git"
         },
@@ -4784,69 +4784,69 @@
           "path": "poster.jpg",
           "sha256": "0a9adcbcc2c0c9df397a50cc25ad9464705fadf3eb3c0f58ca2b9fe28d23fbb5",
           "bytes": 281257,
-          "archivePath": "motion-component-pf-camera-campaign-v1.1.0/poster.jpg",
+          "archivePath": "motion-component-pf-camera-campaign-v1.1.1/poster.jpg",
           "storage": "download"
         },
         {
           "path": "preview.mp4",
           "sha256": "14c92a998b9b74d4f32f46e7bdd5be3cf0b1066190b82002638b256be7dde27e",
           "bytes": 2912860,
-          "archivePath": "motion-component-pf-camera-campaign-v1.1.0/preview.mp4",
+          "archivePath": "motion-component-pf-camera-campaign-v1.1.1/preview.mp4",
           "storage": "download"
         },
         {
           "path": "public/assets/GeistVF.woff2",
           "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
           "bytes": 56800,
-          "archivePath": "motion-component-pf-camera-campaign-v1.1.0/public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-camera-campaign-v1.1.1/public/assets/GeistVF.woff2",
           "storage": "download"
         },
         {
           "path": "public/assets/editorial-silver-close.png",
           "sha256": "f26aa3c99069a8a34996a49a47b95449f4a32312dcdf566ea93dcd61d44fa51e",
           "bytes": 2395741,
-          "archivePath": "motion-component-pf-camera-campaign-v1.1.0/public/assets/editorial-silver-close.png",
+          "archivePath": "motion-component-pf-camera-campaign-v1.1.1/public/assets/editorial-silver-close.png",
           "storage": "download"
         },
         {
           "path": "public/assets/editorial-silver-detail.png",
           "sha256": "06ecd9b3d98cbb94c02841bebe908dbe1f15654e6997242d6f2f3b8096210b1c",
           "bytes": 2418183,
-          "archivePath": "motion-component-pf-camera-campaign-v1.1.0/public/assets/editorial-silver-detail.png",
+          "archivePath": "motion-component-pf-camera-campaign-v1.1.1/public/assets/editorial-silver-detail.png",
           "storage": "download"
         },
         {
           "path": "public/assets/editorial-silver-wide.png",
           "sha256": "3e2b52708791bc9969d2e9da08187b6607db812784cb5627aebd2eff81d5f185",
           "bytes": 2293542,
-          "archivePath": "motion-component-pf-camera-campaign-v1.1.0/public/assets/editorial-silver-wide.png",
+          "archivePath": "motion-component-pf-camera-campaign-v1.1.1/public/assets/editorial-silver-wide.png",
           "storage": "download"
         },
         {
           "path": "public/assets/editorial-sunset-macro.png",
           "sha256": "182a18fad9fdda45444b708e31a674bf4cf0349fc170ca9b8151a3080b3b00c5",
           "bytes": 2486270,
-          "archivePath": "motion-component-pf-camera-campaign-v1.1.0/public/assets/editorial-sunset-macro.png",
+          "archivePath": "motion-component-pf-camera-campaign-v1.1.1/public/assets/editorial-sunset-macro.png",
           "storage": "download"
         },
         {
           "path": "public/assets/editorial-sunset-turn.png",
           "sha256": "4e5c8b5f424d2a7064c8a33cdc7bc314db821653fe3b3d76f51e800602b93999",
           "bytes": 2224198,
-          "archivePath": "motion-component-pf-camera-campaign-v1.1.0/public/assets/editorial-sunset-turn.png",
+          "archivePath": "motion-component-pf-camera-campaign-v1.1.1/public/assets/editorial-sunset-turn.png",
           "storage": "download"
         },
         {
           "path": "public/assets/editorial-sunset-wide.png",
           "sha256": "9d7d50a0d9bd1b5d333765766fd321526c0c4b65b088bed4d391cae4b8d0ea78",
           "bytes": 2271452,
-          "archivePath": "motion-component-pf-camera-campaign-v1.1.0/public/assets/editorial-sunset-wide.png",
+          "archivePath": "motion-component-pf-camera-campaign-v1.1.1/public/assets/editorial-sunset-wide.png",
           "storage": "download"
         },
         {
           "path": "scripts/render.mjs",
-          "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-          "bytes": 2937,
+          "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+          "bytes": 3051,
           "storage": "git"
         },
         {
@@ -4863,7 +4863,7 @@
         },
         {
           "path": "template.json",
-          "sha256": "74166db59dc0fb07367f957b5cfcb7ecaa287998ea068ac5ef562ccec972ed63",
+          "sha256": "0029a847fb2c5796a4c17e623db752fec1955a8d911b24d0863234f6a33dde27",
           "bytes": 317,
           "storage": "git"
         },
@@ -4881,8 +4881,8 @@
       "kind": "component",
       "description": "Assemble four cinematic portrait slices into one macro campaign image.",
       "bestFor": "Portrait campaigns and editorial reveals",
-      "version": "1.1.0",
-      "revision": "editable-source-v1.1.0",
+      "version": "1.1.1",
+      "revision": "editable-source-v1.1.1",
       "width": 1080,
       "height": 1920,
       "fps": 60,
@@ -4901,9 +4901,9 @@
       "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-portrait-slices-v1.0.0/preview.mp4",
       "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-portrait-slices-v1.0.0/poster.jpg",
       "sourcePath": "pf-portrait-slices/project",
-      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-portrait-slices-v1.0.0/motion-component-pf-portrait-slices-v1.1.0.zip",
-      "archiveSha256": "d35a1c4f8ad4f7e5335aefb09d2256d86ee31ff926e65567d6d446824a8e715a",
-      "archiveBytes": 17255582,
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-portrait-slices-v1.0.0/motion-component-pf-portrait-slices-v1.1.1.zip",
+      "archiveSha256": "395bd517d188c13204e31f1ae6db14b43f6d8d5ec2bdfef66c04820c57068bb6",
+      "archiveBytes": 17255932,
       "files": [
         {
           "path": ".gitignore",
@@ -4937,8 +4937,8 @@
         },
         {
           "path": "README.md",
-          "sha256": "dca407fdec1b2a83716eb835a10b63f702f5bbda7bc847cc37eb575d1842e403",
-          "bytes": 2467,
+          "sha256": "1a583eb580fd10d45bd6bec03f0dd89903cf3823179353f71df10c6bd6ba6388",
+          "bytes": 3165,
           "storage": "git"
         },
         {
@@ -4955,19 +4955,19 @@
         },
         {
           "path": "manifest.json",
-          "sha256": "51239a803c4f4e8c16c6e746dcaa704059b4a06bf6f2f6f8a9108c308732fcd4",
+          "sha256": "1e78d042147464910649e46d03e080059791656b7949678fb369295cce46c90a",
           "bytes": 4526,
           "storage": "git"
         },
         {
           "path": "package-lock.json",
-          "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+          "sha256": "49d2c9b44cc1811e82fb93737aa6f92f5dc51351b415873d287a36b864778588",
           "bytes": 106599,
           "storage": "git"
         },
         {
           "path": "package.json",
-          "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+          "sha256": "dc4ac61570bc6a93b08801840b9796695e9e1711cce34c274129d55f45c7eee5",
           "bytes": 702,
           "storage": "git"
         },
@@ -4975,69 +4975,69 @@
           "path": "poster.jpg",
           "sha256": "192c2e0203dcafab844e25d31ba7532194ff86ffdbdae57b5024915d88dab60f",
           "bytes": 372350,
-          "archivePath": "motion-component-pf-portrait-slices-v1.1.0/poster.jpg",
+          "archivePath": "motion-component-pf-portrait-slices-v1.1.1/poster.jpg",
           "storage": "download"
         },
         {
           "path": "preview.mp4",
           "sha256": "e5556c2f913e3728f025aa998fbe05e39b21ff779a9c3e98929d770ae805f554",
           "bytes": 3244797,
-          "archivePath": "motion-component-pf-portrait-slices-v1.1.0/preview.mp4",
+          "archivePath": "motion-component-pf-portrait-slices-v1.1.1/preview.mp4",
           "storage": "download"
         },
         {
           "path": "public/assets/GeistVF.woff2",
           "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
           "bytes": 56800,
-          "archivePath": "motion-component-pf-portrait-slices-v1.1.0/public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-portrait-slices-v1.1.1/public/assets/GeistVF.woff2",
           "storage": "download"
         },
         {
           "path": "public/assets/editorial-silver-close.png",
           "sha256": "f26aa3c99069a8a34996a49a47b95449f4a32312dcdf566ea93dcd61d44fa51e",
           "bytes": 2395741,
-          "archivePath": "motion-component-pf-portrait-slices-v1.1.0/public/assets/editorial-silver-close.png",
+          "archivePath": "motion-component-pf-portrait-slices-v1.1.1/public/assets/editorial-silver-close.png",
           "storage": "download"
         },
         {
           "path": "public/assets/editorial-silver-detail.png",
           "sha256": "06ecd9b3d98cbb94c02841bebe908dbe1f15654e6997242d6f2f3b8096210b1c",
           "bytes": 2418183,
-          "archivePath": "motion-component-pf-portrait-slices-v1.1.0/public/assets/editorial-silver-detail.png",
+          "archivePath": "motion-component-pf-portrait-slices-v1.1.1/public/assets/editorial-silver-detail.png",
           "storage": "download"
         },
         {
           "path": "public/assets/editorial-silver-wide.png",
           "sha256": "3e2b52708791bc9969d2e9da08187b6607db812784cb5627aebd2eff81d5f185",
           "bytes": 2293542,
-          "archivePath": "motion-component-pf-portrait-slices-v1.1.0/public/assets/editorial-silver-wide.png",
+          "archivePath": "motion-component-pf-portrait-slices-v1.1.1/public/assets/editorial-silver-wide.png",
           "storage": "download"
         },
         {
           "path": "public/assets/editorial-sunset-macro.png",
           "sha256": "182a18fad9fdda45444b708e31a674bf4cf0349fc170ca9b8151a3080b3b00c5",
           "bytes": 2486270,
-          "archivePath": "motion-component-pf-portrait-slices-v1.1.0/public/assets/editorial-sunset-macro.png",
+          "archivePath": "motion-component-pf-portrait-slices-v1.1.1/public/assets/editorial-sunset-macro.png",
           "storage": "download"
         },
         {
           "path": "public/assets/editorial-sunset-turn.png",
           "sha256": "4e5c8b5f424d2a7064c8a33cdc7bc314db821653fe3b3d76f51e800602b93999",
           "bytes": 2224198,
-          "archivePath": "motion-component-pf-portrait-slices-v1.1.0/public/assets/editorial-sunset-turn.png",
+          "archivePath": "motion-component-pf-portrait-slices-v1.1.1/public/assets/editorial-sunset-turn.png",
           "storage": "download"
         },
         {
           "path": "public/assets/editorial-sunset-wide.png",
           "sha256": "9d7d50a0d9bd1b5d333765766fd321526c0c4b65b088bed4d391cae4b8d0ea78",
           "bytes": 2271452,
-          "archivePath": "motion-component-pf-portrait-slices-v1.1.0/public/assets/editorial-sunset-wide.png",
+          "archivePath": "motion-component-pf-portrait-slices-v1.1.1/public/assets/editorial-sunset-wide.png",
           "storage": "download"
         },
         {
           "path": "scripts/render.mjs",
-          "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-          "bytes": 2937,
+          "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+          "bytes": 3051,
           "storage": "git"
         },
         {
@@ -5054,7 +5054,7 @@
         },
         {
           "path": "template.json",
-          "sha256": "8372d77447d32d505f3de53a1b6061b04d87b57aed2b89ffbde3aecb071cdbeb",
+          "sha256": "cfba347384f490a762c50fb7b47d8708cf81cf02369351a5e1a9c80c064d0e69",
           "bytes": 314,
           "storage": "git"
         },
@@ -5072,8 +5072,8 @@
       "kind": "component",
       "description": "Relay three art prints through one graphic product-launch composition.",
       "bestFor": "Art drops, editions, and product series",
-      "version": "1.1.0",
-      "revision": "editable-source-v1.1.0",
+      "version": "1.1.1",
+      "revision": "editable-source-v1.1.1",
       "width": 648,
       "height": 648,
       "fps": 60,
@@ -5092,9 +5092,9 @@
       "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-print-menu-v1.0.0/preview.mp4",
       "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-print-menu-v1.0.0/poster.jpg",
       "sourcePath": "pf-print-menu/project",
-      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-print-menu-v1.0.0/motion-component-pf-print-menu-v1.1.0.zip",
-      "archiveSha256": "19fd54c40a4a6080147f97a8e2d39275e56b36f367106a60a08de7592f93044a",
-      "archiveBytes": 9197987,
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-print-menu-v1.0.0/motion-component-pf-print-menu-v1.1.1.zip",
+      "archiveSha256": "5f5ae1188fde87c02ebc95304b98acc44fd11879f75a5d33d8b9b27d0589a202",
+      "archiveBytes": 9198337,
       "files": [
         {
           "path": ".gitignore",
@@ -5128,8 +5128,8 @@
         },
         {
           "path": "README.md",
-          "sha256": "5fb9f8ca2100a1312a14667cf406a4f44c9052a09c1df72a4ac4d3e0dbfd196d",
-          "bytes": 2451,
+          "sha256": "be15eda78ae1fe7f1e45be50ae6dda9e7b4a33ca8539b0ad114f8c52df8f2fda",
+          "bytes": 3149,
           "storage": "git"
         },
         {
@@ -5146,19 +5146,19 @@
         },
         {
           "path": "manifest.json",
-          "sha256": "f356bd3b47453bfc9a8d2999db4f8c01f138e52bc3fda7b55b5cc41ba6ef340f",
+          "sha256": "2c6b7f5504550391e60efeed279398afaf18d648672ad1055d6f9ce9eed4c03c",
           "bytes": 4755,
           "storage": "git"
         },
         {
           "path": "package-lock.json",
-          "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+          "sha256": "49d2c9b44cc1811e82fb93737aa6f92f5dc51351b415873d287a36b864778588",
           "bytes": 106599,
           "storage": "git"
         },
         {
           "path": "package.json",
-          "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+          "sha256": "dc4ac61570bc6a93b08801840b9796695e9e1711cce34c274129d55f45c7eee5",
           "bytes": 702,
           "storage": "git"
         },
@@ -5166,83 +5166,83 @@
           "path": "poster.jpg",
           "sha256": "cf8708518d6b00110722004d5eeea7bb2eed9d1b77d40ac3e524d2cfe2024bce",
           "bytes": 62948,
-          "archivePath": "motion-component-pf-print-menu-v1.1.0/poster.jpg",
+          "archivePath": "motion-component-pf-print-menu-v1.1.1/poster.jpg",
           "storage": "download"
         },
         {
           "path": "preview.mp4",
           "sha256": "70e61657c7bdc5844c9311541b143034a57904284bcef8979f79a3d767502e71",
           "bytes": 383084,
-          "archivePath": "motion-component-pf-print-menu-v1.1.0/preview.mp4",
+          "archivePath": "motion-component-pf-print-menu-v1.1.1/preview.mp4",
           "storage": "download"
         },
         {
           "path": "public/assets/GeistVF.woff2",
           "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
           "bytes": 56800,
-          "archivePath": "motion-component-pf-print-menu-v1.1.0/public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-print-menu-v1.1.1/public/assets/GeistVF.woff2",
           "storage": "download"
         },
         {
           "path": "public/assets/coast.jpg",
           "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
           "bytes": 251741,
-          "archivePath": "motion-component-pf-print-menu-v1.1.0/public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-print-menu-v1.1.1/public/assets/coast.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/desert.jpg",
           "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
           "bytes": 205527,
-          "archivePath": "motion-component-pf-print-menu-v1.1.0/public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-print-menu-v1.1.1/public/assets/desert.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/forest.jpg",
           "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
           "bytes": 229748,
-          "archivePath": "motion-component-pf-print-menu-v1.1.0/public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-print-menu-v1.1.1/public/assets/forest.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/hand-phone.png",
           "sha256": "3ac26069bbaab1225cc4f8016f2af74141397bc5ccbe0c81a35d374dea873230",
           "bytes": 1835525,
-          "archivePath": "motion-component-pf-print-menu-v1.1.0/public/assets/hand-phone.png",
+          "archivePath": "motion-component-pf-print-menu-v1.1.1/public/assets/hand-phone.png",
           "storage": "download"
         },
         {
           "path": "public/assets/mountains.jpg",
           "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
           "bytes": 269763,
-          "archivePath": "motion-component-pf-print-menu-v1.1.0/public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-print-menu-v1.1.1/public/assets/mountains.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/portrait-front.png",
           "sha256": "ff587900014fc340a07f8e351e5d2a4a597e34d09de2372fadb7e54722cc8d77",
           "bytes": 2172904,
-          "archivePath": "motion-component-pf-print-menu-v1.1.0/public/assets/portrait-front.png",
+          "archivePath": "motion-component-pf-print-menu-v1.1.1/public/assets/portrait-front.png",
           "storage": "download"
         },
         {
           "path": "public/assets/portrait-smile.png",
           "sha256": "d01da7ecdd9329691c762995168f3ef7b0b3d395cb674b3f4862791fecda966c",
           "bytes": 2038079,
-          "archivePath": "motion-component-pf-print-menu-v1.1.0/public/assets/portrait-smile.png",
+          "archivePath": "motion-component-pf-print-menu-v1.1.1/public/assets/portrait-smile.png",
           "storage": "download"
         },
         {
           "path": "public/assets/portrait-turn.png",
           "sha256": "b8cf52e5f20d729de97dee6d78249aff691189e983494e2f138a854ab1c146dd",
           "bytes": 2095588,
-          "archivePath": "motion-component-pf-print-menu-v1.1.0/public/assets/portrait-turn.png",
+          "archivePath": "motion-component-pf-print-menu-v1.1.1/public/assets/portrait-turn.png",
           "storage": "download"
         },
         {
           "path": "scripts/render.mjs",
-          "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-          "bytes": 2937,
+          "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+          "bytes": 3051,
           "storage": "git"
         },
         {
@@ -5259,7 +5259,7 @@
         },
         {
           "path": "template.json",
-          "sha256": "e390df8e7bb31957d39633c58ddbce3161ed0bc26b8f4483bdc3ce2ded1bc311",
+          "sha256": "3d5b2a7f19a456be803d4bd6792c5e65e4436b9ecd6f2548370af9a47d5caece",
           "bytes": 301,
           "storage": "git"
         },
@@ -5277,8 +5277,8 @@
       "kind": "component",
       "description": "Turn a landscape into a route trace and a clean performance recap.",
       "bestFor": "Fitness, travel, and achievement stories",
-      "version": "1.1.0",
-      "revision": "editable-source-v1.1.0",
+      "version": "1.1.1",
+      "revision": "editable-source-v1.1.1",
       "width": 648,
       "height": 810,
       "fps": 60,
@@ -5297,9 +5297,9 @@
       "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-trail-recap-v1.0.0/preview.mp4",
       "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-trail-recap-v1.0.0/poster.jpg",
       "sourcePath": "pf-trail-recap/project",
-      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-trail-recap-v1.0.0/motion-component-pf-trail-recap-v1.1.0.zip",
-      "archiveSha256": "ee31cf4a053cbee66b1b1630b544bfd14a62bfc50daa6be6df95ebab5f2c84ac",
-      "archiveBytes": 9485321,
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-trail-recap-v1.0.0/motion-component-pf-trail-recap-v1.1.1.zip",
+      "archiveSha256": "65793f9615bf1e0134839efe23f9c5b7a5d615accf6a7425719323b2bf3f4b11",
+      "archiveBytes": 9485671,
       "files": [
         {
           "path": ".gitignore",
@@ -5333,8 +5333,8 @@
         },
         {
           "path": "README.md",
-          "sha256": "f1dca42a2076abec681e8e9aef91a304aef951b9bc4b5b0a43ca2a3bca3171fe",
-          "bytes": 2455,
+          "sha256": "04d443c854f8dbbdbcf1987716f14e9595c0d7ca86b407a108d75d4e7af5d351",
+          "bytes": 3153,
           "storage": "git"
         },
         {
@@ -5351,19 +5351,19 @@
         },
         {
           "path": "manifest.json",
-          "sha256": "ded8702e7e3707d6791d59a119638c3df6deb51ecdeb4646c7ea3fe4fc0bc2b6",
+          "sha256": "16b2aa648ac196c2e46ce212bd675101ef7b135bb7ad36bf699fec63f0ffed7d",
           "bytes": 4758,
           "storage": "git"
         },
         {
           "path": "package-lock.json",
-          "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+          "sha256": "49d2c9b44cc1811e82fb93737aa6f92f5dc51351b415873d287a36b864778588",
           "bytes": 106599,
           "storage": "git"
         },
         {
           "path": "package.json",
-          "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+          "sha256": "dc4ac61570bc6a93b08801840b9796695e9e1711cce34c274129d55f45c7eee5",
           "bytes": 702,
           "storage": "git"
         },
@@ -5371,83 +5371,83 @@
           "path": "poster.jpg",
           "sha256": "eaf130873cae72b737c8b676b870b941ca632c56f3cfe35cbc27c31581538018",
           "bytes": 80813,
-          "archivePath": "motion-component-pf-trail-recap-v1.1.0/poster.jpg",
+          "archivePath": "motion-component-pf-trail-recap-v1.1.1/poster.jpg",
           "storage": "download"
         },
         {
           "path": "preview.mp4",
           "sha256": "43798a3f8e1cdcf621216d2a2ecb1e6704cdb36b3fba1a2262233f033692f933",
           "bytes": 644951,
-          "archivePath": "motion-component-pf-trail-recap-v1.1.0/preview.mp4",
+          "archivePath": "motion-component-pf-trail-recap-v1.1.1/preview.mp4",
           "storage": "download"
         },
         {
           "path": "public/assets/GeistVF.woff2",
           "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
           "bytes": 56800,
-          "archivePath": "motion-component-pf-trail-recap-v1.1.0/public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-trail-recap-v1.1.1/public/assets/GeistVF.woff2",
           "storage": "download"
         },
         {
           "path": "public/assets/coast.jpg",
           "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
           "bytes": 251741,
-          "archivePath": "motion-component-pf-trail-recap-v1.1.0/public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-trail-recap-v1.1.1/public/assets/coast.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/desert.jpg",
           "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
           "bytes": 205527,
-          "archivePath": "motion-component-pf-trail-recap-v1.1.0/public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-trail-recap-v1.1.1/public/assets/desert.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/forest.jpg",
           "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
           "bytes": 229748,
-          "archivePath": "motion-component-pf-trail-recap-v1.1.0/public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-trail-recap-v1.1.1/public/assets/forest.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/hand-phone.png",
           "sha256": "3ac26069bbaab1225cc4f8016f2af74141397bc5ccbe0c81a35d374dea873230",
           "bytes": 1835525,
-          "archivePath": "motion-component-pf-trail-recap-v1.1.0/public/assets/hand-phone.png",
+          "archivePath": "motion-component-pf-trail-recap-v1.1.1/public/assets/hand-phone.png",
           "storage": "download"
         },
         {
           "path": "public/assets/mountains.jpg",
           "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
           "bytes": 269763,
-          "archivePath": "motion-component-pf-trail-recap-v1.1.0/public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-trail-recap-v1.1.1/public/assets/mountains.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/portrait-front.png",
           "sha256": "ff587900014fc340a07f8e351e5d2a4a597e34d09de2372fadb7e54722cc8d77",
           "bytes": 2172904,
-          "archivePath": "motion-component-pf-trail-recap-v1.1.0/public/assets/portrait-front.png",
+          "archivePath": "motion-component-pf-trail-recap-v1.1.1/public/assets/portrait-front.png",
           "storage": "download"
         },
         {
           "path": "public/assets/portrait-smile.png",
           "sha256": "d01da7ecdd9329691c762995168f3ef7b0b3d395cb674b3f4862791fecda966c",
           "bytes": 2038079,
-          "archivePath": "motion-component-pf-trail-recap-v1.1.0/public/assets/portrait-smile.png",
+          "archivePath": "motion-component-pf-trail-recap-v1.1.1/public/assets/portrait-smile.png",
           "storage": "download"
         },
         {
           "path": "public/assets/portrait-turn.png",
           "sha256": "b8cf52e5f20d729de97dee6d78249aff691189e983494e2f138a854ab1c146dd",
           "bytes": 2095588,
-          "archivePath": "motion-component-pf-trail-recap-v1.1.0/public/assets/portrait-turn.png",
+          "archivePath": "motion-component-pf-trail-recap-v1.1.1/public/assets/portrait-turn.png",
           "storage": "download"
         },
         {
           "path": "scripts/render.mjs",
-          "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-          "bytes": 2937,
+          "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+          "bytes": 3051,
           "storage": "git"
         },
         {
@@ -5464,7 +5464,7 @@
         },
         {
           "path": "template.json",
-          "sha256": "f73c3e022e6699fbd9e2395f61f6f8de9ba5f8cbb9ef8076918700b9bd28b182",
+          "sha256": "5acf5fdc9a7f7a7cc491924c52e5d4ddeaed97e30dfb636a0c53a2c27110e825",
           "bytes": 304,
           "storage": "git"
         },
@@ -5482,8 +5482,8 @@
       "kind": "component",
       "description": "Drive equal-size image planes through a true perspective spiral tunnel.",
       "bestFor": "Immersive showreels and central statements",
-      "version": "1.1.0",
-      "revision": "editable-source-v1.1.0",
+      "version": "1.1.1",
+      "revision": "editable-source-v1.1.1",
       "width": 1152,
       "height": 648,
       "fps": 60,
@@ -5502,9 +5502,9 @@
       "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-depth-swirl-v1.0.0/preview.mp4",
       "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-depth-swirl-v1.0.0/poster.jpg",
       "sourcePath": "pf-depth-swirl/project",
-      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-depth-swirl-v1.0.0/motion-component-pf-depth-swirl-v1.1.0.zip",
-      "archiveSha256": "1ed2e122ba5035fa3663ba12f66c52a527b468ec585cceb95df8bdd6f8257acc",
-      "archiveBytes": 3611457,
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-depth-swirl-v1.0.0/motion-component-pf-depth-swirl-v1.1.1.zip",
+      "archiveSha256": "a0188705604c2571e01c67b61a1ae32c34c0152d67bed52e8c782436250b717b",
+      "archiveBytes": 3611804,
       "files": [
         {
           "path": ".gitignore",
@@ -5538,8 +5538,8 @@
         },
         {
           "path": "README.md",
-          "sha256": "a721c133b0f078e54133a02da07664f938562f070c563564f35c33ce2c36de2b",
-          "bytes": 2447,
+          "sha256": "aa2f7d1582fbb75b89ae1a4760b893a175cdd403b40112f62b5243b8d2bbfc0f",
+          "bytes": 3145,
           "storage": "git"
         },
         {
@@ -5556,19 +5556,19 @@
         },
         {
           "path": "manifest.json",
-          "sha256": "dd0129a973089f94ca01e1c7381da68608ee1f83bcb585bbd45e7562ec4dd1e4",
+          "sha256": "3815957db40fa97aad61e5230e3c67addf36437728280cdedee047a4258539a5",
           "bytes": 4086,
           "storage": "git"
         },
         {
           "path": "package-lock.json",
-          "sha256": "78e985814de771419c66af6eaf84e65f1d56c13612f9e84c8fa66662a050c059",
+          "sha256": "fd6792e1444f7d8c7f68b7297c3fee16c84b24f8878d1c3e4825cdaca652eb11",
           "bytes": 118193,
           "storage": "git"
         },
         {
           "path": "package.json",
-          "sha256": "64023b10e82ebbee0728f88a867cba74815bd320ad5bd867b141178a837f99fa",
+          "sha256": "26299517eba309d7efa5852e421193725a4be0b0fb33f52f1a421e712f1a4d22",
           "bytes": 826,
           "storage": "git"
         },
@@ -5576,55 +5576,55 @@
           "path": "poster.jpg",
           "sha256": "0f495f4d92942b6391b3b6c7850d610bf082880aa951c60282152b1ba9175b58",
           "bytes": 70615,
-          "archivePath": "motion-component-pf-depth-swirl-v1.1.0/poster.jpg",
+          "archivePath": "motion-component-pf-depth-swirl-v1.1.1/poster.jpg",
           "storage": "download"
         },
         {
           "path": "preview.mp4",
           "sha256": "c667a40b49b8739575f10524ddffa72b52764fc61e2638e342975e7cc7e104c4",
           "bytes": 2495064,
-          "archivePath": "motion-component-pf-depth-swirl-v1.1.0/preview.mp4",
+          "archivePath": "motion-component-pf-depth-swirl-v1.1.1/preview.mp4",
           "storage": "download"
         },
         {
           "path": "public/assets/GeistVF.woff2",
           "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
           "bytes": 56800,
-          "archivePath": "motion-component-pf-depth-swirl-v1.1.0/public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-depth-swirl-v1.1.1/public/assets/GeistVF.woff2",
           "storage": "download"
         },
         {
           "path": "public/assets/coast.jpg",
           "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
           "bytes": 251741,
-          "archivePath": "motion-component-pf-depth-swirl-v1.1.0/public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-depth-swirl-v1.1.1/public/assets/coast.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/desert.jpg",
           "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
           "bytes": 205527,
-          "archivePath": "motion-component-pf-depth-swirl-v1.1.0/public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-depth-swirl-v1.1.1/public/assets/desert.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/forest.jpg",
           "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
           "bytes": 229748,
-          "archivePath": "motion-component-pf-depth-swirl-v1.1.0/public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-depth-swirl-v1.1.1/public/assets/forest.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/mountains.jpg",
           "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
           "bytes": 269763,
-          "archivePath": "motion-component-pf-depth-swirl-v1.1.0/public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-depth-swirl-v1.1.1/public/assets/mountains.jpg",
           "storage": "download"
         },
         {
           "path": "scripts/render.mjs",
-          "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-          "bytes": 2937,
+          "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+          "bytes": 3051,
           "storage": "git"
         },
         {
@@ -5641,7 +5641,7 @@
         },
         {
           "path": "template.json",
-          "sha256": "e08479ed234ac67344daddd7c47c3d3b328154b8bd63c58ffc575661bede26fc",
+          "sha256": "0ef3af250dc67f4253c4a26aa8a49a5ae2a1d614563555e5681aa465690d6233",
           "bytes": 297,
           "storage": "git"
         },
@@ -5659,8 +5659,8 @@
       "kind": "component",
       "description": "Snap complete headline rows in and switch to a second statement.",
       "bestFor": "Campaign headlines and title cards",
-      "version": "1.1.0",
-      "revision": "editable-source-v1.1.0",
+      "version": "1.1.1",
+      "revision": "editable-source-v1.1.1",
       "width": 648,
       "height": 810,
       "fps": 60,
@@ -5679,9 +5679,9 @@
       "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-type-snap-v1.0.0/preview.mp4",
       "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-type-snap-v1.0.0/poster.jpg",
       "sourcePath": "pf-type-snap/project",
-      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-type-snap-v1.0.0/motion-component-pf-type-snap-v1.1.0.zip",
-      "archiveSha256": "954895c0fb8e032c4209c51edf1faeb206b2b41784e44a513eabab933e750529",
-      "archiveBytes": 1284138,
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-type-snap-v1.0.0/motion-component-pf-type-snap-v1.1.1.zip",
+      "archiveSha256": "2c21062e848d7b5f9151808f735737b632ed1375c93e160648093a8c0ee3d2fe",
+      "archiveBytes": 1284490,
       "files": [
         {
           "path": ".gitignore",
@@ -5715,8 +5715,8 @@
         },
         {
           "path": "README.md",
-          "sha256": "e31e564bd62ea92efffc15cee1b69ce0061bc1c098aef7f804ee16a43fe3be51",
-          "bytes": 2450,
+          "sha256": "fb60b215f99e4e751e7a0ee044568e58e0482fdb26f924364cdc159e1b939bbc",
+          "bytes": 3148,
           "storage": "git"
         },
         {
@@ -5733,19 +5733,19 @@
         },
         {
           "path": "manifest.json",
-          "sha256": "c65293e7685bef42df210a66fb4ad2a6c3a1a0ec01b1155f2712a26f8264ab05",
+          "sha256": "90d9ee3a7f69d058c73a315f28eda26426a27096715bf5c56fe7a1e00837e206",
           "bytes": 5578,
           "storage": "git"
         },
         {
           "path": "package-lock.json",
-          "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+          "sha256": "49d2c9b44cc1811e82fb93737aa6f92f5dc51351b415873d287a36b864778588",
           "bytes": 106599,
           "storage": "git"
         },
         {
           "path": "package.json",
-          "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+          "sha256": "dc4ac61570bc6a93b08801840b9796695e9e1711cce34c274129d55f45c7eee5",
           "bytes": 702,
           "storage": "git"
         },
@@ -5753,55 +5753,55 @@
           "path": "poster.jpg",
           "sha256": "8be0e43b73f7f6695990c8ad87a3ef2e6ba0ca5a91fbd0a761fcb3ee247d0701",
           "bytes": 30025,
-          "archivePath": "motion-component-pf-type-snap-v1.1.0/poster.jpg",
+          "archivePath": "motion-component-pf-type-snap-v1.1.1/poster.jpg",
           "storage": "download"
         },
         {
           "path": "preview.mp4",
           "sha256": "217d8b783d4236711a3d48e638d2d5b1e84acbeec2ccd43900f19997ed3ed9e9",
           "bytes": 213231,
-          "archivePath": "motion-component-pf-type-snap-v1.1.0/preview.mp4",
+          "archivePath": "motion-component-pf-type-snap-v1.1.1/preview.mp4",
           "storage": "download"
         },
         {
           "path": "public/assets/GeistVF.woff2",
           "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
           "bytes": 56800,
-          "archivePath": "motion-component-pf-type-snap-v1.1.0/public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-type-snap-v1.1.1/public/assets/GeistVF.woff2",
           "storage": "download"
         },
         {
           "path": "public/assets/coast.jpg",
           "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
           "bytes": 251741,
-          "archivePath": "motion-component-pf-type-snap-v1.1.0/public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-type-snap-v1.1.1/public/assets/coast.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/desert.jpg",
           "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
           "bytes": 205527,
-          "archivePath": "motion-component-pf-type-snap-v1.1.0/public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-type-snap-v1.1.1/public/assets/desert.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/forest.jpg",
           "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
           "bytes": 229748,
-          "archivePath": "motion-component-pf-type-snap-v1.1.0/public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-type-snap-v1.1.1/public/assets/forest.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/mountains.jpg",
           "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
           "bytes": 269763,
-          "archivePath": "motion-component-pf-type-snap-v1.1.0/public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-type-snap-v1.1.1/public/assets/mountains.jpg",
           "storage": "download"
         },
         {
           "path": "scripts/render.mjs",
-          "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-          "bytes": 2937,
+          "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+          "bytes": 3051,
           "storage": "git"
         },
         {
@@ -5854,7 +5854,7 @@
         },
         {
           "path": "template.json",
-          "sha256": "6610bfc4ce815e655760678b9139a8c249e2f1b5b67e5c1ffa04159c8bf6f560",
+          "sha256": "7ce9894a2b987a3f7ab3862ea1869ac5ba883a7c704b00542943d00b4def1e3e",
           "bytes": 301,
           "storage": "git"
         },
@@ -5872,8 +5872,8 @@
       "kind": "component",
       "description": "Reveal and replace brand lines over a continuous procedural color field.",
       "bestFor": "Brand films and colorful announcements",
-      "version": "1.1.0",
-      "revision": "editable-source-v1.1.0",
+      "version": "1.1.1",
+      "revision": "editable-source-v1.1.1",
       "width": 960,
       "height": 540,
       "fps": 60,
@@ -5892,9 +5892,9 @@
       "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-color-field-v1.0.0/preview.mp4",
       "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-color-field-v1.0.0/poster.jpg",
       "sourcePath": "pf-color-field/project",
-      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-color-field-v1.0.0/motion-component-pf-color-field-v1.1.0.zip",
-      "archiveSha256": "6908ddf1bd9c70f31a5ce6616e7eff133835724d30429e46d7840c2b706ad828",
-      "archiveBytes": 1890951,
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-color-field-v1.0.0/motion-component-pf-color-field-v1.1.1.zip",
+      "archiveSha256": "68d8694b7d5864cc010c15dfdbaeaf4680c50a2f5906c69afbabab50d0dd22ef",
+      "archiveBytes": 1891303,
       "files": [
         {
           "path": ".gitignore",
@@ -5928,8 +5928,8 @@
         },
         {
           "path": "README.md",
-          "sha256": "ab01f6632679935905d37f2b2bf122d71ee135332e6dc3463bd4b6be29873266",
-          "bytes": 2451,
+          "sha256": "05bdb0985e48d74e3274fddf74cfe0c16f41b158732687fa7dc1eb48b0438db4",
+          "bytes": 3149,
           "storage": "git"
         },
         {
@@ -5946,19 +5946,19 @@
         },
         {
           "path": "manifest.json",
-          "sha256": "d5477dcaebd14d51b7063ea0fb52106c28d32fbed589a34cf8936a1c2934cf50",
+          "sha256": "98337df6c95e30aff2e34da02465ca2674bf084d1b45fc139d14771f2bc473a5",
           "bytes": 5577,
           "storage": "git"
         },
         {
           "path": "package-lock.json",
-          "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+          "sha256": "49d2c9b44cc1811e82fb93737aa6f92f5dc51351b415873d287a36b864778588",
           "bytes": 106599,
           "storage": "git"
         },
         {
           "path": "package.json",
-          "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+          "sha256": "dc4ac61570bc6a93b08801840b9796695e9e1711cce34c274129d55f45c7eee5",
           "bytes": 702,
           "storage": "git"
         },
@@ -5966,55 +5966,55 @@
           "path": "poster.jpg",
           "sha256": "993730badf86502aa24b27eaa20e19c979e7a75e4a87b64c87e27ee691fc0be0",
           "bytes": 36507,
-          "archivePath": "motion-component-pf-color-field-v1.1.0/poster.jpg",
+          "archivePath": "motion-component-pf-color-field-v1.1.1/poster.jpg",
           "storage": "download"
         },
         {
           "path": "preview.mp4",
           "sha256": "5d145883a0355578341b58f2b4bc03b17c13ba87f8441e65c9a439e16aa40c83",
           "bytes": 800156,
-          "archivePath": "motion-component-pf-color-field-v1.1.0/preview.mp4",
+          "archivePath": "motion-component-pf-color-field-v1.1.1/preview.mp4",
           "storage": "download"
         },
         {
           "path": "public/assets/GeistVF.woff2",
           "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
           "bytes": 56800,
-          "archivePath": "motion-component-pf-color-field-v1.1.0/public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-color-field-v1.1.1/public/assets/GeistVF.woff2",
           "storage": "download"
         },
         {
           "path": "public/assets/coast.jpg",
           "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
           "bytes": 251741,
-          "archivePath": "motion-component-pf-color-field-v1.1.0/public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-color-field-v1.1.1/public/assets/coast.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/desert.jpg",
           "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
           "bytes": 205527,
-          "archivePath": "motion-component-pf-color-field-v1.1.0/public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-color-field-v1.1.1/public/assets/desert.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/forest.jpg",
           "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
           "bytes": 229748,
-          "archivePath": "motion-component-pf-color-field-v1.1.0/public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-color-field-v1.1.1/public/assets/forest.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/mountains.jpg",
           "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
           "bytes": 269763,
-          "archivePath": "motion-component-pf-color-field-v1.1.0/public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-color-field-v1.1.1/public/assets/mountains.jpg",
           "storage": "download"
         },
         {
           "path": "scripts/render.mjs",
-          "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-          "bytes": 2937,
+          "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+          "bytes": 3051,
           "storage": "git"
         },
         {
@@ -6067,7 +6067,7 @@
         },
         {
           "path": "template.json",
-          "sha256": "03709a7cba1ce11ee1af8282cc58f54c285feb416f0c095a2877561e109ce4c5",
+          "sha256": "fb3a1082e459799556aa8bf308ea5651f09308e40755bb01ff70b93ccdf62056",
           "bytes": 300,
           "storage": "git"
         },
@@ -6085,8 +6085,8 @@
       "kind": "component",
       "description": "Resolve a multi-line title through a deterministic pixel mask.",
       "bestFor": "Event posters and graphic announcements",
-      "version": "1.1.0",
-      "revision": "editable-source-v1.1.0",
+      "version": "1.1.1",
+      "revision": "editable-source-v1.1.1",
       "width": 810,
       "height": 810,
       "fps": 60,
@@ -6105,9 +6105,9 @@
       "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-pixel-poster-v1.0.0/preview.mp4",
       "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-pixel-poster-v1.0.0/poster.jpg",
       "sourcePath": "pf-pixel-poster/project",
-      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-pixel-poster-v1.0.0/motion-component-pf-pixel-poster-v1.1.0.zip",
-      "archiveSha256": "54e1858fb53cbdd1377676dc29a7e69c7a8f291641c27a2472e94b2a5b31867d",
-      "archiveBytes": 2392316,
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-pixel-poster-v1.0.0/motion-component-pf-pixel-poster-v1.1.1.zip",
+      "archiveSha256": "29b9e618db0bcddb0e49a174149ef4de78493698ad13546fd0a38612643fe240",
+      "archiveBytes": 2392663,
       "files": [
         {
           "path": ".gitignore",
@@ -6141,8 +6141,8 @@
         },
         {
           "path": "README.md",
-          "sha256": "dfb4b9e192a1b22b689f8f998996b9cd42b4e56dde4b165752adc687bec72efe",
-          "bytes": 2456,
+          "sha256": "005a2cfd935ec4f78969ad3b92d5628f6a43a50aac2d36907ef9daf8b54ccaf1",
+          "bytes": 3154,
           "storage": "git"
         },
         {
@@ -6159,19 +6159,19 @@
         },
         {
           "path": "manifest.json",
-          "sha256": "de4f722be7a62a9ba997b0b4f547c7f23f000eb277a0c892bfd1f6b949207675",
+          "sha256": "efa443cb804774bad1d5e8f2b33447b442f40de90801635dce655e34523b0f54",
           "bytes": 5583,
           "storage": "git"
         },
         {
           "path": "package-lock.json",
-          "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+          "sha256": "49d2c9b44cc1811e82fb93737aa6f92f5dc51351b415873d287a36b864778588",
           "bytes": 106599,
           "storage": "git"
         },
         {
           "path": "package.json",
-          "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+          "sha256": "dc4ac61570bc6a93b08801840b9796695e9e1711cce34c274129d55f45c7eee5",
           "bytes": 702,
           "storage": "git"
         },
@@ -6179,55 +6179,55 @@
           "path": "poster.jpg",
           "sha256": "6d1c99a37ece9bc3146595f6d3b328e8828d26c43e094fafcf2aa429ab020e0e",
           "bytes": 330205,
-          "archivePath": "motion-component-pf-pixel-poster-v1.1.0/poster.jpg",
+          "archivePath": "motion-component-pf-pixel-poster-v1.1.1/poster.jpg",
           "storage": "download"
         },
         {
           "path": "preview.mp4",
           "sha256": "4a38a1c065d540e9ff6c4e830d662e9a1f447aadf1f9e98e007fbc2189445576",
           "bytes": 1018908,
-          "archivePath": "motion-component-pf-pixel-poster-v1.1.0/preview.mp4",
+          "archivePath": "motion-component-pf-pixel-poster-v1.1.1/preview.mp4",
           "storage": "download"
         },
         {
           "path": "public/assets/GeistVF.woff2",
           "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
           "bytes": 56800,
-          "archivePath": "motion-component-pf-pixel-poster-v1.1.0/public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-pixel-poster-v1.1.1/public/assets/GeistVF.woff2",
           "storage": "download"
         },
         {
           "path": "public/assets/coast.jpg",
           "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
           "bytes": 251741,
-          "archivePath": "motion-component-pf-pixel-poster-v1.1.0/public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-pixel-poster-v1.1.1/public/assets/coast.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/desert.jpg",
           "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
           "bytes": 205527,
-          "archivePath": "motion-component-pf-pixel-poster-v1.1.0/public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-pixel-poster-v1.1.1/public/assets/desert.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/forest.jpg",
           "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
           "bytes": 229748,
-          "archivePath": "motion-component-pf-pixel-poster-v1.1.0/public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-pixel-poster-v1.1.1/public/assets/forest.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/mountains.jpg",
           "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
           "bytes": 269763,
-          "archivePath": "motion-component-pf-pixel-poster-v1.1.0/public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-pixel-poster-v1.1.1/public/assets/mountains.jpg",
           "storage": "download"
         },
         {
           "path": "scripts/render.mjs",
-          "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-          "bytes": 2937,
+          "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+          "bytes": 3051,
           "storage": "git"
         },
         {
@@ -6280,7 +6280,7 @@
         },
         {
           "path": "template.json",
-          "sha256": "f70ff3ae852985d845beb0492262d6473d42fcdf6e40947d2469bd4465aeb0c1",
+          "sha256": "0eea68d3acad2c6e42823998cdfa379f51205a0425a925fcd7083b30607d2527",
           "bytes": 304,
           "storage": "git"
         },
@@ -6298,8 +6298,8 @@
       "kind": "component",
       "description": "Transform one product CTA into a clear, complete added-to-cart state.",
       "bestFor": "Commerce demos and product interactions",
-      "version": "1.1.0",
-      "revision": "editable-source-v1.1.0",
+      "version": "1.1.1",
+      "revision": "editable-source-v1.1.1",
       "width": 800,
       "height": 600,
       "fps": 60,
@@ -6318,9 +6318,9 @@
       "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-cart-checkout-v1.0.0/preview.mp4",
       "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-cart-checkout-v1.0.0/poster.jpg",
       "sourcePath": "pf-cart-checkout/project",
-      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-cart-checkout-v1.0.0/motion-component-pf-cart-checkout-v1.1.0.zip",
-      "archiveSha256": "09320c4baa63dc97f848a2f5bbe55451abc7972135707f970fc260d5e7db4e1e",
-      "archiveBytes": 1304261,
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-pf-cart-checkout-v1.0.0/motion-component-pf-cart-checkout-v1.1.1.zip",
+      "archiveSha256": "5a70119e7cf93b844fcdcbe966af61d9a3007f0d905b3f2c6cdba7a33f99559f",
+      "archiveBytes": 1304609,
       "files": [
         {
           "path": ".gitignore",
@@ -6354,8 +6354,8 @@
         },
         {
           "path": "README.md",
-          "sha256": "2b55cbc58b701f9651726cbb477a3fbdb90280170cdcbe534677d6f7a6256283",
-          "bytes": 2464,
+          "sha256": "73cb0b6a9961b84749c580f653dc97e8b52cc6b390dfa6b0fe0b04af8f9491fb",
+          "bytes": 3162,
           "storage": "git"
         },
         {
@@ -6372,19 +6372,19 @@
         },
         {
           "path": "manifest.json",
-          "sha256": "30ee0d31d498ab1091804b25d4c5d36a3046751de73843635d665ad745349bcc",
+          "sha256": "9659a93f2aa421bfa82b0e13e66055fbc9b0c0e993dbab7c3e40bf57646877d4",
           "bytes": 5588,
           "storage": "git"
         },
         {
           "path": "package-lock.json",
-          "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+          "sha256": "49d2c9b44cc1811e82fb93737aa6f92f5dc51351b415873d287a36b864778588",
           "bytes": 106599,
           "storage": "git"
         },
         {
           "path": "package.json",
-          "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+          "sha256": "dc4ac61570bc6a93b08801840b9796695e9e1711cce34c274129d55f45c7eee5",
           "bytes": 702,
           "storage": "git"
         },
@@ -6392,55 +6392,55 @@
           "path": "poster.jpg",
           "sha256": "a5f0055afd04151668eb326d447d3408c55f8da35d8ce419bd554f30bcfbb054",
           "bytes": 45042,
-          "archivePath": "motion-component-pf-cart-checkout-v1.1.0/poster.jpg",
+          "archivePath": "motion-component-pf-cart-checkout-v1.1.1/poster.jpg",
           "storage": "download"
         },
         {
           "path": "preview.mp4",
           "sha256": "47c2ff3d2e7d053bcfaff58f47ba6a55af86a7c7d7a91ebd7772b697071c6ce8",
           "bytes": 214882,
-          "archivePath": "motion-component-pf-cart-checkout-v1.1.0/preview.mp4",
+          "archivePath": "motion-component-pf-cart-checkout-v1.1.1/preview.mp4",
           "storage": "download"
         },
         {
           "path": "public/assets/GeistVF.woff2",
           "sha256": "28258d0621216948416a859d32487ab6ad1c9effa0d08795698e70be3c917630",
           "bytes": 56800,
-          "archivePath": "motion-component-pf-cart-checkout-v1.1.0/public/assets/GeistVF.woff2",
+          "archivePath": "motion-component-pf-cart-checkout-v1.1.1/public/assets/GeistVF.woff2",
           "storage": "download"
         },
         {
           "path": "public/assets/coast.jpg",
           "sha256": "33b4170696bd83ebe0b0f97200b1b9cbfb32e4fb8718290eb1b894d907e7f2a5",
           "bytes": 251741,
-          "archivePath": "motion-component-pf-cart-checkout-v1.1.0/public/assets/coast.jpg",
+          "archivePath": "motion-component-pf-cart-checkout-v1.1.1/public/assets/coast.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/desert.jpg",
           "sha256": "59c0f34ad8c8d042de4e81e1ab64097fb98d307c4aa575423923385744ef2190",
           "bytes": 205527,
-          "archivePath": "motion-component-pf-cart-checkout-v1.1.0/public/assets/desert.jpg",
+          "archivePath": "motion-component-pf-cart-checkout-v1.1.1/public/assets/desert.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/forest.jpg",
           "sha256": "acb8e5aecf22fc3c29d30a0b99e182564e7408100f23aff4f724674279e496ab",
           "bytes": 229748,
-          "archivePath": "motion-component-pf-cart-checkout-v1.1.0/public/assets/forest.jpg",
+          "archivePath": "motion-component-pf-cart-checkout-v1.1.1/public/assets/forest.jpg",
           "storage": "download"
         },
         {
           "path": "public/assets/mountains.jpg",
           "sha256": "9554dec07cdb71be62c8667e0fac19a1d9d88b6e82afae7e07913df05e98962b",
           "bytes": 269763,
-          "archivePath": "motion-component-pf-cart-checkout-v1.1.0/public/assets/mountains.jpg",
+          "archivePath": "motion-component-pf-cart-checkout-v1.1.1/public/assets/mountains.jpg",
           "storage": "download"
         },
         {
           "path": "scripts/render.mjs",
-          "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-          "bytes": 2937,
+          "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+          "bytes": 3051,
           "storage": "git"
         },
         {
@@ -6493,7 +6493,7 @@
         },
         {
           "path": "template.json",
-          "sha256": "716ef32c60189305e2bddb6ea1464922f447ccf6af2b7e6bed8d8201a6ba1217",
+          "sha256": "e8fd2475613da07ff708d8cb6d43502146fab82a2868c4d75576f583ae2e7e96",
           "bytes": 311,
           "storage": "git"
         },
@@ -6511,8 +6511,8 @@
       "kind": "component",
       "description": "Expand one quiet sentence into a polished multi-line brand manifesto.",
       "bestFor": "Brand stories and premium title sequences",
-      "version": "1.1.0",
-      "revision": "editable-source-v1.1.0",
+      "version": "1.1.1",
+      "revision": "editable-source-v1.1.1",
       "width": 960,
       "height": 540,
       "fps": 30,
@@ -6531,9 +6531,9 @@
       "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-manifesto-v1.0.0/preview.mp4",
       "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-manifesto-v1.0.0/poster.jpg",
       "sourcePath": "template-manifesto/project",
-      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-manifesto-v1.0.0/motion-component-template-manifesto-v1.1.0.zip",
-      "archiveSha256": "6520e08971e273eb5dc7def65bc97a4a50362a3a8fd974887cd8113352209f15",
-      "archiveBytes": 422847,
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-manifesto-v1.0.0/motion-component-template-manifesto-v1.1.1.zip",
+      "archiveSha256": "c3c93a4d138ab683519f5f65e56f6bc28e8a73dfbd493a24c31a4b2698a7f6c8",
+      "archiveBytes": 423196,
       "files": [
         {
           "path": ".gitignore",
@@ -6555,8 +6555,8 @@
         },
         {
           "path": "README.md",
-          "sha256": "86602eda0f082a80564bb1ca8f5558939b1183a81366bd343c38d1a0740ad188",
-          "bytes": 2464,
+          "sha256": "9eaf296e2ea78155e60f8b4edde8b9d2f37d8a114a896ef88fd85a00b16a60a4",
+          "bytes": 3162,
           "storage": "git"
         },
         {
@@ -6573,19 +6573,19 @@
         },
         {
           "path": "manifest.json",
-          "sha256": "942764e2042e638c31c43d701b0d14017a0f2999b6a8973bb13f4fa983aa0cb6",
+          "sha256": "33b376f08e525166feb6fe4e9c9ef09f0e60419c2f92521785aa323b1ec6a2e3",
           "bytes": 4945,
           "storage": "git"
         },
         {
           "path": "package-lock.json",
-          "sha256": "78e985814de771419c66af6eaf84e65f1d56c13612f9e84c8fa66662a050c059",
+          "sha256": "fd6792e1444f7d8c7f68b7297c3fee16c84b24f8878d1c3e4825cdaca652eb11",
           "bytes": 118193,
           "storage": "git"
         },
         {
           "path": "package.json",
-          "sha256": "64023b10e82ebbee0728f88a867cba74815bd320ad5bd867b141178a837f99fa",
+          "sha256": "26299517eba309d7efa5852e421193725a4be0b0fb33f52f1a421e712f1a4d22",
           "bytes": 826,
           "storage": "git"
         },
@@ -6593,20 +6593,20 @@
           "path": "poster.jpg",
           "sha256": "98587c15b5e46481090ed1221d76cd114b475035dbd0fea6d0098c8105f2bd20",
           "bytes": 49389,
-          "archivePath": "motion-component-template-manifesto-v1.1.0/poster.jpg",
+          "archivePath": "motion-component-template-manifesto-v1.1.1/poster.jpg",
           "storage": "download"
         },
         {
           "path": "preview.mp4",
           "sha256": "ff2cde0ba326768d9652e52228f6171d3de86ea608e8daf193c13788c6f0276b",
           "bytes": 322405,
-          "archivePath": "motion-component-template-manifesto-v1.1.0/preview.mp4",
+          "archivePath": "motion-component-template-manifesto-v1.1.1/preview.mp4",
           "storage": "download"
         },
         {
           "path": "scripts/render.mjs",
-          "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-          "bytes": 2937,
+          "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+          "bytes": 3051,
           "storage": "git"
         },
         {
@@ -6671,7 +6671,7 @@
         },
         {
           "path": "template.json",
-          "sha256": "9028a14e4884771d5c37eb3301e2bf2bae1539246e6120d10d1e0eed4dc64a25",
+          "sha256": "db4cde89b8981300b3288dc77f828b7a09731db9d7cf506a95271956fae9f273",
           "bytes": 309,
           "storage": "git"
         },
@@ -6689,8 +6689,8 @@
       "kind": "component",
       "description": "Set three opposing type ribbons into a compact campaign lockup.",
       "bestFor": "Launches, events, and bold announcements",
-      "version": "1.1.0",
-      "revision": "editable-source-v1.1.0",
+      "version": "1.1.1",
+      "revision": "editable-source-v1.1.1",
       "width": 960,
       "height": 540,
       "fps": 30,
@@ -6709,9 +6709,9 @@
       "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-ribbon-manifesto-v1.0.0/preview.mp4",
       "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-ribbon-manifesto-v1.0.0/poster.jpg",
       "sourcePath": "template-ribbon-manifesto/project",
-      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-ribbon-manifesto-v1.0.0/motion-component-template-ribbon-manifesto-v1.1.0.zip",
-      "archiveSha256": "f50624b1f6ec8b263dc0950c9216ae43c95080a4302a38d642d957d8d8986fa5",
-      "archiveBytes": 799040,
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-ribbon-manifesto-v1.0.0/motion-component-template-ribbon-manifesto-v1.1.1.zip",
+      "archiveSha256": "dd39761ced95493c01fe59d67e789819c0a078c8a3bf5858cb54f3bdb840e395",
+      "archiveBytes": 799392,
       "files": [
         {
           "path": ".gitignore",
@@ -6733,8 +6733,8 @@
         },
         {
           "path": "README.md",
-          "sha256": "780c24112b0b3ca8efda3a1ae8397e6c4da0a5006145a55323a86a6b27699deb",
-          "bytes": 2484,
+          "sha256": "63ab3e7f6177756b7902d7b9aa9e3da40395c4a8c351183c027d8169e62d217a",
+          "bytes": 3182,
           "storage": "git"
         },
         {
@@ -6751,19 +6751,19 @@
         },
         {
           "path": "manifest.json",
-          "sha256": "7002830eb329d594a7954298f4b12d6495fa7e86497eed7ea0de27b58d499122",
+          "sha256": "5eb1e61804b5c4de2171f278e5075a32e12fc8ad8054596871df3cb969483459",
           "bytes": 4959,
           "storage": "git"
         },
         {
           "path": "package-lock.json",
-          "sha256": "78e985814de771419c66af6eaf84e65f1d56c13612f9e84c8fa66662a050c059",
+          "sha256": "fd6792e1444f7d8c7f68b7297c3fee16c84b24f8878d1c3e4825cdaca652eb11",
           "bytes": 118193,
           "storage": "git"
         },
         {
           "path": "package.json",
-          "sha256": "64023b10e82ebbee0728f88a867cba74815bd320ad5bd867b141178a837f99fa",
+          "sha256": "26299517eba309d7efa5852e421193725a4be0b0fb33f52f1a421e712f1a4d22",
           "bytes": 826,
           "storage": "git"
         },
@@ -6771,20 +6771,20 @@
           "path": "poster.jpg",
           "sha256": "a5e0048ce7078c443da77569d27521de3d7f2fe6ef089d5c0d480eb6de17c07c",
           "bytes": 95864,
-          "archivePath": "motion-component-template-ribbon-manifesto-v1.1.0/poster.jpg",
+          "archivePath": "motion-component-template-ribbon-manifesto-v1.1.1/poster.jpg",
           "storage": "download"
         },
         {
           "path": "preview.mp4",
           "sha256": "01c783a663f127ed74dc2eef1492df7d6f6f01184ec13e232a6894ed314191ff",
           "bytes": 643809,
-          "archivePath": "motion-component-template-ribbon-manifesto-v1.1.0/preview.mp4",
+          "archivePath": "motion-component-template-ribbon-manifesto-v1.1.1/preview.mp4",
           "storage": "download"
         },
         {
           "path": "scripts/render.mjs",
-          "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-          "bytes": 2937,
+          "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+          "bytes": 3051,
           "storage": "git"
         },
         {
@@ -6849,7 +6849,7 @@
         },
         {
           "path": "template.json",
-          "sha256": "2390d79f29308a6439fc805e9e502edcd65e16b65a7876ad732cc041d8e847cb",
+          "sha256": "fdfaf857029e28aacc0a8a4baf7eb0123af06b75d306fe38b7d09d9502c09661",
           "bytes": 322,
           "storage": "git"
         },
@@ -6867,8 +6867,8 @@
       "kind": "component",
       "description": "Grow luminous data capsules into a compact analytics result.",
       "bestFor": "Metrics, dashboards, and proof points",
-      "version": "1.1.0",
-      "revision": "editable-source-v1.1.0",
+      "version": "1.1.1",
+      "revision": "editable-source-v1.1.1",
       "width": 960,
       "height": 540,
       "fps": 60,
@@ -6887,9 +6887,9 @@
       "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-analytics-glow-v1.0.0/preview.mp4",
       "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-analytics-glow-v1.0.0/poster.jpg",
       "sourcePath": "template-analytics-glow/project",
-      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-analytics-glow-v1.0.0/motion-component-template-analytics-glow-v1.1.0.zip",
-      "archiveSha256": "3bce9719a23bd0b4bab43806e877716ea6688188149b8a62d57c87fcd2dc9ff8",
-      "archiveBytes": 105807,
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-analytics-glow-v1.0.0/motion-component-template-analytics-glow-v1.1.1.zip",
+      "archiveSha256": "c9b8853c44f02cafb8990a426521965e395a7a432bd60de1e493418abd8a87b5",
+      "archiveBytes": 106153,
       "files": [
         {
           "path": ".gitignore",
@@ -6911,8 +6911,8 @@
         },
         {
           "path": "README.md",
-          "sha256": "d0d829cb46d2235ed5dd3711d7a9214ee33841e1b2b7d31346245b12b8c4c065",
-          "bytes": 2483,
+          "sha256": "77a0bef96cb18af77bfa0e028398e567a9ad4ed40412a682772314dd3ad57a89",
+          "bytes": 3181,
           "storage": "git"
         },
         {
@@ -6929,19 +6929,19 @@
         },
         {
           "path": "manifest.json",
-          "sha256": "46c3f098cd711825c184493a319de490a1b84e668aaceec9f74d7af223a7450c",
+          "sha256": "96d80cc554e90476b700fe515269c052f1b129faa925a3660b92bbb17581b512",
           "bytes": 4958,
           "storage": "git"
         },
         {
           "path": "package-lock.json",
-          "sha256": "78e985814de771419c66af6eaf84e65f1d56c13612f9e84c8fa66662a050c059",
+          "sha256": "fd6792e1444f7d8c7f68b7297c3fee16c84b24f8878d1c3e4825cdaca652eb11",
           "bytes": 118193,
           "storage": "git"
         },
         {
           "path": "package.json",
-          "sha256": "64023b10e82ebbee0728f88a867cba74815bd320ad5bd867b141178a837f99fa",
+          "sha256": "26299517eba309d7efa5852e421193725a4be0b0fb33f52f1a421e712f1a4d22",
           "bytes": 826,
           "storage": "git"
         },
@@ -6949,20 +6949,20 @@
           "path": "poster.jpg",
           "sha256": "c5739c6cd4c110f21485f681a1713161df96899c95ed629ce9627a2753a7302f",
           "bytes": 20539,
-          "archivePath": "motion-component-template-analytics-glow-v1.1.0/poster.jpg",
+          "archivePath": "motion-component-template-analytics-glow-v1.1.1/poster.jpg",
           "storage": "download"
         },
         {
           "path": "preview.mp4",
           "sha256": "7f1df59f6adab84b28f583c2aac8969899caa446900b081e442d4d64d2bd2bc5",
           "bytes": 32494,
-          "archivePath": "motion-component-template-analytics-glow-v1.1.0/preview.mp4",
+          "archivePath": "motion-component-template-analytics-glow-v1.1.1/preview.mp4",
           "storage": "download"
         },
         {
           "path": "scripts/render.mjs",
-          "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-          "bytes": 2937,
+          "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+          "bytes": 3051,
           "storage": "git"
         },
         {
@@ -7027,7 +7027,7 @@
         },
         {
           "path": "template.json",
-          "sha256": "f1d811ea2dd16a350d78da1930a56c7d53d8ddeaab73b7931cbe0977b28ec0a6",
+          "sha256": "78150023a9feb2eefa5970b50df877bb259d24e87ec3adea4cd40f295c1053a5",
           "bytes": 323,
           "storage": "git"
         },
@@ -7045,8 +7045,8 @@
       "kind": "component",
       "description": "Trace one data anomaly into an understandable recommendation.",
       "bestFor": "Analytics products and insight workflows",
-      "version": "1.1.0",
-      "revision": "editable-source-v1.1.0",
+      "version": "1.1.1",
+      "revision": "editable-source-v1.1.1",
       "width": 960,
       "height": 540,
       "fps": 60,
@@ -7065,9 +7065,9 @@
       "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-case-numo-v1.0.0/preview.mp4",
       "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-case-numo-v1.0.0/poster.jpg",
       "sourcePath": "template-case-numo/project",
-      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-case-numo-v1.0.0/motion-component-template-case-numo-v1.1.0.zip",
-      "archiveSha256": "6413d7e5e3deb7ed58e7f16445bfc7654393ad97c4a36d3eae0a4f3bd3ebb391",
-      "archiveBytes": 5095070,
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-case-numo-v1.0.0/motion-component-template-case-numo-v1.1.1.zip",
+      "archiveSha256": "98066dde3f16523f9a5c9db7f0d423529a10eb01070a967aa63e818e9969d546",
+      "archiveBytes": 5095418,
       "files": [
         {
           "path": ".gitignore",
@@ -7089,8 +7089,8 @@
         },
         {
           "path": "README.md",
-          "sha256": "3a470cb00ed400af5848a907b8928e9a40802367674b75957b9359727aefdb0d",
-          "bytes": 2459,
+          "sha256": "1c903ef05eff3dc8e66996ce124106daba83c9c623574849c6273192889c28d6",
+          "bytes": 3157,
           "storage": "git"
         },
         {
@@ -7107,19 +7107,19 @@
         },
         {
           "path": "manifest.json",
-          "sha256": "037ea2e2933b915126132f08e2e9ba5f4449bf74eb29e46161e9e387894baec0",
+          "sha256": "1f85b31cee834a08d64c14b75f4275a98d9e5a261b5137a2c4d0ed7e1bbb3754",
           "bytes": 4942,
           "storage": "git"
         },
         {
           "path": "package-lock.json",
-          "sha256": "78e985814de771419c66af6eaf84e65f1d56c13612f9e84c8fa66662a050c059",
+          "sha256": "fd6792e1444f7d8c7f68b7297c3fee16c84b24f8878d1c3e4825cdaca652eb11",
           "bytes": 118193,
           "storage": "git"
         },
         {
           "path": "package.json",
-          "sha256": "64023b10e82ebbee0728f88a867cba74815bd320ad5bd867b141178a837f99fa",
+          "sha256": "26299517eba309d7efa5852e421193725a4be0b0fb33f52f1a421e712f1a4d22",
           "bytes": 826,
           "storage": "git"
         },
@@ -7127,20 +7127,20 @@
           "path": "poster.jpg",
           "sha256": "b7681c4da8ed2af9975c66693208cd8c5a18a0ead95f04b88f4928264a4e46fe",
           "bytes": 230099,
-          "archivePath": "motion-component-template-case-numo-v1.1.0/poster.jpg",
+          "archivePath": "motion-component-template-case-numo-v1.1.1/poster.jpg",
           "storage": "download"
         },
         {
           "path": "preview.mp4",
           "sha256": "c904889ca8f67bc405568d8a80dea9e6d61a0095312357a8d2df9c7be29a4519",
           "bytes": 4806661,
-          "archivePath": "motion-component-template-case-numo-v1.1.0/preview.mp4",
+          "archivePath": "motion-component-template-case-numo-v1.1.1/preview.mp4",
           "storage": "download"
         },
         {
           "path": "scripts/render.mjs",
-          "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-          "bytes": 2937,
+          "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+          "bytes": 3051,
           "storage": "git"
         },
         {
@@ -7205,7 +7205,7 @@
         },
         {
           "path": "template.json",
-          "sha256": "350271014ea6b44fc11ee6fd4cf0755a71a495e57c960b0ddf2ed6107e9593fd",
+          "sha256": "3c749d608e742b57a769e4582bb11cb2e9c057eb8bfd2eccb245821015ead68c",
           "bytes": 304,
           "storage": "git"
         },
@@ -7223,8 +7223,8 @@
       "kind": "component",
       "description": "Stack creative work, select one result, and open it into focus.",
       "bestFor": "Search, media libraries, and creative tools",
-      "version": "1.1.0",
-      "revision": "editable-source-v1.1.0",
+      "version": "1.1.1",
+      "revision": "editable-source-v1.1.1",
       "width": 960,
       "height": 540,
       "fps": 60,
@@ -7243,9 +7243,9 @@
       "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-case-search-v1.0.0/preview.mp4",
       "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-case-search-v1.0.0/poster.jpg",
       "sourcePath": "template-case-search/project",
-      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-case-search-v1.0.0/motion-component-template-case-search-v1.1.0.zip",
-      "archiveSha256": "ac19fafe1ca428dc726229027859c8f681bcc077f615f33e1a2e1f18cf89cf49",
-      "archiveBytes": 287395,
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-case-search-v1.0.0/motion-component-template-case-search-v1.1.1.zip",
+      "archiveSha256": "7737ff98c324babb1ebb14c68cb275f3da9feabadecfabfd785fd5d306897f95",
+      "archiveBytes": 287747,
       "files": [
         {
           "path": ".gitignore",
@@ -7267,8 +7267,8 @@
         },
         {
           "path": "README.md",
-          "sha256": "9250ee1eeedab724f2bdd61ce79f19775df0f72c6f67c7b35ed149923408606d",
-          "bytes": 2473,
+          "sha256": "51f4fdfb844627e47df533b5b4e9fa6f3c3c49598123b5db4330e23350e3ade4",
+          "bytes": 3171,
           "storage": "git"
         },
         {
@@ -7285,19 +7285,19 @@
         },
         {
           "path": "manifest.json",
-          "sha256": "0744e10d669657ec52ff394f8480514fa376d7e2cd75cb6f9119621dc3da5221",
+          "sha256": "7ab9a5fcc0f35217885fc079e69801bc0f2e8fc213b8c8c6354a35ba0810d749",
           "bytes": 4952,
           "storage": "git"
         },
         {
           "path": "package-lock.json",
-          "sha256": "78e985814de771419c66af6eaf84e65f1d56c13612f9e84c8fa66662a050c059",
+          "sha256": "fd6792e1444f7d8c7f68b7297c3fee16c84b24f8878d1c3e4825cdaca652eb11",
           "bytes": 118193,
           "storage": "git"
         },
         {
           "path": "package.json",
-          "sha256": "64023b10e82ebbee0728f88a867cba74815bd320ad5bd867b141178a837f99fa",
+          "sha256": "26299517eba309d7efa5852e421193725a4be0b0fb33f52f1a421e712f1a4d22",
           "bytes": 826,
           "storage": "git"
         },
@@ -7305,20 +7305,20 @@
           "path": "poster.jpg",
           "sha256": "f22d5d2d7d36e7a1f97ec34808b940cb6b9de822c7b8d0228d646ba021ce1de6",
           "bytes": 22993,
-          "archivePath": "motion-component-template-case-search-v1.1.0/poster.jpg",
+          "archivePath": "motion-component-template-case-search-v1.1.1/poster.jpg",
           "storage": "download"
         },
         {
           "path": "preview.mp4",
           "sha256": "d67be7a9c95142d8f54f914d1098e91191511234669facdefde15813f8e1ae03",
           "bytes": 219967,
-          "archivePath": "motion-component-template-case-search-v1.1.0/preview.mp4",
+          "archivePath": "motion-component-template-case-search-v1.1.1/preview.mp4",
           "storage": "download"
         },
         {
           "path": "scripts/render.mjs",
-          "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-          "bytes": 2937,
+          "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+          "bytes": 3051,
           "storage": "git"
         },
         {
@@ -7383,7 +7383,7 @@
         },
         {
           "path": "template.json",
-          "sha256": "46caedbe2d458fc8bba1f7a129f69780f93c83236487824822cecfc58d9ccdc1",
+          "sha256": "5d0c16d32280cfe4b86995371c47ee7c51df50cbabc5207d2b89f0b9aa0a9a90",
           "bytes": 316,
           "storage": "git"
         },
@@ -7401,8 +7401,8 @@
       "kind": "component",
       "description": "Change one color control and let the entire page respond.",
       "bestFor": "Website builders and visual editors",
-      "version": "1.1.0",
-      "revision": "editable-source-v1.1.0",
+      "version": "1.1.1",
+      "revision": "editable-source-v1.1.1",
       "width": 960,
       "height": 540,
       "fps": 30,
@@ -7421,9 +7421,9 @@
       "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-case-website-v1.0.0/preview.mp4",
       "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-case-website-v1.0.0/poster.jpg",
       "sourcePath": "template-case-website/project",
-      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-case-website-v1.0.0/motion-component-template-case-website-v1.1.0.zip",
-      "archiveSha256": "6b13c9c75439b72eb03bfc0778e126854349565ad1953e6bfa6ab4dd12b324d1",
-      "archiveBytes": 15637807,
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-case-website-v1.0.0/motion-component-template-case-website-v1.1.1.zip",
+      "archiveSha256": "779bc33c6fa1f641b8bfd99e1ce0499ed696120cf0eae9550429c4b473d2cfb3",
+      "archiveBytes": 15638156,
       "files": [
         {
           "path": ".gitignore",
@@ -7445,8 +7445,8 @@
         },
         {
           "path": "README.md",
-          "sha256": "305db565b82efa74a6ed2969ae9f6344a2e56d4ffee1810c4257cf9662351a7b",
-          "bytes": 2471,
+          "sha256": "910ba3a8b87d6991fb02f59d2f84aa5e178fef4fe63af8c8bf1349b8571dc84c",
+          "bytes": 3169,
           "storage": "git"
         },
         {
@@ -7469,19 +7469,19 @@
         },
         {
           "path": "manifest.json",
-          "sha256": "0816cabf1bfd11d5af71fba4c07ec0fb12888b6305eb57e5e1d892230541b67b",
+          "sha256": "9c3fa44a59436db12773c227569dfcb881823e78abe892af97c893eaee9126c9",
           "bytes": 4968,
           "storage": "git"
         },
         {
           "path": "package-lock.json",
-          "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+          "sha256": "49d2c9b44cc1811e82fb93737aa6f92f5dc51351b415873d287a36b864778588",
           "bytes": 106599,
           "storage": "git"
         },
         {
           "path": "package.json",
-          "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+          "sha256": "dc4ac61570bc6a93b08801840b9796695e9e1711cce34c274129d55f45c7eee5",
           "bytes": 702,
           "storage": "git"
         },
@@ -7489,62 +7489,62 @@
           "path": "poster.jpg",
           "sha256": "f066da1c6471c9108ab2d4fffb55229f5b564080b7dba354079bd150dc44caa7",
           "bytes": 91871,
-          "archivePath": "motion-component-template-case-website-v1.1.0/poster.jpg",
+          "archivePath": "motion-component-template-case-website-v1.1.1/poster.jpg",
           "storage": "download"
         },
         {
           "path": "preview.mp4",
           "sha256": "04d84b4ba12ef3ca60744a2cc7456a432071fffd50bebd9df0b2a389d9b7d08e",
           "bytes": 412859,
-          "archivePath": "motion-component-template-case-website-v1.1.0/preview.mp4",
+          "archivePath": "motion-component-template-case-website-v1.1.1/preview.mp4",
           "storage": "download"
         },
         {
           "path": "public/generated-assets/alpine-valley.png",
           "sha256": "24dbbb753cdda79be9d09ad16f1bf42c3fc60a6d587c7d2aa0581623e0867b66",
           "bytes": 2715591,
-          "archivePath": "motion-component-template-case-website-v1.1.0/public/generated-assets/alpine-valley.png",
+          "archivePath": "motion-component-template-case-website-v1.1.1/public/generated-assets/alpine-valley.png",
           "storage": "download"
         },
         {
           "path": "public/generated-assets/evidence-room-attempt-1.png",
           "sha256": "681821877767a13eaef580114c2c6b06508a3c323ebd4344f4530ccbacc64d4a",
           "bytes": 1660216,
-          "archivePath": "motion-component-template-case-website-v1.1.0/public/generated-assets/evidence-room-attempt-1.png",
+          "archivePath": "motion-component-template-case-website-v1.1.1/public/generated-assets/evidence-room-attempt-1.png",
           "storage": "download"
         },
         {
           "path": "public/generated-assets/evidence-room.png",
           "sha256": "3c48d6503b3c7293fbbbe54db74ae015c0f28eb8b84e4c34efac200c07543427",
           "bytes": 1896985,
-          "archivePath": "motion-component-template-case-website-v1.1.0/public/generated-assets/evidence-room.png",
+          "archivePath": "motion-component-template-case-website-v1.1.1/public/generated-assets/evidence-room.png",
           "storage": "download"
         },
         {
           "path": "public/generated-assets/ridge-meadow.png",
           "sha256": "bdce07b4cf9ad958aefa21fa1745e6bec2ef052de7e3e6d5a0b34ba195db3223",
           "bytes": 3223941,
-          "archivePath": "motion-component-template-case-website-v1.1.0/public/generated-assets/ridge-meadow.png",
+          "archivePath": "motion-component-template-case-website-v1.1.1/public/generated-assets/ridge-meadow.png",
           "storage": "download"
         },
         {
           "path": "public/generated-assets/rowboat-lake.png",
           "sha256": "fb1af199046f5cd2e0c85037f5c008a0e144ef9659cba3d61bc9c2e3d41c3f0f",
           "bytes": 3003479,
-          "archivePath": "motion-component-template-case-website-v1.1.0/public/generated-assets/rowboat-lake.png",
+          "archivePath": "motion-component-template-case-website-v1.1.1/public/generated-assets/rowboat-lake.png",
           "storage": "download"
         },
         {
           "path": "public/generated-assets/sandstone-desert.png",
           "sha256": "ee978b7b00f2ca246512b670cad4533f0afa1afa290eedb552dbd087bd4e8a66",
           "bytes": 2978035,
-          "archivePath": "motion-component-template-case-website-v1.1.0/public/generated-assets/sandstone-desert.png",
+          "archivePath": "motion-component-template-case-website-v1.1.1/public/generated-assets/sandstone-desert.png",
           "storage": "download"
         },
         {
           "path": "scripts/render.mjs",
-          "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-          "bytes": 2937,
+          "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+          "bytes": 3051,
           "storage": "git"
         },
         {
@@ -7579,7 +7579,7 @@
         },
         {
           "path": "template.json",
-          "sha256": "449bae8652b242a8ed5e9b8a30e70db1e90857b8a72fff58a0e121a3ef233d2f",
+          "sha256": "d462cc76e55fdb164bd1f498a76e3fd8c6ec9bc6401c057a09cbd273e00530fd",
           "bytes": 313,
           "storage": "git"
         },
@@ -7597,8 +7597,8 @@
       "kind": "component",
       "description": "Ask a question and reveal an answer with visible source evidence.",
       "bestFor": "Research assistants and knowledge products",
-      "version": "1.1.0",
-      "revision": "editable-source-v1.1.0",
+      "version": "1.1.1",
+      "revision": "editable-source-v1.1.1",
       "width": 960,
       "height": 540,
       "fps": 30,
@@ -7617,9 +7617,9 @@
       "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-case-research-v1.0.0/preview.mp4",
       "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-case-research-v1.0.0/poster.jpg",
       "sourcePath": "template-case-research/project",
-      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-case-research-v1.0.0/motion-component-template-case-research-v1.1.0.zip",
-      "archiveSha256": "ed9bebd076635d5b27d9ae32835de4c4126a1ea6448844fc7a71128cbd0414e7",
-      "archiveBytes": 16288451,
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-case-research-v1.0.0/motion-component-template-case-research-v1.1.1.zip",
+      "archiveSha256": "927ac706f1f3353089dcd3d77d273559ebd4e6daa6769456780bfb19782733c3",
+      "archiveBytes": 16288791,
       "files": [
         {
           "path": ".gitignore",
@@ -7641,8 +7641,8 @@
         },
         {
           "path": "README.md",
-          "sha256": "ab3cfcc7b3a72227862c3309fa6c5034ca2332ff3b66eb0881044a8886da2e6c",
-          "bytes": 2476,
+          "sha256": "dc9937c7d77344f24c00d4ffa442fcf7e0f8b721e88aa945d78f4cb42be7ebcd",
+          "bytes": 3174,
           "storage": "git"
         },
         {
@@ -7665,19 +7665,19 @@
         },
         {
           "path": "manifest.json",
-          "sha256": "087de233aa6f86e677dd6005255ae804ef07c60b9111f16c6a15add994775492",
+          "sha256": "74ef95f9b4c124fcebb71828f1af460e1eb3335abc1af8f0a7868c5dab7c0320",
           "bytes": 4974,
           "storage": "git"
         },
         {
           "path": "package-lock.json",
-          "sha256": "b6590aa43ec0a15f9ca43137b70503d6676f71d3a0c0a4d50c8a60090c415a57",
+          "sha256": "49d2c9b44cc1811e82fb93737aa6f92f5dc51351b415873d287a36b864778588",
           "bytes": 106599,
           "storage": "git"
         },
         {
           "path": "package.json",
-          "sha256": "86eb759619d9450421b69b31a7b024d05a25f49b253bd455c93c291400be83ae",
+          "sha256": "dc4ac61570bc6a93b08801840b9796695e9e1711cce34c274129d55f45c7eee5",
           "bytes": 702,
           "storage": "git"
         },
@@ -7685,62 +7685,62 @@
           "path": "poster.jpg",
           "sha256": "a54bfa23af1abfc47abf1697fa1d87466034cbc7e0d8ef5e3f0630ea0c4c3828",
           "bytes": 107418,
-          "archivePath": "motion-component-template-case-research-v1.1.0/poster.jpg",
+          "archivePath": "motion-component-template-case-research-v1.1.1/poster.jpg",
           "storage": "download"
         },
         {
           "path": "preview.mp4",
           "sha256": "3af83b8ddb5a49069a3a98aeae072d2671b6b0cda2781cb3393990198fe499ec",
           "bytes": 1033424,
-          "archivePath": "motion-component-template-case-research-v1.1.0/preview.mp4",
+          "archivePath": "motion-component-template-case-research-v1.1.1/preview.mp4",
           "storage": "download"
         },
         {
           "path": "public/generated-assets/alpine-valley.png",
           "sha256": "24dbbb753cdda79be9d09ad16f1bf42c3fc60a6d587c7d2aa0581623e0867b66",
           "bytes": 2715591,
-          "archivePath": "motion-component-template-case-research-v1.1.0/public/generated-assets/alpine-valley.png",
+          "archivePath": "motion-component-template-case-research-v1.1.1/public/generated-assets/alpine-valley.png",
           "storage": "download"
         },
         {
           "path": "public/generated-assets/evidence-room-attempt-1.png",
           "sha256": "681821877767a13eaef580114c2c6b06508a3c323ebd4344f4530ccbacc64d4a",
           "bytes": 1660216,
-          "archivePath": "motion-component-template-case-research-v1.1.0/public/generated-assets/evidence-room-attempt-1.png",
+          "archivePath": "motion-component-template-case-research-v1.1.1/public/generated-assets/evidence-room-attempt-1.png",
           "storage": "download"
         },
         {
           "path": "public/generated-assets/evidence-room.png",
           "sha256": "3c48d6503b3c7293fbbbe54db74ae015c0f28eb8b84e4c34efac200c07543427",
           "bytes": 1896985,
-          "archivePath": "motion-component-template-case-research-v1.1.0/public/generated-assets/evidence-room.png",
+          "archivePath": "motion-component-template-case-research-v1.1.1/public/generated-assets/evidence-room.png",
           "storage": "download"
         },
         {
           "path": "public/generated-assets/ridge-meadow.png",
           "sha256": "bdce07b4cf9ad958aefa21fa1745e6bec2ef052de7e3e6d5a0b34ba195db3223",
           "bytes": 3223941,
-          "archivePath": "motion-component-template-case-research-v1.1.0/public/generated-assets/ridge-meadow.png",
+          "archivePath": "motion-component-template-case-research-v1.1.1/public/generated-assets/ridge-meadow.png",
           "storage": "download"
         },
         {
           "path": "public/generated-assets/rowboat-lake.png",
           "sha256": "fb1af199046f5cd2e0c85037f5c008a0e144ef9659cba3d61bc9c2e3d41c3f0f",
           "bytes": 3003479,
-          "archivePath": "motion-component-template-case-research-v1.1.0/public/generated-assets/rowboat-lake.png",
+          "archivePath": "motion-component-template-case-research-v1.1.1/public/generated-assets/rowboat-lake.png",
           "storage": "download"
         },
         {
           "path": "public/generated-assets/sandstone-desert.png",
           "sha256": "ee978b7b00f2ca246512b670cad4533f0afa1afa290eedb552dbd087bd4e8a66",
           "bytes": 2978035,
-          "archivePath": "motion-component-template-case-research-v1.1.0/public/generated-assets/sandstone-desert.png",
+          "archivePath": "motion-component-template-case-research-v1.1.1/public/generated-assets/sandstone-desert.png",
           "storage": "download"
         },
         {
           "path": "scripts/render.mjs",
-          "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-          "bytes": 2937,
+          "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+          "bytes": 3051,
           "storage": "git"
         },
         {
@@ -7775,7 +7775,7 @@
         },
         {
           "path": "template.json",
-          "sha256": "ca84cc7c9a2ec3adc873cb8dbff8484a4b6f5e028fce431cad91f6cac901476a",
+          "sha256": "23f47ab877e21a5dd40acf77dee8f02aee41fb9a1fbcdc48800573dd6772d5b8",
           "bytes": 317,
           "storage": "git"
         },
@@ -7793,8 +7793,8 @@
       "kind": "component",
       "description": "Turn one prompt into a finished, shareable creative result.",
       "bestFor": "AI companions and creation products",
-      "version": "1.1.0",
-      "revision": "editable-source-v1.1.0",
+      "version": "1.1.1",
+      "revision": "editable-source-v1.1.1",
       "width": 960,
       "height": 540,
       "fps": 30,
@@ -7813,9 +7813,9 @@
       "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-case-companion-v1.0.0/preview.mp4",
       "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-case-companion-v1.0.0/poster.jpg",
       "sourcePath": "template-case-companion/project",
-      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-case-companion-v1.0.0/motion-component-template-case-companion-v1.1.0.zip",
-      "archiveSha256": "310cc5628f9b742e634576b19afec025cfe060c113d5b6acb6b5224ec5ba7ff0",
-      "archiveBytes": 755653,
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-template-case-companion-v1.0.0/motion-component-template-case-companion-v1.1.1.zip",
+      "archiveSha256": "96ec4cb8c04ddfa6ec2315e253048d28501cbed8f8a732e1da7c8f4a5f186d96",
+      "archiveBytes": 756002,
       "files": [
         {
           "path": ".gitignore",
@@ -7837,8 +7837,8 @@
         },
         {
           "path": "README.md",
-          "sha256": "e714a985a6f618b6738169d51af4754e26bf50016e9eb931e80af6976fa2c958",
-          "bytes": 2477,
+          "sha256": "0be6f502fe15af1215202cf95a71f65b7237ffb1704cb09494e106530b1de568",
+          "bytes": 3175,
           "storage": "git"
         },
         {
@@ -7855,19 +7855,19 @@
         },
         {
           "path": "manifest.json",
-          "sha256": "4293809e8c9a81fd98c38775a64e08596c7f0104e8aa1cf2c69f40a550ff1688",
+          "sha256": "3928751d78304ee91e6de47796d9f3023c55267a61a6588199bffd612f30ed0a",
           "bytes": 4953,
           "storage": "git"
         },
         {
           "path": "package-lock.json",
-          "sha256": "78e985814de771419c66af6eaf84e65f1d56c13612f9e84c8fa66662a050c059",
+          "sha256": "fd6792e1444f7d8c7f68b7297c3fee16c84b24f8878d1c3e4825cdaca652eb11",
           "bytes": 118193,
           "storage": "git"
         },
         {
           "path": "package.json",
-          "sha256": "64023b10e82ebbee0728f88a867cba74815bd320ad5bd867b141178a837f99fa",
+          "sha256": "26299517eba309d7efa5852e421193725a4be0b0fb33f52f1a421e712f1a4d22",
           "bytes": 826,
           "storage": "git"
         },
@@ -7875,20 +7875,20 @@
           "path": "poster.jpg",
           "sha256": "411a403d571bbcc7ee5f4c67b34ca8c64bb161a52375f1cf4ee788c266f9417b",
           "bytes": 40908,
-          "archivePath": "motion-component-template-case-companion-v1.1.0/poster.jpg",
+          "archivePath": "motion-component-template-case-companion-v1.1.1/poster.jpg",
           "storage": "download"
         },
         {
           "path": "preview.mp4",
           "sha256": "82c5d4973bf0af804f7fe75199d6d5386a163346719ea48eb6677ca61a6a5b4c",
           "bytes": 662210,
-          "archivePath": "motion-component-template-case-companion-v1.1.0/preview.mp4",
+          "archivePath": "motion-component-template-case-companion-v1.1.1/preview.mp4",
           "storage": "download"
         },
         {
           "path": "scripts/render.mjs",
-          "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-          "bytes": 2937,
+          "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+          "bytes": 3051,
           "storage": "git"
         },
         {
@@ -7953,7 +7953,7 @@
         },
         {
           "path": "template.json",
-          "sha256": "8938aa6fe35cf38989dc683b1bb17df419007473c374ebad81bd6b7e03127144",
+          "sha256": "6c2968b2f3a0122ff4b620b83c607a56a52f882a3f7d6b666ea95beb2cee576b",
           "bytes": 317,
           "storage": "git"
         },
@@ -7971,8 +7971,8 @@
       "kind": "component",
       "description": "Shrink a centered symbol and reveal its brand name.",
       "bestFor": "Minimal logo reveals",
-      "version": "1.1.0",
-      "revision": "editable-source-v1.1.0",
+      "version": "1.1.1",
+      "revision": "editable-source-v1.1.1",
       "width": 960,
       "height": 540,
       "fps": 30,
@@ -7991,9 +7991,9 @@
       "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-study-brand-lockup-v1.0.0/preview.mp4",
       "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-study-brand-lockup-v1.0.0/poster.jpg",
       "sourcePath": "study-brand-lockup/project",
-      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-study-brand-lockup-v1.0.0/motion-component-study-brand-lockup-v1.1.0.zip",
-      "archiveSha256": "8bf10f3058f6cfdbacd12db63d4d4fea400db7e4f9510495e60147c5b79e3677",
-      "archiveBytes": 85401,
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-study-brand-lockup-v1.0.0/motion-component-study-brand-lockup-v1.1.1.zip",
+      "archiveSha256": "26238bac622920422f7124c2937e3c60f680631c2ca4bd0988ca3adb5c0cdc8f",
+      "archiveBytes": 85744,
       "files": [
         {
           "path": ".gitignore",
@@ -8015,8 +8015,8 @@
         },
         {
           "path": "README.md",
-          "sha256": "ee280cac47d0125d89c774e629e3517a3c826045ae90cd7ab9db33af9649f6c5",
-          "bytes": 2459,
+          "sha256": "73ce51451b098c6dd8e1be8060664e005414004cb677365d9091e9ad0bdbae3f",
+          "bytes": 3157,
           "storage": "git"
         },
         {
@@ -8033,19 +8033,19 @@
         },
         {
           "path": "manifest.json",
-          "sha256": "f6c02cf76e1257857e7afcc4342df838dac5af34fbb66bfe42452dce6c90918c",
+          "sha256": "28f503ad5ca7b3c9ad500a37f9e7a7b633fbcc1b199f1a6ebd22a1275aa09b51",
           "bytes": 4940,
           "storage": "git"
         },
         {
           "path": "package-lock.json",
-          "sha256": "78e985814de771419c66af6eaf84e65f1d56c13612f9e84c8fa66662a050c059",
+          "sha256": "fd6792e1444f7d8c7f68b7297c3fee16c84b24f8878d1c3e4825cdaca652eb11",
           "bytes": 118193,
           "storage": "git"
         },
         {
           "path": "package.json",
-          "sha256": "64023b10e82ebbee0728f88a867cba74815bd320ad5bd867b141178a837f99fa",
+          "sha256": "26299517eba309d7efa5852e421193725a4be0b0fb33f52f1a421e712f1a4d22",
           "bytes": 826,
           "storage": "git"
         },
@@ -8053,20 +8053,20 @@
           "path": "poster.jpg",
           "sha256": "7c4b3c56179b21b0f8ee66b33624c88c8c9884308cffc014b7541e98e59b9a6f",
           "bytes": 11288,
-          "archivePath": "motion-component-study-brand-lockup-v1.1.0/poster.jpg",
+          "archivePath": "motion-component-study-brand-lockup-v1.1.1/poster.jpg",
           "storage": "download"
         },
         {
           "path": "preview.mp4",
           "sha256": "db55d4e1581dcb3a289f5e052f98265e67b05efed219286ce5764f844d0e2df3",
           "bytes": 14321,
-          "archivePath": "motion-component-study-brand-lockup-v1.1.0/preview.mp4",
+          "archivePath": "motion-component-study-brand-lockup-v1.1.1/preview.mp4",
           "storage": "download"
         },
         {
           "path": "scripts/render.mjs",
-          "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-          "bytes": 2937,
+          "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+          "bytes": 3051,
           "storage": "git"
         },
         {
@@ -8131,7 +8131,7 @@
         },
         {
           "path": "template.json",
-          "sha256": "dcec38301c84ef061b7406e411afe4fb59dec5df960fcd89eb159028c75de3ca",
+          "sha256": "67b939ae6b97b7f848fe9e65111c4ee10161e44f8598834fb588b4610cf65705",
           "bytes": 304,
           "storage": "git"
         },
@@ -8149,8 +8149,8 @@
       "kind": "component",
       "description": "Rotate and unfold a compact mark into its final silhouette.",
       "bestFor": "Brand marks and idents",
-      "version": "1.1.0",
-      "revision": "editable-source-v1.1.0",
+      "version": "1.1.1",
+      "revision": "editable-source-v1.1.1",
       "width": 960,
       "height": 540,
       "fps": 30,
@@ -8169,9 +8169,9 @@
       "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-study-brand-bloom-v1.0.0/preview.mp4",
       "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-study-brand-bloom-v1.0.0/poster.jpg",
       "sourcePath": "study-brand-bloom/project",
-      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-study-brand-bloom-v1.0.0/motion-component-study-brand-bloom-v1.1.0.zip",
-      "archiveSha256": "483db2117ee32e820d8c4d8e465d9ca4807a647cf54e32a9b3f9fa8ece4ba52d",
-      "archiveBytes": 82557,
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-study-brand-bloom-v1.0.0/motion-component-study-brand-bloom-v1.1.1.zip",
+      "archiveSha256": "8f69c45155e33f629b5b369ba5ff6c08d5ade3c7f84f06f107ac5f5960349165",
+      "archiveBytes": 82906,
       "files": [
         {
           "path": ".gitignore",
@@ -8193,8 +8193,8 @@
         },
         {
           "path": "README.md",
-          "sha256": "37a5f8917404831f92278b1ce4a7e1d4f6d284b5d22c347db3148b2bcb5f95fa",
-          "bytes": 2448,
+          "sha256": "c56b2b3bcd307d869cf49da1309468a52bbe46bc9b6950764a8109d2718511c5",
+          "bytes": 3146,
           "storage": "git"
         },
         {
@@ -8211,19 +8211,19 @@
         },
         {
           "path": "manifest.json",
-          "sha256": "f87936811702a132eece51693e5ac214a2b248b44b51faa95184f32325f7436e",
+          "sha256": "8df095a9c47721a4ad8b96718973fd597f40625ccc53573b73fba5225634bd03",
           "bytes": 4929,
           "storage": "git"
         },
         {
           "path": "package-lock.json",
-          "sha256": "78e985814de771419c66af6eaf84e65f1d56c13612f9e84c8fa66662a050c059",
+          "sha256": "fd6792e1444f7d8c7f68b7297c3fee16c84b24f8878d1c3e4825cdaca652eb11",
           "bytes": 118193,
           "storage": "git"
         },
         {
           "path": "package.json",
-          "sha256": "64023b10e82ebbee0728f88a867cba74815bd320ad5bd867b141178a837f99fa",
+          "sha256": "26299517eba309d7efa5852e421193725a4be0b0fb33f52f1a421e712f1a4d22",
           "bytes": 826,
           "storage": "git"
         },
@@ -8231,20 +8231,20 @@
           "path": "poster.jpg",
           "sha256": "e8dfb85535699f057224e11b689bd71fa52ca51eb40b32e3b5da2f9ee20d504d",
           "bytes": 9689,
-          "archivePath": "motion-component-study-brand-bloom-v1.1.0/poster.jpg",
+          "archivePath": "motion-component-study-brand-bloom-v1.1.1/poster.jpg",
           "storage": "download"
         },
         {
           "path": "preview.mp4",
           "sha256": "0852d80f3baff04304ca51531a4ec5fbfd6ca2e4b2a0ca2ec2d60ae77dd1707e",
           "bytes": 14114,
-          "archivePath": "motion-component-study-brand-bloom-v1.1.0/preview.mp4",
+          "archivePath": "motion-component-study-brand-bloom-v1.1.1/preview.mp4",
           "storage": "download"
         },
         {
           "path": "scripts/render.mjs",
-          "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-          "bytes": 2937,
+          "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+          "bytes": 3051,
           "storage": "git"
         },
         {
@@ -8309,7 +8309,7 @@
         },
         {
           "path": "template.json",
-          "sha256": "0606f41730e79275860896ec781fce822dd2d09aad92d8b9c7125ece1677f006",
+          "sha256": "dbd6103fbd42458cf12283b6607550b93a91cdc5d5ec44034f1315255a98c645",
           "bytes": 294,
           "storage": "git"
         },
@@ -8327,8 +8327,8 @@
       "kind": "component",
       "description": "Resolve a symbol with one controlled half-turn.",
       "bestFor": "Short logo stings",
-      "version": "1.1.0",
-      "revision": "editable-source-v1.1.0",
+      "version": "1.1.1",
+      "revision": "editable-source-v1.1.1",
       "width": 960,
       "height": 540,
       "fps": 30,
@@ -8347,9 +8347,9 @@
       "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-study-brand-spin-v1.0.0/preview.mp4",
       "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-study-brand-spin-v1.0.0/poster.jpg",
       "sourcePath": "study-brand-spin/project",
-      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-study-brand-spin-v1.0.0/motion-component-study-brand-spin-v1.1.0.zip",
-      "archiveSha256": "03a292845e76cfab06c571129960286119a40e1002e7901bf3bc4dcbe915c6bd",
-      "archiveBytes": 84343,
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-study-brand-spin-v1.0.0/motion-component-study-brand-spin-v1.1.1.zip",
+      "archiveSha256": "a235558d0e4d1175a05d3ac0fed31b908a2b903926d3e28513f80d2d9c65fe86",
+      "archiveBytes": 84691,
       "files": [
         {
           "path": ".gitignore",
@@ -8371,8 +8371,8 @@
         },
         {
           "path": "README.md",
-          "sha256": "0c057f5cd68c86c5fa95107b82c7ad6204ea8f172b70834cc5bbfdfebf16adac",
-          "bytes": 2449,
+          "sha256": "493120011c28e6098b4ec5dea47fe26aff10747b479ccf89dc6ad4ab5e9a5253",
+          "bytes": 3147,
           "storage": "git"
         },
         {
@@ -8389,19 +8389,19 @@
         },
         {
           "path": "manifest.json",
-          "sha256": "6eed704ee63af745336c09724adfbc85d8a6f37d64935fa742847e669e5ec336",
+          "sha256": "0c3538b5defc01c4a9797642bee8d2ada40ffa9e6cc8f7f2737fa4f8d7abb4fe",
           "bytes": 4931,
           "storage": "git"
         },
         {
           "path": "package-lock.json",
-          "sha256": "78e985814de771419c66af6eaf84e65f1d56c13612f9e84c8fa66662a050c059",
+          "sha256": "fd6792e1444f7d8c7f68b7297c3fee16c84b24f8878d1c3e4825cdaca652eb11",
           "bytes": 118193,
           "storage": "git"
         },
         {
           "path": "package.json",
-          "sha256": "64023b10e82ebbee0728f88a867cba74815bd320ad5bd867b141178a837f99fa",
+          "sha256": "26299517eba309d7efa5852e421193725a4be0b0fb33f52f1a421e712f1a4d22",
           "bytes": 826,
           "storage": "git"
         },
@@ -8409,20 +8409,20 @@
           "path": "poster.jpg",
           "sha256": "e797c1a08678196848e72a0bf2a8174680310472fdc14fd84768ee3a4f71390a",
           "bytes": 9653,
-          "archivePath": "motion-component-study-brand-spin-v1.1.0/poster.jpg",
+          "archivePath": "motion-component-study-brand-spin-v1.1.1/poster.jpg",
           "storage": "download"
         },
         {
           "path": "preview.mp4",
           "sha256": "9f53044a87d80342fc45b0a96d67df0ef915ae0aeb091aed68913a5f142ccd34",
           "bytes": 15843,
-          "archivePath": "motion-component-study-brand-spin-v1.1.0/preview.mp4",
+          "archivePath": "motion-component-study-brand-spin-v1.1.1/preview.mp4",
           "storage": "download"
         },
         {
           "path": "scripts/render.mjs",
-          "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-          "bytes": 2937,
+          "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+          "bytes": 3051,
           "storage": "git"
         },
         {
@@ -8487,7 +8487,7 @@
         },
         {
           "path": "template.json",
-          "sha256": "c150d98f4373a30439b40f3fc2293adb25a3d395d3e94751250bfedc837f110c",
+          "sha256": "04e270ac75bcb818d0cf6ff3a837ec32641d5ee905fb59928eb02f8edabc897c",
           "bytes": 296,
           "storage": "git"
         },
@@ -8505,8 +8505,8 @@
       "kind": "component",
       "description": "Gather four moving blocks into one central mark.",
       "bestFor": "Logo assembly and brand stings",
-      "version": "1.1.0",
-      "revision": "editable-source-v1.1.0",
+      "version": "1.1.1",
+      "revision": "editable-source-v1.1.1",
       "width": 960,
       "height": 540,
       "fps": 30,
@@ -8525,9 +8525,9 @@
       "demoUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-study-brand-gather-v1.0.0/preview.mp4",
       "posterUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-study-brand-gather-v1.0.0/poster.jpg",
       "sourcePath": "study-brand-gather/project",
-      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-study-brand-gather-v1.0.0/motion-component-study-brand-gather-v1.1.0.zip",
-      "archiveSha256": "81a6f90ddfa433edc16663dd60d791d380efb25fff19cbfc7e381c66635ba291",
-      "archiveBytes": 90558,
+      "archiveUrl": "https://opus-lab.cdn.opuslab.ai/labs/launch-videos/lite/motion-component-study-brand-gather-v1.0.0/motion-component-study-brand-gather-v1.1.1.zip",
+      "archiveSha256": "527e058b4ee902bae76618f58b9fbadf5e53a742186d3662b93cee96c9b09a2b",
+      "archiveBytes": 90912,
       "files": [
         {
           "path": ".gitignore",
@@ -8549,8 +8549,8 @@
         },
         {
           "path": "README.md",
-          "sha256": "8635233704a523bfb90ce1b19a02568526f17f237910d10db7995b8de7011f0c",
-          "bytes": 2461,
+          "sha256": "aaa1ef18be58d28da9f0243e2af19b3f13d1863d1b35555c8bf3fc8b43f259ee",
+          "bytes": 3159,
           "storage": "git"
         },
         {
@@ -8567,19 +8567,19 @@
         },
         {
           "path": "manifest.json",
-          "sha256": "7468256fac7fceeae3b38ffebf87d8cad33ed9ef5736d91d3b8f14d6d3325989",
+          "sha256": "f31427ed3097fc688a20fe8f1382d360dbcaf709316f01c744de92517809e545",
           "bytes": 4941,
           "storage": "git"
         },
         {
           "path": "package-lock.json",
-          "sha256": "78e985814de771419c66af6eaf84e65f1d56c13612f9e84c8fa66662a050c059",
+          "sha256": "fd6792e1444f7d8c7f68b7297c3fee16c84b24f8878d1c3e4825cdaca652eb11",
           "bytes": 118193,
           "storage": "git"
         },
         {
           "path": "package.json",
-          "sha256": "64023b10e82ebbee0728f88a867cba74815bd320ad5bd867b141178a837f99fa",
+          "sha256": "26299517eba309d7efa5852e421193725a4be0b0fb33f52f1a421e712f1a4d22",
           "bytes": 826,
           "storage": "git"
         },
@@ -8587,20 +8587,20 @@
           "path": "poster.jpg",
           "sha256": "63777ac7aa40a71e860315780f7e9227a43988ddf4f00b48d412390a1c0b4117",
           "bytes": 9790,
-          "archivePath": "motion-component-study-brand-gather-v1.1.0/poster.jpg",
+          "archivePath": "motion-component-study-brand-gather-v1.1.1/poster.jpg",
           "storage": "download"
         },
         {
           "path": "preview.mp4",
           "sha256": "9b0108181b474a63a01431eb871dec4718d274d631d8e473555ba8393b75c9be",
           "bytes": 21362,
-          "archivePath": "motion-component-study-brand-gather-v1.1.0/preview.mp4",
+          "archivePath": "motion-component-study-brand-gather-v1.1.1/preview.mp4",
           "storage": "download"
         },
         {
           "path": "scripts/render.mjs",
-          "sha256": "f42e0184fad8247cfd5bc3b5bf19affb12070449b81fc7a996f10a41175bc5d5",
-          "bytes": 2937,
+          "sha256": "60a52f56c8708aacff19eff708c004ad5c95175a889bee202e07ea7a39d4c18b",
+          "bytes": 3051,
           "storage": "git"
         },
         {
@@ -8665,7 +8665,7 @@
         },
         {
           "path": "template.json",
-          "sha256": "a40b1bff602ca8f8d2ced777509fb04b129b5be7c3a0f7851bd3234231632102",
+          "sha256": "e154113dace24517f6ed2b45595f02b0f9c3cff176ec94e4a4271f72424c10a0",
           "bytes": 306,
           "storage": "git"
         },

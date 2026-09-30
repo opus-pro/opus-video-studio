@@ -119,7 +119,15 @@ for (const failedStep of ["remove", "add"]) {
 
 test("desktop-only and two-CLI installations prefer the verified bundled executable", async () => {
   const {resolveCodexBinary} = await import("../plugins/opus-video-studio/scripts/ensure-latest-plugin.mjs");
-  assert.equal(resolveCodexBinary({env:{},platform:"darwin",exists:p=>p.includes("ChatGPT.app")}), "/Applications/ChatGPT.app/Contents/Resources/codex");
+  assert.equal(resolveCodexBinary({env:{},platform:"darwin",exists:p=>p === "/Applications/ChatGPT.app/Contents/Resources/codex"}), "/Applications/ChatGPT.app/Contents/Resources/codex");
   assert.equal(resolveCodexBinary({env:{OPUS_VIDEO_STUDIO_CODEX_BIN:"/custom/codex"},platform:"darwin",exists:()=>true}), "/custom/codex");
   assert.equal(resolveCodexBinary({env:{},platform:"linux",exists:()=>false}), "codex");
+});
+
+test("current desktop bundle works without a PATH-installed CLI", async () => {
+  const { resolveCodexBinary } = await import("../plugins/opus-video-studio/scripts/ensure-latest-plugin.mjs");
+  for (const app of ["Codex", "ChatGPT"]) {
+    const bundled = `/Applications/${app}.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS/codex`;
+    assert.equal(resolveCodexBinary({ env: {}, platform: "darwin", exists: candidate => candidate === bundled }), bundled);
+  }
 });

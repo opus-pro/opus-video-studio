@@ -1,6 +1,7 @@
+import { existsSync, realpathSync } from "node:fs";
 import { createHash } from 'node:crypto';
 import { readFile } from 'node:fs/promises';
-import { pathToFileURL } from 'node:url';
+import { fileURLToPath } from 'node:url';
 
 const realms = {
   prod: { labs: 'labs.opus.pro', cdn: 'opus-lab-public.cdn.opus.pro' },
@@ -40,7 +41,7 @@ export async function checkInstallGuides(realm, { fetchImpl = fetch, read = read
   return results;
 }
 
-if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+if (process.argv[1] && existsSync(process.argv[1]) && realpathSync(process.argv[1]) === realpathSync(fileURLToPath(import.meta.url))) {
   const realm = process.argv[2] === '--realm' ? process.argv[3] : undefined;
   try {
     const results = await checkInstallGuides(realm);

@@ -1,3 +1,4 @@
+import { existsSync, realpathSync } from "node:fs";
 // SPDX-License-Identifier: MIT
 import { execFileSync } from "node:child_process";
 import { createHash } from "node:crypto";
@@ -101,7 +102,7 @@ export async function prepareTemplate(item, {
   return { restored: missing.length, project: path.join(root, item.sourcePath) };
 }
 
-if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+if (process.argv[1] && existsSync(process.argv[1]) && realpathSync(process.argv[1]) === realpathSync(fileURLToPath(import.meta.url))) {
   try {
     const [, , id, archivePath, extra] = process.argv;
     const catalogue = await readCatalogue();
