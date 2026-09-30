@@ -41,9 +41,18 @@ If the public marketplace is absent:
 "<CODEX>" plugin marketplace add https://github.com/opus-pro/opusclip-video-tools.git --ref main
 ```
 
-If already registered to this public Git repository, refresh its snapshot with
-`"<CODEX>" plugin marketplace upgrade opus-pro`. If the plugin is absent,
-install it after adding or refreshing the marketplace:
+The repository was renamed from `opus-pro/opus-video-studio` to
+`opus-pro/opusclip-video-tools`. These are two names for the same public
+repository, not conflicting marketplace sources. Recognize either name in
+GitHub shorthand, HTTPS or GitHub SSH form, with or without the `.git` suffix.
+The old GitHub address redirects to the new repository.
+
+For an existing `opus-pro` marketplace using either name, refresh its snapshot
+in place with `"<CODEX>" plugin marketplace upgrade opus-pro`. Do not remove and
+re-add the marketplace, reinstall a current plugin, or reset OAuth solely to
+replace the old repository spelling. Preserve the installation's enabled state
+and scope; use the new repository address for new installations. If the plugin
+is absent, install it after adding or refreshing the marketplace:
 
 ```sh
 "<CODEX>" plugin add opus-video-studio@opus-pro --json
@@ -61,8 +70,9 @@ refresh succeeded before running these sequentially:
 Keep the returned `installedPath`. Verify its `.codex-plugin/plugin.json`,
 `.mcp.json` and four skill files. The `SOURCE` in plugin list points to the
 marketplace checkout, not the installed package. If the configured marketplace
-points elsewhere, explain the mismatch before replacing it. Never delete shared
-configuration, unrelated plugins or OAuth credentials to repair this package.
+points to neither repository name above, explain the mismatch before replacing
+it. Never delete shared configuration, unrelated plugins or OAuth credentials
+to repair this package.
 If any command fails, report the actual error; do not claim installation succeeded.
 If this desktop version does not support the listed commands, use its native
 plugin installer or report the client update needed; do not substitute a random

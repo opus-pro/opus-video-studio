@@ -48,16 +48,25 @@ If `opus-pro` is absent, add it:
 claude plugin marketplace add opus-pro/opusclip-video-tools
 ```
 
-If it already points to the public repository above, refresh it:
+The repository was renamed from `opus-pro/opus-video-studio` to
+`opus-pro/opusclip-video-tools`. These are two names for the same public
+repository, not conflicting marketplace sources. Recognize either name in
+GitHub shorthand, HTTPS or GitHub SSH form, with or without the `.git` suffix.
+The old GitHub address redirects to the new repository.
+
+For an existing `opus-pro` marketplace using either name, refresh it in place:
 
 ```sh
 claude plugin marketplace update opus-pro
 ```
 
 Wait for refresh success. A stale cached marketplace can otherwise keep an old
-plugin even when installation reports success. If its source is a different
-repository, explain the conflict before replacing it. Never delete unrelated
-plugins, shared configuration, projects or OAuth credentials.
+plugin even when installation reports success. Do not remove and re-add the
+marketplace, reinstall a current plugin, or reset OAuth solely to replace the
+old repository spelling. Preserve the installation's enabled state and scope;
+use the new repository address for new installations. If its source is neither
+of these repository names, explain the conflict before replacing it. Never
+delete unrelated plugins, shared configuration, projects or OAuth credentials.
 
 If the plugin is absent, install it:
 

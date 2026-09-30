@@ -228,6 +228,12 @@ The installation ID and MCP server ID remain stable across this repository renam
 can upgrade without a duplicate plugin or a new OAuth connection. Repository names, plugin IDs,
 display names, and OAuth resource addresses are separate settings.
 
+Existing marketplaces may still show `opus-pro/opus-video-studio`, the previous
+repository name. GitHub redirects that address to `opus-pro/opusclip-video-tools`.
+Refresh the existing `opus-pro` marketplace using the client-specific guide;
+do not remove a working plugin or sign in again just to change the stored URL.
+Use the new repository address for new installations.
+
 ### Website guides
 
 The Product Videos website currently offers Codex onboarding. Both client distributions share one set of
